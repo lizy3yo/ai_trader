@@ -1,0 +1,220 @@
+{
+ "trend_donchian": {
+  "period": "2013-07-22 -> 2026-08-24",
+  "trades": 233,
+  "wins": 112,
+  "win_rate_pct": 48.1,
+  "total_pnl": 12344.0,
+  "end_equity": 12844.0,
+  "avg_win": 206.36,
+  "avg_loss": -89.0,
+  "biggest_win": 944.0,
+  "biggest_loss": -285.0,
+  "expectancy_per_trade": 52.98,
+  "profit_factor": 2.15,
+  "median_hold_hours": 24.0,
+  "max_hold_days": 11.7,
+  "months_traded": 105,
+  "positive_months_pct": 59.0,
+  "best_month": 1539.0,
+  "worst_month": -400.0,
+  "avg_month": 118.0,
+  "yearly": {
+   "2013": {
+    "pnl": 16.0,
+    "trades": 4
+   },
+   "2014": {
+    "pnl": -84.0,
+    "trades": 12
+   },
+   "2015": {
+    "pnl": 1.0,
+    "trades": 12
+   },
+   "2016": {
+    "pnl": 67.0,
+    "trades": 18
+   },
+   "2017": {
+    "pnl": 33.0,
+    "trades": 24
+   },
+   "2018": {
+    "pnl": 27.0,
+    "trades": 12
+   },
+   "2019": {
+    "pnl": 226.0,
+    "trades": 18
+   },
+   "2020": {
+    "pnl": 1767.0,
+    "trades": 17
+   },
+   "2021": {
+    "pnl": -487.0,
+    "trades": 14
+   },
+   "2022": {
+    "pnl": -253.0,
+    "trades": 16
+   },
+   "2023": {
+    "pnl": 405.0,
+    "trades": 18
+   },
+   "2024": {
+    "pnl": 2201.0,
+    "trades": 20
+   },
+   "2025": {
+    "pnl": 6223.0,
+    "trades": 37
+   },
+   "2026": {
+    "pnl": 2202.0,
+    "trades": 11
+   }
+  },
+  "exit_breakdown": {
+   "breaker": {
+    "count": 23,
+    "pnl": -4600.0
+   },
+   "sl": {
+    "count": 98,
+    "pnl": -6168.0
+   },
+   "tp": {
+    "count": 112,
+    "pnl": 23113.0
+   }
+  },
+  "trades_per_month": 2.2
+ },
+ "ses_orb": {
+  "period": "2022-06-29 -> 2026-08-21",
+  "trades": 294,
+  "wins": 149,
+  "win_rate_pct": 50.7,
+  "total_pnl": 406.0,
+  "end_equity": 906.0,
+  "avg_win": 18.36,
+  "avg_loss": -16.07,
+  "biggest_win": 65.0,
+  "biggest_loss": -51.0,
+  "expectancy_per_trade": 1.38,
+  "profit_factor": 1.17,
+  "median_hold_hours": 1.0,
+  "max_hold_days": 0.4,
+  "months_traded": 51,
+  "positive_months_pct": 57.0,
+  "best_month": 171.0,
+  "worst_month": -78.0,
+  "avg_month": 8.0,
+  "yearly": {
+   "2022": {
+    "pnl": -173.0,
+    "trades": 50
+   },
+   "2023": {
+    "pnl": -152.0,
+    "trades": 80
+   },
+   "2024": {
+    "pnl": 185.0,
+    "trades": 72
+   },
+   "2025": {
+    "pnl": 268.0,
+    "trades": 60
+   },
+   "2026": {
+    "pnl": 278.0,
+    "trades": 32
+   }
+  },
+  "exit_breakdown": {
+   "sl": {
+    "count": 145,
+    "pnl": -2330.0
+   },
+   "tp": {
+    "count": 149,
+    "pnl": 2736.0
+   }
+  },
+  "trades_per_month": 5.8
+ },
+ "mr_rsi2": {
+  "period": "2018-04-12 -> 2026-08-26",
+  "trades": 262,
+  "wins": 191,
+  "win_rate_pct": 72.9,
+  "total_pnl": -38.0,
+  "end_equity": 462.0,
+  "avg_win": 9.18,
+  "avg_loss": -25.23,
+  "biggest_win": 18.0,
+  "biggest_loss": -50.0,
+  "expectancy_per_trade": -0.14,
+  "profit_factor": 0.98,
+  "median_hold_hours": 3.0,
+  "max_hold_days": 3.3,
+  "months_traded": 86,
+  "positive_months_pct": 51.0,
+  "best_month": 82.0,
+  "worst_month": -122.0,
+  "avg_month": -0.0,
+  "yearly": {
+   "2018": {
+    "pnl": -24.0,
+    "trades": 8
+   },
+   "2019": {
+    "pnl": 37.0,
+    "trades": 18
+   },
+   "2020": {
+    "pnl": -76.0,
+    "trades": 31
+   },
+   "2021": {
+    "pnl": -49.0,
+    "trades": 35
+   },
+   "2022": {
+    "pnl": 49.0,
+    "trades": 43
+   },
+   "2023": {
+    "pnl": 81.0,
+    "trades": 31
+   },
+   "2024": {
+    "pnl": 44.0,
+    "trades": 35
+   },
+   "2025": {
+    "pnl": 82.0,
+    "trades": 45
+   },
+   "2026": {
+    "pnl": -181.0,
+    "trades": 16
+   }
+  },
+  "exit_breakdown": {
+   "sl": {
+    "count": 71,
+    "pnl": -1791.0
+   },
+   "tp": {
+    "count": 191,
+    "pnl": 1754.0
+   }
+  },
+  "trades_per_month": 3.0
+ }
+}

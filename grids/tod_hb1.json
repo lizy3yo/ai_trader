@@ -1,0 +1,12 @@
+{
+ "session.window": ["01:00-23:00"],
+ "mode": ["auto", "long", "short"],
+ "hold_bars": [1, 4],
+ "min_drift": [0.005, 0.02],
+ "lookback": [0],
+ "min_obs": [40],
+ "by_slot": [1],
+ "cfg.atr_sl_mult": [4.0],
+ "cfg.atr_tp_mult": [4.0, 8.0],
+ "cfg.cooldown_bars": [4]
+}

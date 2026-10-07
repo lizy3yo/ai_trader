@@ -1,0 +1,10 @@
+{
+ "mode": ["band_break"],
+ "band_k": [1.0, 1.5, 2.0],
+ "vol_mode": ["range"],
+ "anchor_h": [0],
+ "min_bars": [12],
+ "cfg.atr_sl_mult": [1.5, 2.5],
+ "cfg.atr_tp_mult": [2.5, 4.0],
+ "session.window": ["01:00-23:00", "09:00-18:00"]
+}

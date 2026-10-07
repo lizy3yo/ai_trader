@@ -1,0 +1,8 @@
+{
+  "session.window": ["09:00-12:00", "15:00-18:00"],
+  "pull_to": ["fast", "mid"],
+  "pull_lb": [6, 12],
+  "trigger": ["recross"],
+  "cfg.atr_sl_mult": [1.5, 2.0],
+  "cfg.atr_tp_mult": [1.0, 2.0, 3.0]
+}

@@ -1,0 +1,102 @@
+# ============================================================
+# Gold Bot configuration
+# ============================================================
+# EDIT THIS FILE before running. Everything the bot does is
+# controlled from here — no code changes needed for tuning.
+# ============================================================
+
+mt5:
+  # Leave login/password/server empty to attach to an MT5 terminal
+  # that is already running and logged in (recommended).
+  # Otherwise fill in your DEMO account credentials.
+  login: 0            # 0 = use the account already logged into the terminal
+  password: ""
+  server: ""
+  # Optional: full path to terminal64.exe if you have several terminals.
+  terminal_path: ""
+
+symbol: "GOLD"         # This broker's spot gold vs USD (auto-detected).
+                       # Run:  python main.py find-symbol   to re-detect it.
+
+magic: 620031          # Bot's ID stamped on every order. Do not reuse for other EAs.
+
+capital:
+  allocated: 500.0     # Max capital the bot manages. It sizes trades off THIS
+                       # (plus its own accumulated profit = compounding),
+                       # never off the full account balance.
+  hard_max: 500.0      # Upper bound on the allocated base (must be >= allocated).
+
+risk:
+  # --- per-trade risk (adaptive, compounding) ---
+  base_risk_pct: 5.0       # % of bot equity risked per trade (your "start small at 5%")
+  max_risk_pct: 10.0       # ceiling for the gradual increase
+  step_up_pct: 1.0         # add this after every `step_up_after_wins` consecutive wins
+  step_up_after_wins: 3    # consecutive wins needed before risk steps up
+  drop_to_base_on_loss: true   # one loss -> back to base_risk_pct (safest)
+
+  # --- daily circuit breaker ---
+  daily_loss_limit: 200.0  # STOP trading for the day when realized+floating P&L
+                           # hits -this. NOTE: $200 on a $500 account is 40%/day.
+                           # 25-50 is the sane range. You asked for 200; it's set,
+                           # but you have been warned.
+  close_positions_on_limit: true   # flatten everything when the breaker trips
+
+  # --- account protection ---
+  max_open_positions: 1    # one trade at a time
+  max_spread_points: 90    # skip entries when spread is wider than this (points).
+                           # This broker's normal GOLD spread is ~53pts, so 90
+                           # tolerates a mild spike but blocks news blowouts.
+  min_equity_stop: 100.0   # bot refuses to trade if its equity falls below this
+
+strategy:
+  # DEFAULT = the best-evidence system from the multi-agent research:
+  # trend_donchian, long-only breakout continuation on H1. Buys when price
+  # closes above the prior 360-hour (~3-week) high, EMA(400) trend filter,
+  # SL 3xATR / TP 5xATR (big targets make the $0.55 spread irrelevant).
+  # Evidence: train PF 1.60 (100 trades / 4y), unseen validation PF 2.00
+  # (+75.8%), and over the full usable H1 history 2013-2026 (13.1 years)
+  # $500 -> $12,844 (PF 2.15, 233 trades) including the 2013-2015 gold
+  # bear. NOTE: data/gold_h1.csv contains only ~1 bar/DAY before 2013-06;
+  # real hourly data starts there, so 2013 is the honest start. Win ~48% — it
+  # earns via big winners, not frequent ones. Trades hold days to weeks.
+  # Siblings for parallel demo-testing: config_rsi2.yaml (73% win rate but
+  # ~zero long-run edge), config_orb.yaml (London open-range breakout).
+  # None are final-test confirmed — demo forward-testing is the deciding gate.
+  name: "trend_donchian"
+  params:
+    lookback: 360          # breakout channel: prior 360 H1 bars (~3 weeks)
+    long_only: 1           # shorts never paid anywhere in the research
+    min_atr: 0             # no volatility floor (the robust sibling config)
+  timeframe: "H1"          # M1 M5 M15 M30 H1 H4 D1
+  ema_fast: 20             # unused by trend_donchian; kept for ema_cross
+  ema_slow: 50
+  ema_trend: 400           # trend filter: only long above EMA(400)
+  rsi_period: 14
+  rsi_overbought: 70.0     # no longs above this (ema_cross only)
+  rsi_oversold: 30.0       # no shorts below this (ema_cross only)
+  atr_period: 14
+  atr_sl_mult: 3.0         # stop-loss   = 3.0 x ATR
+  atr_tp_mult: 5.0         # take-profit = 5.0 x ATR
+  cooldown_bars: 3         # bars to wait after a trade closes before re-entering
+
+session:
+  # Research window for this strategy: London + New York, no Asia entries.
+  # Times are the BROKER SERVER's clock (MT5 Market Watch), 24h format.
+  trade_start: "09:00"
+  trade_end: "23:00"
+  friday_close: "21:00"    # conservative trim near the weekend (positions
+                           # still hold over weekends by design — multi-day)
+  poll_seconds: 10         # main-loop sleep between checks
+
+tracking:
+  db_path: "data/trades.db"
+  csv_path: "data/trades.csv"
+
+backtest:
+  data_csv: "data/gold_h1.csv"   # backtest offline from exported real history
+                                 # (clear this to pull fresh bars from MT5)
+  bars: 20000              # bars of history to pull from MT5 when data_csv is empty
+  spread_points: 55        # simulated spread (points): matches this broker's
+                           # real ~53pt GOLD spread (do not lower it to flatter
+                           # the backtest — costs are where edges die)
+  commission_per_lot: 0.0  # round-turn $ commission per 1.0 lot, if your broker charges it

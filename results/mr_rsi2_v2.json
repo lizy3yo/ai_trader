@@ -1,0 +1,107 @@
+[
+ {
+  "strategy": "mr_rsi2",
+  "timeframe": "M30",
+  "params": {
+   "rsi_p": 3,
+   "buy_th": 15,
+   "both_sides": 0,
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 1.0,
+   "session.window": "05:00-08:00"
+  },
+  "train": {
+   "return_pct": 15.5,
+   "end_equity": 577.33,
+   "trades": 76,
+   "win_rate": 78.9,
+   "pf": 1.171,
+   "max_dd": 106.0,
+   "months": 29,
+   "pos_months_pct": 62.0,
+   "worst_month": -45.0
+  },
+  "val": {
+   "return_pct": -23.9,
+   "end_equity": 380.69,
+   "trades": 29,
+   "win_rate": 62.1,
+   "pf": 0.477,
+   "max_dd": 125.0,
+   "months": 12,
+   "pos_months_pct": 42.0,
+   "worst_month": -41.0
+  },
+  "score": -1000000000.0
+ },
+ {
+  "strategy": "mr_rsi2",
+  "timeframe": "M30",
+  "params": {
+   "rsi_p": 3,
+   "buy_th": 15,
+   "both_sides": 0,
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 1.5,
+   "session.window": "05:00-08:00"
+  },
+  "train": {
+   "return_pct": 10.5,
+   "end_equity": 552.26,
+   "trades": 79,
+   "win_rate": 69.6,
+   "pf": 1.088,
+   "max_dd": 111.0,
+   "months": 30,
+   "pos_months_pct": 53.0,
+   "worst_month": -49.0
+  },
+  "val": {
+   "return_pct": -25.4,
+   "end_equity": 372.88,
+   "trades": 29,
+   "win_rate": 55.2,
+   "pf": 0.521,
+   "max_dd": 133.0,
+   "months": 12,
+   "pos_months_pct": 42.0,
+   "worst_month": -54.0
+  },
+  "score": -1000000000.0
+ },
+ {
+  "strategy": "mr_rsi2",
+  "timeframe": "M30",
+  "params": {
+   "rsi_p": 3,
+   "buy_th": 15,
+   "both_sides": 1,
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 1.0,
+   "session.window": "05:00-08:00"
+  },
+  "train": {
+   "return_pct": 3.3,
+   "end_equity": 516.56,
+   "trades": 156,
+   "win_rate": 76.3,
+   "pf": 1.019,
+   "max_dd": 162.0,
+   "months": 34,
+   "pos_months_pct": 53.0,
+   "worst_month": -74.0
+  },
+  "val": {
+   "return_pct": -23.6,
+   "end_equity": 382.11,
+   "trades": 48,
+   "win_rate": 68.8,
+   "pf": 0.649,
+   "max_dd": 150.0,
+   "months": 12,
+   "pos_months_pct": 42.0,
+   "worst_month": -42.0
+  },
+  "score": -1000000000.0
+ }
+]

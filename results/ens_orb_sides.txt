@@ -1,0 +1,10 @@
+[config] WARNING: daily_loss_limit $200 is 40% of allocated capital. That allows losing the account in a few bad days. Consider 5-10% ($25-50).
+strategy=ses_orb | 24 combos x ['M30', 'M15'] = 48 runs | train->validate (test split stays locked)
+
+tf   params                                              TRAIN ret%    PF VAL ret%    PF  win% posM%   score
+M15  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":2.25,"cfg        +3.1  1.02    +59.8  2.12  66.7   100   340.9
+M15  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":3.0,"cfg.       +36.3  1.18    +64.9  1.90  59.3    90   306.0
+M15  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":3.0,"cfg.       +24.1  1.10    +35.2  1.36  51.4    70   235.7
+M15  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":2.25,"cfg        +8.6  1.04    +27.8  1.38  57.1    50   203.1
+
+full results -> results/ens_orb_sides.json

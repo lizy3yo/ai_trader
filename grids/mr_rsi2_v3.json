@@ -1,0 +1,8 @@
+{
+  "rsi_p": [3],
+  "buy_th": [15, 25, 35],
+  "both_sides": [0],
+  "cfg.atr_sl_mult": [1.5, 2.0],
+  "cfg.atr_tp_mult": [2.0, 3.0],
+  "session.window": ["04:00-09:00", "01:00-23:00"]
+}

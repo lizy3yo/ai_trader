@@ -1,0 +1,9 @@
+{
+  "disp_k": [2.5],
+  "zone_expiry": [48],
+  "trend_filter": [false],
+  "session.window": ["09:00-12:00"],
+  "cfg.atr_sl_mult": [1.5],
+  "cfg.atr_tp_mult": [2.25],
+  "backtest.spread_points": [35, 55, 75]
+}

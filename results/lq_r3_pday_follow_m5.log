@@ -1,0 +1,14 @@
+[config] WARNING: daily_loss_limit $200 is 40% of allocated capital. That allows losing the account in a few bad days. Consider 5-10% ($25-50).
+strategy=lq_sweep | 18 combos x ['M5'] = 18 runs | train->validate (test split stays locked)
+
+tf   params                                              TRAIN ret%    PF VAL ret%    PF  win% posM%   score
+M5   {"level_mode":"pday","mode":"follow","sweep_atr":0       +26.5  1.29    +11.8  2.43  90.9    75   316.7
+M5   {"level_mode":"pday","mode":"follow","sweep_atr":0       +33.1  1.31    +10.3  2.16  90.9    75   316.3
+M5   {"level_mode":"pday","mode":"follow","sweep_atr":0       +30.7  1.27    +17.7  3.01  90.9    75   316.3
+M5   {"level_mode":"pday","mode":"follow","sweep_atr":0       +49.7  1.54    +16.6  3.39  90.0    75   315.9
+M5   {"level_mode":"pday","mode":"follow","sweep_atr":0       +12.6  1.11    +22.7  3.62  90.0    75   315.0
+M5   {"level_mode":"pday","mode":"follow","sweep_atr":0       +41.1  1.48     +6.8  1.82  90.9    75   309.6
+M5   {"level_mode":"pday","mode":"follow","sweep_atr":0       +23.5  1.19    +14.9  2.25  83.3    75   307.9
+M5   {"level_mode":"pday","mode":"follow","sweep_atr":0        +9.4  1.07    +22.1  2.62  83.3    75   307.3
+
+full results -> results/lq_r3_pday_follow_m5.json

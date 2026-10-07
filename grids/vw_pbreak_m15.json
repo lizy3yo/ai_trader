@@ -1,0 +1,8 @@
+{
+ "mode": ["break"],
+ "levels": ["s1r1", "all", "pp"],
+ "buf_atr": [0.0, 0.15],
+ "cfg.atr_sl_mult": [1.5, 2.5],
+ "cfg.atr_tp_mult": [2.5, 4.0],
+ "session.window": ["01:00-23:00"]
+}

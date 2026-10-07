@@ -1,0 +1,11 @@
+{
+  "level_mode": ["asia"],
+  "mode": ["follow"],
+  "sweep_atr": [0.0, 0.2],
+  "max_beyond": [3],
+  "max_out_bars": [1, 3],
+  "session.window": ["09:00-12:00"],
+  "cfg.atr_sl_mult": [1.5],
+  "cfg.atr_tp_mult": [0.75, 1.25],
+  "backtest.spread_points": [55]
+}

@@ -1,0 +1,5 @@
+{
+  "squeeze_pct": [0.3],
+  "squeeze_lookback": [100],
+  "session.window": ["09:00-19:00"]
+}

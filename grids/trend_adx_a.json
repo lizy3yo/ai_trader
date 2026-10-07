@@ -1,0 +1,9 @@
+{
+  "session.window": ["09:00-23:00", "01:00-23:00", "15:00-22:00"],
+  "cfg.ema_fast": [9],
+  "cfg.ema_slow": [21],
+  "cfg.ema_trend": [200],
+  "cfg.atr_sl_mult": [1.5, 2.5],
+  "cfg.atr_tp_mult": [1.5, 2.75],
+  "adx_min": [20, 30]
+}

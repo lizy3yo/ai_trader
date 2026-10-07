@@ -1,0 +1,10 @@
+{
+ "session.window": ["01:00-23:00", "01:00-12:00"],
+ "tom_mode": ["first"],
+ "dir": ["long"],
+ "tom_k": [3, 4, 5],
+ "entry_hour": [-1],
+ "cfg.atr_sl_mult": [3.0, 4.0],
+ "cfg.atr_tp_mult": [3.0, 4.0, 6.0],
+ "cfg.cooldown_bars": [0, 6]
+}

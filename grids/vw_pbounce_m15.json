@@ -1,0 +1,8 @@
+{
+ "mode": ["bounce"],
+ "levels": ["s1r1", "all", "s1r1s2r2"],
+ "touch_atr": [0.0, 0.25],
+ "cfg.atr_sl_mult": [1.0, 1.5],
+ "cfg.atr_tp_mult": [1.5, 2.5],
+ "session.window": ["01:00-23:00"]
+}

@@ -1,0 +1,11 @@
+{
+  "backtest.spread_points": [0, 25, 55, 80],
+  "ema_len": [20],
+  "band_atr": [2.0],
+  "max_ext_atr": [0.5],
+  "dir": ["long"],
+  "trend_mode": ["ema"],
+  "cfg.ema_trend": [1600],
+  "cfg.atr_sl_mult": [3.5],
+  "cfg.atr_tp_mult": [5.0]
+}

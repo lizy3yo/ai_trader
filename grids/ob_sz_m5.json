@@ -1,0 +1,8 @@
+{
+  "base_len": [2, 3],
+  "base_body_atr": [0.4, 0.6],
+  "leave_k": [1.2, 1.8],
+  "entry_mode": ["touch", "confirm"],
+  "cfg.atr_sl_mult": [1.5],
+  "cfg.atr_tp_mult": [1.5, 2.25]
+}

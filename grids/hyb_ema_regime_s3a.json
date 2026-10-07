@@ -1,0 +1,8 @@
+{
+  "cfg.ema_fast": [9, 12],
+  "cfg.ema_slow": [21, 34],
+  "adx_min": [0, 25],
+  "atr_pct_min": [0.35],
+  "mode": ["both", "long"],
+  "session.window": ["01:00-23:00", "15:00-19:00"]
+}

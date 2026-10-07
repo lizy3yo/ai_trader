@@ -1,0 +1,135 @@
+{
+ "wf": {
+  "return_pct": 53.4,
+  "end_equity": 766.77,
+  "trades": 63,
+  "months": 14,
+  "pos_months_pct": 64.0,
+  "worst_month": -75.0,
+  "avg_month_usd": 19.06
+ },
+ "picks": [
+  [
+   "2024-09-02",
+   "orb_b05_tf_sl2",
+   16,
+   58.42,
+   558.42
+  ],
+  [
+   "2024-12-02",
+   "orb_b05_tf_sl2",
+   13,
+   -107.39,
+   451.03
+  ],
+  [
+   "2025-03-03",
+   "orb_b05_tf_sl2",
+   14,
+   89.23,
+   540.26
+  ],
+  [
+   "2025-06-02",
+   "orb_b05_tf_sl2",
+   14,
+   209.95,
+   750.2
+  ],
+  [
+   "2025-09-01",
+   "orb_b05_tf_sl2",
+   6,
+   16.56,
+   766.77
+  ]
+ ],
+ "fixed": {
+  "orb_b05_tf_sl2": {
+   "return_pct": 52.6,
+   "end_equity": 763.11,
+   "trades": 63,
+   "win_rate": 55.6,
+   "pf": 1.361,
+   "max_dd": 152.0,
+   "months": 14,
+   "pos_months_pct": 64.0,
+   "worst_month": -81.0,
+   "avg_month_usd": 18.79
+  },
+  "orb_b05_ntf_sl2": {
+   "return_pct": -3.0,
+   "end_equity": 484.82,
+   "trades": 90,
+   "win_rate": 48.9,
+   "pf": 0.984,
+   "max_dd": 241.0,
+   "months": 14,
+   "pos_months_pct": 43.0,
+   "worst_month": -98.0,
+   "avg_month_usd": -1.08
+  },
+  "orb_b02_tf_sl2": {
+   "return_pct": -35.4,
+   "end_equity": 322.94,
+   "trades": 116,
+   "win_rate": 44.0,
+   "pf": 0.822,
+   "max_dd": 425.0,
+   "months": 14,
+   "pos_months_pct": 50.0,
+   "worst_month": -108.0,
+   "avg_month_usd": -12.65
+  },
+  "orb_b05_tf_sl15": {
+   "return_pct": 157.1,
+   "end_equity": 1285.66,
+   "trades": 63,
+   "win_rate": 46.0,
+   "pf": 1.555,
+   "max_dd": 226.0,
+   "months": 14,
+   "pos_months_pct": 57.0,
+   "worst_month": -87.0,
+   "avg_month_usd": 56.12
+  },
+  "orb_b03_tf_sl25": {
+   "return_pct": -6.5,
+   "end_equity": 467.69,
+   "trades": 73,
+   "win_rate": 50.7,
+   "pf": 0.958,
+   "max_dd": 175.0,
+   "months": 14,
+   "pos_months_pct": 50.0,
+   "worst_month": -108.0,
+   "avg_month_usd": -2.31
+  },
+  "orb_fade_b05": {
+   "return_pct": -51.8,
+   "end_equity": 240.78,
+   "trades": 87,
+   "win_rate": 37.9,
+   "pf": 0.7,
+   "max_dd": 262.0,
+   "months": 14,
+   "pos_months_pct": 29.0,
+   "worst_month": -92.0,
+   "avg_month_usd": -18.52
+  }
+ },
+ "args": {
+  "strategy": "ses_orb",
+  "timeframe": "M15",
+  "cands": "grids/ens_wf_orb.json",
+  "reopt": 3,
+  "lookback": "24",
+  "min_hist": 27,
+  "objective": "score",
+  "min_trades": 8,
+  "max_bars": 99999,
+  "equity": 500.0,
+  "out": "results/ens_wf_orb_r3_l24.json"
+ }
+}

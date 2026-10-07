@@ -1,0 +1,10 @@
+{
+  "don_M15_1440_500": {"strategy": "trend_donchian", "timeframe": "M15", "alloc": 500,
+    "params": {"cfg.ema_trend": 400, "cfg.atr_sl_mult": 3.0, "cfg.atr_tp_mult": 5.0,
+               "cfg.cooldown_bars": 3, "lookback": 1440, "long_only": 1, "min_atr": 0,
+               "session.window": "09:00-23:00"}},
+  "orb_M15_500": {"strategy": "ses_orb", "timeframe": "M15", "alloc": 500,
+    "params": {"cfg.atr_sl_mult": 2.0, "cfg.atr_tp_mult": 2.25, "cfg.cooldown_bars": 3,
+               "buf_atr": 0.5, "entry_end_h": 11, "trend_filter": true,
+               "session.window": "09:00-12:00"}}
+}

@@ -1,0 +1,8 @@
+{
+  "orb_b05_tf_sl2":   {"cfg.atr_sl_mult": 2.0, "cfg.atr_tp_mult": 2.25, "cfg.cooldown_bars": 3, "buf_atr": 0.5, "entry_end_h": 11, "trend_filter": true,  "session.window": "09:00-12:00"},
+  "orb_b05_ntf_sl2":  {"cfg.atr_sl_mult": 2.0, "cfg.atr_tp_mult": 2.25, "cfg.cooldown_bars": 3, "buf_atr": 0.5, "entry_end_h": 11, "trend_filter": false, "session.window": "09:00-12:00"},
+  "orb_b02_tf_sl2":   {"cfg.atr_sl_mult": 2.0, "cfg.atr_tp_mult": 2.25, "cfg.cooldown_bars": 3, "buf_atr": 0.2, "entry_end_h": 12, "trend_filter": true,  "session.window": "09:00-12:00"},
+  "orb_b05_tf_sl15":  {"cfg.atr_sl_mult": 1.5, "cfg.atr_tp_mult": 3.0,  "cfg.cooldown_bars": 3, "buf_atr": 0.5, "entry_end_h": 11, "trend_filter": true,  "session.window": "09:00-12:00"},
+  "orb_b03_tf_sl25":  {"cfg.atr_sl_mult": 2.5, "cfg.atr_tp_mult": 2.5,  "cfg.cooldown_bars": 3, "buf_atr": 0.3, "entry_end_h": 11, "trend_filter": true,  "session.window": "09:00-12:00"},
+  "orb_fade_b05":     {"cfg.atr_sl_mult": 2.0, "cfg.atr_tp_mult": 2.25, "cfg.cooldown_bars": 3, "buf_atr": 0.5, "entry_end_h": 11, "mode": "fade",        "session.window": "09:00-12:00"}
+}

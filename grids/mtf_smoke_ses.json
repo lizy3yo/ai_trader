@@ -1,0 +1,12 @@
+{
+  "htf": ["1d"],
+  "htf_mode": ["ema"],
+  "htf_fast": [5],
+  "htf_slow": [20],
+  "or_bars": [4],
+  "entry_end_h": [14],
+  "require_htf": [1, 0],
+  "cfg.atr_sl_mult": [1.5],
+  "cfg.atr_tp_mult": [2.25],
+  "session.window": ["09:00-18:00"]
+}

@@ -1,0 +1,9 @@
+{
+  "entry_period": [40, 96],
+  "confirm": ["close"],
+  "direction": ["long"],
+  "trend_filter": [0, 1],
+  "cfg.atr_sl_mult": [2.0, 3.0],
+  "cfg.atr_tp_mult": [1.5, 2.5, 4.0],
+  "session.window": ["01:00-23:00", "10:00-19:00"]
+}

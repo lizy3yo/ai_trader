@@ -1,0 +1,8 @@
+{
+  "dc96_sl3tp5":  {"cfg.ema_trend": 200, "cfg.atr_sl_mult": 3.0, "cfg.atr_tp_mult": 5.0, "cfg.cooldown_bars": 3, "lookback": 96,  "long_only": 1, "min_atr": 0, "session.window": "09:00-23:00"},
+  "dc180_sl3tp5": {"cfg.ema_trend": 200, "cfg.atr_sl_mult": 3.0, "cfg.atr_tp_mult": 5.0, "cfg.cooldown_bars": 3, "lookback": 180, "long_only": 1, "min_atr": 0, "session.window": "09:00-23:00"},
+  "dc360_sl3tp5": {"cfg.ema_trend": 400, "cfg.atr_sl_mult": 3.0, "cfg.atr_tp_mult": 5.0, "cfg.cooldown_bars": 3, "lookback": 360, "long_only": 1, "min_atr": 0, "session.window": "09:00-23:00"},
+  "dc96_sl2tp4":  {"cfg.ema_trend": 200, "cfg.atr_sl_mult": 2.0, "cfg.atr_tp_mult": 4.0, "cfg.cooldown_bars": 3, "lookback": 96,  "long_only": 1, "min_atr": 0, "session.window": "09:00-23:00"},
+  "dc180_sl2tp4": {"cfg.ema_trend": 200, "cfg.atr_sl_mult": 2.0, "cfg.atr_tp_mult": 4.0, "cfg.cooldown_bars": 3, "lookback": 180, "long_only": 1, "min_atr": 0, "session.window": "09:00-23:00"},
+  "dc48_sl3tp5":  {"cfg.ema_trend": 200, "cfg.atr_sl_mult": 3.0, "cfg.atr_tp_mult": 5.0, "cfg.cooldown_bars": 3, "lookback": 48,  "long_only": 1, "min_atr": 0, "session.window": "09:00-23:00"}
+}

@@ -1,0 +1,13 @@
+{
+  "bb_period": [20],
+  "bb_std": [2.0],
+  "squeeze_look": [24, 48],
+  "squeeze_tol": [1.1],
+  "trend_filter": [0, 1],
+  "sides": ["both", "long"],
+  "cfg.ema_trend": [200],
+  "cfg.atr_sl_mult": [1.4],
+  "cfg.atr_tp_mult": [2.0, 3.0],
+  "cfg.cooldown_bars": [3],
+  "session.window": ["08:00-20:00"]
+}

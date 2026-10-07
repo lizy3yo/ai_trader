@@ -1,0 +1,116 @@
+[
+ {
+  "strategy": "kz_drive",
+  "timeframe": "M5",
+  "params": {
+   "kz_start_h": 15,
+   "kz_end_h": 18,
+   "disp_k": 2.0,
+   "body_frac": 0.6,
+   "nth": 1,
+   "mode": "follow",
+   "session.window": "15:00-20:00",
+   "cfg.atr_sl_mult": 1.5,
+   "cfg.atr_tp_mult": 2.5
+  },
+  "train": {
+   "return_pct": 0.7,
+   "end_equity": 503.45,
+   "trades": 115,
+   "win_rate": 39.1,
+   "pf": 1.002,
+   "max_dd": 347.0,
+   "months": 11,
+   "pos_months_pct": 45.0,
+   "worst_month": -84.0
+  },
+  "val": {
+   "return_pct": 25.3,
+   "end_equity": 626.47,
+   "trades": 30,
+   "win_rate": 46.7,
+   "pf": 1.308,
+   "max_dd": 227.0,
+   "months": 4,
+   "pos_months_pct": 75.0,
+   "worst_month": -129.0
+  },
+  "score": 226.3
+ },
+ {
+  "strategy": "kz_drive",
+  "timeframe": "M5",
+  "params": {
+   "kz_start_h": 16,
+   "kz_end_h": 18,
+   "disp_k": 1.5,
+   "body_frac": 0.6,
+   "nth": 1,
+   "mode": "fade",
+   "session.window": "15:00-20:00",
+   "cfg.atr_sl_mult": 1.5,
+   "cfg.atr_tp_mult": 1.2
+  },
+  "train": {
+   "return_pct": 2.8,
+   "end_equity": 513.91,
+   "trades": 141,
+   "win_rate": 57.4,
+   "pf": 1.01,
+   "max_dd": 348.0,
+   "months": 11,
+   "pos_months_pct": 36.0,
+   "worst_month": -101.0
+  },
+  "val": {
+   "return_pct": -38.4,
+   "end_equity": 308.17,
+   "trades": 44,
+   "win_rate": 43.2,
+   "pf": 0.511,
+   "max_dd": 211.0,
+   "months": 4,
+   "pos_months_pct": 0.0,
+   "worst_month": -78.0
+  },
+  "score": -1000000000.0
+ },
+ {
+  "strategy": "kz_drive",
+  "timeframe": "M5",
+  "params": {
+   "kz_start_h": 16,
+   "kz_end_h": 18,
+   "disp_k": 1.5,
+   "body_frac": 0.6,
+   "nth": 1,
+   "mode": "fade",
+   "session.window": "15:00-20:00",
+   "cfg.atr_sl_mult": 1.5,
+   "cfg.atr_tp_mult": 2.5
+  },
+  "train": {
+   "return_pct": 97.1,
+   "end_equity": 985.75,
+   "trades": 142,
+   "win_rate": 43.0,
+   "pf": 1.168,
+   "max_dd": 460.0,
+   "months": 11,
+   "pos_months_pct": 64.0,
+   "worst_month": -220.0
+  },
+  "val": {
+   "return_pct": -43.3,
+   "end_equity": 283.42,
+   "trades": 45,
+   "win_rate": 28.9,
+   "pf": 0.563,
+   "max_dd": 253.0,
+   "months": 4,
+   "pos_months_pct": 25.0,
+   "worst_month": -155.0
+  },
+  "score": -1000000000.0
+ }
+]

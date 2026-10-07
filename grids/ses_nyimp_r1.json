@@ -1,0 +1,6 @@
+{
+  "imp_min_atr": [0.8, 1.2, 1.6],
+  "mode": ["follow", "fade"],
+  "cfg.atr_sl_mult": [2.0],
+  "cfg.atr_tp_mult": [1.2, 2.25, 3.5]
+}

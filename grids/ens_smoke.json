@@ -1,0 +1,15 @@
+{
+  "cfg.ema_fast": [9],
+  "cfg.ema_slow": [21],
+  "cfg.ema_trend": [100],
+  "cfg.atr_sl_mult": [1.5],
+  "cfg.atr_tp_mult": [2.5],
+  "cfg.cooldown_bars": [3],
+  "w_ema": [1],
+  "w_trend": [1],
+  "w_dc": [1],
+  "w_rsi": [1],
+  "k_thresh": [0.5],
+  "dc_lb": [20],
+  "entry_mode": ["cross"]
+}

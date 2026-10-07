@@ -1,0 +1,119 @@
+[
+ {
+  "strategy": "fvg_retrace",
+  "timeframe": "M5",
+  "params": {
+   "mode": "fade",
+   "cfg.ema_trend": 200,
+   "session.window": "15:00-18:00",
+   "min_gap_atr": 0.3,
+   "min_age": 4,
+   "confirm": 1,
+   "max_age": 48,
+   "cfg.atr_sl_mult": 1.5,
+   "cfg.atr_tp_mult": 2.25,
+   "backtest.spread_points": 35
+  },
+  "train": {
+   "return_pct": 31.0,
+   "end_equity": 655.07,
+   "trades": 56,
+   "win_rate": 46.4,
+   "pf": 1.177,
+   "max_dd": 198.0,
+   "months": 10,
+   "pos_months_pct": 70.0,
+   "worst_month": -146.0
+  },
+  "val": {
+   "return_pct": 19.7,
+   "end_equity": 598.34,
+   "trades": 20,
+   "win_rate": 50.0,
+   "pf": 1.367,
+   "max_dd": 104.0,
+   "months": 4,
+   "pos_months_pct": 75.0,
+   "worst_month": -51.0
+  },
+  "score": 244.3
+ },
+ {
+  "strategy": "fvg_retrace",
+  "timeframe": "M5",
+  "params": {
+   "mode": "fade",
+   "cfg.ema_trend": 200,
+   "session.window": "15:00-18:00",
+   "min_gap_atr": 0.3,
+   "min_age": 4,
+   "confirm": 1,
+   "max_age": 48,
+   "cfg.atr_sl_mult": 1.5,
+   "cfg.atr_tp_mult": 2.25,
+   "backtest.spread_points": 55
+  },
+  "train": {
+   "return_pct": 31.0,
+   "end_equity": 655.07,
+   "trades": 56,
+   "win_rate": 46.4,
+   "pf": 1.177,
+   "max_dd": 198.0,
+   "months": 10,
+   "pos_months_pct": 70.0,
+   "worst_month": -146.0
+  },
+  "val": {
+   "return_pct": 19.7,
+   "end_equity": 598.34,
+   "trades": 20,
+   "win_rate": 50.0,
+   "pf": 1.367,
+   "max_dd": 104.0,
+   "months": 4,
+   "pos_months_pct": 75.0,
+   "worst_month": -51.0
+  },
+  "score": 244.3
+ },
+ {
+  "strategy": "fvg_retrace",
+  "timeframe": "M5",
+  "params": {
+   "mode": "fade",
+   "cfg.ema_trend": 200,
+   "session.window": "15:00-18:00",
+   "min_gap_atr": 0.3,
+   "min_age": 4,
+   "confirm": 1,
+   "max_age": 48,
+   "cfg.atr_sl_mult": 1.5,
+   "cfg.atr_tp_mult": 2.25,
+   "backtest.spread_points": 75
+  },
+  "train": {
+   "return_pct": 31.0,
+   "end_equity": 655.07,
+   "trades": 56,
+   "win_rate": 46.4,
+   "pf": 1.177,
+   "max_dd": 198.0,
+   "months": 10,
+   "pos_months_pct": 70.0,
+   "worst_month": -146.0
+  },
+  "val": {
+   "return_pct": 19.7,
+   "end_equity": 598.34,
+   "trades": 20,
+   "win_rate": 50.0,
+   "pf": 1.367,
+   "max_dd": 104.0,
+   "months": 4,
+   "pos_months_pct": 75.0,
+   "worst_month": -51.0
+  },
+  "score": 244.3
+ }
+]

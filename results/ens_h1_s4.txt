@@ -1,0 +1,26 @@
+[config] WARNING: daily_loss_limit $200 is 40% of allocated capital. That allows losing the account in a few bad days. Consider 5-10% ($25-50).
+strategy=trend_donchian | 1 combos x ['H1'] = 1 runs | train->validate (test split stays locked)
+
+tf   params                                              TRAIN ret%    PF VAL ret%    PF  win% posM%   score
+H1   {"cfg.ema_trend":400,"cfg.atr_sl_mult":3.0,"cfg.at      +384.5  2.18     +1.0  1.01  36.8    47   151.1
+
+full results -> results/ens_h1_baseline.json
+===== ens_vote H1 sweep4 =====
+[config] WARNING: daily_loss_limit $200 is 40% of allocated capital. That allows losing the account in a few bad days. Consider 5-10% ($25-50).
+strategy=ens_vote | 48 combos x ['H1'] = 48 runs | train->validate (test split stays locked)
+
+tf   params                                              TRAIN ret%    PF VAL ret%    PF  win% posM%   score
+H1   {"cfg.ema_fast":20,"cfg.ema_slow":50,"cfg.ema_tren      +249.1  1.41    +12.7  1.10  36.7    44   152.7
+H1   {"cfg.ema_fast":20,"cfg.ema_slow":50,"cfg.ema_tren      +249.1  1.41    +12.7  1.10  36.7    44   152.7
+H1   {"cfg.ema_fast":20,"cfg.ema_slow":50,"cfg.ema_tren      +240.5  1.40    +12.7  1.10  36.7    44   152.7
+H1   {"cfg.ema_fast":20,"cfg.ema_slow":50,"cfg.ema_tren      +240.5  1.40    +12.7  1.10  36.7    44   152.7
+H1   {"cfg.ema_fast":20,"cfg.ema_slow":50,"cfg.ema_tren      +384.5  2.18     +1.0  1.01  36.8    47   151.1
+H1   {"cfg.ema_fast":20,"cfg.ema_slow":50,"cfg.ema_tren      +445.6  2.35     +1.0  1.01  36.8    47   151.1
+H1   {"cfg.ema_fast":20,"cfg.ema_slow":50,"cfg.ema_tren      +384.5  2.18     +1.0  1.01  36.8    47   151.1
+H1   {"cfg.ema_fast":20,"cfg.ema_slow":50,"cfg.ema_tren      +445.6  2.35     +1.0  1.01  36.8    47   151.1
+H1   {"cfg.ema_fast":20,"cfg.ema_slow":50,"cfg.ema_tren      +384.2  2.18     +1.0  1.01  36.8    47   151.1
+H1   {"cfg.ema_fast":20,"cfg.ema_slow":50,"cfg.ema_tren      +445.2  2.36     +1.0  1.01  36.8    47   151.1
+H1   {"cfg.ema_fast":20,"cfg.ema_slow":50,"cfg.ema_tren      +384.2  2.18     +1.0  1.01  36.8    47   151.1
+H1   {"cfg.ema_fast":20,"cfg.ema_slow":50,"cfg.ema_tren      +445.2  2.36     +1.0  1.01  36.8    47   151.1
+
+full results -> results/ens_h1_s4.json

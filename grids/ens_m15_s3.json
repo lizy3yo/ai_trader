@@ -1,0 +1,20 @@
+{
+  "cfg.ema_fast": [20],
+  "cfg.ema_slow": [50],
+  "cfg.ema_trend": [200],
+  "cfg.atr_sl_mult": [1.5, 2.0],
+  "cfg.atr_tp_mult": [3.0],
+  "cfg.cooldown_bars": [3],
+  "w_ema": [1],
+  "w_trend": [1],
+  "w_dc": [1],
+  "w_rsi": [1],
+  "w_ses": [1],
+  "ses_h0": [9],
+  "ses_h1": [16],
+  "k_thresh": [0.6, 0.8, 1.0],
+  "dc_lb": [16, 32, 64],
+  "sides": ["long", "both"],
+  "entry_mode": ["cross"],
+  "session.window": ["09:00-12:00", "09:00-16:00"]
+}

@@ -1,0 +1,7 @@
+{
+  "cfg.ema_trend": [200],
+  "regime_filter": [1, 0],
+  "cfg.atr_tp_mult": [1.5, 2.0, 2.5],
+  "cfg.atr_sl_mult": [4.0, 5.0, 6.0],
+  "session.window": ["19:00-23:59", "21:00-23:59", "18:00-23:59"]
+}

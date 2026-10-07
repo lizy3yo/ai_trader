@@ -1,0 +1,70 @@
+# ============================================================
+# DEMO-VALIDATION CANDIDATE #3: London open-range breakout (M15)
+# Run alongside the others:  python main.py live --config config_orb.yaml
+# ============================================================
+# ses_orb = trades the resolution of the Asia range: measures the 01:00-08:59
+# overnight range, then during 09:00-10:59 (the first two London hours — the
+# most profitable window found anywhere in the research) buys/sells a close
+# beyond the range +0.5xATR buffer, aligned with EMA(200). Max 1 trade/day.
+# Research: train +234% PF 1.63 (97 trades/18mo), unseen validation +49.4%
+# PF 3.02, win 68.4%, 83% positive months — audited hard for lookahead
+# (0 violations found) but validation is only 19 trades, the thinnest sample
+# of the three candidates. NOT final-test confirmed — demo decides.
+
+mt5:
+  login: 0
+  password: ""
+  server: ""
+  terminal_path: ""
+
+symbol: "GOLD"
+magic: 620042            # unique — never share a magic between configs
+capital:
+  allocated: 500.0
+  hard_max: 500.0
+
+risk:
+  base_risk_pct: 5.0
+  max_risk_pct: 10.0
+  step_up_pct: 1.0
+  step_up_after_wins: 3
+  drop_to_base_on_loss: true
+  daily_loss_limit: 200.0
+  close_positions_on_limit: true
+  max_open_positions: 1
+  max_spread_points: 90
+  min_equity_stop: 100.0
+
+strategy:
+  name: "ses_orb"
+  params:
+    trend_filter: true     # only break in the EMA(200) trend direction
+    buf_atr: 0.5           # breakout must clear the range by 0.5xATR
+    entry_end_h: 11        # entries allowed 09:00-10:59 only
+  timeframe: "M15"
+  ema_fast: 20             # unused by this strategy
+  ema_slow: 50
+  ema_trend: 200
+  rsi_period: 14
+  rsi_overbought: 70.0
+  rsi_oversold: 30.0
+  atr_period: 14
+  atr_sl_mult: 2.0
+  atr_tp_mult: 2.25
+  cooldown_bars: 3
+
+session:
+  trade_start: "07:00"     # wider than the module's own 09:00-10:59 gate
+  trade_end: "20:00"       # (the module gates entries internally)
+  friday_close: "19:00"
+  poll_seconds: 10
+
+tracking:
+  db_path: "data/trades_orb.db"
+  csv_path: "data/trades_orb.csv"
+
+backtest:
+  data_csv: "data/gold_m15.csv"
+  bars: 20000
+  spread_points: 55
+  commission_per_lot: 0.0

@@ -1,0 +1,11 @@
+{
+  "kz_start_h": [9],
+  "kz_end_h": [10],
+  "disp_k": [1.5],
+  "body_frac": [0.0],
+  "nth": [1],
+  "sides": ["long", "short"],
+  "session.window": ["09:00-14:00"],
+  "cfg.atr_sl_mult": [1.5],
+  "cfg.atr_tp_mult": [2.5]
+}

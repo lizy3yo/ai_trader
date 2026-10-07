@@ -1,0 +1,71 @@
+# ============================================================
+# DEMO-VALIDATION CANDIDATE: Asia-session dip buyer (M30) — the
+# high-win-rate profile.  python main.py live --config config_rsi2.yaml
+# ============================================================
+# mr_rsi2 buys RSI(3) panic dips in the EMA(200) trend direction during the
+# quiet 01:00-08:00 Asia session. TP 1.0xATR / SL 2.5xATR = wins often
+# (~73-79%), loses bigger but rarer.
+# HONEST WARNING: research on 2021-2026 data showed train win 74.8% PF 1.08 /
+# validation win 79.4% PF 1.53 — but on the FULL 2018-2026 history the net
+# result is -7.6% (PF 0.98): the edge only exists post-2021. This config
+# delivers the ~70% win-rate FEEL, but its long-run expectancy is ~zero.
+# Demo-test it if the win-rate profile matters to you; the money-making
+# evidence favors config.yaml (trend_donchian).
+
+mt5:
+  login: 0
+  password: ""
+  server: ""
+  terminal_path: ""
+
+symbol: "GOLD"
+magic: 620043            # unique — never share a magic between configs
+capital:
+  allocated: 500.0
+  hard_max: 500.0
+
+risk:
+  base_risk_pct: 5.0
+  max_risk_pct: 10.0
+  step_up_pct: 1.0
+  step_up_after_wins: 3
+  drop_to_base_on_loss: true
+  daily_loss_limit: 200.0
+  close_positions_on_limit: true
+  max_open_positions: 1
+  max_spread_points: 90
+  min_equity_stop: 100.0
+
+strategy:
+  name: "mr_rsi2"
+  params:
+    rsi_p: 3               # fast RSI period
+    buy_th: 12             # buy when RSI(3) dips below this
+    both_sides: 0          # long-only (shorts never paid in research)
+  timeframe: "M30"
+  ema_fast: 20             # unused by this strategy
+  ema_slow: 50
+  ema_trend: 200           # only buy dips above EMA(200)
+  rsi_period: 14
+  rsi_overbought: 70.0
+  rsi_oversold: 30.0
+  atr_period: 14
+  atr_sl_mult: 2.5         # wide stop...
+  atr_tp_mult: 1.0         # ...small target = the high-win-rate geometry
+  cooldown_bars: 8
+
+session:
+  trade_start: "01:00"     # quiet Asia hours only — mean reversion dies in
+  trade_end: "08:00"       # the 15:00-18:00 London/NY trend engine
+  friday_close: "08:00"
+  poll_seconds: 10
+
+tracking:
+  db_path: "data/trades_rsi2.db"
+  csv_path: "data/trades_rsi2.csv"
+
+backtest:
+  data_csv: "data/gold_m30.csv"
+  bars: 20000
+  spread_points: 55
+  commission_per_lot: 0.0

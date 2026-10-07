@@ -1,0 +1,36 @@
+[
+ {
+  "strategy": "ob_szone",
+  "timeframe": "M5",
+  "params": {
+   "base_body_atr": 0.5,
+   "leave_k": 1.2,
+   "base_len": 2,
+   "cfg.atr_sl_mult": 1.5,
+   "cfg.atr_tp_mult": 2.25
+  },
+  "train": {
+   "return_pct": 80.1,
+   "end_equity": 900.74,
+   "trades": 69,
+   "win_rate": 50.7,
+   "pf": 1.416,
+   "max_dd": 199.0,
+   "months": 3,
+   "pos_months_pct": 67.0,
+   "worst_month": -18.0
+  },
+  "val": {
+   "return_pct": -29.1,
+   "end_equity": 354.28,
+   "trades": 27,
+   "win_rate": 29.6,
+   "pf": 0.503,
+   "max_dd": 205.0,
+   "months": 2,
+   "pos_months_pct": 50.0,
+   "worst_month": -198.0
+  },
+  "score": -1000000000.0
+ }
+]

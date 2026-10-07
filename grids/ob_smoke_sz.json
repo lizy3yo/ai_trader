@@ -1,0 +1,7 @@
+{
+  "base_body_atr": [0.5],
+  "leave_k": [1.2],
+  "base_len": [2],
+  "cfg.atr_sl_mult": [1.5],
+  "cfg.atr_tp_mult": [2.25]
+}

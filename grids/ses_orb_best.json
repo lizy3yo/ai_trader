@@ -1,0 +1,7 @@
+{
+  "trend_filter": [true],
+  "buf_atr": [0.5],
+  "entry_end_h": [12],
+  "cfg.atr_sl_mult": [2.0],
+  "cfg.atr_tp_mult": [2.25]
+}

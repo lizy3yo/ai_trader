@@ -1,0 +1,13 @@
+{
+  "feature": ["z"],
+  "polarity": ["fade"],
+  "sides": ["both"],
+  "trigger": ["cross"],
+  "n": [24],
+  "z_win": [150, 200, 250],
+  "z_thr": [1.75, 2.0, 2.25, 2.5],
+  "cfg.atr_sl_mult": [3.0],
+  "cfg.atr_tp_mult": [4.0, 5.0, 6.0],
+  "cfg.cooldown_bars": [3],
+  "session.window": ["09:00-23:00"]
+}

@@ -1,0 +1,11 @@
+{
+  "range_look": [36],
+  "edge_frac": [0.15],
+  "min_w_atr": [1.5],
+  "max_w_atr": [8.0],
+  "tp_mode": ["atr"],
+  "cfg.atr_sl_mult": [1.2],
+  "cfg.atr_tp_mult": [0.8],
+  "cfg.cooldown_bars": [3],
+  "session.window": ["01:30-08:00"]
+}

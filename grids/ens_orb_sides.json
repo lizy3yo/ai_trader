@@ -1,0 +1,14 @@
+{
+  "cfg.atr_sl_mult": [2.0],
+  "cfg.atr_tp_mult": [2.25, 3.0],
+  "cfg.cooldown_bars": [3],
+  "cfg.ema_trend": [200],
+  "range_start_h": [1],
+  "range_end_h": [9],
+  "entry_start_h": [9],
+  "entry_end_h": [11],
+  "buf_atr": [0.3, 0.5],
+  "trend_filter": [true, false],
+  "sides": ["long", "short", "both"],
+  "session.window": ["09:00-12:00"]
+}

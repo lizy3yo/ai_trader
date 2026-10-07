@@ -1,0 +1,72 @@
+[
+ {
+  "strategy": "hyb_ema_regime",
+  "timeframe": "H1",
+  "params": {
+   "cfg.ema_fast": 9,
+   "cfg.ema_slow": 21,
+   "adx_min": 25,
+   "atr_pct_min": 0.35,
+   "mode": "both",
+   "session.window": "15:00-19:00"
+  },
+  "train": {
+   "return_pct": 5.8,
+   "end_equity": 529.14,
+   "trades": 35,
+   "win_rate": 48.6,
+   "pf": 1.065,
+   "max_dd": 181.0,
+   "months": 32,
+   "pos_months_pct": 50.0,
+   "worst_month": -41.0
+  },
+  "val": {
+   "return_pct": 8.1,
+   "end_equity": 540.28,
+   "trades": 10,
+   "win_rate": 60.0,
+   "pf": 1.451,
+   "max_dd": 77.0,
+   "months": 9,
+   "pos_months_pct": 56.0,
+   "worst_month": -27.0
+  },
+  "score": 222.3
+ },
+ {
+  "strategy": "hyb_ema_regime",
+  "timeframe": "H1",
+  "params": {
+   "cfg.ema_fast": 12,
+   "cfg.ema_slow": 34,
+   "adx_min": 25,
+   "atr_pct_min": 0.35,
+   "mode": "both",
+   "session.window": "01:00-23:00"
+  },
+  "train": {
+   "return_pct": 47.3,
+   "end_equity": 736.5,
+   "trades": 42,
+   "win_rate": 57.1,
+   "pf": 1.54,
+   "max_dd": 107.0,
+   "months": 33,
+   "pos_months_pct": 64.0,
+   "worst_month": -50.0
+  },
+  "val": {
+   "return_pct": 0.0,
+   "end_equity": 500.1,
+   "trades": 10,
+   "win_rate": 50.0,
+   "pf": 1.001,
+   "max_dd": 85.0,
+   "months": 9,
+   "pos_months_pct": 44.0,
+   "worst_month": -25.0
+  },
+  "score": -1000000000.0
+ }
+]

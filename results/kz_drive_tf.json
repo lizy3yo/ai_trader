@@ -1,0 +1,78 @@
+[
+ {
+  "strategy": "kz_drive",
+  "timeframe": "M5",
+  "params": {
+   "kz_start_h": 9,
+   "kz_end_h": 10,
+   "disp_k": 1.5,
+   "body_frac": 0.0,
+   "nth": 1,
+   "trend_filter": true,
+   "session.window": "09:00-14:00",
+   "cfg.atr_sl_mult": 1.5,
+   "cfg.atr_tp_mult": 2.25
+  },
+  "train": {
+   "return_pct": 12.9,
+   "end_equity": 564.45,
+   "trades": 50,
+   "win_rate": 44.0,
+   "pf": 1.115,
+   "max_dd": 162.0,
+   "months": 9,
+   "pos_months_pct": 67.0,
+   "worst_month": -67.0
+  },
+  "val": {
+   "return_pct": 33.8,
+   "end_equity": 668.8,
+   "trades": 14,
+   "win_rate": 57.1,
+   "pf": 2.126,
+   "max_dd": 72.0,
+   "months": 4,
+   "pos_months_pct": 75.0,
+   "worst_month": -18.0
+  },
+  "score": 279.9
+ },
+ {
+  "strategy": "kz_drive",
+  "timeframe": "M5",
+  "params": {
+   "kz_start_h": 9,
+   "kz_end_h": 10,
+   "disp_k": 1.5,
+   "body_frac": 0.0,
+   "nth": 1,
+   "trend_filter": true,
+   "session.window": "09:00-14:00",
+   "cfg.atr_sl_mult": 1.5,
+   "cfg.atr_tp_mult": 2.5
+  },
+  "train": {
+   "return_pct": 0.6,
+   "end_equity": 503.05,
+   "trades": 50,
+   "win_rate": 40.0,
+   "pf": 1.006,
+   "max_dd": 196.0,
+   "months": 9,
+   "pos_months_pct": 67.0,
+   "worst_month": -95.0
+  },
+  "val": {
+   "return_pct": 37.7,
+   "end_equity": 688.63,
+   "trades": 14,
+   "win_rate": 57.1,
+   "pf": 2.139,
+   "max_dd": 78.0,
+   "months": 4,
+   "pos_months_pct": 75.0,
+   "worst_month": -18.0
+  },
+  "score": 279.3
+ }
+]

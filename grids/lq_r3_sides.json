@@ -1,0 +1,12 @@
+{
+  "level_mode": ["pday"],
+  "mode": ["follow"],
+  "sweep_atr": [0.0],
+  "max_beyond": [3],
+  "max_out_bars": [3],
+  "sides": ["long", "short"],
+  "session.window": ["09:00-13:00"],
+  "cfg.atr_sl_mult": [1.5],
+  "cfg.atr_tp_mult": [0.75],
+  "backtest.spread_points": [55]
+}

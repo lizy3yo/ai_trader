@@ -1,0 +1,14 @@
+{
+  "model": ["hgb"],
+  "featset": ["mid"],
+  "horizon": [8],
+  "refit_every": [2000],
+  "min_train": [6000],
+  "thr": [0.60, 0.65],
+  "sides": ["long"],
+  "cfg.atr_sl_mult": [2.5],
+  "cfg.atr_tp_mult": [4.0],
+  "cfg.cooldown_bars": [1],
+  "session.window": ["01:00-23:30"],
+  "backtest.spread_points": [0, 25, 55, 90]
+}

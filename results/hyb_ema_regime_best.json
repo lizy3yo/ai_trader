@@ -1,0 +1,37 @@
+[
+ {
+  "strategy": "hyb_ema_regime",
+  "timeframe": "H1",
+  "params": {
+   "adx_min": 25,
+   "atr_pct_min": 0.25,
+   "mode": "both",
+   "session.window": "01:00-23:00",
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 1.25
+  },
+  "train": {
+   "return_pct": 19.2,
+   "end_equity": 595.93,
+   "trades": 38,
+   "win_rate": 76.3,
+   "pf": 1.37,
+   "max_dd": 94.0,
+   "months": 34,
+   "pos_months_pct": 74.0,
+   "worst_month": -55.0
+  },
+  "val": {
+   "return_pct": 29.6,
+   "end_equity": 648.05,
+   "trades": 14,
+   "win_rate": 92.9,
+   "pf": 12.054,
+   "max_dd": 24.0,
+   "months": 9,
+   "pos_months_pct": 89.0,
+   "worst_month": -7.0
+  },
+  "score": 348.5
+ }
+]

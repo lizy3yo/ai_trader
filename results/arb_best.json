@@ -1,0 +1,42 @@
+[
+ {
+  "strategy": "arb_xratio",
+  "timeframe": "H1",
+  "params": {
+   "feature": "z",
+   "polarity": "fade",
+   "sides": "both",
+   "trigger": "cross",
+   "n": 24,
+   "z_win": 150,
+   "z_thr": 2.25,
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 4.0,
+   "cfg.cooldown_bars": 3,
+   "session.window": "09:00-23:00"
+  },
+  "train": {
+   "return_pct": 139.2,
+   "end_equity": 1196.01,
+   "trades": 261,
+   "win_rate": 47.1,
+   "pf": 1.217,
+   "max_dd": 246.0,
+   "months": 63,
+   "pos_months_pct": 56.0,
+   "worst_month": -139.0
+  },
+  "val": {
+   "return_pct": 42.0,
+   "end_equity": 710.06,
+   "trades": 80,
+   "win_rate": 47.5,
+   "pf": 1.253,
+   "max_dd": 280.0,
+   "months": 20,
+   "pos_months_pct": 60.0,
+   "worst_month": -92.0
+  },
+  "score": 189.6
+ }
+]

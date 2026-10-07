@@ -1,0 +1,18 @@
+{
+ "ens_dc180_state_long": {
+  "cfg.ema_fast": 20,
+  "cfg.ema_slow": 50,
+  "cfg.ema_trend": 400,
+  "cfg.atr_sl_mult": 3.0,
+  "cfg.atr_tp_mult": 5.0,
+  "cfg.cooldown_bars": 3,
+  "w_trend": 1,
+  "w_dc": 1,
+  "w_ema": 0,
+  "w_rsi": 0,
+  "k_thresh": 1.0,
+  "dc_lb": 180,
+  "sides": "long",
+  "entry_mode": "state"
+ }
+}

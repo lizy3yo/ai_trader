@@ -1,0 +1,9 @@
+{
+  "rsi_p": [2, 3],
+  "buy_th": [10, 12],
+  "both_sides": [0, 1],
+  "cfg.atr_sl_mult": [2.5, 3.0],
+  "cfg.atr_tp_mult": [1.0],
+  "cfg.cooldown_bars": [3, 8],
+  "session.window": ["01:00-08:00"]
+}

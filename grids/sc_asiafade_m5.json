@@ -1,0 +1,13 @@
+{
+  "range_look": [36, 72],
+  "edge_frac": [0.05],
+  "max_poke_atr": [0.3, 0.8],
+  "min_w_atr": [2.0, 3.0],
+  "max_w_atr": [8.0],
+  "tp_mode": ["atr", "mid"],
+  "min_tp": [0.8],
+  "cfg.atr_sl_mult": [1.0, 1.6],
+  "cfg.atr_tp_mult": [1.0],
+  "cfg.cooldown_bars": [6],
+  "session.window": ["01:30-08:00"]
+}

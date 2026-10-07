@@ -1,0 +1,6 @@
+{
+  "rsi_p": 3,
+  "buy_th": 10,
+  "cfg.atr_sl_mult": 3.0,
+  "cfg.atr_tp_mult": 1.0
+}

@@ -1,0 +1,5 @@
+{
+  "level_mode": ["pday", "asia", "roll"],
+  "backtest.spread_points": [55],
+  "session.window": ["09:00-19:00"]
+}

@@ -1,0 +1,7 @@
+[config] WARNING: daily_loss_limit $200 is 40% of allocated capital. That allows losing the account in a few bad days. Consider 5-10% ($25-50).
+strategy=ob_retest | 16 combos x ['M5'] = 16 runs | train->validate (test split stays locked)
+
+tf   params                                              TRAIN ret%    PF VAL ret%    PF  win% posM%   score
+M5   {"disp_k":2.5,"cfg.atr_tp_mult":2.25,"cfg.atr_sl_m        +2.7  1.01     +4.6  1.09  43.5    75   226.8
+
+full results -> results/ob_rt_r2_london.json

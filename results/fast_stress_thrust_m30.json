@@ -1,0 +1,80 @@
+[
+ {
+  "strategy": "fast_thrust",
+  "timeframe": "M30",
+  "params": {
+   "backtest.spread_points": 0,
+   "disp_atr": 1.2,
+   "close_pos": 0.75,
+   "max_disp_atr": 99.0,
+   "body_frac": 0.5,
+   "dir": "long",
+   "trend_mode": "ema",
+   "cfg.ema_trend": 1600,
+   "cfg.atr_sl_mult": 3.5,
+   "cfg.atr_tp_mult": 5.0
+  },
+  "train": {
+   "return_pct": 168.2,
+   "end_equity": 1341.21,
+   "trades": 460,
+   "win_rate": 43.5,
+   "pf": 1.031,
+   "max_dd": 4519.0,
+   "months": 50,
+   "pos_months_pct": 48.0,
+   "worst_month": -645.0
+  },
+  "val": {
+   "return_pct": 54.6,
+   "end_equity": 772.79,
+   "trades": 144,
+   "win_rate": 45.8,
+   "pf": 1.14,
+   "max_dd": 255.0,
+   "months": 13,
+   "pos_months_pct": 54.0,
+   "worst_month": -94.0
+  },
+  "score": 173.9
+ },
+ {
+  "strategy": "fast_thrust",
+  "timeframe": "M30",
+  "params": {
+   "backtest.spread_points": 55,
+   "disp_atr": 1.2,
+   "close_pos": 0.75,
+   "max_disp_atr": 99.0,
+   "body_frac": 0.5,
+   "dir": "long",
+   "trend_mode": "ema",
+   "cfg.ema_trend": 1600,
+   "cfg.atr_sl_mult": 3.5,
+   "cfg.atr_tp_mult": 5.0
+  },
+  "train": {
+   "return_pct": 14.9,
+   "end_equity": 574.48,
+   "trades": 453,
+   "win_rate": 42.6,
+   "pf": 1.005,
+   "max_dd": 2332.0,
+   "months": 50,
+   "pos_months_pct": 34.0,
+   "worst_month": -587.0
+  },
+  "val": {
+   "return_pct": 23.2,
+   "end_equity": 615.89,
+   "trades": 150,
+   "win_rate": 44.0,
+   "pf": 1.058,
+   "max_dd": 249.0,
+   "months": 13,
+   "pos_months_pct": 54.0,
+   "worst_month": -101.0
+  },
+  "score": 169.4
+ }
+]

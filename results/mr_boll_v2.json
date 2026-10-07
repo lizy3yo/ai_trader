@@ -1,0 +1,212 @@
+[
+ {
+  "strategy": "mr_boll",
+  "timeframe": "M30",
+  "params": {
+   "bb_period": 14,
+   "bb_std": 2.5,
+   "both_sides": 0,
+   "tp_mode": "mid",
+   "cfg.atr_sl_mult": 3.0,
+   "session.window": "01:00-08:00"
+  },
+  "train": {
+   "return_pct": 13.0,
+   "end_equity": 564.76,
+   "trades": 88,
+   "win_rate": 69.3,
+   "pf": 1.098,
+   "max_dd": 181.0,
+   "months": 33,
+   "pos_months_pct": 58.0,
+   "worst_month": -44.0
+  },
+  "val": {
+   "return_pct": -36.1,
+   "end_equity": 319.39,
+   "trades": 39,
+   "win_rate": 56.4,
+   "pf": 0.531,
+   "max_dd": 250.0,
+   "months": 13,
+   "pos_months_pct": 38.0,
+   "worst_month": -105.0
+  },
+  "score": -1000000000.0
+ },
+ {
+  "strategy": "mr_boll",
+  "timeframe": "M30",
+  "params": {
+   "bb_period": 14,
+   "bb_std": 2.5,
+   "both_sides": 0,
+   "tp_mode": "mid",
+   "cfg.atr_sl_mult": 3.0,
+   "session.window": "02:00-09:00"
+  },
+  "train": {
+   "return_pct": 2.2,
+   "end_equity": 511.03,
+   "trades": 95,
+   "win_rate": 68.4,
+   "pf": 1.015,
+   "max_dd": 141.0,
+   "months": 33,
+   "pos_months_pct": 48.0,
+   "worst_month": -44.0
+  },
+  "val": {
+   "return_pct": -32.3,
+   "end_equity": 338.3,
+   "trades": 40,
+   "win_rate": 57.5,
+   "pf": 0.567,
+   "max_dd": 234.0,
+   "months": 13,
+   "pos_months_pct": 46.0,
+   "worst_month": -105.0
+  },
+  "score": -1000000000.0
+ },
+ {
+  "strategy": "mr_boll",
+  "timeframe": "M30",
+  "params": {
+   "bb_period": 14,
+   "bb_std": 2.5,
+   "both_sides": 1,
+   "tp_mode": "mid",
+   "cfg.atr_sl_mult": 3.0,
+   "session.window": "01:00-08:00"
+  },
+  "train": {
+   "return_pct": 4.3,
+   "end_equity": 521.71,
+   "trades": 223,
+   "win_rate": 65.5,
+   "pf": 1.011,
+   "max_dd": 243.0,
+   "months": 37,
+   "pos_months_pct": 43.0,
+   "worst_month": -111.0
+  },
+  "val": {
+   "return_pct": -49.5,
+   "end_equity": 252.47,
+   "trades": 72,
+   "win_rate": 52.8,
+   "pf": 0.537,
+   "max_dd": 294.0,
+   "months": 11,
+   "pos_months_pct": 36.0,
+   "worst_month": -110.0
+  },
+  "score": -1000000000.0
+ },
+ {
+  "strategy": "mr_boll",
+  "timeframe": "M30",
+  "params": {
+   "bb_period": 20,
+   "bb_std": 2.5,
+   "both_sides": 0,
+   "tp_mode": "mid",
+   "cfg.atr_sl_mult": 3.0,
+   "session.window": "01:00-08:00"
+  },
+  "train": {
+   "return_pct": 40.3,
+   "end_equity": 701.38,
+   "trades": 62,
+   "win_rate": 71.0,
+   "pf": 1.454,
+   "max_dd": 142.0,
+   "months": 31,
+   "pos_months_pct": 58.0,
+   "worst_month": -50.0
+  },
+  "val": {
+   "return_pct": -16.9,
+   "end_equity": 415.56,
+   "trades": 42,
+   "win_rate": 61.9,
+   "pf": 0.775,
+   "max_dd": 163.0,
+   "months": 12,
+   "pos_months_pct": 42.0,
+   "worst_month": -71.0
+  },
+  "score": -1000000000.0
+ },
+ {
+  "strategy": "mr_boll",
+  "timeframe": "M30",
+  "params": {
+   "bb_period": 20,
+   "bb_std": 2.5,
+   "both_sides": 0,
+   "tp_mode": "mid",
+   "cfg.atr_sl_mult": 3.0,
+   "session.window": "02:00-09:00"
+  },
+  "train": {
+   "return_pct": 19.9,
+   "end_equity": 599.66,
+   "trades": 76,
+   "win_rate": 68.4,
+   "pf": 1.181,
+   "max_dd": 110.0,
+   "months": 31,
+   "pos_months_pct": 52.0,
+   "worst_month": -43.0
+  },
+  "val": {
+   "return_pct": -15.8,
+   "end_equity": 421.08,
+   "trades": 46,
+   "win_rate": 63.0,
+   "pf": 0.803,
+   "max_dd": 169.0,
+   "months": 12,
+   "pos_months_pct": 50.0,
+   "worst_month": -73.0
+  },
+  "score": -1000000000.0
+ },
+ {
+  "strategy": "mr_boll",
+  "timeframe": "M30",
+  "params": {
+   "bb_period": 20,
+   "bb_std": 2.5,
+   "both_sides": 1,
+   "tp_mode": "mid",
+   "cfg.atr_sl_mult": 3.0,
+   "session.window": "01:00-08:00"
+  },
+  "train": {
+   "return_pct": 10.2,
+   "end_equity": 550.89,
+   "trades": 160,
+   "win_rate": 61.9,
+   "pf": 1.034,
+   "max_dd": 235.0,
+   "months": 36,
+   "pos_months_pct": 50.0,
+   "worst_month": -94.0
+  },
+  "val": {
+   "return_pct": -40.6,
+   "end_equity": 296.85,
+   "trades": 65,
+   "win_rate": 52.3,
+   "pf": 0.608,
+   "max_dd": 298.0,
+   "months": 12,
+   "pos_months_pct": 33.0,
+   "worst_month": -116.0
+  },
+  "score": -1000000000.0
+ }
+]

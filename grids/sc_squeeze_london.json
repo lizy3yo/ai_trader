@@ -1,0 +1,10 @@
+{
+  "bb_period": [20],
+  "bb_std": [2.0],
+  "squeeze_look": [72, 96],
+  "squeeze_tol": [1.0, 1.05],
+  "cfg.atr_sl_mult": [1.4],
+  "cfg.atr_tp_mult": [3.0, 4.0],
+  "cfg.cooldown_bars": [6],
+  "session.window": ["09:00-13:00"]
+}

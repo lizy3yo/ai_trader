@@ -1,0 +1,107 @@
+[
+ {
+  "strategy": "hyb_ema_regime",
+  "timeframe": "M30",
+  "params": {
+   "adx_min": 22,
+   "atr_pct_min": 0.45,
+   "mode": "both",
+   "session.window": "01:00-23:00",
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 1.25
+  },
+  "train": {
+   "return_pct": 16.0,
+   "end_equity": 580.17,
+   "trades": 69,
+   "win_rate": 73.9,
+   "pf": 1.216,
+   "max_dd": 70.0,
+   "months": 29,
+   "pos_months_pct": 59.0,
+   "worst_month": -31.0
+  },
+  "val": {
+   "return_pct": -11.1,
+   "end_equity": 444.45,
+   "trades": 17,
+   "win_rate": 64.7,
+   "pf": 0.64,
+   "max_dd": 99.0,
+   "months": 9,
+   "pos_months_pct": 33.0,
+   "worst_month": -37.0
+  },
+  "score": -1000000000.0
+ },
+ {
+  "strategy": "hyb_ema_regime",
+  "timeframe": "M30",
+  "params": {
+   "adx_min": 25,
+   "atr_pct_min": 0.35,
+   "mode": "both",
+   "session.window": "01:00-23:00",
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 1.25
+  },
+  "train": {
+   "return_pct": 19.0,
+   "end_equity": 595.25,
+   "trades": 42,
+   "win_rate": 78.6,
+   "pf": 1.446,
+   "max_dd": 47.0,
+   "months": 23,
+   "pos_months_pct": 65.0,
+   "worst_month": -33.0
+  },
+  "val": {
+   "return_pct": -6.8,
+   "end_equity": 465.98,
+   "trades": 11,
+   "win_rate": 63.6,
+   "pf": 0.639,
+   "max_dd": 76.0,
+   "months": 6,
+   "pos_months_pct": 50.0,
+   "worst_month": -34.0
+  },
+  "score": -1000000000.0
+ },
+ {
+  "strategy": "hyb_ema_regime",
+  "timeframe": "M30",
+  "params": {
+   "adx_min": 25,
+   "atr_pct_min": 0.45,
+   "mode": "both",
+   "session.window": "01:00-23:00",
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 1.25
+  },
+  "train": {
+   "return_pct": 17.1,
+   "end_equity": 585.57,
+   "trades": 41,
+   "win_rate": 78.0,
+   "pf": 1.4,
+   "max_dd": 47.0,
+   "months": 23,
+   "pos_months_pct": 65.0,
+   "worst_month": -33.0
+  },
+  "val": {
+   "return_pct": -2.2,
+   "end_equity": 489.21,
+   "trades": 9,
+   "win_rate": 66.7,
+   "pf": 0.847,
+   "max_dd": 64.0,
+   "months": 6,
+   "pos_months_pct": 50.0,
+   "worst_month": -35.0
+  },
+  "score": -1000000000.0
+ }
+]

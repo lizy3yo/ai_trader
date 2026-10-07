@@ -1,0 +1,11 @@
+{
+ "mode": ["ride"],
+ "touch_k": [0.0, 0.25, 0.5],
+ "slope_n": [0, 6],
+ "vol_mode": ["range"],
+ "anchor_h": [0],
+ "min_bars": [12],
+ "cfg.atr_sl_mult": [1.0, 1.5],
+ "cfg.atr_tp_mult": [2.0, 3.0],
+ "session.window": ["09:00-18:00"]
+}

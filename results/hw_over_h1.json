@@ -1,0 +1,104 @@
+[
+ {
+  "strategy": "hw_overnight",
+  "timeframe": "H1",
+  "params": {
+   "cfg.ema_trend": 200,
+   "regime_filter": 1,
+   "cfg.atr_tp_mult": 2.0,
+   "cfg.atr_sl_mult": 5.0,
+   "session.window": "20:00-23:59"
+  },
+  "train": {
+   "return_pct": 11.5,
+   "end_equity": 557.36,
+   "trades": 481,
+   "win_rate": 72.3,
+   "pf": 1.017,
+   "max_dd": 297.0,
+   "months": 72,
+   "pos_months_pct": 43.0,
+   "worst_month": -132.0
+  },
+  "val": {
+   "return_pct": 62.2,
+   "end_equity": 810.97,
+   "trades": 172,
+   "win_rate": 76.2,
+   "pf": 1.25,
+   "max_dd": 188.0,
+   "months": 23,
+   "pos_months_pct": 57.0,
+   "worst_month": -91.0
+  },
+  "score": 221.4
+ },
+ {
+  "strategy": "hw_overnight",
+  "timeframe": "H1",
+  "params": {
+   "cfg.ema_trend": 200,
+   "regime_filter": 1,
+   "cfg.atr_tp_mult": 2.0,
+   "cfg.atr_sl_mult": 6.0,
+   "session.window": "19:00-23:59"
+  },
+  "train": {
+   "return_pct": 41.4,
+   "end_equity": 707.24,
+   "trades": 449,
+   "win_rate": 75.9,
+   "pf": 1.067,
+   "max_dd": 339.0,
+   "months": 72,
+   "pos_months_pct": 46.0,
+   "worst_month": -102.0
+  },
+  "val": {
+   "return_pct": 45.7,
+   "end_equity": 728.58,
+   "trades": 155,
+   "win_rate": 78.7,
+   "pf": 1.193,
+   "max_dd": 239.0,
+   "months": 23,
+   "pos_months_pct": 57.0,
+   "worst_month": -74.0
+  },
+  "score": 216.5
+ },
+ {
+  "strategy": "hw_overnight",
+  "timeframe": "H1",
+  "params": {
+   "cfg.ema_trend": 200,
+   "regime_filter": 1,
+   "cfg.atr_tp_mult": 2.0,
+   "cfg.atr_sl_mult": 6.0,
+   "session.window": "20:00-23:59"
+  },
+  "train": {
+   "return_pct": 14.7,
+   "end_equity": 573.45,
+   "trades": 428,
+   "win_rate": 75.7,
+   "pf": 1.026,
+   "max_dd": 300.0,
+   "months": 71,
+   "pos_months_pct": 45.0,
+   "worst_month": -128.0
+  },
+  "val": {
+   "return_pct": 47.7,
+   "end_equity": 738.46,
+   "trades": 158,
+   "win_rate": 77.2,
+   "pf": 1.199,
+   "max_dd": 239.0,
+   "months": 23,
+   "pos_months_pct": 57.0,
+   "worst_month": -92.0
+  },
+  "score": 215.3
+ }
+]

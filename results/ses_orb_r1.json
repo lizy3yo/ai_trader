@@ -1,0 +1,444 @@
+[
+ {
+  "strategy": "ses_orb",
+  "timeframe": "M15",
+  "params": {
+   "trend_filter": true,
+   "buf_atr": 0.35,
+   "max_range_atr": 99.0,
+   "cfg.atr_sl_mult": 2.0,
+   "cfg.atr_tp_mult": 2.25
+  },
+  "train": {
+   "return_pct": 41.9,
+   "end_equity": 709.37,
+   "trades": 157,
+   "win_rate": 51.0,
+   "pf": 1.087,
+   "max_dd": 526.0,
+   "months": 19,
+   "pos_months_pct": 58.0,
+   "worst_month": -202.0
+  },
+  "val": {
+   "return_pct": 34.1,
+   "end_equity": 670.67,
+   "trades": 35,
+   "win_rate": 57.1,
+   "pf": 1.464,
+   "max_dd": 149.0,
+   "months": 6,
+   "pos_months_pct": 67.0,
+   "worst_month": -79.0
+  },
+  "score": 234.8
+ },
+ {
+  "strategy": "ses_orb",
+  "timeframe": "M30",
+  "params": {
+   "trend_filter": true,
+   "buf_atr": 0.35,
+   "max_range_atr": 4.0,
+   "cfg.atr_sl_mult": 2.0,
+   "cfg.atr_tp_mult": 1.2
+  },
+  "train": {
+   "return_pct": 3.0,
+   "end_equity": 514.93,
+   "trades": 186,
+   "win_rate": 63.4,
+   "pf": 1.007,
+   "max_dd": 314.0,
+   "months": 36,
+   "pos_months_pct": 56.0,
+   "worst_month": -128.0
+  },
+  "val": {
+   "return_pct": 1.4,
+   "end_equity": 506.8,
+   "trades": 37,
+   "win_rate": 62.2,
+   "pf": 1.023,
+   "max_dd": 115.0,
+   "months": 12,
+   "pos_months_pct": 50.0,
+   "worst_month": -44.0
+  },
+  "score": 191.6
+ },
+ {
+  "strategy": "ses_orb",
+  "timeframe": "M15",
+  "params": {
+   "trend_filter": true,
+   "buf_atr": 0.35,
+   "max_range_atr": 99.0,
+   "cfg.atr_sl_mult": 2.0,
+   "cfg.atr_tp_mult": 3.5
+  },
+  "train": {
+   "return_pct": 97.3,
+   "end_equity": 986.4,
+   "trades": 157,
+   "win_rate": 42.0,
+   "pf": 1.159,
+   "max_dd": 830.0,
+   "months": 19,
+   "pos_months_pct": 53.0,
+   "worst_month": -172.0
+  },
+  "val": {
+   "return_pct": 4.4,
+   "end_equity": 522.23,
+   "trades": 35,
+   "win_rate": 37.1,
+   "pf": 1.051,
+   "max_dd": 148.0,
+   "months": 6,
+   "pos_months_pct": 33.0,
+   "worst_month": -32.0
+  },
+  "score": 130.3
+ },
+ {
+  "strategy": "ses_orb",
+  "timeframe": "M15",
+  "params": {
+   "trend_filter": true,
+   "buf_atr": 0.15,
+   "max_range_atr": 4.0,
+   "cfg.atr_sl_mult": 2.0,
+   "cfg.atr_tp_mult": 2.25
+  },
+  "train": {
+   "return_pct": 46.2,
+   "end_equity": 731.24,
+   "trades": 43,
+   "win_rate": 55.8,
+   "pf": 1.37,
+   "max_dd": 233.0,
+   "months": 15,
+   "pos_months_pct": 73.0,
+   "worst_month": -131.0
+  },
+  "val": {
+   "return_pct": 2.0,
+   "end_equity": 509.97,
+   "trades": 5,
+   "win_rate": 60.0,
+   "pf": 1.211,
+   "max_dd": 53.0,
+   "months": 3,
+   "pos_months_pct": 67.0,
+   "worst_month": -47.0
+  },
+  "score": -1000000000.0
+ },
+ {
+  "strategy": "ses_orb",
+  "timeframe": "M15",
+  "params": {
+   "trend_filter": true,
+   "buf_atr": 0.15,
+   "max_range_atr": 4.0,
+   "cfg.atr_sl_mult": 2.0,
+   "cfg.atr_tp_mult": 3.5
+  },
+  "train": {
+   "return_pct": 7.5,
+   "end_equity": 537.65,
+   "trades": 43,
+   "win_rate": 39.5,
+   "pf": 1.055,
+   "max_dd": 257.0,
+   "months": 15,
+   "pos_months_pct": 60.0,
+   "worst_month": -113.0
+  },
+  "val": {
+   "return_pct": 1.9,
+   "end_equity": 509.63,
+   "trades": 5,
+   "win_rate": 40.0,
+   "pf": 1.164,
+   "max_dd": 67.0,
+   "months": 3,
+   "pos_months_pct": 67.0,
+   "worst_month": -47.0
+  },
+  "score": -1000000000.0
+ },
+ {
+  "strategy": "ses_orb",
+  "timeframe": "M15",
+  "params": {
+   "trend_filter": true,
+   "buf_atr": 0.35,
+   "max_range_atr": 4.0,
+   "cfg.atr_sl_mult": 2.0,
+   "cfg.atr_tp_mult": 1.2
+  },
+  "train": {
+   "return_pct": 1.0,
+   "end_equity": 505.17,
+   "trades": 43,
+   "win_rate": 65.1,
+   "pf": 1.012,
+   "max_dd": 177.0,
+   "months": 15,
+   "pos_months_pct": 60.0,
+   "worst_month": -100.0
+  },
+  "val": {
+   "return_pct": -3.3,
+   "end_equity": 483.31,
+   "trades": 5,
+   "win_rate": 60.0,
+   "pf": 0.646,
+   "max_dd": 53.0,
+   "months": 3,
+   "pos_months_pct": 67.0,
+   "worst_month": -47.0
+  },
+  "score": -1000000000.0
+ },
+ {
+  "strategy": "ses_orb",
+  "timeframe": "M15",
+  "params": {
+   "trend_filter": true,
+   "buf_atr": 0.35,
+   "max_range_atr": 4.0,
+   "cfg.atr_sl_mult": 2.0,
+   "cfg.atr_tp_mult": 2.25
+  },
+  "train": {
+   "return_pct": 45.4,
+   "end_equity": 726.91,
+   "trades": 42,
+   "win_rate": 57.1,
+   "pf": 1.384,
+   "max_dd": 212.0,
+   "months": 15,
+   "pos_months_pct": 73.0,
+   "worst_month": -137.0
+  },
+  "val": {
+   "return_pct": 2.0,
+   "end_equity": 509.97,
+   "trades": 5,
+   "win_rate": 60.0,
+   "pf": 1.211,
+   "max_dd": 53.0,
+   "months": 3,
+   "pos_months_pct": 67.0,
+   "worst_month": -47.0
+  },
+  "score": -1000000000.0
+ },
+ {
+  "strategy": "ses_orb",
+  "timeframe": "M15",
+  "params": {
+   "trend_filter": true,
+   "buf_atr": 0.35,
+   "max_range_atr": 4.0,
+   "cfg.atr_sl_mult": 2.0,
+   "cfg.atr_tp_mult": 3.5
+  },
+  "train": {
+   "return_pct": 29.4,
+   "end_equity": 646.83,
+   "trades": 42,
+   "win_rate": 42.9,
+   "pf": 1.201,
+   "max_dd": 289.0,
+   "months": 15,
+   "pos_months_pct": 60.0,
+   "worst_month": -137.0
+  },
+  "val": {
+   "return_pct": 1.9,
+   "end_equity": 509.63,
+   "trades": 5,
+   "win_rate": 40.0,
+   "pf": 1.164,
+   "max_dd": 67.0,
+   "months": 3,
+   "pos_months_pct": 67.0,
+   "worst_month": -47.0
+  },
+  "score": -1000000000.0
+ },
+ {
+  "strategy": "ses_orb",
+  "timeframe": "M15",
+  "params": {
+   "trend_filter": false,
+   "buf_atr": 0.15,
+   "max_range_atr": 4.0,
+   "cfg.atr_sl_mult": 2.0,
+   "cfg.atr_tp_mult": 1.2
+  },
+  "train": {
+   "return_pct": 18.2,
+   "end_equity": 591.17,
+   "trades": 58,
+   "win_rate": 67.2,
+   "pf": 1.152,
+   "max_dd": 194.0,
+   "months": 15,
+   "pos_months_pct": 60.0,
+   "worst_month": -128.0
+  },
+  "val": {
+   "return_pct": 1.8,
+   "end_equity": 509.06,
+   "trades": 7,
+   "win_rate": 71.4,
+   "pf": 1.192,
+   "max_dd": 53.0,
+   "months": 4,
+   "pos_months_pct": 75.0,
+   "worst_month": -47.0
+  },
+  "score": -1000000000.0
+ },
+ {
+  "strategy": "ses_orb",
+  "timeframe": "M15",
+  "params": {
+   "trend_filter": false,
+   "buf_atr": 0.15,
+   "max_range_atr": 4.0,
+   "cfg.atr_sl_mult": 2.0,
+   "cfg.atr_tp_mult": 2.25
+  },
+  "train": {
+   "return_pct": 5.6,
+   "end_equity": 528.15,
+   "trades": 56,
+   "win_rate": 50.0,
+   "pf": 1.037,
+   "max_dd": 258.0,
+   "months": 15,
+   "pos_months_pct": 67.0,
+   "worst_month": -166.0
+  },
+  "val": {
+   "return_pct": -4.7,
+   "end_equity": 476.49,
+   "trades": 7,
+   "win_rate": 42.9,
+   "pf": 0.708,
+   "max_dd": 53.0,
+   "months": 4,
+   "pos_months_pct": 50.0,
+   "worst_month": -47.0
+  },
+  "score": -1000000000.0
+ },
+ {
+  "strategy": "ses_orb",
+  "timeframe": "M15",
+  "params": {
+   "trend_filter": false,
+   "buf_atr": 0.35,
+   "max_range_atr": 4.0,
+   "cfg.atr_sl_mult": 2.0,
+   "cfg.atr_tp_mult": 1.2
+  },
+  "train": {
+   "return_pct": 15.9,
+   "end_equity": 579.39,
+   "trades": 55,
+   "win_rate": 67.3,
+   "pf": 1.138,
+   "max_dd": 210.0,
+   "months": 15,
+   "pos_months_pct": 60.0,
+   "worst_month": -134.0
+  },
+  "val": {
+   "return_pct": 1.8,
+   "end_equity": 509.06,
+   "trades": 7,
+   "win_rate": 71.4,
+   "pf": 1.192,
+   "max_dd": 53.0,
+   "months": 4,
+   "pos_months_pct": 75.0,
+   "worst_month": -47.0
+  },
+  "score": -1000000000.0
+ },
+ {
+  "strategy": "ses_orb",
+  "timeframe": "M15",
+  "params": {
+   "trend_filter": false,
+   "buf_atr": 0.35,
+   "max_range_atr": 4.0,
+   "cfg.atr_sl_mult": 2.0,
+   "cfg.atr_tp_mult": 2.25
+  },
+  "train": {
+   "return_pct": 25.6,
+   "end_equity": 627.96,
+   "trades": 54,
+   "win_rate": 51.9,
+   "pf": 1.173,
+   "max_dd": 249.0,
+   "months": 15,
+   "pos_months_pct": 67.0,
+   "worst_month": -186.0
+  },
+  "val": {
+   "return_pct": -4.7,
+   "end_equity": 476.49,
+   "trades": 7,
+   "win_rate": 42.9,
+   "pf": 0.708,
+   "max_dd": 53.0,
+   "months": 4,
+   "pos_months_pct": 50.0,
+   "worst_month": -47.0
+  },
+  "score": -1000000000.0
+ },
+ {
+  "strategy": "ses_orb",
+  "timeframe": "M15",
+  "params": {
+   "trend_filter": false,
+   "buf_atr": 0.35,
+   "max_range_atr": 4.0,
+   "cfg.atr_sl_mult": 2.0,
+   "cfg.atr_tp_mult": 3.5
+  },
+  "train": {
+   "return_pct": 26.2,
+   "end_equity": 631.23,
+   "trades": 54,
+   "win_rate": 40.7,
+   "pf": 1.145,
+   "max_dd": 333.0,
+   "months": 15,
+   "pos_months_pct": 53.0,
+   "worst_month": -191.0
+  },
+  "val": {
+   "return_pct": -4.8,
+   "end_equity": 476.15,
+   "trades": 7,
+   "win_rate": 28.6,
+   "pf": 0.742,
+   "max_dd": 67.0,
+   "months": 4,
+   "pos_months_pct": 50.0,
+   "worst_month": -47.0
+  },
+  "score": -1000000000.0
+ }
+]

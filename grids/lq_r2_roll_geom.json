@@ -1,0 +1,13 @@
+{
+  "level_mode": ["roll"],
+  "mode": ["fade"],
+  "roll_n": [24, 48],
+  "sweep_atr": [0.0],
+  "max_beyond": [3],
+  "max_out_bars": [3],
+  "sides": ["long", "both"],
+  "session.window": ["09:00-19:00"],
+  "cfg.atr_sl_mult": [1.5, 3.0],
+  "cfg.atr_tp_mult": [1.5, 5.0],
+  "backtest.spread_points": [55]
+}

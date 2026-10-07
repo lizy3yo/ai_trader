@@ -1,0 +1,38 @@
+[
+ {
+  "strategy": "fast_channel",
+  "timeframe": "M30",
+  "params": {
+   "lookback": 48,
+   "max_ext_atr": 0.5,
+   "dir": "long",
+   "trend_mode": "ema",
+   "cfg.ema_trend": 1600,
+   "cfg.atr_sl_mult": 3.5,
+   "cfg.atr_tp_mult": 5.0
+  },
+  "train": {
+   "return_pct": 194.8,
+   "end_equity": 1473.82,
+   "trades": 200,
+   "win_rate": 47.5,
+   "pf": 1.2,
+   "max_dd": 615.0,
+   "months": 48,
+   "pos_months_pct": 62.0,
+   "worst_month": -196.0
+  },
+  "val": {
+   "return_pct": 120.8,
+   "end_equity": 1103.85,
+   "trades": 69,
+   "win_rate": 55.1,
+   "pf": 1.618,
+   "max_dd": 205.0,
+   "months": 13,
+   "pos_months_pct": 77.0,
+   "worst_month": -62.0
+  },
+  "score": 253.3
+ }
+]

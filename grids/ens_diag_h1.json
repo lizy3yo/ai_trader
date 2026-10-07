@@ -1,0 +1,20 @@
+{
+  "ens_dc360_k100_long": {"cfg.ema_fast": 20, "cfg.ema_slow": 50, "cfg.ema_trend": 400,
+    "cfg.atr_sl_mult": 3.0, "cfg.atr_tp_mult": 5.0, "w_ema": 1, "w_trend": 1, "w_dc": 1,
+    "w_rsi": 1, "k_thresh": 1.0, "dc_lb": 360, "sides": "long", "entry_mode": "cross"},
+  "ens_dc360_k075_long": {"cfg.ema_fast": 20, "cfg.ema_slow": 50, "cfg.ema_trend": 400,
+    "cfg.atr_sl_mult": 3.0, "cfg.atr_tp_mult": 5.0, "w_ema": 1, "w_trend": 1, "w_dc": 1,
+    "w_rsi": 1, "k_thresh": 0.75, "dc_lb": 360, "sides": "long", "entry_mode": "cross"},
+  "ens_dc360_trendonly": {"cfg.ema_trend": 400,
+    "cfg.atr_sl_mult": 3.0, "cfg.atr_tp_mult": 5.0, "w_ema": 0, "w_trend": 1, "w_dc": 1,
+    "w_rsi": 0, "k_thresh": 1.0, "dc_lb": 360, "sides": "long", "entry_mode": "cross"},
+  "ens_dc180_k100_long": {"cfg.ema_fast": 20, "cfg.ema_slow": 50, "cfg.ema_trend": 400,
+    "cfg.atr_sl_mult": 3.0, "cfg.atr_tp_mult": 5.0, "w_ema": 1, "w_trend": 1, "w_dc": 1,
+    "w_rsi": 1, "k_thresh": 1.0, "dc_lb": 180, "sides": "long", "entry_mode": "cross"},
+  "ens_dc96_k100_long": {"cfg.ema_fast": 20, "cfg.ema_slow": 50, "cfg.ema_trend": 400,
+    "cfg.atr_sl_mult": 3.0, "cfg.atr_tp_mult": 5.0, "w_ema": 1, "w_trend": 1, "w_dc": 1,
+    "w_rsi": 1, "k_thresh": 1.0, "dc_lb": 96, "sides": "long", "entry_mode": "cross"},
+  "ens_dc96_k100_state": {"cfg.ema_fast": 20, "cfg.ema_slow": 50, "cfg.ema_trend": 400,
+    "cfg.atr_sl_mult": 3.0, "cfg.atr_tp_mult": 5.0, "w_ema": 1, "w_trend": 1, "w_dc": 1,
+    "w_rsi": 1, "k_thresh": 1.0, "dc_lb": 96, "sides": "long", "entry_mode": "state"}
+}

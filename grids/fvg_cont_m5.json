@@ -1,0 +1,12 @@
+{
+  "mode": ["cont"],
+  "cfg.ema_trend": [200],
+  "session.window": ["15:00-18:00", "10:00-11:00", "16:00-17:00"],
+  "min_gap_atr": [0.3, 0.5],
+  "disp_atr": [0.0, 1.0],
+  "entry_depth": [0.0, 0.5],
+  "confirm": [0, 1],
+  "max_age": [24],
+  "cfg.atr_sl_mult": [2.0],
+  "cfg.atr_tp_mult": [4.0]
+}

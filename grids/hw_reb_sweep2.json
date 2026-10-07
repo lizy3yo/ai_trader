@@ -1,0 +1,10 @@
+{
+  "cfg.ema_trend": [200],
+  "bb_period": [20],
+  "bb_dev": [2.0],
+  "regime": ["trend", "any"],
+  "side": ["long", "both"],
+  "cfg.atr_tp_mult": [0.8, 1.2],
+  "cfg.atr_sl_mult": [2.0, 2.5],
+  "session.window": ["01:00-23:00", "01:00-09:00", "09:00-19:00"]
+}

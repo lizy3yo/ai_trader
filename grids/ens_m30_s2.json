@@ -1,0 +1,19 @@
+{
+  "cfg.ema_fast": [20],
+  "cfg.ema_slow": [50],
+  "cfg.ema_trend": [200],
+  "cfg.atr_sl_mult": [2.0],
+  "cfg.atr_tp_mult": [4.0],
+  "cfg.cooldown_bars": [3],
+  "w_ema": [1],
+  "w_trend": [1],
+  "w_dc": [1],
+  "w_rsi": [1],
+  "w_mom": [0, 1],
+  "w_ses": [0, 1],
+  "rsi_mode": ["mom", "rev"],
+  "k_thresh": [0.5, 0.75, 1.0],
+  "dc_lb": [96],
+  "sides": ["long", "both"],
+  "entry_mode": ["cross"]
+}

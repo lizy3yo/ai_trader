@@ -1,0 +1,74 @@
+===== MIX reopt=6 lookback=18 minhist=18 =====
+[config] WARNING: daily_loss_limit $200 is 40% of allocated capital. That allows losing the account in a few bad days. Consider 5-10% ($25-50).
+WALK-FORWARD  ses_orb M15  2022-06-06 06:00:00 -> 2025-10-22 18:15:00  (79999 bars, 41 months)
+  candidates=7  reopt every 6mo  lookback=18  min_hist=18mo  obj=score
+
+  2023-12-01 -> 2024-05-31 | pick don1440_long   | sel ret   +27.6% tr   42 | fwd tr  18 pnl  +221.83 eq    721.83
+  2024-06-03 -> 2024-11-29 | pick don1440_long   | sel ret  +106.3% tr   50 | fwd tr  23 pnl   +74.33 eq    796.16
+  2024-12-02 -> 2025-05-30 | pick orb_long_only  | sel ret   +61.8% tr   60 | fwd tr  14 pnl  +177.59 eq    973.75
+  2025-06-02 -> 2025-10-22 | pick orb_long_only  | sel ret  +110.4% tr   60 | fwd tr  11 pnl  +155.08 eq   1128.83
+
+  --- FIXED baselines over the same forward span (2023-12-01 -> 2025-10-22) ---
+    don1440_long     ret    +72.5%  eq    862.71  tr   97  pf  1.22  posM  56%  avg/mo $  +20.15  maxDD   214
+    don480_long      ret    +41.4%  eq    707.20  tr  146  pf  1.10  posM  61%  avg/mo $   +9.01  maxDD   220
+    don480_both      ret     +4.8%  eq    523.88  tr  191  pf  1.01  posM  57%  avg/mo $   +1.04  maxDD   248
+    orb_tf_sl2       ret   +161.6%  eq   1307.93  tr  118  pf  1.43  posM  61%  avg/mo $  +35.13  maxDD   299
+    orb_ntf_sl2      ret    +53.5%  eq    767.72  tr  162  pf  1.11  posM  57%  avg/mo $  +11.64  maxDD   438
+    orb_tf_sl15      ret   +115.2%  eq   1075.94  tr  118  pf  1.34  posM  57%  avg/mo $  +25.04  maxDD   320
+    orb_long_only    ret   +147.0%  eq   1235.02  tr   71  pf  1.74  posM  86%  avg/mo $  +35.00  maxDD   120
+
+  === WALK-FORWARD  ret   +125.8%  eq   1128.83  tr   66  posM  79%  avg/mo $  +33.10  worstM    -38  months 19
+      best fixed  = orb_tf_sl2 +161.6% | median fixed = +72.5% | WF +125.8%  -> adaptivity HELPS vs median, loses to best-fixed (hindsight)
+  (39 backtests)
+  -> results/ens_wf_mix_r6.json
+===== MIX reopt=3 lookback=12 minhist=15 =====
+[config] WARNING: daily_loss_limit $200 is 40% of allocated capital. That allows losing the account in a few bad days. Consider 5-10% ($25-50).
+WALK-FORWARD  ses_orb M15  2022-06-06 06:00:00 -> 2025-10-22 18:15:00  (79999 bars, 41 months)
+  candidates=7  reopt every 3mo  lookback=12  min_hist=15mo  obj=score
+
+  2023-09-01 -> 2023-11-30 | pick don1440_long   | sel ret   +25.1% tr   30 | fwd tr   7 pnl   +40.95 eq    540.95
+  2023-12-01 -> 2024-02-29 | pick don1440_long   | sel ret   +17.7% tr   32 | fwd tr   4 pnl   -10.51 eq    530.44
+  2024-03-01 -> 2024-05-31 | pick don1440_long   | sel ret   +45.4% tr   23 | fwd tr  15 pnl  +141.81 eq    672.25
+  2024-06-03 -> 2024-08-30 | pick don1440_long   | sel ret  +119.4% tr   29 | fwd tr  10 pnl   -43.08 eq    629.17
+  2024-09-02 -> 2024-11-29 | pick orb_long_only  | sel ret   +21.6% tr   43 | fwd tr  11 pnl  +111.43 eq    740.61
+  2024-12-02 -> 2025-02-28 | pick orb_long_only  | sel ret   +75.0% tr   46 | fwd tr   5 pnl   +27.90 eq    768.50
+  2025-03-03 -> 2025-05-30 | pick orb_long_only  | sel ret  +100.6% tr   39 | fwd tr   9 pnl  +128.19 eq    896.69
+  2025-06-02 -> 2025-08-29 | pick orb_long_only  | sel ret   +78.2% tr   35 | fwd tr   6 pnl   +94.55 eq    991.24
+  2025-09-01 -> 2025-10-22 | pick orb_long_only  | sel ret   +56.0% tr   31 | fwd tr   5 pnl   +69.61 eq   1060.85
+
+  --- FIXED baselines over the same forward span (2023-09-01 -> 2025-10-22) ---
+    don1440_long     ret   +113.0%  eq   1065.07  tr  104  pf  1.27  posM  60%  avg/mo $  +28.25  maxDD   250
+    don480_long      ret   +186.9%  eq   1434.32  tr  162  pf  1.22  posM  69%  avg/mo $  +35.93  maxDD   453
+    don480_both      ret    +72.8%  eq    864.15  tr  225  pf  1.08  posM  58%  avg/mo $  +14.01  maxDD   506
+    orb_tf_sl2       ret    +53.9%  eq    769.71  tr  136  pf  1.19  posM  54%  avg/mo $  +10.37  maxDD   246
+    orb_ntf_sl2      ret     +0.6%  eq    503.09  tr  184  pf  1.00  posM  50%  avg/mo $   +0.12  maxDD   243
+    orb_tf_sl15      ret     +4.8%  eq    524.03  tr  137  pf  1.02  posM  50%  avg/mo $   +0.93  maxDD   377
+    orb_long_only    ret   +105.2%  eq   1026.01  tr   79  pf  1.57  posM  83%  avg/mo $  +21.92  maxDD   140
+
+  === WALK-FORWARD  ret   +112.2%  eq   1060.85  tr   72  posM  82%  avg/mo $  +25.49  worstM    -30  months 22
+      best fixed  = don480_long +186.9% | median fixed = +72.8% | WF +112.2%  -> adaptivity HELPS vs median, loses to best-fixed (hindsight)
+  (79 backtests)
+  -> results/ens_wf_mix_r3.json
+===== MIX reopt=6 expanding minhist=18 posm =====
+[config] WARNING: daily_loss_limit $200 is 40% of allocated capital. That allows losing the account in a few bad days. Consider 5-10% ($25-50).
+WALK-FORWARD  ses_orb M15  2022-06-06 06:00:00 -> 2025-10-22 18:15:00  (79999 bars, 41 months)
+  candidates=7  reopt every 6mo  lookback=expanding  min_hist=18mo  obj=posm
+
+  2023-12-01 -> 2024-05-31 | pick don1440_long   | sel ret   +27.6% tr   42 | fwd tr  18 pnl  +221.83 eq    721.83
+  2024-06-03 -> 2024-11-29 | pick don1440_long   | sel ret  +118.1% tr   60 | fwd tr  23 pnl   +74.33 eq    796.16
+  2024-12-02 -> 2025-05-30 | pick don1440_long   | sel ret  +136.3% tr   83 | fwd tr  31 pnl  -118.86 eq    677.30
+  2025-06-02 -> 2025-10-22 | pick don480_long    | sel ret   +23.6% tr  182 | fwd tr  38 pnl   +50.82 eq    728.13
+
+  --- FIXED baselines over the same forward span (2023-12-01 -> 2025-10-22) ---
+    don1440_long     ret    +72.5%  eq    862.71  tr   97  pf  1.22  posM  56%  avg/mo $  +20.15  maxDD   214
+    don480_long      ret    +41.4%  eq    707.20  tr  146  pf  1.10  posM  61%  avg/mo $   +9.01  maxDD   220
+    don480_both      ret     +4.8%  eq    523.88  tr  191  pf  1.01  posM  57%  avg/mo $   +1.04  maxDD   248
+    orb_tf_sl2       ret   +161.6%  eq   1307.93  tr  118  pf  1.43  posM  61%  avg/mo $  +35.13  maxDD   299
+    orb_ntf_sl2      ret    +53.5%  eq    767.72  tr  162  pf  1.11  posM  57%  avg/mo $  +11.64  maxDD   438
+    orb_tf_sl15      ret   +115.2%  eq   1075.94  tr  118  pf  1.34  posM  57%  avg/mo $  +25.04  maxDD   320
+    orb_long_only    ret   +147.0%  eq   1235.02  tr   71  pf  1.74  posM  86%  avg/mo $  +35.00  maxDD   120
+
+  === WALK-FORWARD  ret    +45.6%  eq    728.13  tr  110  posM  56%  avg/mo $  +12.67  worstM   -110  months 18
+      best fixed  = orb_tf_sl2 +161.6% | median fixed = +72.5% | WF +45.6%  -> adaptivity does NOT beat median, loses to best-fixed (hindsight)
+  (39 backtests)
+  -> results/ens_wf_mix_r6exp.json

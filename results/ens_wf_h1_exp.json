@@ -1,0 +1,214 @@
+{
+ "wf": {
+  "return_pct": 221.4,
+  "end_equity": 1606.97,
+  "trades": 232,
+  "months": 101,
+  "pos_months_pct": 50.0,
+  "worst_month": -203.0,
+  "avg_month_usd": 10.96
+ },
+ "picks": [
+  [
+   "2006-06-01",
+   "dc96_sl3tp5",
+   0,
+   0.0,
+   500.0
+  ],
+  [
+   "2007-06-01",
+   "dc96_sl3tp5",
+   0,
+   0.0,
+   500.0
+  ],
+  [
+   "2008-06-02",
+   "dc96_sl3tp5",
+   0,
+   0.0,
+   500.0
+  ],
+  [
+   "2009-06-01",
+   "dc96_sl3tp5",
+   0,
+   0.0,
+   500.0
+  ],
+  [
+   "2010-06-01",
+   "dc96_sl3tp5",
+   0,
+   0.0,
+   500.0
+  ],
+  [
+   "2011-06-01",
+   "dc96_sl3tp5",
+   0,
+   0.0,
+   500.0
+  ],
+  [
+   "2012-06-01",
+   "dc96_sl3tp5",
+   0,
+   0.0,
+   500.0
+  ],
+  [
+   "2013-06-03",
+   "dc96_sl3tp5",
+   21,
+   -38.16,
+   461.84
+  ],
+  [
+   "2014-06-02",
+   "dc180_sl3tp5",
+   20,
+   -15.63,
+   446.22
+  ],
+  [
+   "2015-06-01",
+   "dc180_sl3tp5",
+   23,
+   12.91,
+   459.13
+  ],
+  [
+   "2016-06-01",
+   "dc180_sl3tp5",
+   29,
+   1.71,
+   460.84
+  ],
+  [
+   "2017-06-01",
+   "dc96_sl3tp5",
+   34,
+   82.75,
+   543.59
+  ],
+  [
+   "2018-06-01",
+   "dc96_sl3tp5",
+   30,
+   -35.27,
+   508.32
+  ],
+  [
+   "2019-06-03",
+   "dc360_sl3tp5",
+   18,
+   241.37,
+   749.69
+  ],
+  [
+   "2020-06-01",
+   "dc360_sl3tp5",
+   16,
+   1133.45,
+   1883.14
+  ],
+  [
+   "2021-06-01",
+   "dc360_sl3tp5",
+   16,
+   -449.87,
+   1433.27
+  ],
+  [
+   "2022-06-01",
+   "dc360_sl3tp5",
+   19,
+   49.12,
+   1482.39
+  ],
+  [
+   "2023-06-01",
+   "dc360_sl3tp5",
+   6,
+   124.58,
+   1606.97
+  ]
+ ],
+ "fixed": {
+  "dc96_sl3tp5": {
+   "return_pct": 85.2,
+   "end_equity": 926.15,
+   "trades": 335,
+   "win_rate": 41.2,
+   "pf": 1.063,
+   "max_dd": 1447.0,
+   "months": 123,
+   "pos_months_pct": 51.0,
+   "worst_month": -225.0,
+   "avg_month_usd": 3.46
+  },
+  "dc180_sl3tp5": {
+   "return_pct": 114.6,
+   "end_equity": 1073.18,
+   "trades": 257,
+   "win_rate": 42.0,
+   "pf": 1.099,
+   "max_dd": 1206.0,
+   "months": 112,
+   "pos_months_pct": 49.0,
+   "worst_month": -265.0,
+   "avg_month_usd": 5.12
+  },
+  "dc96_sl2tp4": {
+   "return_pct": -80.0,
+   "end_equity": 99.83,
+   "trades": 339,
+   "win_rate": 31.0,
+   "pf": 0.881,
+   "max_dd": 612.0,
+   "months": 102,
+   "pos_months_pct": 43.0,
+   "worst_month": -105.0,
+   "avg_month_usd": -3.92
+  },
+  "dc180_sl2tp4": {
+   "return_pct": -48.3,
+   "end_equity": 258.47,
+   "trades": 307,
+   "win_rate": 32.2,
+   "pf": 0.905,
+   "max_dd": 472.0,
+   "months": 112,
+   "pos_months_pct": 42.0,
+   "worst_month": -70.0,
+   "avg_month_usd": -2.16
+  },
+  "dc48_sl3tp5": {
+   "return_pct": -28.0,
+   "end_equity": 360.08,
+   "trades": 439,
+   "win_rate": 38.3,
+   "pf": 0.973,
+   "max_dd": 590.0,
+   "months": 125,
+   "pos_months_pct": 45.0,
+   "worst_month": -124.0,
+   "avg_month_usd": -1.12
+  }
+ },
+ "args": {
+  "strategy": "trend_donchian",
+  "timeframe": "H1",
+  "cands": "grids/ens_wf_donchian.json",
+  "reopt": 12,
+  "lookback": "60",
+  "min_hist": 60,
+  "objective": "score",
+  "min_trades": 8,
+  "max_bars": 99999,
+  "equity": 500.0,
+  "out": "results/ens_wf_h1_exp.json"
+ }
+}

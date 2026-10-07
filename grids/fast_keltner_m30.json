@@ -1,0 +1,10 @@
+{
+  "ema_len": [20, 50],
+  "band_atr": [1.0, 1.5, 2.0],
+  "max_ext_atr": [0.5, 99.0],
+  "dir": ["long"],
+  "trend_mode": ["ema"],
+  "cfg.ema_trend": [1600],
+  "cfg.atr_sl_mult": [3.5],
+  "cfg.atr_tp_mult": [5.0]
+}

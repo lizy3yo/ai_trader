@@ -1,0 +1,8 @@
+{
+  "bb_period": [14, 20],
+  "bb_std": [2.0, 2.5],
+  "both_sides": [0, 1],
+  "tp_mode": ["mid"],
+  "cfg.atr_sl_mult": [3.0],
+  "session.window": ["01:00-08:00", "02:00-09:00"]
+}

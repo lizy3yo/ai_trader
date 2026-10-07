@@ -1,0 +1,8 @@
+{
+  "orb_m15_a": {"cfg.atr_sl_mult": 1.5, "cfg.atr_tp_mult": 2.25, "cfg.cooldown_bars": 3,
+    "range_start_h": 1, "range_end_h": 9, "entry_start_h": 9, "entry_end_h": 12,
+    "buf_atr": 0.2, "min_range_bars": 8, "session.window": "09:00-12:00"},
+  "orb_m15_b": {"cfg.atr_sl_mult": 2.0, "cfg.atr_tp_mult": 3.0, "cfg.cooldown_bars": 3,
+    "range_start_h": 1, "range_end_h": 9, "entry_start_h": 9, "entry_end_h": 12,
+    "buf_atr": 0.3, "min_range_bars": 8, "session.window": "09:00-12:00"}
+}

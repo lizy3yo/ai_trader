@@ -1,0 +1,6 @@
+[config] WARNING: daily_loss_limit $200 is 40% of allocated capital. That allows losing the account in a few bad days. Consider 5-10% ($25-50).
+strategy=ens_vote | 48 combos x ['M30'] = 48 runs | train->validate (test split stays locked)
+
+No combo was profitable (with enough trades) on TRAIN. That is a result: this idea has no edge here — report it honestly.
+
+full results -> results/ens_m30_s2.json

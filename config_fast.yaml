@@ -1,0 +1,85 @@
+# ============================================================
+# DEMO-VALIDATION CANDIDATE #4: faster channel breakout (M30)
+#   python main.py live --config config_fast.yaml
+# ============================================================
+# fast_channel = the best answer found to "can it trade more often?".
+# Long-only breakout of the prior 48-bar (24-hour) high, behind a 33-day
+# EMA(1600) trend filter, with an ANTI-CHASE rule: skip the breakout if the
+# signal bar already closed more than 0.5xATR beyond the channel. SL 3.5xATR
+# / TP 5xATR — targets wide enough that the $0.55 spread stays small.
+#
+# Evidence (3rd research round, 8 families, ~1500 backtests):
+#   TRAIN 2018-11..2023-04 (54 months, MULTI-REGIME incl. the 2021-22
+#     downtrend): PF 1.20, win 47.5%, 200 trades, 62% positive months,
+#     ~3.7 trades/month, ~$10/month on a constant $500.
+#   VAL 2023-12..2024-12 (13 months, gold bull): PF 1.62, win 55.1%,
+#     69 trades, 77% positive months, ~5.3 trades/month, ~$31/month.
+# That is ~2x the trade frequency of trend_donchian at comparable quality.
+#
+# THE ANTI-CHASE FILTER is the genuinely new finding — it replicated on
+# three independent datasets (M30, H1 2001-2023, M15) and is the difference
+# between a losing and a viable fast breakout. Don't remove it.
+#
+# HONEST CAVEATS: long-only (shorts lost everywhere: PF 0.54-0.80), so part
+# of the edge is gold's uptrend; the 33-day trend filter is partly a
+# bull-regime detector; max drawdown was $615 on $500 in training.
+# NOT final-test confirmed — demo forward-testing is the deciding gate.
+
+mt5:
+  login: 0
+  password: ""
+  server: ""
+  terminal_path: ""
+
+symbol: "GOLD"           # = XAUUSD at this broker (100oz, USD, ~53pt spread)
+magic: 620044            # unique — never share a magic between configs
+capital:
+  allocated: 500.0
+  hard_max: 500.0
+
+risk:
+  base_risk_pct: 5.0
+  max_risk_pct: 10.0
+  step_up_pct: 1.0
+  step_up_after_wins: 3
+  drop_to_base_on_loss: true
+  daily_loss_limit: 200.0
+  close_positions_on_limit: true
+  max_open_positions: 1
+  max_spread_points: 90
+  min_equity_stop: 100.0
+
+strategy:
+  name: "fast_channel"
+  params:
+    lookback: 48           # prior 48 M30 bars = a 24-hour channel
+    max_ext_atr: 0.5       # ANTI-CHASE: skip if already 0.5xATR past the break
+    dir: "long"            # shorts lost in every test, every timeframe
+    trend_mode: "ema"
+  timeframe: "M30"
+  ema_fast: 20             # unused by this strategy
+  ema_slow: 50
+  ema_trend: 1600          # ~33-day trend filter (this length matters)
+  rsi_period: 14
+  rsi_overbought: 70.0
+  rsi_oversold: 30.0
+  atr_period: 14
+  atr_sl_mult: 3.5
+  atr_tp_mult: 5.0
+  cooldown_bars: 3
+
+session:
+  trade_start: "09:00"     # London + NY; the 14:00-19:00-only variant lost
+  trade_end: "23:00"
+  friday_close: "21:00"
+  poll_seconds: 10
+
+tracking:
+  db_path: "data/trades_fast.db"
+  csv_path: "data/trades_fast.csv"
+
+backtest:
+  data_csv: "data/gold_m30.csv"
+  bars: 20000
+  spread_points: 55
+  commission_per_lot: 0.0

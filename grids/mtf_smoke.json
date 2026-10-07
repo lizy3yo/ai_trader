@@ -1,0 +1,8 @@
+{
+  "htf": ["4h"],
+  "htf_mode": ["ema"],
+  "trigger": ["pullback"],
+  "cfg.atr_sl_mult": [2.0],
+  "cfg.atr_tp_mult": [3.0],
+  "session.window": ["09:00-18:00"]
+}

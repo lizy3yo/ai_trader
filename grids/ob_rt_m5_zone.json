@@ -1,0 +1,7 @@
+{
+  "disp_k": [1.5, 2.0, 2.5],
+  "zone_expiry": [24, 48],
+  "entry_mode": ["touch", "confirm"],
+  "stop_mode": ["zone"],
+  "rr": [1.5, 2.5]
+}

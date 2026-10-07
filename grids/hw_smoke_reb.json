@@ -1,0 +1,8 @@
+{
+  "cfg.ema_trend": [200],
+  "regime": ["trend"],
+  "side": ["both"],
+  "cfg.atr_tp_mult": [0.8],
+  "cfg.atr_sl_mult": [2.0],
+  "session.window": ["01:00-23:00"]
+}

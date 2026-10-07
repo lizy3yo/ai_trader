@@ -1,0 +1,9 @@
+{
+ "mode": ["break"],
+ "levels": ["s1r1", "pp", "s1r1s2r2"],
+ "buf_atr": [0.2],
+ "max_range_atr": [99.0, 11.0],
+ "cfg.atr_sl_mult": [2.0, 3.5],
+ "cfg.atr_tp_mult": [3.0, 5.0],
+ "session.window": ["09:00-12:00"]
+}

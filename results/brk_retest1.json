@@ -1,0 +1,74 @@
+[
+ {
+  "strategy": "brk_retest",
+  "timeframe": "H1",
+  "params": {
+   "entry_period": 96,
+   "wait_bars": 8,
+   "pb_atr": 0.25,
+   "direction": "long",
+   "cfg.atr_sl_mult": 2.0,
+   "cfg.atr_tp_mult": 1.5,
+   "session.window": "09:00-19:00"
+  },
+  "train": {
+   "return_pct": 9.9,
+   "end_equity": 549.31,
+   "trades": 199,
+   "win_rate": 58.3,
+   "pf": 1.026,
+   "max_dd": 232.0,
+   "months": 69,
+   "pos_months_pct": 49.0,
+   "worst_month": -87.0
+  },
+  "val": {
+   "return_pct": -35.4,
+   "end_equity": 323.0,
+   "trades": 58,
+   "win_rate": 50.0,
+   "pf": 0.638,
+   "max_dd": 206.0,
+   "months": 22,
+   "pos_months_pct": 41.0,
+   "worst_month": -78.0
+  },
+  "score": -1000000000.0
+ },
+ {
+  "strategy": "brk_retest",
+  "timeframe": "H1",
+  "params": {
+   "entry_period": 96,
+   "wait_bars": 16,
+   "pb_atr": 0.25,
+   "direction": "long",
+   "cfg.atr_sl_mult": 2.0,
+   "cfg.atr_tp_mult": 1.5,
+   "session.window": "09:00-19:00"
+  },
+  "train": {
+   "return_pct": 5.0,
+   "end_equity": 524.79,
+   "trades": 237,
+   "win_rate": 58.2,
+   "pf": 1.011,
+   "max_dd": 265.0,
+   "months": 72,
+   "pos_months_pct": 49.0,
+   "worst_month": -54.0
+  },
+  "val": {
+   "return_pct": -50.0,
+   "end_equity": 249.79,
+   "trades": 71,
+   "win_rate": 46.5,
+   "pf": 0.565,
+   "max_dd": 259.0,
+   "months": 23,
+   "pos_months_pct": 39.0,
+   "worst_month": -74.0
+  },
+  "score": -1000000000.0
+ }
+]

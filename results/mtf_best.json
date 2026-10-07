@@ -1,0 +1,42 @@
+[
+ {
+  "strategy": "mtf_pullback",
+  "timeframe": "M15",
+  "params": {
+   "htf": "1h",
+   "htf_mode": "donch",
+   "htf_slow": 50,
+   "trigger": "pullback",
+   "ltf_ema": 20,
+   "pb_bars": 6,
+   "sides": "long",
+   "require_htf": 1,
+   "cfg.atr_sl_mult": 8.0,
+   "cfg.atr_tp_mult": 8.0,
+   "session.window": "09:00-18:00"
+  },
+  "train": {
+   "return_pct": 105.7,
+   "end_equity": 1028.44,
+   "trades": 174,
+   "win_rate": 56.3,
+   "pf": 1.276,
+   "max_dd": 180.0,
+   "months": 31,
+   "pos_months_pct": 65.0,
+   "worst_month": -81.0
+  },
+  "val": {
+   "return_pct": 213.6,
+   "end_equity": 1568.1,
+   "trades": 62,
+   "win_rate": 71.0,
+   "pf": 2.489,
+   "max_dd": 147.0,
+   "months": 10,
+   "pos_months_pct": 80.0,
+   "worst_month": -15.0
+  },
+  "score": 296.3
+ }
+]

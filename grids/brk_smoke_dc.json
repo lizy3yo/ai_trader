@@ -1,0 +1,5 @@
+{
+  "entry_period": [40],
+  "confirm": ["close"],
+  "session.window": ["09:00-19:00"]
+}

@@ -1,0 +1,11 @@
+{
+  "kz_start_h": [15, 16],
+  "kz_end_h": [18],
+  "disp_k": [1.0, 1.5, 2.0],
+  "body_frac": [0.6],
+  "nth": [1],
+  "mode": ["follow", "fade"],
+  "session.window": ["15:00-20:00"],
+  "cfg.atr_sl_mult": [1.5],
+  "cfg.atr_tp_mult": [1.2, 2.5]
+}

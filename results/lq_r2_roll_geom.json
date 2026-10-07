@@ -1,0 +1,42 @@
+[
+ {
+  "strategy": "lq_sweep",
+  "timeframe": "M5",
+  "params": {
+   "level_mode": "roll",
+   "mode": "fade",
+   "roll_n": 24,
+   "sweep_atr": 0.0,
+   "max_beyond": 3,
+   "max_out_bars": 3,
+   "sides": "long",
+   "session.window": "09:00-19:00",
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 1.5,
+   "backtest.spread_points": 55
+  },
+  "train": {
+   "return_pct": 31.3,
+   "end_equity": 656.67,
+   "trades": 657,
+   "win_rate": 67.9,
+   "pf": 1.044,
+   "max_dd": 291.0,
+   "months": 11,
+   "pos_months_pct": 55.0,
+   "worst_month": -74.0
+  },
+  "val": {
+   "return_pct": -70.2,
+   "end_equity": 149.19,
+   "trades": 115,
+   "win_rate": 53.0,
+   "pf": 0.648,
+   "max_dd": 520.0,
+   "months": 4,
+   "pos_months_pct": 0.0,
+   "worst_month": -244.0
+  },
+  "score": -1000000000.0
+ }
+]

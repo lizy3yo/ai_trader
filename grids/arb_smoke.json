@@ -1,0 +1,13 @@
+{
+  "feature": ["conf"],
+  "polarity": ["follow"],
+  "trigger": ["cross"],
+  "n": [12],
+  "thr": [1.5],
+  "x_thr": [1.5],
+  "z_win": [96],
+  "cfg.atr_sl_mult": [1.5],
+  "cfg.atr_tp_mult": [2.25],
+  "cfg.cooldown_bars": [3],
+  "session.window": ["01:00-23:00"]
+}

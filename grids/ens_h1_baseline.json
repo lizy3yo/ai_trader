@@ -1,0 +1,9 @@
+{
+  "cfg.ema_trend": [400],
+  "cfg.atr_sl_mult": [3.0],
+  "cfg.atr_tp_mult": [5.0],
+  "cfg.cooldown_bars": [3],
+  "lookback": [360],
+  "long_only": [1],
+  "min_atr": [0]
+}

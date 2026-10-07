@@ -1,0 +1,11 @@
+{
+  "mode": ["follow"],
+  "n_burst": [2, 3],
+  "body_atr": [0.3],
+  "net_atr": [0.8, 1.2],
+  "sides": ["both", "long", "short"],
+  "cfg.atr_sl_mult": [1.5],
+  "cfg.atr_tp_mult": [1.5, 2.5],
+  "cfg.cooldown_bars": [3],
+  "session.window": ["09:00-18:00", "02:00-23:00"]
+}

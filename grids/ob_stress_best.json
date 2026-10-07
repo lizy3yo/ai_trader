@@ -1,0 +1,9 @@
+{
+  "base_len": [3],
+  "base_body_atr": [0.4],
+  "leave_k": [1.2],
+  "entry_mode": ["touch"],
+  "cfg.atr_sl_mult": [1.5],
+  "cfg.atr_tp_mult": [2.25],
+  "backtest.spread_points": [35, 55, 75]
+}

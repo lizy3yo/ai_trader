@@ -1,0 +1,13 @@
+{
+  "feature": ["usd"],
+  "polarity": ["follow", "fade"],
+  "trigger": ["cross"],
+  "sides": ["long", "short", "both"],
+  "n": [6, 24],
+  "thr": [0.0, 1.0, 2.0],
+  "z_win": [96],
+  "cfg.atr_sl_mult": [3.0],
+  "cfg.atr_tp_mult": [5.0],
+  "cfg.cooldown_bars": [3],
+  "session.window": ["09:00-23:00"]
+}

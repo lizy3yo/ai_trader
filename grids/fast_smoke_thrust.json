@@ -1,0 +1,8 @@
+{
+  "disp_atr": [1.5],
+  "body_frac": [0.5],
+  "close_pos": [0.66],
+  "trend_mode": ["ema"],
+  "cfg.atr_sl_mult": [2.0],
+  "cfg.atr_tp_mult": [4.0]
+}

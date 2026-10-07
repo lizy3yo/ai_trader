@@ -1,0 +1,39 @@
+[
+ {
+  "strategy": "tod_calendar",
+  "timeframe": "H1",
+  "params": {
+   "session.window": "01:00-23:00",
+   "tom_mode": "first",
+   "dir": "long",
+   "tom_k": 3,
+   "entry_hour": 2,
+   "cfg.atr_sl_mult": 4.0,
+   "cfg.atr_tp_mult": 4.0,
+   "cfg.cooldown_bars": 0
+  },
+  "train": {
+   "return_pct": 52.1,
+   "end_equity": 760.6,
+   "trades": 131,
+   "win_rate": 53.4,
+   "pf": 1.193,
+   "max_dd": 318.0,
+   "months": 92,
+   "pos_months_pct": 47.0,
+   "worst_month": -58.0
+  },
+  "val": {
+   "return_pct": 71.3,
+   "end_equity": 856.58,
+   "trades": 48,
+   "win_rate": 64.6,
+   "pf": 1.769,
+   "max_dd": 181.0,
+   "months": 32,
+   "pos_months_pct": 69.0,
+   "worst_month": -103.0
+  },
+  "score": 255.3
+ }
+]

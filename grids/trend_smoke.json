@@ -1,0 +1,5 @@
+{
+  "session.window": ["09:00-23:00"],
+  "cfg.atr_sl_mult": [2.5],
+  "cfg.atr_tp_mult": [1.5]
+}

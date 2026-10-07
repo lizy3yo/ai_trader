@@ -1,0 +1,37 @@
+[
+ {
+  "strategy": "hw_overnight",
+  "timeframe": "M30",
+  "params": {
+   "cfg.ema_trend": 200,
+   "cfg.cooldown_bars": 3,
+   "regime_filter": 1,
+   "cfg.atr_tp_mult": 2.0,
+   "cfg.atr_sl_mult": 4.0,
+   "session.window": "19:00-23:59"
+  },
+  "train": {
+   "return_pct": 24.5,
+   "end_equity": 622.5,
+   "trades": 391,
+   "win_rate": 68.5,
+   "pf": 1.054,
+   "max_dd": 298.0,
+   "months": 36,
+   "pos_months_pct": 47.0,
+   "worst_month": -60.0
+  },
+  "val": {
+   "return_pct": 64.7,
+   "end_equity": 823.53,
+   "trades": 141,
+   "win_rate": 73.0,
+   "pf": 1.29,
+   "max_dd": 110.0,
+   "months": 12,
+   "pos_months_pct": 83.0,
+   "worst_month": -55.0
+  },
+  "score": 279.6
+ }
+]

@@ -1,0 +1,40 @@
+[
+ {
+  "strategy": "kz_drive",
+  "timeframe": "M5",
+  "params": {
+   "kz_start_h": 9,
+   "kz_end_h": 10,
+   "disp_k": 1.5,
+   "body_frac": 0.0,
+   "nth": 1,
+   "sides": "short",
+   "session.window": "09:00-14:00",
+   "cfg.atr_sl_mult": 1.5,
+   "cfg.atr_tp_mult": 2.5
+  },
+  "train": {
+   "return_pct": 36.3,
+   "end_equity": 681.55,
+   "trades": 37,
+   "win_rate": 45.9,
+   "pf": 1.36,
+   "max_dd": 123.0,
+   "months": 11,
+   "pos_months_pct": 55.0,
+   "worst_month": -89.0
+  },
+  "val": {
+   "return_pct": -10.6,
+   "end_equity": 446.75,
+   "trades": 8,
+   "win_rate": 25.0,
+   "pf": 0.542,
+   "max_dd": 72.0,
+   "months": 4,
+   "pos_months_pct": 25.0,
+   "worst_month": -41.0
+  },
+  "score": -1000000000.0
+ }
+]

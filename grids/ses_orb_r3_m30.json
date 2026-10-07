@@ -1,0 +1,8 @@
+{
+  "trend_filter": [true],
+  "buf_atr": [0.5],
+  "max_range_atr": [4.0],
+  "sides": ["both", "long"],
+  "cfg.atr_sl_mult": [2.5],
+  "cfg.atr_tp_mult": [1.0, 1.2]
+}

@@ -1,0 +1,9 @@
+{
+  "lookback": [24, 36],
+  "max_ext_atr": [0.5, 99.0],
+  "dir": ["long"],
+  "trend_mode": ["ema"],
+  "cfg.ema_trend": [400, 800],
+  "cfg.atr_sl_mult": [3.5],
+  "cfg.atr_tp_mult": [5.0]
+}

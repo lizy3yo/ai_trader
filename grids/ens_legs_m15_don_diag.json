@@ -1,0 +1,22 @@
+{
+ "don_m15_1440": {
+  "cfg.ema_trend": 400,
+  "cfg.atr_sl_mult": 3.0,
+  "cfg.atr_tp_mult": 5.0,
+  "cfg.cooldown_bars": 3,
+  "lookback": 1440,
+  "long_only": 1,
+  "min_atr": 0,
+  "session.window": "09:00-23:00"
+ },
+ "don_m15_480": {
+  "cfg.ema_trend": 200,
+  "cfg.atr_sl_mult": 3.0,
+  "cfg.atr_tp_mult": 5.0,
+  "cfg.cooldown_bars": 3,
+  "lookback": 480,
+  "long_only": 1,
+  "min_atr": 0,
+  "session.window": "09:00-23:00"
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "mode": ["revert"],
+ "band_k": [1.5, 2.0, 2.5],
+ "trigger": ["turn", "reenter"],
+ "tp_mode": ["atr", "vwap"],
+ "tp_max_atr": [4.0],
+ "vol_mode": ["range"],
+ "anchor_h": [0],
+ "min_bars": [12],
+ "cfg.atr_sl_mult": [1.5, 2.5],
+ "cfg.atr_tp_mult": [2.0],
+ "session.window": ["01:00-23:00"]
+}

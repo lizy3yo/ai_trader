@@ -1,0 +1,36 @@
+[
+ {
+  "strategy": "mr_rsi2",
+  "timeframe": "M30",
+  "params": {
+   "rsi_p": 3,
+   "buy_th": 10,
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 1.0,
+   "session.window": "01:00-08:00"
+  },
+  "train": {
+   "return_pct": 10.1,
+   "end_equity": 550.32,
+   "trades": 175,
+   "win_rate": 75.4,
+   "pf": 1.056,
+   "max_dd": 171.0,
+   "months": 36,
+   "pos_months_pct": 56.0,
+   "worst_month": -84.0
+  },
+  "val": {
+   "return_pct": -11.2,
+   "end_equity": 444.03,
+   "trades": 47,
+   "win_rate": 70.2,
+   "pf": 0.805,
+   "max_dd": 113.0,
+   "months": 12,
+   "pos_months_pct": 50.0,
+   "worst_month": -46.0
+  },
+  "score": -1000000000.0
+ }
+]

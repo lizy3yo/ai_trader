@@ -1,0 +1,7 @@
+[config] WARNING: daily_loss_limit $200 is 40% of allocated capital. That allows losing the account in a few bad days. Consider 5-10% ($25-50).
+strategy=lq_sweep | 16 combos x ['M5'] = 16 runs | train->validate (test split stays locked)
+
+tf   params                                              TRAIN ret%    PF VAL ret%    PF  win% posM%   score
+M5   {"level_mode":"roll","mode":"fade","roll_n":24,"sw       +31.3  1.04    -70.2  0.65  53.0     0-1000000000.0
+
+full results -> results/lq_r2_roll_geom.json

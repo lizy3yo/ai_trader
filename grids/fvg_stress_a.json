@@ -1,0 +1,12 @@
+{
+  "mode": ["fade"],
+  "cfg.ema_trend": [200],
+  "session.window": ["15:00-18:00"],
+  "min_gap_atr": [0.3],
+  "min_age": [0],
+  "confirm": [1],
+  "max_age": [24],
+  "cfg.atr_sl_mult": [1.5],
+  "cfg.atr_tp_mult": [3.0],
+  "backtest.spread_points": [35, 55, 75]
+}

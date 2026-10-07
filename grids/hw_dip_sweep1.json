@@ -1,0 +1,8 @@
+{
+  "cfg.ema_fast": [20],
+  "cfg.ema_slow": [50],
+  "cfg.ema_trend": [200],
+  "cfg.atr_tp_mult": [0.8, 1.0, 1.2],
+  "cfg.atr_sl_mult": [1.6, 2.0, 2.5],
+  "session.window": ["01:00-23:00", "01:00-09:00", "05:00-11:00", "09:00-19:00"]
+}

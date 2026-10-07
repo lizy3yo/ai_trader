@@ -1,0 +1,9 @@
+{
+  "adx_period": [10, 14, 20],
+  "adx_min": [22],
+  "atr_pct_min": [0.45],
+  "mode": ["both"],
+  "session.window": ["01:00-23:00", "02:00-22:00"],
+  "cfg.atr_sl_mult": [3.0],
+  "cfg.atr_tp_mult": [1.25]
+}

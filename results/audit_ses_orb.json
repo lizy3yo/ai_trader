@@ -1,0 +1,36 @@
+[
+ {
+  "strategy": "ses_orb",
+  "timeframe": "M15",
+  "params": {
+   "trend_filter": true,
+   "buf_atr": 0.5,
+   "entry_end_h": 11,
+   "cfg.atr_sl_mult": 2,
+   "cfg.atr_tp_mult": 2.25
+  },
+  "train": {
+   "return_pct": 234.1,
+   "end_equity": 1670.56,
+   "trades": 97,
+   "win_rate": 60.8,
+   "pf": 1.633,
+   "max_dd": 313.0,
+   "months": 18,
+   "pos_months_pct": 83.0,
+   "worst_month": -172.0
+  },
+  "val": {
+   "return_pct": 49.4,
+   "end_equity": 746.98,
+   "trades": 19,
+   "win_rate": 68.4,
+   "pf": 3.023,
+   "max_dd": 48.0,
+   "months": 6,
+   "pos_months_pct": 83.0,
+   "worst_month": -42.0
+  },
+  "score": 309.6
+ }
+]

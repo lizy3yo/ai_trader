@@ -1,0 +1,8 @@
+{
+  "disp_k": [1.5, 2.5],
+  "entry_mode": ["touch"],
+  "zone_expiry": [48],
+  "cfg.atr_sl_mult": [1.5],
+  "cfg.atr_tp_mult": [2.25],
+  "backtest.spread_points": [0, 35]
+}

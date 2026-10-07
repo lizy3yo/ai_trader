@@ -1,0 +1,13 @@
+{
+  "htf": ["1h"],
+  "htf_mode": ["donch"],
+  "htf_slow": [50],
+  "trigger": ["pullback"],
+  "ltf_ema": [20],
+  "pb_bars": [6],
+  "sides": ["long"],
+  "require_htf": [1],
+  "cfg.atr_sl_mult": [8.0],
+  "cfg.atr_tp_mult": [8.0],
+  "session.window": ["09:00-18:00"]
+}

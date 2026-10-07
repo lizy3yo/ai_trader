@@ -1,0 +1,13 @@
+{
+ "session.window": ["01:00-23:00"],
+ "vol_win": [300],
+ "q_hi": [0.7],
+ "q_lo": [0.3],
+ "bo_lb": [40],
+ "mr_lb": [30],
+ "mr_z": [2.0],
+ "mapping": ["normal", "inverted"],
+ "cfg.atr_sl_mult": [2.0],
+ "cfg.atr_tp_mult": [3.0],
+ "cfg.cooldown_bars": [2]
+}

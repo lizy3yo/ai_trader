@@ -1,0 +1,10 @@
+{
+  "htf": ["1h"],
+  "htf_mode": ["ema", "donch"],
+  "trigger": ["pullback"],
+  "sides": ["long", "both"],
+  "cfg.atr_sl_mult": [3.0],
+  "cfg.atr_tp_mult": [5.0],
+  "backtest.spread_points": [55, 0],
+  "session.window": ["09:00-12:00", "09:00-18:00"]
+}

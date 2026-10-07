@@ -1,0 +1,14 @@
+{
+  "model": ["hgb"],
+  "featset": ["mid"],
+  "lookback": [48],
+  "horizon": [24],
+  "refit_every": [2000],
+  "min_train": [6000],
+  "min_fit": [120],
+  "thr": [0.0],
+  "cfg.atr_sl_mult": [1.5],
+  "cfg.atr_tp_mult": [2.25],
+  "cfg.cooldown_bars": [1],
+  "session.window": ["01:00-23:30"]
+}

@@ -1,0 +1,8 @@
+[config] WARNING: daily_loss_limit $200 is 40% of allocated capital. That allows losing the account in a few bad days. Consider 5-10% ($25-50).
+strategy=ob_szone | 32 combos x ['M15'] = 32 runs | train->validate (test split stays locked)
+
+tf   params                                              TRAIN ret%    PF VAL ret%    PF  win% posM%   score
+M15  {"base_len":3,"base_body_atr":0.4,"leave_k":1.2,"e        +8.9  1.02    -13.7  0.86  38.5    40-1000000000.0
+M15  {"base_len":3,"base_body_atr":0.4,"leave_k":1.2,"e        +0.2  1.00    -21.6  0.66  28.6    20-1000000000.0
+
+full results -> results/ob_sz_m15.json

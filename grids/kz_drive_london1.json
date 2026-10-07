@@ -1,0 +1,10 @@
+{
+  "kz_start_h": [9],
+  "kz_end_h": [10, 12],
+  "disp_k": [1.0, 1.5, 2.0],
+  "body_frac": [0.0, 0.6],
+  "nth": [1, 0],
+  "session.window": ["09:00-14:00"],
+  "cfg.atr_sl_mult": [1.5],
+  "cfg.atr_tp_mult": [1.2, 2.5]
+}

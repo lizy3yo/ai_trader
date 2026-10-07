@@ -1,0 +1,7 @@
+{
+  "lookback": [48],
+  "dir": ["both"],
+  "trend_mode": ["ema"],
+  "cfg.atr_sl_mult": [2.0],
+  "cfg.atr_tp_mult": [4.0]
+}

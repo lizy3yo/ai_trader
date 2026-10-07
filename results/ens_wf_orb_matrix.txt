@@ -1,0 +1,90 @@
+===== reopt=3 lookback=12 minhist=15 =====
+WALK-FORWARD  ses_orb M15  2022-06-06 06:00:00 -> 2025-10-22 18:15:00  (79999 bars, 41 months)
+  candidates=6  reopt every 3mo  lookback=12  min_hist=15mo  obj=score
+
+  2023-09-01 -> 2023-11-30 | pick orb_b03_tf_sl25 | sel ret    +6.7% tr   86 | fwd tr  18 pnl  -164.39 eq    335.61
+  2023-12-01 -> 2024-02-29 | pick orb_b05_tf_sl2 | sel ret   -43.9% tr   72 | fwd tr  20 pnl   -56.42 eq    279.19
+  2024-03-01 -> 2024-05-31 | pick orb_b05_tf_sl2 | sel ret   -54.5% tr   74 | fwd tr  21 pnl  +162.99 eq    442.18
+  2024-06-03 -> 2024-08-30 | pick orb_b05_tf_sl2 | sel ret   -14.2% tr   76 | fwd tr  14 pnl  +107.22 eq    549.41
+  2024-09-02 -> 2024-11-29 | pick orb_b05_tf_sl2 | sel ret   +10.0% tr   73 | fwd tr  16 pnl   +74.26 eq    623.66
+  2024-12-02 -> 2025-02-28 | pick orb_b05_ntf_sl2 | sel ret   +70.7% tr   91 | fwd tr  19 pnl  -234.20 eq    389.47
+  2025-03-03 -> 2025-05-30 | pick orb_b05_tf_sl2 | sel ret   +81.9% tr   64 | fwd tr  14 pnl   +59.53 eq    449.00
+  2025-06-02 -> 2025-08-29 | pick orb_b05_tf_sl15 | sel ret  +156.7% tr   57 | fwd tr  14 pnl  +148.10 eq    597.10
+  2025-09-01 -> 2025-10-22 | pick orb_b05_tf_sl2 | sel ret   +49.3% tr   57 | fwd tr   6 pnl    -2.34 eq    594.76
+
+  --- FIXED baselines over the same forward span (2023-09-01 -> 2025-10-22) ---
+    orb_b05_tf_sl2   ret    +53.9%  eq    769.71  tr  136  pf  1.19  posM  54%  avg/mo $  +10.37  maxDD   246
+    orb_b05_ntf_sl2  ret     +0.6%  eq    503.09  tr  184  pf  1.00  posM  50%  avg/mo $   +0.12  maxDD   243
+    orb_b02_tf_sl2   ret    -80.4%  eq     98.19  tr  173  pf  0.61  posM  26%  avg/mo $  -21.15  maxDD   433
+    orb_b05_tf_sl15  ret     +4.8%  eq    524.03  tr  137  pf  1.02  posM  50%  avg/mo $   +0.93  maxDD   377
+    orb_b03_tf_sl25  ret     -9.1%  eq    454.34  tr  147  pf  0.96  posM  42%  avg/mo $   -1.76  maxDD   275
+    orb_fade_b05     ret    -80.3%  eq     98.55  tr  140  pf  0.62  posM  32%  avg/mo $  -21.13  maxDD   492
+
+  === WALK-FORWARD  ret    +19.0%  eq    594.76  tr  142  posM  46%  avg/mo $   +3.65  worstM   -124  months 26
+      best fixed  = orb_b05_tf_sl2 +53.9% | median fixed = +0.6% | WF +19.0%  -> adaptivity HELPS vs median, loses to best-fixed (hindsight)
+  (69 backtests)
+  -> results/ens_wf_orb_r3_l12.json
+===== reopt=6 lookback=24 minhist=27 =====
+WALK-FORWARD  ses_orb M15  2022-06-06 06:00:00 -> 2025-10-22 18:15:00  (79999 bars, 41 months)
+  candidates=6  reopt every 6mo  lookback=24  min_hist=27mo  obj=score
+
+  2024-09-02 -> 2025-02-28 | pick orb_b05_tf_sl2 | sel ret   -12.4% tr  152 | fwd tr  29 pnl   -47.98 eq    452.02
+  2025-03-03 -> 2025-08-29 | pick orb_b05_tf_sl2 | sel ret   -20.5% tr  138 | fwd tr  28 pnl  +294.53 eq    746.55
+  2025-09-01 -> 2025-10-22 | pick orb_b05_tf_sl2 | sel ret   +50.6% tr  130 | fwd tr   6 pnl   +16.56 eq    763.11
+
+  --- FIXED baselines over the same forward span (2024-09-02 -> 2025-10-22) ---
+    orb_b05_tf_sl2   ret    +52.6%  eq    763.11  tr   63  pf  1.36  posM  64%  avg/mo $  +18.79  maxDD   152
+    orb_b05_ntf_sl2  ret     -3.0%  eq    484.82  tr   90  pf  0.98  posM  43%  avg/mo $   -1.08  maxDD   241
+    orb_b02_tf_sl2   ret    -35.4%  eq    322.94  tr  116  pf  0.82  posM  50%  avg/mo $  -12.65  maxDD   425
+    orb_b05_tf_sl15  ret   +157.1%  eq   1285.66  tr   63  pf  1.55  posM  57%  avg/mo $  +56.12  maxDD   226
+    orb_b03_tf_sl25  ret     -6.5%  eq    467.69  tr   73  pf  0.96  posM  50%  avg/mo $   -2.31  maxDD   175
+    orb_fade_b05     ret    -51.8%  eq    240.78  tr   87  pf  0.70  posM  29%  avg/mo $  -18.52  maxDD   262
+
+  === WALK-FORWARD  ret    +52.6%  eq    763.11  tr   63  posM  64%  avg/mo $  +18.79  worstM    -81  months 14
+      best fixed  = orb_b05_tf_sl15 +157.1% | median fixed = -3.0% | WF +52.6%  -> adaptivity HELPS vs median, loses to best-fixed (hindsight)
+  (27 backtests)
+  -> results/ens_wf_orb_r6_l24.json
+===== reopt=6 lookback=expanding minhist=15 =====
+WALK-FORWARD  ses_orb M15  2022-06-06 06:00:00 -> 2025-10-22 18:15:00  (79999 bars, 41 months)
+  candidates=6  reopt every 6mo  lookback=expanding  min_hist=15mo  obj=score
+
+  2023-09-01 -> 2024-02-29 | pick orb_b05_tf_sl2 | sel ret   -26.7% tr   93 | fwd tr  38 pnl  -223.11 eq    276.89
+  2024-03-01 -> 2024-08-30 | pick orb_b05_tf_sl2 | sel ret   -60.7% tr  131 | fwd tr  35 pnl  +272.90 eq    549.79
+  2024-09-02 -> 2025-02-28 | pick orb_b05_tf_sl2 | sel ret   -24.4% tr  166 | fwd tr  29 pnl   -64.11 eq    485.68
+  2025-03-03 -> 2025-08-29 | pick orb_b05_tf_sl2 | sel ret   -36.9% tr  195 | fwd tr  28 pnl  +270.66 eq    756.34
+  2025-09-01 -> 2025-10-22 | pick orb_b05_tf_sl2 | sel ret   +13.7% tr  222 | fwd tr   6 pnl   +16.56 eq    772.91
+
+  --- FIXED baselines over the same forward span (2023-09-01 -> 2025-10-22) ---
+    orb_b05_tf_sl2   ret    +53.9%  eq    769.71  tr  136  pf  1.19  posM  54%  avg/mo $  +10.37  maxDD   246
+    orb_b05_ntf_sl2  ret     +0.6%  eq    503.09  tr  184  pf  1.00  posM  50%  avg/mo $   +0.12  maxDD   243
+    orb_b02_tf_sl2   ret    -80.4%  eq     98.19  tr  173  pf  0.61  posM  26%  avg/mo $  -21.15  maxDD   433
+    orb_b05_tf_sl15  ret     +4.8%  eq    524.03  tr  137  pf  1.02  posM  50%  avg/mo $   +0.93  maxDD   377
+    orb_b03_tf_sl25  ret     -9.1%  eq    454.34  tr  147  pf  0.96  posM  42%  avg/mo $   -1.76  maxDD   275
+    orb_fade_b05     ret    -80.3%  eq     98.55  tr  140  pf  0.62  posM  32%  avg/mo $  -21.13  maxDD   492
+
+  === WALK-FORWARD  ret    +54.6%  eq    772.91  tr  136  posM  54%  avg/mo $  +10.50  worstM   -124  months 26
+      best fixed  = orb_b05_tf_sl2 +53.9% | median fixed = +0.6% | WF +54.6%  -> adaptivity HELPS vs median, beats best-fixed (hindsight)
+  (41 backtests)
+  -> results/ens_wf_orb_r6_lexpanding.json
+===== reopt=3 lookback=24 minhist=27 =====
+WALK-FORWARD  ses_orb M15  2022-06-06 06:00:00 -> 2025-10-22 18:15:00  (79999 bars, 41 months)
+  candidates=6  reopt every 3mo  lookback=24  min_hist=27mo  obj=score
+
+  2024-09-02 -> 2024-11-29 | pick orb_b05_tf_sl2 | sel ret   -12.4% tr  152 | fwd tr  16 pnl   +58.42 eq    558.42
+  2024-12-02 -> 2025-02-28 | pick orb_b05_tf_sl2 | sel ret    -2.6% tr  143 | fwd tr  13 pnl  -107.39 eq    451.03
+  2025-03-03 -> 2025-05-30 | pick orb_b05_tf_sl2 | sel ret   -20.5% tr  138 | fwd tr  14 pnl   +89.23 eq    540.26
+  2025-06-02 -> 2025-08-29 | pick orb_b05_tf_sl2 | sel ret    +9.1% tr  133 | fwd tr  14 pnl  +209.95 eq    750.20
+  2025-09-01 -> 2025-10-22 | pick orb_b05_tf_sl2 | sel ret   +50.6% tr  130 | fwd tr   6 pnl   +16.56 eq    766.77
+
+  --- FIXED baselines over the same forward span (2024-09-02 -> 2025-10-22) ---
+    orb_b05_tf_sl2   ret    +52.6%  eq    763.11  tr   63  pf  1.36  posM  64%  avg/mo $  +18.79  maxDD   152
+    orb_b05_ntf_sl2  ret     -3.0%  eq    484.82  tr   90  pf  0.98  posM  43%  avg/mo $   -1.08  maxDD   241
+    orb_b02_tf_sl2   ret    -35.4%  eq    322.94  tr  116  pf  0.82  posM  50%  avg/mo $  -12.65  maxDD   425
+    orb_b05_tf_sl15  ret   +157.1%  eq   1285.66  tr   63  pf  1.55  posM  57%  avg/mo $  +56.12  maxDD   226
+    orb_b03_tf_sl25  ret     -6.5%  eq    467.69  tr   73  pf  0.96  posM  50%  avg/mo $   -2.31  maxDD   175
+    orb_fade_b05     ret    -51.8%  eq    240.78  tr   87  pf  0.70  posM  29%  avg/mo $  -18.52  maxDD   262
+
+  === WALK-FORWARD  ret    +53.4%  eq    766.77  tr   63  posM  64%  avg/mo $  +19.06  worstM    -75  months 14
+      best fixed  = orb_b05_tf_sl15 +157.1% | median fixed = -3.0% | WF +53.4%  -> adaptivity HELPS vs median, loses to best-fixed (hindsight)
+  (41 backtests)
+  -> results/ens_wf_orb_r3_l24.json

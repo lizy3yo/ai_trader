@@ -1,0 +1,1 @@
+{"session.window": ["09:00-23:00"], "lookback": [360], "long_only": [1], "cfg.ema_trend": [400], "cfg.atr_sl_mult": [3], "cfg.atr_tp_mult": [5], "min_atr": [0]}

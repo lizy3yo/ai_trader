@@ -1,0 +1,38 @@
+[
+ {
+  "strategy": "trend_donchian",
+  "timeframe": "H1",
+  "params": {
+   "cfg.ema_trend": 400,
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 5.0,
+   "cfg.cooldown_bars": 3,
+   "lookback": 360,
+   "long_only": 1,
+   "min_atr": 0
+  },
+  "train": {
+   "return_pct": 384.5,
+   "end_equity": 2422.53,
+   "trades": 117,
+   "win_rate": 48.7,
+   "pf": 2.181,
+   "max_dd": 533.0,
+   "months": 58,
+   "pos_months_pct": 59.0,
+   "worst_month": -200.0
+  },
+  "val": {
+   "return_pct": 1.0,
+   "end_equity": 505.16,
+   "trades": 38,
+   "win_rate": 36.8,
+   "pf": 1.013,
+   "max_dd": 202.0,
+   "months": 19,
+   "pos_months_pct": 47.0,
+   "worst_month": -45.0
+  },
+  "score": 151.1
+ }
+]

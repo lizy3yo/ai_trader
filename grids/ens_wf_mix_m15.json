@@ -1,0 +1,9 @@
+{
+  "don1440_long": {"_strategy": "trend_donchian", "cfg.ema_trend": 400, "cfg.atr_sl_mult": 3.0, "cfg.atr_tp_mult": 5.0, "cfg.cooldown_bars": 3, "lookback": 1440, "long_only": 1, "min_atr": 0, "session.window": "09:00-23:00"},
+  "don480_long":  {"_strategy": "trend_donchian", "cfg.ema_trend": 200, "cfg.atr_sl_mult": 3.0, "cfg.atr_tp_mult": 5.0, "cfg.cooldown_bars": 3, "lookback": 480,  "long_only": 1, "min_atr": 0, "session.window": "09:00-23:00"},
+  "don480_both":  {"_strategy": "trend_donchian", "cfg.ema_trend": 200, "cfg.atr_sl_mult": 3.0, "cfg.atr_tp_mult": 5.0, "cfg.cooldown_bars": 3, "lookback": 480,  "long_only": 0, "min_atr": 0, "session.window": "09:00-23:00"},
+  "orb_tf_sl2":   {"_strategy": "ses_orb", "cfg.atr_sl_mult": 2.0, "cfg.atr_tp_mult": 2.25, "cfg.cooldown_bars": 3, "buf_atr": 0.5, "entry_end_h": 11, "trend_filter": true,  "session.window": "09:00-12:00"},
+  "orb_ntf_sl2":  {"_strategy": "ses_orb", "cfg.atr_sl_mult": 2.0, "cfg.atr_tp_mult": 2.25, "cfg.cooldown_bars": 3, "buf_atr": 0.5, "entry_end_h": 11, "trend_filter": false, "session.window": "09:00-12:00"},
+  "orb_tf_sl15":  {"_strategy": "ses_orb", "cfg.atr_sl_mult": 1.5, "cfg.atr_tp_mult": 3.0,  "cfg.cooldown_bars": 3, "buf_atr": 0.5, "entry_end_h": 11, "trend_filter": true,  "session.window": "09:00-12:00"},
+  "orb_long_only":{"_strategy": "ses_orb", "cfg.atr_sl_mult": 2.0, "cfg.atr_tp_mult": 2.25, "cfg.cooldown_bars": 3, "buf_atr": 0.5, "entry_end_h": 11, "trend_filter": true, "sides": "long", "session.window": "09:00-12:00"}
+}

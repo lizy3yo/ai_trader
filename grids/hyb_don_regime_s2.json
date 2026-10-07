@@ -1,0 +1,9 @@
+{
+  "lookback": [12, 24, 48],
+  "adx_min": [0, 20],
+  "mode": ["both", "long"],
+  "trend_ema": [200],
+  "session.window": ["01:00-23:00", "09:00-19:00"],
+  "cfg.atr_sl_mult": [2.5],
+  "cfg.atr_tp_mult": [1.25]
+}
