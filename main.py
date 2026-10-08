@@ -242,7 +242,7 @@ def _live_tick(cfg, econ, tracker, risk, tf_min, need, state, strat) -> None:
             print(f"[risk] DAILY LOSS LIMIT HIT (realized {realized_today:+.2f}, "
                   f"floating {floating:+.2f}). Flattening.")
             for p in positions:
-                res = mc.close_position(p, comment="daily-breaker")
+                res = mc.close_position(p)
                 print(f"[risk] closed ticket {p.ticket}: retcode {res.retcode} {res.comment}")
             sync_closed_positions(cfg, tracker, risk, state, tf_min)
         return  # no trading for the rest of the day
@@ -301,7 +301,7 @@ def _live_tick(cfg, econ, tracker, risk, tf_min, need, state, strat) -> None:
 
     pre_tickets = {p.ticket for p in open_now}
     res = mc.market_order(cfg.symbol, sig.direction, decision.lots, sl, tp,
-                          cfg.magic, comment=f"gb {side} r{decision.risk_pct:.0f}%")
+                          cfg.magic)
     if not res.ok:
         print(f"[order] REJECTED retcode={res.retcode} '{res.comment}'")
         return

@@ -224,6 +224,8 @@ def cumulative_bot_pnl(symbol: str, magic: int) -> float:
 
 # ---------------- orders ----------------
 
+ORDER_COMMENT = "gb"
+
 @dataclass
 class OrderResult:
     ok: bool
@@ -251,7 +253,7 @@ def _try_send(request: dict) -> "OrderResult | None":
 
 def market_order(
     symbol: str, direction: int, lots: float, sl: float, tp: float,
-    magic: int, comment: str = "gold-bot",
+    magic: int, comment: str = ORDER_COMMENT,
 ) -> OrderResult:
     """direction: +1 buy, -1 sell. Tries each filling mode the broker allows."""
     tick = current_tick(symbol)
@@ -284,7 +286,7 @@ def market_order(
     raise MT5Error(f"order_send failed outright: {mt5.last_error()}")
 
 
-def close_position(position, comment: str = "gold-bot close") -> OrderResult:
+def close_position(position, comment: str = ORDER_COMMENT) -> OrderResult:
     """Close an open position with an opposite market deal."""
     tick = current_tick(position.symbol)
     is_long = position.type == mt5.POSITION_TYPE_BUY
