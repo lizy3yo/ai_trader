@@ -271,8 +271,7 @@ def _live_tick(cfg, econ, tracker, risk, tf_min, need, state, strat) -> None:
         state["last_bar"] = newest
         return
 
-    # 6) spread guard — transient, so do NOT consume the bar: spreads spike for
-    # a few seconds right at bar boundaries and normalize by the next poll
+    # 6) spread guard — spikes are brief, so retry without consuming the bar
     spr = mc.spread_points(cfg.symbol)
     if spr > cfg.risk.max_spread_points:
         print(f"[live] spread {spr:.0f}pts > {cfg.risk.max_spread_points:.0f} — retrying")
