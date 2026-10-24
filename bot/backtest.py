@@ -1,13 +1,4 @@
-"""Event-driven backtester that reuses the EXACT live strategy and risk code.
-
-Fill model (deliberately conservative):
-- signal is evaluated on closed bar i -> entry at bar i+1 OPEN
-- spread is paid on entry (price worsened by spread_points)
-- SL/TP are checked bar-by-bar against high/low
-- if a bar touches BOTH SL and TP, the SL is assumed to fill first (worst case)
-- the daily loss breaker is checked on every bar close using floating P&L,
-  and a tripped breaker closes the position at that bar's close
-"""
+"""Event-driven backtester reusing live strategy and risk logic."""
 from __future__ import annotations
 
 from dataclasses import dataclass, field
