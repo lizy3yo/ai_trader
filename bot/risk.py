@@ -1,19 +1,4 @@
-"""Risk manager: compounding equity, adaptive per-trade risk, daily circuit breaker.
-
-Pure logic (no MT5 imports) so the identical rules run live and in backtests.
-
-Definitions
------------
-bot equity     = capital.allocated + cumulative closed P&L of THIS bot's trades,
-                 never more than the real account equity. This is what compounds:
-                 risk is a % of bot equity, so winners grow position size and
-                 losers shrink it automatically.
-daily breaker  = when (today's realized P&L + floating P&L) <= -daily_loss_limit,
-                 trading stops until the next broker day.
-adaptive risk  = starts at base_risk_pct; after `step_up_after_wins` consecutive
-                 wins it steps up by step_up_pct (capped at max_risk_pct);
-                 a losing trade drops it back to base (if drop_to_base_on_loss).
-"""
+"""Risk manager: compounding equity, adaptive per-trade risk, daily circuit breaker."""
 from __future__ import annotations
 
 import math
