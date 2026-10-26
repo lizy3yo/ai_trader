@@ -41,8 +41,7 @@ def rsi(close: pd.Series, period: int) -> pd.Series:
     avg_loss = loss.ewm(alpha=1.0 / period, adjust=False).mean()
     rs = avg_gain / avg_loss.replace(0.0, np.nan)
     out = 100.0 - 100.0 / (1.0 + rs)
-    # no losses in the window means RSI = 100 (max overbought), not neutral —
-    # otherwise the overbought filter passes in exactly the spike it targets
+    # No losses in window = RSI 100 (max overbought, not neutral)
     out = out.mask((avg_loss == 0.0) & (avg_gain > 0.0), 100.0)
     return out.fillna(50.0)
 
