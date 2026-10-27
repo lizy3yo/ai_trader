@@ -1,8 +1,4 @@
-"""Trade journal: every trade goes into SQLite and mirrors to CSV.
-
-Also persists the bot's risk state (consecutive wins, current risk %,
-cumulative P&L) so restarts don't reset compounding or the adaptive risk.
-"""
+"""Trade journal: persists trades and bot risk state to SQLite and CSV."""
 from __future__ import annotations
 
 import csv
