@@ -172,6 +172,5 @@ class TradeTracker:
                 for row in rows:
                     writer.writerow([row[c] for c in CSV_COLUMNS])
         except OSError as e:
-            # Windows: the CSV being open in Excel locks it. SQLite stays the
-            # source of truth — never let the mirror kill the trading loop.
+            # Ignore file locks (e.g., open in Excel); SQLite is the source of truth.
             print(f"[tracker] CSV mirror skipped ({e}) — journal in {self.db_path} is intact")
