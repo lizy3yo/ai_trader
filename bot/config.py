@@ -8,7 +8,7 @@ from pathlib import Path
 
 import yaml
 
-# single source of truth for supported timeframes (main.py imports this)
+# Supported timeframes in minutes.
 TIMEFRAME_MINUTES = {"M1": 1, "M5": 5, "M15": 15, "M30": 30,
                      "H1": 60, "H4": 240, "D1": 1440}
 
