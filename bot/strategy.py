@@ -1,9 +1,4 @@
-"""Shared strategy toolbox: the Signal contract and common indicators.
-
-Pure pandas — no MT5 imports — so the exact same code runs in the live loop
-and in the backtester. Concrete strategies live in bot/strategies/ (see the
-package docstring there for the interface).
-"""
+"""Shared strategy toolbox: Signal contract and common indicators."""
 from __future__ import annotations
 
 from dataclasses import dataclass
