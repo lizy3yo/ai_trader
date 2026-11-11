@@ -1,0 +1,38 @@
+{
+ "config_us500_rsi2.yaml": {
+  "symbol": "US500Cash",
+  "strategy": "lm_meanrev",
+  "db": "data/trades_us500_rsi2.db",
+  "trades_per_month": 1.6,
+  "avg_r": 0.0845,
+  "sd_r": 0.356,
+  "win_rate": 0.733,
+  "dd95_50trades": 3.44,
+  "built": "2026-11-08",
+  "n_backtest": 292
+ },
+ "config_jp225_pullback.yaml": {
+  "symbol": "JP225Cash",
+  "strategy": "lt_pullback",
+  "db": "data/trades_jp225_pullback.db",
+  "trades_per_month": 0.22,
+  "avg_r": 0.2434,
+  "sd_r": 0.457,
+  "win_rate": 0.884,
+  "dd95_50trades": 2.67,
+  "built": "2026-11-08",
+  "n_backtest": 43
+ },
+ "config.yaml": {
+  "symbol": "GOLD",
+  "strategy": "trend_donchian",
+  "db": "data/trades.db",
+  "trades_per_month": 1.41,
+  "avg_r": 0.2693,
+  "sd_r": 1.3352,
+  "win_rate": 0.498,
+  "dd95_50trades": 11.8,
+  "built": "2026-11-08",
+  "n_backtest": 227
+ }
+}

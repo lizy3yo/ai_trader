@@ -1,0 +1,37 @@
+{
+ "strategy": "g6s_donch",
+ "family": "g6s_swing",
+ "markets": [
+  "GOLD",
+  "SILVER"
+ ],
+ "timeframes": [
+  "H4"
+ ],
+ "grid": {
+  "n": [
+   60,
+   90,
+   120
+  ],
+  "side": [
+   "long"
+  ],
+  "trend": [
+   1
+  ],
+  "cfg.ema_trend": [
+   100
+  ],
+  "cfg.atr_sl_mult": [
+   3.0
+  ],
+  "cfg.atr_tp_mult": [
+   5.0
+  ]
+ },
+ "dir": "long",
+ "trend": 1,
+ "exit_from_strategy": true,
+ "max_bars": 20000
+}

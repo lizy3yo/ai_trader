@@ -100,3 +100,9 @@ backtest:
                            # real ~53pt GOLD spread (do not lower it to flatter
                            # the backtest — costs are where edges die)
   commission_per_lot: 0.0  # round-turn $ commission per 1.0 lot, if your broker charges it
+  use_bar_spread: true     # also charge the wider spread MT5 recorded on each bar
+  spread_ref_price: 4070.0   # spread floor measured at this price; scaled to the price at the time
+  swap_long_points: -78.59 # real overnight fee: -$78.59 per lot per night held long (2026-11-08)
+  swap_short_points: 16.81 # shorts are paid
+  swap_triple_weekday: 2   # Wednesday rollover charged x3
+  swap_ref_price: 4070.0   # swap quoted at this gold price; scaled to the price at the time

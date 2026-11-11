@@ -1,0 +1,10 @@
+ts,study,family,strategy,market,tf,params,tr_n,tr_avgR,tr_t,va_n,va_avgR,va_t,va_pf,tv_n,tv_avgR,tv_t,tv_pf,tv_posM,tv_maxdd_pct,tv_swapR,neigh_ok,spread_avgR,rand_mean,rand_p95,p_random,verdict
+2026-11-08 22:29,ms_trend_long_h4.json,ms_trend,ms_trend,GOLD,H4,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""length"":2,""side"":""long""}",224,0.075,0.77,82,0.375,2.29,1.694,306,0.155,1.86,1.258,47.0,20.5,-0.048,0/1,0.136,,,,"fail: luck bar, coin flip, nearby settings"
+2026-11-08 22:29,ms_trend_long_h4.json,ms_trend,ms_trend,GOLD,H4,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""length"":5,""side"":""long""}",118,-0.091,-0.71,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:29,ms_trend_long_h4.json,ms_trend,ms_trend,GOLD,H4,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""length"":10,""side"":""long""}",57,-0.194,-1.06,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:29,ms_trend_long_h4.json,ms_trend,ms_trend,BTCUSD,H4,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""length"":2,""side"":""long""}",218,-0.076,-0.78,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:29,ms_trend_long_h4.json,ms_trend,ms_trend,BTCUSD,H4,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""length"":5,""side"":""long""}",127,0.013,0.1,35,-0.112,-0.48,0.823,,,,,,,,,,,,,fail: quiz
+2026-11-08 22:29,ms_trend_long_h4.json,ms_trend,ms_trend,BTCUSD,H4,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""length"":10,""side"":""long""}",65,-0.067,-0.4,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:29,ms_trend_long_h4.json,ms_trend,ms_trend,US500Cash,H4,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""length"":2,""side"":""long""}",163,-0.082,-0.76,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:29,ms_trend_long_h4.json,ms_trend,ms_trend,US500Cash,H4,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""length"":5,""side"":""long""}",99,0.084,0.59,38,0.055,0.23,1.066,,,,,,,,,,,,,fail: quiz
+2026-11-08 22:29,ms_trend_long_h4.json,ms_trend,ms_trend,US500Cash,H4,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""length"":10,""side"":""long""}",56,0.047,0.25,27,0.309,1.08,1.495,82,0.121,0.76,1.17,47.0,13.7,-0.123,1/1,0.12,,,,"fail: luck bar, coin flip"

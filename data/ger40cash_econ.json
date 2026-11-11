@@ -1,0 +1,16 @@
+{
+ "symbol": "GER40Cash",
+ "tick_size": 0.01,
+ "tick_value": 0.0111,
+ "point": 0.01,
+ "contract_size": 1.0,
+ "volume_min": 0.1,
+ "volume_max": 150.0,
+ "volume_step": 0.1,
+ "swap_mode": 3,
+ "swap_long_points": -3.54,
+ "swap_short_points": -0.04,
+ "swap_rollover3days_mt5": 5,
+ "tick_value_profit_ccy": 0.01,
+ "currency_profit": "EUR"
+}

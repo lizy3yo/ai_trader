@@ -1,0 +1,18 @@
+{
+ "symbol": "EURCAD",
+ "tick_size": 1e-05,
+ "tick_value": 0.7090000000000001,
+ "point": 1e-05,
+ "tick_value_profit_ccy": 0.7088277406824595,
+ "currency_profit": "CAD",
+ "contract_size": 100000.0,
+ "volume_min": 0.01,
+ "volume_max": 50.0,
+ "volume_step": 0.01,
+ "swap_mode": 1,
+ "swap_long_points": -5.05,
+ "swap_short_points": -8.14,
+ "swap_rollover3days_mt5": 3,
+ "live_spread": 0.0003500000000000725,
+ "live_bid": 1.57866
+}

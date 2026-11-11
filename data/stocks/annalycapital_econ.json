@@ -1,0 +1,18 @@
+{
+ "symbol": "AnnalyCapital",
+ "tick_size": 0.01,
+ "tick_value": 0.1,
+ "point": 0.01,
+ "tick_value_profit_ccy": 0.1,
+ "currency_profit": "USD",
+ "contract_size": 10.0,
+ "volume_min": 0.4,
+ "volume_max": 217.0,
+ "volume_step": 0.1,
+ "swap_mode": 5,
+ "swap_long_points": -8.87,
+ "swap_short_points": -1.13,
+ "swap_rollover3days_mt5": 5,
+ "live_spread": 0.28999999999999915,
+ "live_bid": 18.62
+}

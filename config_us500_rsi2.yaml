@@ -1,0 +1,80 @@
+# ============================================================
+# S&P 500 dip-buyer (US500Cash, daily) — the ONLY strategy that passed every
+# check AND the locked final exam in round 5 (2026-11-08).
+#
+# Rule (Connors RSI(2) family): at each daily close, if RSI(2) < 15, buy at
+# the next open. Exit when the close is back above its 3-day average, or
+# RSI(2) > 70, or after 10 days. Disaster stop 3 x ATR(14); no fixed target.
+#
+# Evidence (fixed 1% risk, real XM costs incl. swap):
+#   train 2011-2020  164 trades  t 2.45
+#   val   2020-2023   63 trades  t 2.17
+#   FINAL EXAM 2023-09 -> 2026-11 (never seen): 65 trades, +0.108R/trade,
+#   t 3.05, PF 2.76, 75% positive months, beat all 30 random-entry runs.
+# Small edge per trade (~0.1R), ~20 trades a year. Demo-test first.
+# ============================================================
+
+mt5:
+  login: 0
+  password: ""
+  server: ""
+  terminal_path: ""
+
+symbol: "US500Cash"     # XM's S&P 500 cash index CFD (1 lot = 1 x index, min 0.1 lot)
+magic: 620055           # unique — never share a magic between configs
+
+capital:
+  allocated: 500.0
+  hard_max: 500.0
+
+risk:
+  base_risk_pct: 5.0
+  max_risk_pct: 10.0
+  step_up_pct: 1.0
+  step_up_after_wins: 3
+  drop_to_base_on_loss: true
+  daily_loss_limit: 200.0
+  close_positions_on_limit: true
+  max_open_positions: 1
+  max_spread_points: 200   # normal ~80-104 pts (0.8-1.0 index points); blocks blowouts
+  min_equity_stop: 100.0
+
+strategy:
+  name: "lm_meanrev"
+  params:
+    mode: "rsi2"
+    rsi_th: 15.0          # buy when RSI(2) < 15
+    exit_ma: 3            # exit when close > 3-day average ...
+    exit_rsi: 70.0        # ... or RSI(2) > 70
+    max_hold: 10          # ... or after 10 days
+    side: "long"          # shorts failed everywhere
+    trend: 0              # no 200-day filter (this version passed the exam)
+  timeframe: "D1"
+  ema_trend: 200          # unused when trend: 0
+  atr_period: 14
+  atr_sl_mult: 3.0        # disaster stop
+  atr_tp_mult: 20.0       # effectively no target: the rule exits
+  cooldown_bars: 0
+
+session:
+  trade_start: "00:00"
+  trade_end: "23:59"
+  friday_close: "23:59"
+  weekends: false
+  poll_seconds: 10
+
+tracking:
+  db_path: "data/trades_us500_rsi2.db"
+  csv_path: "data/trades_us500_rsi2.csv"
+
+backtest:
+  data_csv: "data/us500cash_d1.csv"
+  bars: 6000
+  spread_points: 104       # 1.04 index points (1.3x the recorded live spread)
+  use_bar_spread: true
+  spread_ref_price: 7380.72
+  commission_per_lot: 0.0
+  swap_long_points: -132   # -$1.32 per lot per night held long
+  swap_short_points: 19
+  swap_triple_weekday: 4   # Friday rollover charged x3
+  swap_ref_price: 7380.72

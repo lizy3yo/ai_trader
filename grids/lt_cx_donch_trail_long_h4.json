@@ -1,0 +1,45 @@
+{
+ "strategy": "lt_donch",
+ "family": "lt_trend_breakout_crypto2021",
+ "markets": [
+  "BTCUSD",
+  "ETHUSD"
+ ],
+ "timeframes": [
+  "H4"
+ ],
+ "grid": {
+  "n": [
+   20,
+   55,
+   120
+  ],
+  "side": [
+   "long"
+  ],
+  "trend": [
+   1
+  ],
+  "exit": [
+   "opp",
+   "ma"
+  ],
+  "exit_n": [
+   10,
+   30
+  ],
+  "cfg.ema_trend": [
+   200
+  ],
+  "cfg.atr_sl_mult": [
+   3.0
+  ],
+  "cfg.atr_tp_mult": [
+   20.0
+  ]
+ },
+ "dir": "long",
+ "trend": 1,
+ "exit_from_strategy": true,
+ "max_bars": 12120
+}

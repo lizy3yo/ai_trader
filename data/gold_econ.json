@@ -1,0 +1,16 @@
+{
+ "symbol": "GOLD",
+ "tick_size": 0.01,
+ "tick_value": 1.0,
+ "point": 0.01,
+ "tick_value_profit_ccy": 1.0,
+ "currency_profit": "USD",
+ "contract_size": 100.0,
+ "volume_min": 0.01,
+ "volume_max": 50.0,
+ "volume_step": 0.01,
+ "swap_mode": 1,
+ "swap_long_points": -78.59,
+ "swap_short_points": 16.81,
+ "swap_rollover3days_mt5": 3
+}

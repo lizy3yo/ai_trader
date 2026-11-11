@@ -1,0 +1,212 @@
+##### mr_rsi2_h4
+[factory] lm_meanrev: 9 settings x 7 markets x 1 TFs = 54 configurations | workers 3
+[factory] stage A done in 22s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 54 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_mr_rsi2_h4.csv
+[factory] FINALISTS: 0
+##### mr_rsi2_h1
+[factory] lm_meanrev: 9 settings x 7 markets x 1 TFs = 63 configurations | workers 3
+[factory] stage A done in 133s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 63 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_mr_rsi2_h1.csv
+[factory] FINALISTS: 0
+##### mr_bb_d1
+[factory] lm_meanrev: 6 settings x 7 markets x 1 TFs = 42 configurations | workers 3
+[factory] stage A done in 9s
+[factory] 2 configurations shortlisted for checks 3-5
+[factory] logged 42 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_mr_bb_d1.csv
+  GOLD      D1   t +1.06 avgR +0.100 n   30 neigh 1/3   +50%spr +0.095 p_rand -  {"bb_k":2.0,"bb_n":20,"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cf
+  GOLD      D1   t +0.94 avgR +0.072 n   34 neigh 1/3   +50%spr +0.066 p_rand -  {"bb_k":2.0,"bb_n":10,"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cf
+[factory] FINALISTS: 0
+##### mr_bb_h4
+[factory] lm_meanrev: 6 settings x 7 markets x 1 TFs = 36 configurations | workers 3
+[factory] stage A done in 21s
+[factory] 6 configurations shortlisted for checks 3-5
+[factory] logged 36 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_mr_bb_h4.csv
+  US500Cash H4   t +1.83 avgR +0.138 n   78 neigh 1/2   +50%spr +0.104 p_rand -  {"bb_k":2.5,"bb_n":20,"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cf
+  US500Cash H4   t +1.76 avgR +0.074 n  205 neigh 1/2   +50%spr +0.064 p_rand -  {"bb_k":1.5,"bb_n":20,"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cf
+  US500Cash H4   t +1.69 avgR +0.088 n  142 neigh 2/3   +50%spr +0.079 p_rand -  {"bb_k":2.0,"bb_n":20,"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cf
+  US100Cash H4   t +1.26 avgR +0.069 n  144 neigh 2/3   +50%spr +0.020 p_rand -  {"bb_k":2.0,"bb_n":20,"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cf
+  US100Cash H4   t +1.07 avgR +0.044 n  199 neigh 2/2   +50%spr +0.017 p_rand -  {"bb_k":1.5,"bb_n":20,"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cf
+  US100Cash H4   t +0.89 avgR +0.071 n   76 neigh 1/2   +50%spr +0.044 p_rand -  {"bb_k":2.5,"bb_n":20,"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cf
+[factory] FINALISTS: 0
+##### mr_nlow_d1
+[factory] lm_meanrev: 8 settings x 7 markets x 1 TFs = 56 configurations | workers 3
+[factory] stage A done in 15s
+[factory] 5 configurations shortlisted for checks 3-5
+[factory] logged 56 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_mr_nlow_d1.csv
+  US500Cash D1   t +1.96 avgR +0.062 n  127 neigh 2/2   +50%spr +0.054 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +1.96 avgR +0.062 n  127 neigh 2/2   +50%spr +0.054 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  GOLD      D1   t +1.58 avgR +0.027 n  270 neigh 2/3   +50%spr +0.022 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +1.53 avgR +0.040 n  167 neigh 3/3   +50%spr +0.032 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  GOLD      D1   t +1.39 avgR +0.024 n  268 neigh 2/3   +50%spr +0.019 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 0
+##### mr_nlow_h4
+[factory] lm_meanrev: 8 settings x 7 markets x 1 TFs = 48 configurations | workers 3
+[factory] stage A done in 30s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 48 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_mr_nlow_h4.csv
+[factory] FINALISTS: 0
+##### mr_ibs_d1
+[factory] lm_meanrev: 9 settings x 7 markets x 1 TFs = 63 configurations | workers 3
+[factory] stage A done in 15s
+[factory] 6 configurations shortlisted for checks 3-5
+[factory] logged 63 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_mr_ibs_d1.csv
+  US100Cash D1   t +3.54 avgR +0.113 n  182 neigh 2/2   +50%spr +0.105 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +3.08 avgR +0.067 n  367 neigh 2/2   +50%spr +0.058 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +2.95 avgR +0.072 n  289 neigh 3/3   +50%spr +0.063 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +2.50 avgR +0.055 n  367 neigh 2/2   +50%spr +0.049 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +2.43 avgR +0.061 n  285 neigh 3/3   +50%spr +0.054 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  GOLD      D1   t +0.92 avgR +0.024 n  211 neigh 0/3   +50%spr +0.018 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 2
+  US100Cash D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"cfg.ema_trend":200,"ibs_exit":0.9,"ibs_th":0.1,"max_hold":5,"mode":"ibs","side":"long","trend":0}  t 3.54 avgR 0.113
+  US100Cash D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"cfg.ema_trend":200,"ibs_exit":0.9,"ibs_th":0.3,"max_hold":5,"mode":"ibs","side":"long","trend":0}  t 3.08 avgR 0.067
+##### mr_z_d1
+[factory] lm_meanrev: 9 settings x 7 markets x 1 TFs = 63 configurations | workers 3
+[factory] stage A done in 9s
+[factory] 3 configurations shortlisted for checks 3-5
+[factory] logged 63 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_mr_z_d1.csv
+  US500Cash D1   t +2.48 avgR +0.180 n   56 neigh 3/3   +50%spr +0.173 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +2.23 avgR +0.129 n   94 neigh 2/2   +50%spr +0.123 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +1.74 avgR +0.178 n   44 neigh 3/4   +50%spr +0.172 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 0
+##### mr_z_h4
+[factory] lm_meanrev: 9 settings x 7 markets x 1 TFs = 54 configurations | workers 3
+[factory] stage A done in 33s
+[factory] 6 configurations shortlisted for checks 3-5
+[factory] logged 54 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_mr_z_h4.csv
+  US100Cash H4   t +1.70 avgR +0.053 n  354 neigh 1/2   +50%spr +0.041 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash H4   t +1.49 avgR +0.130 n   74 neigh 0/3   +50%spr +0.117 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash H4   t +1.44 avgR +0.123 n   70 neigh 2/3   +50%spr +0.110 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash H4   t +1.23 avgR +0.057 n  213 neigh 2/3   +50%spr +0.049 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash H4   t +1.23 avgR +0.056 n  213 neigh 1/3   +50%spr +0.045 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  GOLD      H4   t +0.63 avgR +0.057 n   55 neigh 1/2   +50%spr +0.046 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 0
+##### mr_short_rsi2_d1
+[factory] lm_meanrev: 3 settings x 7 markets x 1 TFs = 21 configurations | workers 3
+[factory] stage A done in 4s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 21 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_mr_short_rsi2_d1.csv
+[factory] FINALISTS: 0
+##### mr_short_rsi2_h4
+[factory] lm_meanrev: 3 settings x 7 markets x 1 TFs = 18 configurations | workers 3
+[factory] stage A done in 12s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 18 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_mr_short_rsi2_h4.csv
+[factory] FINALISTS: 0
+##### mr_short_z_d1
+[factory] lm_meanrev: 3 settings x 7 markets x 1 TFs = 21 configurations | workers 3
+[factory] stage A done in 4s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 21 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_mr_short_z_d1.csv
+[factory] FINALISTS: 0
+##### mr_short_ibs_d1
+[factory] lm_meanrev: 3 settings x 7 markets x 1 TFs = 21 configurations | workers 3
+[factory] stage A done in 5s
+[factory] 1 configurations shortlisted for checks 3-5
+[factory] logged 21 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_mr_short_ibs_d1.csv
+  EURUSD    D1   t +1.03 avgR +0.021 n  231 neigh 0/1   +50%spr +0.017 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 0
+##### cal_tom_d1
+[factory] lm_calendar: 12 settings x 7 markets x 1 TFs = 84 configurations | workers 3
+[factory] stage A done in 20s
+[factory] 6 configurations shortlisted for checks 3-5
+[factory] logged 84 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_cal_tom_d1.csv
+  US100Cash D1   t +1.47 avgR +0.060 n  123 neigh 1/2   +50%spr +0.051 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  US100Cash D1   t +1.37 avgR +0.060 n  123 neigh 2/3   +50%spr +0.051 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  US100Cash D1   t +1.24 avgR +0.056 n  120 neigh 2/2   +50%spr +0.047 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  GOLD      D1   t +1.14 avgR +0.036 n  186 neigh 3/3   +50%spr +0.029 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  US500Cash D1   t +0.89 avgR +0.039 n  122 neigh 0/2   +50%spr +0.032 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  US500Cash D1   t +0.84 avgR +0.034 n  124 neigh 2/3   +50%spr +0.028 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+[factory] FINALISTS: 0
+##### cal_tom_h1
+[factory] lm_calendar: 12 settings x 7 markets x 1 TFs = 84 configurations | workers 3
+[factory] stage A done in 155s
+[factory] 4 configurations shortlisted for checks 3-5
+[factory] logged 84 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_cal_tom_h1.csv
+  GOLD      H1   t +1.28 avgR +0.078 n   96 neigh 2/3   +50%spr +0.072 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US500Cash H1   t +1.28 avgR +0.051 n   96 neigh 1/3   +50%spr +0.041 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  GOLD      H1   t +1.04 avgR +0.067 n   96 neigh 1/4   +50%spr +0.062 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  GOLD      H1   t +0.97 avgR +0.074 n   96 neigh 1/3   +50%spr +0.069 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+[factory] FINALISTS: 0
+##### cal_fomc_d1
+[factory] lm_calendar: 6 settings x 7 markets x 1 TFs = 42 configurations | workers 3
+[factory] stage A done in 9s
+[factory] 1 configurations shortlisted for checks 3-5
+[factory] logged 42 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_cal_fomc_d1.csv
+  US100Cash D1   t +2.06 avgR +0.067 n   92 neigh 2/3   +50%spr +0.057 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+[factory] FINALISTS: 0
+##### cal_fomc_h1
+[factory] lm_calendar: 6 settings x 7 markets x 1 TFs = 42 configurations | workers 3
+[factory] stage A done in 82s
+[factory] 6 configurations shortlisted for checks 3-5
+[factory] logged 42 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_cal_fomc_h1.csv
+  GOLD      H1   t +1.60 avgR +0.081 n   64 neigh 3/3   +50%spr +0.074 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  EURUSD    H1   t +1.54 avgR +0.074 n   61 neigh 2/2   +50%spr +0.066 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  GOLD      H1   t +1.41 avgR +0.066 n   64 neigh 2/2   +50%spr +0.059 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  SILVER    H1   t +0.85 avgR +0.038 n   64 neigh 0/2   +50%spr -0.011 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  GOLD      H1   t +0.81 avgR +0.045 n   64 neigh 2/2   +50%spr +0.039 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  EURUSD    H1   t +0.71 avgR +0.045 n   61 neigh 2/2   +50%spr +0.037 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+[factory] FINALISTS: 0
+##### cal_fomc_pre_h1
+[factory] lm_calendar: 2 settings x 7 markets x 1 TFs = 14 configurations | workers 3
+[factory] stage A done in 33s
+[factory] 5 configurations shortlisted for checks 3-5
+[factory] logged 14 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_cal_fomc_pre_h1.csv
+  EURUSD    H1   t +2.39 avgR +0.084 n   61 neigh 1/1   +50%spr +0.076 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  GOLD      H1   t +2.29 avgR +0.067 n   64 neigh 1/1   +50%spr +0.060 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  BTCUSD    H1   t +2.01 avgR +0.087 n   50 neigh 0/1   +50%spr +0.083 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  GOLD      H1   t +1.84 avgR +0.073 n   64 neigh 1/1   +50%spr +0.066 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  ETHUSD    H1   t +1.22 avgR +0.043 n   50 neigh 0/1   +50%spr +0.023 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+[factory] FINALISTS: 0
+##### cal_nfp_d1
+[factory] lm_calendar: 4 settings x 7 markets x 1 TFs = 28 configurations | workers 3
+[factory] stage A done in 7s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 28 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_cal_nfp_d1.csv
+[factory] FINALISTS: 0
+##### cal_nfp_h1
+[factory] lm_calendar: 4 settings x 7 markets x 1 TFs = 28 configurations | workers 3
+[factory] stage A done in 48s
+[factory] 5 configurations shortlisted for checks 3-5
+[factory] logged 28 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_cal_nfp_h1.csv
+  US500Cash H1   t +2.32 avgR +0.061 n   94 neigh 2/2   +50%spr +0.055 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US100Cash H1   t +1.70 avgR +0.083 n   94 neigh 2/2   +50%spr +0.078 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US100Cash H1   t +1.62 avgR +0.045 n   94 neigh 2/2   +50%spr +0.039 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US100Cash H1   t +1.60 avgR +0.069 n   94 neigh 2/2   +50%spr +0.063 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US500Cash H1   t +1.58 avgR +0.061 n   94 neigh 2/2   +50%spr +0.056 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+[factory] FINALISTS: 0
+##### cal_prehol_d1
+[factory] lm_calendar: 6 settings x 7 markets x 1 TFs = 42 configurations | workers 3
+[factory] stage A done in 19s
+[factory] 5 configurations shortlisted for checks 3-5
+[factory] logged 42 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_cal_prehol_d1.csv
+  GOLD      D1   t +2.35 avgR +0.058 n  157 neigh 3/3   +50%spr +0.052 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  GOLD      D1   t +1.98 avgR +0.069 n  126 neigh 2/2   +50%spr +0.063 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  GOLD      D1   t +1.66 avgR +0.026 n  156 neigh 2/2   +50%spr +0.020 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  US500Cash D1   t +1.47 avgR +0.024 n  104 neigh 1/2   +50%spr +0.017 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  US100Cash D1   t +1.19 avgR +0.020 n  103 neigh 1/2   +50%spr +0.011 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+[factory] FINALISTS: 0
+##### cal_prehol_h1
+[factory] lm_calendar: 6 settings x 7 markets x 1 TFs = 42 configurations | workers 3
+[factory] stage A done in 128s
+[factory] 9 configurations shortlisted for checks 3-5
+[factory] logged 42 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_cal_prehol_h1.csv
+  GOLD      H1   t +2.34 avgR +0.074 n   74 neigh 2/2   +50%spr +0.067 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US100Cash H1   t +2.20 avgR +0.115 n   74 neigh 2/2   +50%spr +0.108 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US100Cash H1   t +2.18 avgR +0.143 n   67 neigh 2/2   +50%spr +0.137 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  GOLD      H1   t +2.15 avgR +0.099 n   74 neigh 3/3   +50%spr +0.092 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US500Cash H1   t +2.12 avgR +0.085 n   74 neigh 3/3   +50%spr +0.079 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US500Cash H1   t +2.06 avgR +0.106 n   74 neigh 1/2   +50%spr +0.099 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US500Cash H1   t +2.01 avgR +0.044 n   75 neigh 1/2   +50%spr +0.038 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  GOLD      H1   t +1.96 avgR +0.103 n   74 neigh 2/2   +50%spr +0.096 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US100Cash H1   t +1.59 avgR +0.068 n   74 neigh 3/3   +50%spr +0.062 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+[factory] FINALISTS: 0
+##### cal_dow_h1
+[factory] lm_calendar: 5 settings x 7 markets x 1 TFs = 35 configurations | workers 3
+[factory] stage A done in 85s
+[factory] 2 configurations shortlisted for checks 3-5
+[factory] logged 35 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_cal_dow_h1.csv
+  US100Cash H1   t +1.41 avgR +0.020 n  369 neigh 0/1   +50%spr +0.014 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US500Cash H1   t +1.00 avgR +0.012 n  411 neigh 0/1   +50%spr +0.006 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+[factory] FINALISTS: 0

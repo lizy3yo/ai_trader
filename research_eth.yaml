@@ -1,0 +1,40 @@
+# ============================================================
+# RESEARCH base config for ETHUSD (used by tools/research.py --config).
+# Not for live trading. Fixed 1% risk on a large notional account, real
+# broker costs (data/ethusd_econ.json, 2026-11-08). BTC trades 24/7 here
+# (weekend bars exist from 2022; earlier history is weekdays only).
+# ============================================================
+symbol: "ETHUSD"
+magic: 999007
+capital:
+  allocated: 100000.0
+  hard_max: 100000.0
+risk:
+  base_risk_pct: 1.0
+  max_risk_pct: 1.0
+  step_up_pct: 0.0
+  step_up_after_wins: 3
+  drop_to_base_on_loss: true
+  daily_loss_limit: 100000.0
+  close_positions_on_limit: true
+  max_open_positions: 1
+  max_spread_points: 8000
+  min_equity_stop: 100.0
+strategy:
+  name: "trend_donchian"
+  timeframe: "H1"
+session:
+  trade_start: "00:00"
+  trade_end: "23:59"
+  friday_close: "23:59"
+  weekends: true
+backtest:
+  spread_points: 300           # $3.00 floor = recorded live spread (~0.13% of price); wider recorded spreads used
+  use_bar_spread: true
+  spread_ref_price: 2234.34   # spread floor measured at this price; scaled to the price at the time
+  commission_per_lot: 0.0
+  swap_long_points: -93.43     # = -$0.93 per ETH per night (~15%/yr)
+  swap_short_points: -62.29     # shorts pay too
+  swap_triple_weekday: -1
+  swap_ref_price: 2234.34       # swaps above were quoted at this price (2026-11-08)
+  swap_every_day: true

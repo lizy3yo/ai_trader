@@ -1,0 +1,51 @@
+{
+ "strategy": "lm_meanrev",
+ "family": "mean_reversion",
+ "markets": "all",
+ "timeframes": [
+  "H1"
+ ],
+ "grid": {
+  "mode": [
+   "rsi2"
+  ],
+  "rsi_th": [
+   5.0,
+   10.0,
+   15.0
+  ],
+  "exit_ma": [
+   3,
+   5,
+   10
+  ],
+  "exit_rsi": [
+   70.0
+  ],
+  "max_hold": [
+   10
+  ],
+  "side": [
+   "long"
+  ],
+  "trend": [
+   1
+  ],
+  "cfg.atr_sl_mult": [
+   6.0
+  ],
+  "cfg.ema_trend": [
+   200
+  ],
+  "cfg.atr_tp_mult": [
+   20.0
+  ],
+  "cfg.cooldown_bars": [
+   0
+  ]
+ },
+ "dir": "long",
+ "trend": 1,
+ "exit_from_strategy": true,
+ "max_bars": 60000
+}

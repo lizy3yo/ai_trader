@@ -1,0 +1,18 @@
+{
+ "symbol": "NZDCAD",
+ "tick_size": 1e-05,
+ "tick_value": 0.7082999999999999,
+ "point": 1e-05,
+ "tick_value_profit_ccy": 0.7081149978756551,
+ "currency_profit": "CAD",
+ "contract_size": 100000.0,
+ "volume_min": 0.01,
+ "volume_max": 50.0,
+ "volume_step": 0.01,
+ "swap_mode": 1,
+ "swap_long_points": -2.58,
+ "swap_short_points": -4.38,
+ "swap_rollover3days_mt5": 3,
+ "live_spread": 0.00045000000000006146,
+ "live_bid": 0.79545
+}

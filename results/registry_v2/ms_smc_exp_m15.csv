@@ -1,0 +1,13 @@
+ts,study,family,strategy,market,tf,params,tr_n,tr_avgR,tr_t,va_n,va_avgR,va_t,va_pf,tv_n,tv_avgR,tv_t,tv_pf,tv_posM,tv_maxdd_pct,tv_swapR,neigh_ok,spread_avgR,rand_mean,rand_p95,p_random,verdict
+2026-11-08 22:28,ms_smc_exp_m15.json,ms_smc,ms_smc,GOLD,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":4.5,""expiry"":20,""pd"":0}",187,-0.05,-0.4,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:28,ms_smc_exp_m15.json,ms_smc,ms_smc,GOLD,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":4.5,""expiry"":20,""pd"":1}",80,0.045,0.23,23,-0.151,-0.43,0.786,,,,,,,,,,,,,fail: quiz
+2026-11-08 22:28,ms_smc_exp_m15.json,ms_smc,ms_smc,GOLD,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":4.5,""expiry"":100,""pd"":0}",252,-0.031,-0.28,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:28,ms_smc_exp_m15.json,ms_smc,ms_smc,GOLD,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":4.5,""expiry"":100,""pd"":1}",122,0.072,0.45,37,-0.369,-1.5,0.545,,,,,,,,,,,,,fail: quiz
+2026-11-08 22:28,ms_smc_exp_m15.json,ms_smc,ms_smc,BTCUSD,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":4.5,""expiry"":20,""pd"":0}",143,-0.312,-2.45,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:28,ms_smc_exp_m15.json,ms_smc,ms_smc,BTCUSD,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":4.5,""expiry"":20,""pd"":1}",80,-0.41,-2.55,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:28,ms_smc_exp_m15.json,ms_smc,ms_smc,BTCUSD,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":4.5,""expiry"":100,""pd"":0}",220,-0.355,-3.56,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:28,ms_smc_exp_m15.json,ms_smc,ms_smc,BTCUSD,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":4.5,""expiry"":100,""pd"":1}",138,-0.429,-3.57,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:28,ms_smc_exp_m15.json,ms_smc,ms_smc,US500Cash,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":4.5,""expiry"":20,""pd"":0}",176,-0.154,-1.24,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:28,ms_smc_exp_m15.json,ms_smc,ms_smc,US500Cash,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":4.5,""expiry"":20,""pd"":1}",75,-0.226,-1.2,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:28,ms_smc_exp_m15.json,ms_smc,ms_smc,US500Cash,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":4.5,""expiry"":100,""pd"":0}",227,-0.213,-1.98,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:28,ms_smc_exp_m15.json,ms_smc,ms_smc,US500Cash,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":4.5,""expiry"":100,""pd"":1}",111,-0.297,-2.01,,,,,,,,,,,,,,,,,fail: practice

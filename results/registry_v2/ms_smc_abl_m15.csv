@@ -1,0 +1,13 @@
+ts,study,family,strategy,market,tf,params,tr_n,tr_avgR,tr_t,va_n,va_avgR,va_t,va_pf,tv_n,tv_avgR,tv_t,tv_pf,tv_posM,tv_maxdd_pct,tv_swapR,neigh_ok,spread_avgR,rand_mean,rand_p95,p_random,verdict
+2026-11-08 22:21,ms_smc_abl_m15.json,ms_smc,ms_smc,GOLD,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""pd"":0,""sweep"":0}",357,-0.236,-3.39,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:21,ms_smc_abl_m15.json,ms_smc,ms_smc,GOLD,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""pd"":1,""sweep"":0}",143,-0.273,-2.53,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:21,ms_smc_abl_m15.json,ms_smc,ms_smc,GOLD,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""pd"":0,""sweep"":1}",191,-0.162,-1.65,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:21,ms_smc_abl_m15.json,ms_smc,ms_smc,GOLD,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""pd"":1,""sweep"":1}",81,-0.151,-1.0,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:21,ms_smc_abl_m15.json,ms_smc,ms_smc,BTCUSD,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""pd"":0,""sweep"":0}",316,-0.407,-5.9,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:21,ms_smc_abl_m15.json,ms_smc,ms_smc,BTCUSD,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""pd"":1,""sweep"":0}",149,-0.48,-5.01,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:21,ms_smc_abl_m15.json,ms_smc,ms_smc,BTCUSD,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""pd"":0,""sweep"":1}",144,-0.403,-4.01,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:21,ms_smc_abl_m15.json,ms_smc,ms_smc,BTCUSD,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""pd"":1,""sweep"":1}",81,-0.488,-3.84,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:21,ms_smc_abl_m15.json,ms_smc,ms_smc,US500Cash,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""pd"":0,""sweep"":0}",301,-0.203,-2.61,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:21,ms_smc_abl_m15.json,ms_smc,ms_smc,US500Cash,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""pd"":1,""sweep"":0}",117,-0.368,-3.08,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:21,ms_smc_abl_m15.json,ms_smc,ms_smc,US500Cash,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""pd"":0,""sweep"":1}",178,-0.155,-1.52,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:21,ms_smc_abl_m15.json,ms_smc,ms_smc,US500Cash,M15,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""pd"":1,""sweep"":1}",76,-0.354,-2.41,,,,,,,,,,,,,,,,,fail: practice

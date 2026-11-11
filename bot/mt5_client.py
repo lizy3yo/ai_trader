@@ -116,11 +116,32 @@ def find_gold_symbols() -> list[str]:
     return out
 
 
+def account_tick_value(symbol: str) -> float:
+    """Value of one tick on 1.0 lot in the ACCOUNT currency.
+
+    trade_tick_value can come back in the symbol's profit currency (e.g. JPY
+    for JP225Cash, EUR for GER40Cash) when the terminal has no live conversion,
+    which would mis-size positions ~160x on a yen index. Ask the terminal to
+    price a 100-tick move instead; fall back to trade_tick_value."""
+    info = _symbol_info_or_raise(symbol)
+    tick = mt5.symbol_info_tick(symbol)
+    px = (tick.bid if tick and tick.bid > 0 else 0.0) or info.bid or info.last
+    if px and info.trade_tick_size > 0:
+        try:
+            p = mt5.order_calc_profit(mt5.ORDER_TYPE_BUY, symbol, 1.0, px,
+                                      px + 100 * info.trade_tick_size)
+            if p is not None and p > 0:
+                return p / 100.0
+        except Exception:
+            pass
+    return info.trade_tick_value
+
+
 def economics(symbol: str) -> SymbolEconomics:
     info = _symbol_info_or_raise(symbol)
     return SymbolEconomics(
         tick_size=info.trade_tick_size,
-        tick_value=info.trade_tick_value,
+        tick_value=account_tick_value(symbol),
         volume_min=info.volume_min,
         volume_max=info.volume_max,
         volume_step=info.volume_step,

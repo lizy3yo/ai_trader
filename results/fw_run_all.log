@@ -1,0 +1,171 @@
+=== grids/fw_donchian_sl10.json 13:32:40
+[factory] FINALISTS: 0
+=== grids/fw_donchian_sl15.json 13:32:58
+  GOLD      D1   t +1.53 avgR +0.231 n   95 neigh 1/2   +50%spr +0.231 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":3.0,"inner":"trend_donchian",
+[factory] FINALISTS: 0
+=== grids/fw_donchian_sl20.json 13:33:16
+[factory] FINALISTS: 0
+=== grids/fw_keltner_sl10.json 13:33:33
+[factory] FINALISTS: 0
+=== grids/fw_keltner_sl15.json 13:33:45
+  BTCUSD    H4   t +2.04 avgR +0.165 n  340 neigh 1/2   +50%spr +0.165 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":3.0,"inner":"lt_keltner","inn
+[factory] FINALISTS: 0
+=== grids/fw_keltner_sl20.json 13:33:58
+  BTCUSD    H4   t +2.30 avgR +0.166 n  312 neigh 1/1   +50%spr +0.165 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":3.0,"inner":"lt_keltner","inn
+  GOLD      M15  t +2.05 avgR +0.137 n  734 neigh 1/1   +50%spr +0.111 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":6.0,"inner":"lt_keltner","inn
+  US500Cash H4   t +0.70 avgR +0.063 n  256 neigh 1/2   +50%spr +0.040 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":4.0,"inner":"lt_keltner","inn
+[factory] FINALISTS: 0
+=== grids/fw_ema20_50_cross_sl10.json 13:34:14
+  US500Cash H4   t +1.71 avgR +0.185 n  133 neigh 1/1   +50%spr +0.167 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":1.5,"inner":"lt_macross","inn
+[factory] FINALISTS: 0
+=== grids/fw_ema20_50_cross_sl15.json 13:34:29
+[factory] FINALISTS: 0
+=== grids/fw_ema20_50_cross_sl20.json 13:34:42
+[factory] FINALISTS: 0
+=== grids/fw_pullback_sl10.json 13:34:54
+[factory] FINALISTS: 0
+=== grids/fw_pullback_sl15.json 13:35:03
+[factory] FINALISTS: 0
+=== grids/fw_pullback_sl20.json 13:35:10
+  US500Cash H4   t +1.35 avgR +0.073 n  526 neigh 1/1   +50%spr +0.073 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":3.0,"inner":"lt_pullback","in
+  US500Cash H4   t +1.17 avgR +0.080 n  439 neigh 2/2   +50%spr +0.078 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":4.0,"inner":"lt_pullback","in
+[factory] FINALISTS: 0
+=== grids/fw_momentum_sl10.json 13:35:19
+[factory] FINALISTS: 0
+=== grids/fw_momentum_sl15.json 13:35:26
+[factory] FINALISTS: 0
+=== grids/fw_momentum_sl20.json 13:35:33
+[factory] FINALISTS: 0
+=== grids/fw_rsi2_sl10.json 13:35:44
+[factory] FINALISTS: 0
+=== grids/fw_rsi2_sl15.json 13:35:58
+[factory] FINALISTS: 0
+=== grids/fw_rsi2_sl20.json 13:36:09
+  US500Cash D1   t +1.04 avgR +0.186 n   68 neigh 0/2   +50%spr +0.186 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":4.0,"inner":"lm_meanrev","inn
+[factory] FINALISTS: 0
+=== grids/fw_ibs_sl10.json 13:36:21
+[factory] FINALISTS: 0
+=== grids/fw_ibs_sl15.json 13:36:30
+[factory] FINALISTS: 0
+=== grids/fw_ibs_sl20.json 13:36:38
+  US500Cash H4   t +1.20 avgR +0.061 n  588 neigh 1/1   +50%spr +0.058 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":3.0,"inner":"lm_meanrev","inn
+[factory] FINALISTS: 0
+=== grids/fw_bollinger_sl10.json 13:36:47
+  US500Cash D1   t +1.10 avgR +0.342 n   36 neigh 1/1   +50%spr +0.342 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":3.0,"inner":"mr_boll","inner_
+[factory] FINALISTS: 0
+=== grids/fw_bollinger_sl15.json 13:37:10
+  US500Cash D1   t +1.36 avgR +0.333 n   35 neigh 2/2   +50%spr +0.337 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":3.0,"inner":"mr_boll","inner_
+[factory] FINALISTS: 0
+=== grids/fw_bollinger_sl20.json 13:37:33
+  US500Cash H4   t +0.74 avgR +0.114 n  139 neigh 1/1   +50%spr +0.114 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":6.0,"inner":"mr_boll","inner_
+  US500Cash H4   t +0.64 avgR +0.060 n  171 neigh 1/1   +50%spr +0.046 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":3.0,"inner":"mr_boll","inner_
+[factory] FINALISTS: 0
+=== grids/fw_macd_sl10.json 13:37:57
+[factory] FINALISTS: 0
+=== grids/fw_macd_sl15.json 13:38:13
+[factory] FINALISTS: 0
+=== grids/fw_macd_sl20.json 13:38:27
+  GOLD      M15  t +1.38 avgR +0.086 n  823 neigh 1/1   +50%spr +0.057 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":6.0,"inner":"trend_macd","inn
+[factory] FINALISTS: 0
+=== grids/fw_adx_sl10.json 13:38:47
+[factory] FINALISTS: 0
+=== grids/fw_adx_sl15.json 13:39:11
+[factory] FINALISTS: 0
+=== grids/fw_adx_sl20.json 13:39:31
+[factory] FINALISTS: 0
+=== grids/fw_squeeze_sl10.json 13:39:52
+  US500Cash H4   t +1.20 avgR +0.252 n   78 neigh 1/1   +50%spr +0.252 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":3.0,"inner":"ls_squeeze","inn
+  GOLD      H1   t +0.79 avgR +0.046 n  450 neigh 0/1   +50%spr +0.018 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":1.5,"inner":"ls_squeeze","inn
+[factory] FINALISTS: 0
+=== grids/fw_squeeze_sl15.json 13:40:14
+[factory] FINALISTS: 0
+=== grids/fw_squeeze_sl20.json 13:40:27
+  US500Cash H1   t +0.77 avgR +0.058 n  264 neigh 1/1   +50%spr +0.058 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":3.0,"inner":"ls_squeeze","inn
+  BTCUSD    H4   t +0.73 avgR +0.084 n  117 neigh 0/1   +50%spr +0.084 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":3.0,"inner":"ls_squeeze","inn
+[factory] FINALISTS: 0
+=== grids/fw_inside_bar_sl10.json 13:40:48
+[factory] FINALISTS: 0
+=== grids/fw_inside_bar_sl15.json 13:40:58
+[factory] FINALISTS: 0
+=== grids/fw_inside_bar_sl20.json 13:41:08
+[factory] FINALISTS: 0
+=== grids/fw_vol_breakout_sl10.json 13:41:15
+  US500Cash H1   t +1.80 avgR +0.108 n  913 neigh 1/1   +50%spr +0.083 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":3.0,"inner":"ls_dlvl","inner_
+[factory] FINALISTS: 0
+=== grids/fw_vol_breakout_sl15.json 13:41:36
+  GOLD      H4   t +1.72 avgR +0.077 n  764 neigh 0/1   +50%spr +0.073 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":2.25,"inner":"ls_dlvl","inner
+  US500Cash H1   t +1.14 avgR +0.055 n  880 neigh 2/2   +50%spr +0.052 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":3.0,"inner":"ls_dlvl","inner_
+  US500Cash H1   t +0.92 avgR +0.038 n  909 neigh 1/1   +50%spr +0.027 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":2.25,"inner":"ls_dlvl","inner
+[factory] FINALISTS: 0
+=== grids/fw_vol_breakout_sl20.json 13:41:56
+  US500Cash H1   t +1.22 avgR +0.052 n  835 neigh 1/1   +50%spr +0.050 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":3.0,"inner":"ls_dlvl","inner_
+[factory] FINALISTS: 0
+=== grids/fw_structure_sl10.json 13:42:13
+[factory] FINALISTS: 0
+=== grids/fw_structure_sl15.json 13:42:27
+  GOLD      H4   t +1.25 avgR +0.110 n  421 neigh 0/1   +50%spr +0.092 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":4.5,"inner":"ms_trend","inner
+[factory] FINALISTS: 0
+=== grids/fw_structure_sl20.json 13:42:43
+  GOLD      M15  t +0.79 avgR +0.050 n  754 neigh 0/1   +50%spr +0.007 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":6.0,"inner":"ms_trend","inner
+[factory] FINALISTS: 0
+=== grids/fw_smc_sl10.json 13:42:59
+[factory] FINALISTS: 0
+=== grids/fw_smc_sl15.json 13:43:18
+[factory] FINALISTS: 0
+=== grids/fw_smc_sl20.json 13:43:36
+[factory] FINALISTS: 0
+=== grids/fw_supply_demand_sl10.json 13:43:54
+  US500Cash D1   t +1.49 avgR +0.227 n   68 neigh 0/1   +50%spr +0.227 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":1.5,"inner":"ms_sd","inner_pa
+[factory] FINALISTS: 0
+=== grids/fw_supply_demand_sl15.json 13:44:08
+[factory] FINALISTS: 0
+=== grids/fw_supply_demand_sl20.json 13:44:21
+[factory] FINALISTS: 0
+=== grids/fw_elliott_w3_sl10.json 13:44:33
+[factory] FINALISTS: 0
+=== grids/fw_elliott_w3_sl15.json 13:44:49
+[factory] FINALISTS: 0
+=== grids/fw_elliott_w3_sl20.json 13:45:05
+  GOLD      H1   t +0.77 avgR +0.113 n  153 neigh 1/1   +50%spr +0.102 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":6.0,"inner":"ew_w3","inner_pa
+[factory] FINALISTS: 0
+=== grids/fw_ema_8_13_21_sl10.json 13:45:31
+  GOLD      H4   t +1.01 avgR +0.171 n  116 neigh 0/1   +50%spr +0.171 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":3.0,"inner":"us_ema_pullback"
+[factory] FINALISTS: 0
+=== grids/fw_ema_8_13_21_sl15.json 13:45:51
+  US500Cash H4   t +1.34 avgR +0.174 n   90 neigh 1/1   +50%spr +0.175 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":2.25,"inner":"us_ema_pullback
+  GOLD      H4   t +0.77 avgR +0.089 n  115 neigh 1/1   +50%spr +0.089 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":2.25,"inner":"us_ema_pullback
+  GOLD      H4   t +0.63 avgR +0.085 n  113 neigh 2/2   +50%spr +0.085 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":3.0,"inner":"us_ema_pullback"
+[factory] FINALISTS: 0
+=== grids/fw_ema_8_13_21_sl20.json 13:46:11
+  US500Cash H4   t +0.98 avgR +0.161 n   83 neigh 1/2   +50%spr +0.161 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":4.0,"inner":"us_ema_pullback"
+[factory] FINALISTS: 0
+=== grids/fw_fvg_sl10.json 13:46:29
+[factory] FINALISTS: 0
+=== grids/fw_fvg_sl15.json 13:46:43
+[factory] FINALISTS: 0
+=== grids/fw_fvg_sl20.json 13:46:55
+[factory] FINALISTS: 0
+=== grids/fw_order_block_sl10.json 13:47:06
+[factory] FINALISTS: 0
+=== grids/fw_order_block_sl15.json 13:47:22
+  GOLD      H4   t +1.45 avgR +0.221 n  148 neigh 1/1   +50%spr +0.221 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":4.5,"inner":"ob_retest","inne
+  GOLD      H4   t +1.17 avgR +0.115 n  157 neigh 1/1   +50%spr +0.115 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":2.25,"inner":"ob_retest","inn
+[factory] FINALISTS: 0
+=== grids/fw_order_block_sl20.json 13:47:43
+  GOLD      H4   t +1.49 avgR +0.179 n  148 neigh 2/2   +50%spr +0.179 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":4.0,"inner":"ob_retest","inne
+  GOLD      H4   t +0.75 avgR +0.074 n  154 neigh 1/1   +50%spr +0.074 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":3.0,"inner":"ob_retest","inne
+[factory] FINALISTS: 0
+=== grids/fw_liq_sweep_sl10.json 13:48:02
+[factory] FINALISTS: 0
+=== grids/fw_liq_sweep_sl15.json 13:48:26
+[factory] FINALISTS: 0
+=== grids/fw_liq_sweep_sl20.json 13:48:56
+[factory] FINALISTS: 0
+=== grids/fw_volume_breakout_sl10.json 13:49:25
+[factory] FINALISTS: 0
+=== grids/fw_volume_breakout_sl15.json 13:49:40
+[factory] FINALISTS: 0
+=== grids/fw_volume_breakout_sl20.json 13:49:55
+  GOLD      M15  t +1.53 avgR +0.252 n  127 neigh 1/1   +50%spr +0.220 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":6.0,"inner":"g6i_volbrk","inn
+[factory] FINALISTS: 0
+=== ALL DONE 13:50:20

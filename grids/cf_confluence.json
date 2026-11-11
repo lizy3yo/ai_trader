@@ -1,0 +1,8 @@
+{"strategy": "cf_confluence", "family": "confluence",
+ "markets": ["GOLD", "BTCUSD", "US500Cash"],
+ "timeframes": ["M15", "H1", "H4"],
+ "grid": {"trend": ["ema200", "stack", "structure", "supertrend"],
+          "setup": ["ema", "bos", "sr", "fib"],
+          "trigger": ["stoch", "candle", "macd", "prevhigh"],
+          "side": ["both"], "cfg.atr_sl_mult": [2.0], "cfg.atr_tp_mult": [4.0]},
+ "dir": "both", "trend": 0, "exit_from_strategy": false, "max_bars": 60000}

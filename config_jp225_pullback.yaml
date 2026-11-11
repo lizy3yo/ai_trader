@@ -1,0 +1,77 @@
+# ============================================================
+# Nikkei 225 dip-buyer in an uptrend (JP225Cash, daily) — round 6 finalist.
+# WEAK EVIDENCE: passed every check and its final exam, but the exam had only
+# 11 trades (+0.16R, t 1.27, beat random p 0.033). About 3 trades a year.
+#
+# Rule: only while close > EMA(200). Buy at the next open when RSI(3) < 10.
+# Exit when the close is back above its 5-day average, or after 20 days.
+# Disaster stop 3 x ATR(14).
+# Train 2010-2020: 21 trades t 3.24 | val 2020-2023: 11 trades t 1.00.
+# Its main value is diversification: ~0 correlation with the S&P and gold systems.
+# Demo-test first.
+# ============================================================
+
+mt5:
+  login: 0
+  password: ""
+  server: ""
+  terminal_path: ""
+
+symbol: "JP225Cash"     # XM's Nikkei 225 cash index CFD (min 0.1 lot)
+magic: 620066           # unique — never share a magic between configs
+
+capital:
+  allocated: 500.0
+  hard_max: 500.0
+
+risk:
+  base_risk_pct: 5.0
+  max_risk_pct: 10.0
+  step_up_pct: 1.0
+  step_up_after_wins: 3
+  drop_to_base_on_loss: true
+  daily_loss_limit: 200.0
+  close_positions_on_limit: true
+  max_open_positions: 1
+  max_spread_points: 30    # normal ~9-12 pts (index points); blocks blowouts
+  min_equity_stop: 100.0
+
+strategy:
+  name: "lt_pullback"
+  params:
+    trig: "rsi"           # dip trigger: RSI(n) below thr
+    n: 3
+    thr: 10
+    side: "long"
+    exit: "rec"           # recovery exit: close back above SMA(exit_n)
+    exit_n: 5
+  timeframe: "D1"
+  ema_trend: 200          # uptrend filter: only buy above EMA(200)
+  atr_period: 14
+  atr_sl_mult: 3.0        # disaster stop
+  atr_tp_mult: 20.0       # effectively no target: the rule exits
+  cooldown_bars: 0
+  max_hold_bars: 20       # time exit
+
+session:
+  trade_start: "00:00"
+  trade_end: "23:59"
+  friday_close: "23:59"
+  weekends: false
+  poll_seconds: 10
+
+tracking:
+  db_path: "data/trades_jp225_pullback.db"
+  csv_path: "data/trades_jp225_pullback.csv"
+
+backtest:
+  data_csv: "data/jp225cash_d1.csv"
+  bars: 6000
+  spread_points: 12        # 12 index points (1.3x the recorded live spread)
+  use_bar_spread: true
+  spread_ref_price: 58102.0
+  commission_per_lot: 0.0
+  swap_long_points: -5.21  # -5.21 (JPY) per lot per night held long
+  swap_short_points: -2.05
+  swap_triple_weekday: 4   # Friday rollover charged x3
+  swap_ref_price: 58102.0

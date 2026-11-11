@@ -1,0 +1,38 @@
+{
+ "strategy": "g6s_event",
+ "family": "g6s_event",
+ "markets": [
+  "GOLD",
+  "SILVER"
+ ],
+ "timeframes": [
+  "H1"
+ ],
+ "grid": {
+  "events": [
+   "nfppre",
+   "fomcpre,prehol",
+   "fomcpre,prehol,nfppre"
+  ],
+  "prehol_nb": [
+   0,
+   1
+  ],
+  "side": [
+   "long"
+  ],
+  "cfg.atr_sl_mult": [
+   12.0
+  ],
+  "cfg.atr_tp_mult": [
+   20.0
+  ],
+  "cfg.cooldown_bars": [
+   0
+  ]
+ },
+ "dir": "long",
+ "trend": 0,
+ "exit_from_strategy": true,
+ "max_bars": 60000
+}

@@ -1,0 +1,42 @@
+{
+ "strategy": "mx_dxgate",
+ "family": "mx_macro",
+ "markets": [
+  "GOLD"
+ ],
+ "timeframes": [
+  "H1"
+ ],
+ "grid": {
+  "n": [
+   360
+  ],
+  "side": [
+   "long"
+  ],
+  "gate": [
+   "roc20_inv",
+   "sma50_inv",
+   "none",
+   "sma50",
+   "sma100",
+   "roc20"
+  ],
+  "cfg.ema_trend": [
+   400
+  ],
+  "cfg.atr_sl_mult": [
+   3.0
+  ],
+  "cfg.atr_tp_mult": [
+   5.0
+  ],
+  "session.window": [
+   "09:00-23:00"
+  ]
+ },
+ "dir": "long",
+ "trend": 1,
+ "exit_from_strategy": false,
+ "max_bars": 60000
+}

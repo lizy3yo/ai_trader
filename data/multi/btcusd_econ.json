@@ -1,0 +1,14 @@
+{
+ "symbol": "BTCUSD",
+ "tick_size": 0.01,
+ "tick_value": 0.01,
+ "point": 0.01,
+ "contract_size": 1.0,
+ "volume_min": 0.01,
+ "volume_max": 80.0,
+ "volume_step": 0.01,
+ "swap_mode": 1,
+ "swap_long_points": -3220.34,
+ "swap_short_points": -2146.89,
+ "swap_rollover3days_mt5": 7
+}

@@ -1,0 +1,16 @@
+{
+ "symbol": "USDJPY",
+ "tick_size": 0.001,
+ "tick_value": 0.6294,
+ "point": 0.001,
+ "tick_value_profit_ccy": 0.6297427500865896,
+ "currency_profit": "JPY",
+ "contract_size": 100000.0,
+ "volume_min": 0.01,
+ "volume_max": 50.0,
+ "volume_step": 0.01,
+ "swap_mode": 1,
+ "swap_long_points": 2.11,
+ "swap_short_points": -29.59,
+ "swap_rollover3days_mt5": 3
+}

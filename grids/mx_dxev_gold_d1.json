@@ -1,0 +1,48 @@
+{
+ "strategy": "mx_event",
+ "family": "mx_macro",
+ "markets": [
+  "GOLD"
+ ],
+ "timeframes": [
+  "D1"
+ ],
+ "grid": {
+  "feat": [
+   "usdx-dec26"
+  ],
+  "feat_tf": [
+   "D1"
+  ],
+  "days": [
+   1,
+   3,
+   5
+  ],
+  "k": [
+   1.5,
+   2.0,
+   2.5
+  ],
+  "trigger": [
+   "down"
+  ],
+  "side": [
+   "long"
+  ],
+  "cfg.max_hold_bars": [
+   3,
+   10
+  ],
+  "cfg.atr_sl_mult": [
+   3.0
+  ],
+  "cfg.atr_tp_mult": [
+   6.0
+  ]
+ },
+ "dir": "long",
+ "trend": 0,
+ "exit_from_strategy": false,
+ "max_bars": 3400
+}

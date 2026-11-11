@@ -1,0 +1,4 @@
+{"strategy": "g6i_round", "family": "levels", "markets": ["GOLD"], "timeframes": ["M15", "M30"],
+ "grid": {"step": [10.0, 50.0], "mode": ["reject", "break"], "look": [48, 96], "buf": [0.1], "hold_min": [120], "side": ["both", "long"],
+          "session.window": ["02:00-21:00"], "session.flat_at": ["22:45"], "cfg.atr_sl_mult": [1.5], "cfg.atr_tp_mult": [3.0]},
+ "dir": "both", "trend": 0, "exit_from_strategy": true, "max_bars": 100000}

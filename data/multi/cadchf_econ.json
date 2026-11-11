@@ -1,0 +1,18 @@
+{
+ "symbol": "CADCHF",
+ "tick_size": 1e-05,
+ "tick_value": 1.2187000000000001,
+ "point": 1e-05,
+ "tick_value_profit_ccy": 1.218338430049099,
+ "currency_profit": "CHF",
+ "contract_size": 100000.0,
+ "volume_min": 0.01,
+ "volume_max": 50.0,
+ "volume_step": 0.01,
+ "swap_mode": 1,
+ "swap_long_points": 1.85,
+ "swap_short_points": -6.71,
+ "swap_rollover3days_mt5": 3,
+ "live_spread": 0.00043999999999999595,
+ "live_bid": 0.58168
+}

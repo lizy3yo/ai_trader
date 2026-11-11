@@ -1,0 +1,1 @@
+{"entry":["sma"],"sma_days":[10,20,50,100],"exit":[3],"daily":[0,1],"cfg.atr_period":[42],"cfg.atr_sl_mult":[5,8],"cfg.atr_tp_mult":[60],"cfg.cooldown_bars":[0]}

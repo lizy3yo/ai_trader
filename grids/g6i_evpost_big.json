@@ -1,0 +1,5 @@
+{"strategy": "g6i_event", "family": "calendar", "markets": ["GOLD"], "timeframes": ["M30"],
+ "grid": {"mode": ["post"], "ev": ["data", "all"], "k": [30, 60], "dirmode": ["follow"], "mm": [1.0, 2.0], "hold_min": [0],
+          "session.window": ["14:30-22:15"], "session.flat_at": ["22:45"], "cfg.atr_sl_mult": [3.0], "cfg.atr_tp_mult": [10.0],
+          "cfg.cooldown_bars": [0]},
+ "dir": "both", "trend": 0, "exit_from_strategy": true, "max_bars": 100000}

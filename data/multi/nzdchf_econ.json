@@ -1,0 +1,18 @@
+{
+ "symbol": "NZDCHF",
+ "tick_size": 1e-05,
+ "tick_value": 1.2203,
+ "point": 1e-05,
+ "tick_value_profit_ccy": 1.2199287561606402,
+ "currency_profit": "CHF",
+ "contract_size": 100000.0,
+ "volume_min": 0.01,
+ "volume_max": 50.0,
+ "volume_step": 0.01,
+ "swap_mode": 1,
+ "swap_long_points": 1.45,
+ "swap_short_points": -5.29,
+ "swap_rollover3days_mt5": 3,
+ "live_spread": 0.00045000000000000595,
+ "live_bid": 0.46161
+}

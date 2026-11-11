@@ -1,0 +1,258 @@
+# This “First Candle” Strategy Is Boring But It Will Turn You Profitable
+# duration 8.7 min
+
+[00:00] This boring strategy consistently gives me days
+[00:02] like this, this, and this,
+[00:04] and I'm about to show you exactly how.
+[00:06] It is so stupid simple that even complete beginners
+[00:09] can't mess it up and it appears every single day.
+[00:12] And today I'm gonna show you the full strategy
+[00:14] and do a one month back test
+[00:15] to prove to you that it works.
+[00:18] The first candle strategy has three simple steps.
+[00:21] And to trade it, you only need one setup
+[00:23] on one timeframe at one time of day.
+[00:26] It's boring because you just do the same thing
+[00:28] every single day.
+[00:30] But in my nine year trading career,
+[00:32] I've learned that boring and consistent trading
+[00:34] leads to profitable trading.
+[00:36] That number one is to mark out the levels
+[00:38] that we're gonna look to trade from.
+[00:39] And to do this, you're gonna get to your desk
+[00:41] right at 9.30 a.m. Eastern Standard Time.
+[00:45] This strategy and this same time works in any market,
+[00:48] whether it's future stocks, crypto, or forex.
+[00:50] And for this entire strategy,
+[00:52] we're going to stay on the five minute chart.
+[00:54] So go up to trading view and click this five minute button.
+[00:57] And after you've waited for this first five minute candle
+[00:59] to close, we wanna mark out the high and low.
+[01:02] To do this, we're gonna select the trend line tool
+[01:04] here on trading view, and then you just mark out the high
+[01:07] and the low of this candle.
+[01:09] And these are gonna be your two trading levels
+[01:11] for the day.
+[01:11] This brings us to step number two,
+[01:13] which is finding our trade entry.
+[01:15] Now we're gonna break this down into two parts.
+[01:17] The first is to wait for a five minute candle closure
+[01:20] through one of our levels.
+[01:21] As you can see, this very next candle closes
+[01:24] through the first five minute candle low.
+[01:26] But this alone isn't enough for a trade entry.
+[01:29] We need to wait for a retest, that way we avoid fake outs.
+[01:33] And to get a valid retest,
+[01:34] we need a candle to trade back into the level,
+[01:37] but not close inside of it.
+[01:38] As you can see right here,
+[01:39] we traded into that first five minute candle low
+[01:42] that we broke,
+[01:43] but then the market moved aggressively away from it,
+[01:46] closing outside of the range.
+[01:47] And waiting for this is huge for keeping a high win rate,
+[01:50] as you'll see later on in the back test.
+[01:53] And after we get our retest candle,
+[01:55] we're good to enter the trade.
+[01:56] So you can go up here and click the sell button
+[01:58] on trading view, since we broke through the low.
+[02:00] And this brings us to step number three,
+[02:02] where we'll look for our target
+[02:03] where we want to take profit
+[02:05] and place our stop loss,
+[02:06] which would be our invalidation when we're wrong.
+[02:09] So our stop loss is gonna go right at the middle
+[02:11] of the range that's created
+[02:13] between the first five minute candle high and the low.
+[02:16] To do this, you're gonna go over here
+[02:17] to the left on your toolbar
+[02:19] and select the fib retracement button.
+[02:21] You're just going to draw this from the high
+[02:24] all the way down here to that low.
+[02:25] If the settings are at default,
+[02:27] your fib tool won't look right.
+[02:29] So make sure to take a look at these settings,
+[02:31] screenshot them and make sure yours are the same.
+[02:33] The important thing is that you have one,
+[02:35] zero and point five checked.
+[02:37] And this makes sure that it marks the midpoint.
+[02:39] Now to place our stop loss,
+[02:40] you're gonna click this SL button
+[02:42] and we're gonna drag it right up here
+[02:44] above that midpoint.
+[02:45] And to place our target,
+[02:46] we're gonna go for a fixed two to one return.
+[02:49] This means that on our winning trades,
+[02:51] we'll make twice as much money
+[02:52] as we lose when we're wrong.
+[02:54] Now in order to get this level
+[02:56] that you wanna put for your take profit,
+[02:57] we're gonna go over here to the left
+[02:58] to the toolbar again.
+[03:00] You're gonna click the short position tool
+[03:02] because we are in a sell, which is a short
+[03:04] and you're gonna place right
+[03:06] on the candle closure right here.
+[03:08] Now where you originally click
+[03:09] is gonna show your trade entry
+[03:11] and you can drag the stop loss up
+[03:13] to where we have it up here.
+[03:14] After you've marked your stop loss correctly,
+[03:16] we wanna drag down our take profit
+[03:18] to where it says two to one risk to reward ratio.
+[03:21] After that, you click this TP button
+[03:24] to actually set your order,
+[03:25] you drag it down to that level
+[03:27] and then you hit confirm.
+[03:29] And now your trade is set up
+[03:31] and all of the hard work is over.
+[03:33] You just sit back and let the strategy
+[03:35] do the heavy lifting for you
+[03:37] and trust that it's going to play out in your favor.
+[03:40] As you can see, the market ends up moving down
+[03:42] to the take profit level
+[03:44] and this is a winning trade.
+[03:45] And this one trade netted a profit of $5,700.
+[03:49] Now let's go over two common mistakes
+[03:51] that traders make using this strategy
+[03:54] and that way you know how to avoid the losing trades.
+[03:56] Now let's talk about mistake number one first
+[03:58] because it's the most common
+[03:59] and mistake number two is a little sneakier
+[04:02] and most people overlook it.
+[04:03] So we have our first five minute candles high
+[04:06] and low marked out
+[04:07] and as you know, we wanna wait
+[04:08] for that first five minute candle closure.
+[04:10] And as you can see,
+[04:11] we get this first five minute candle closure immediately.
+[04:14] Now at this time,
+[04:16] a lot of traders are gonna go ahead and say,
+[04:17] okay, cool, we're breaking out.
+[04:19] I wanna go ahead and enter the trade
+[04:21] but then what ends up happening oftentimes
+[04:24] is that very next candle comes back down
+[04:26] and taking these little senseless losses
+[04:28] will kill you as a trader.
+[04:30] So you have to avoid FOMO.
+[04:31] Now that one's pretty obvious.
+[04:33] Let's get into mistake number two.
+[04:34] So after that fake out,
+[04:35] the next step is to wait
+[04:37] for a new five minute candle closure.
+[04:39] And then as you can see,
+[04:40] we trade into the high
+[04:41] but we don't close outside of it.
+[04:42] And then we trade right into the low
+[04:44] but we don't close outside of it.
+[04:46] As you can see,
+[04:47] we test that low two more times
+[04:48] and still don't close outside of it
+[04:50] so there is no valid trade.
+[04:52] And then we hit right back into the high.
+[04:54] Are you seeing this pattern?
+[04:56] Because whenever we attempt
+[04:58] to go outside of this range
+[05:01] and the market consistently fails,
+[05:04] that tells us that the market is chopping or consolidating.
+[05:07] And most traders lose a lot of their money
+[05:10] during these choppy market conditions.
+[05:12] But I promise you,
+[05:13] if you are patient,
+[05:14] you will be rewarded.
+[05:16] As you can see here,
+[05:17] we got our closure outside of the range.
+[05:19] But remember, we need a retest.
+[05:21] And right here on this candle
+[05:24] is where most traders absolutely destroy themselves.
+[05:27] Because we've got our closure outside of the range.
+[05:30] We've had a lot of failed attempts.
+[05:31] So by this point,
+[05:33] most traders are feeling a little bit of FOMO.
+[05:36] So what do they do?
+[05:37] They go ahead and enter into the market and then what?
+[05:40] The market comes right back and takes them out
+[05:43] because you didn't get a valid retest.
+[05:45] Remember, we need a candle closure
+[05:47] and then we want the candle to trade into this level
+[05:51] and then not close inside the range.
+[05:53] And then even after that,
+[05:54] you can see we tried to close outside the high again
+[05:56] and failed.
+[05:57] But finally, we got our candle closure
+[06:00] and our retest right here.
+[06:02] So only after you get both,
+[06:04] that is when you can enter the trade.
+[06:06] And we got our candle closure.
+[06:08] We then got our retest candle
+[06:09] that closed outside of our level.
+[06:11] And we place our stop here at that midpoint.
+[06:13] Our target is at a two to one risk to reward.
+[06:16] And then you just let the market play out
+[06:18] and trust in the setup.
+[06:19] Because now you've done the waiting
+[06:21] and you have earned this win.
+[06:23] While most other traders are chopping themselves to pieces
+[06:26] because they have FOMO.
+[06:28] As you can see,
+[06:28] these trades pop up nearly almost every single day.
+[06:32] And all of these were recent examples that I showed you.
+[06:35] But now let's look at the back test
+[06:36] to see how it performed over the last month.
+[06:39] Before we look at this back test,
+[06:40] I need you to take a look at this disclaimer.
+[06:42] So I did this back test with one contract on NASDAQ
+[06:45] over a little longer than a month period.
+[06:48] As you can see, we had total of 20 trades.
+[06:51] 70% of those trades were winners
+[06:53] and it netted $10,000 over that period.
+[06:56] Now, one thing that I really like about the strategy
+[06:58] is that the overall drawdown was lower during this period.
+[07:02] As you can see, we had a pretty nice equity curve,
+[07:04] which is very good for psychology.
+[07:06] It's also really good for prop firms,
+[07:08] which if you want 80% off of prop firm challenges,
+[07:11] I'll leave a link down in the description.
+[07:13] But this strategy is very, very powerful.
+[07:16] I'm not gonna tell you it's the best in the world
+[07:17] because that would be silly to say,
+[07:19] but for a struggling or beginner trader,
+[07:21] something that's this stupid simple
+[07:23] can be an absolute life changer.
+[07:25] If you've made it this far into the video, congrats,
+[07:27] because now you have a simple and proven strategy.
+[07:31] But I wanna be very clear.
+[07:32] When you go out and trade this on your own,
+[07:34] you're probably going to need a lot of practice
+[07:36] to get it right.
+[07:37] So if you wanna join my trading room
+[07:38] and watch me execute trades as the market is open,
+[07:41] have every single trade that you take reviewed
+[07:43] to make sure you're doing things correctly
+[07:45] and be directly mentored by me,
+[07:48] I'll leave a link to apply down in the description.
+[07:49] Since this is a direct mentorship,
+[07:51] not everyone will qualify, but if you do,
+[07:54] I will put my money where my mouth is
+[07:55] because I'm so confident in this system
+[07:57] and I'll buy your first prop firm challenge
+[08:00] and get you funded within 12 weeks.
+[08:02] And if you do everything that I say
+[08:04] and you still don't hit this milestone,
+[08:05] I will personally trade with you until you do.
+[08:08] That is how confident I am in my trading system.
+[08:11] No matter if you're a beginner or a struggling trader,
+[08:13] go ahead and click the link in the description
+[08:15] and apply to see if you qualify.
+[08:17] Also, if this video was helpful to you,
+[08:19] go ahead and subscribe to the channel.
+[08:21] This next week, I'm gonna be posting another video
+[08:23] diving even deeper on this strategy,
+[08:25] going into some tricks that can help you
+[08:27] avoid the losing trades and get more out of your winners.
+[08:30] Also, if you wanna learn more about trading,
+[08:32] I'll leave a video here on the screen
+[08:34] that is a full beginner's guide
+[08:36] and I have tons of other free stuff on my channel.
+[08:38] Again, thank you guys for watching.
+[08:40] Make sure to subscribe and I'll see you in the next video.

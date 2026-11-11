@@ -1,0 +1,10 @@
+ts,study,family,strategy,market,tf,params,tr_n,tr_avgR,tr_t,va_n,va_avgR,va_t,va_pf,tv_n,tv_avgR,tv_t,tv_pf,tv_posM,tv_maxdd_pct,tv_swapR,neigh_ok,spread_avgR,rand_mean,rand_p95,p_random,verdict
+2026-11-08 22:23,ms_trend_trail_d1.json,ms_trend,ms_trend,GOLD,D1,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":75.0,""length"":2,""tp_mode"":""trail""}",137,-0.004,-0.02,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:23,ms_trend_trail_d1.json,ms_trend,ms_trend,GOLD,D1,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":75.0,""length"":5,""tp_mode"":""trail""}",72,-0.268,-1.42,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:23,ms_trend_trail_d1.json,ms_trend,ms_trend,GOLD,D1,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":75.0,""length"":10,""tp_mode"":""trail""}",37,0.064,0.19,15,0.533,0.82,1.844,,,,,,,,,,,,,fail: quiz
+2026-11-08 22:23,ms_trend_trail_d1.json,ms_trend,ms_trend,BTCUSD,D1,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":75.0,""length"":2,""tp_mode"":""trail""}",57,2.364,2.37,37,0.364,0.64,1.412,,,,,,,,,,,,,fail: quiz
+2026-11-08 22:23,ms_trend_trail_d1.json,ms_trend,ms_trend,BTCUSD,D1,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":75.0,""length"":5,""tp_mode"":""trail""}",36,1.684,1.25,21,-0.794,-6.26,0.073,,,,,,,,,,,,,fail: quiz
+2026-11-08 22:23,ms_trend_trail_d1.json,ms_trend,ms_trend,BTCUSD,D1,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":75.0,""length"":10,""tp_mode"":""trail""}",21,2.638,1.17,16,-0.682,-3.14,0.181,,,,,,,,,,,,,fail: quiz
+2026-11-08 22:23,ms_trend_trail_d1.json,ms_trend,ms_trend,US500Cash,D1,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":75.0,""length"":2,""tp_mode"":""trail""}",67,-0.31,-1.52,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:23,ms_trend_trail_d1.json,ms_trend,ms_trend,US500Cash,D1,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":75.0,""length"":5,""tp_mode"":""trail""}",36,-0.494,-2.85,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:23,ms_trend_trail_d1.json,ms_trend,ms_trend,US500Cash,D1,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":75.0,""length"":10,""tp_mode"":""trail""}",15,-0.282,-0.76,,,,,,,,,,,,,,,,,fail: practice

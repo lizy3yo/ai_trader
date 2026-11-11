@@ -1,0 +1,61 @@
+{
+ "strategy": "lt_pullback",
+ "family": "lt_pullback",
+ "markets": [
+  "US30Cash",
+  "US2000Cash",
+  "GER40Cash",
+  "UK100Cash",
+  "JP225Cash",
+  "EU50Cash",
+  "FRA40Cash",
+  "AUS200Cash",
+  "HK50Cash",
+  "CA60Cash"
+ ],
+ "timeframes": [
+  "D1"
+ ],
+ "grid": {
+  "trig": [
+   "rsi"
+  ],
+  "n": [
+   2,
+   3
+  ],
+  "thr": [
+   5,
+   10,
+   20
+  ],
+  "side": [
+   "long"
+  ],
+  "exit": [
+   "rec"
+  ],
+  "exit_n": [
+   5
+  ],
+  "cfg.ema_trend": [
+   200
+  ],
+  "cfg.atr_sl_mult": [
+   3.0
+  ],
+  "cfg.atr_tp_mult": [
+   20.0
+  ],
+  "cfg.max_hold_bars": [
+   20
+  ],
+  "cfg.cooldown_bars": [
+   0
+  ]
+ },
+ "dir": "long",
+ "trend": 1,
+ "exit_from_strategy": true,
+ "max_bars": 6000
+}

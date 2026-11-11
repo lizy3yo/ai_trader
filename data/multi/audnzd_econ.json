@@ -1,0 +1,18 @@
+{
+ "symbol": "AUDNZD",
+ "tick_size": 1e-05,
+ "tick_value": 0.5613,
+ "point": 1e-05,
+ "tick_value_profit_ccy": 0.5610300000000001,
+ "currency_profit": "NZD",
+ "contract_size": 100000.0,
+ "volume_min": 0.01,
+ "volume_max": 50.0,
+ "volume_step": 0.01,
+ "swap_mode": 1,
+ "swap_long_points": 0.99,
+ "swap_short_points": -12.76,
+ "swap_rollover3days_mt5": 3,
+ "live_spread": 0.00041000000000002146,
+ "live_bid": 1.2287
+}

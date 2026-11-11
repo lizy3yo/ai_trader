@@ -1,0 +1,5 @@
+{"strategy": "g6i_event", "family": "calendar", "markets": ["GOLD"], "timeframes": ["M30"],
+ "grid": {"mode": ["pre"], "ev": ["fomc"], "entry_hm": ["16:30"], "pre_buf": [0], "side": ["long"],
+          "session.window": ["16:30-16:31"], "session.flat_at": ["22:45"], "cfg.atr_sl_mult": [6.0], "cfg.atr_tp_mult": [12.0],
+          "cfg.cooldown_bars": [0]},
+ "dir": "long", "trend": 0, "exit_from_strategy": true, "max_bars": 100000}

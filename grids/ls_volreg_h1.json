@@ -1,0 +1,1 @@
+{"strategy": "ls_volreg", "family": "volatility", "markets": "all", "timeframes": ["H1"], "grid": {"mode": ["switch", "trend", "fade"], "rank_n": [250, 1000], "dc_n": [20], "bb_n": [20], "cfg.atr_sl_mult": [2.0], "cfg.atr_tp_mult": [4.0], "cfg.max_hold_bars": [48]}, "dir": "both", "trend": 0, "max_bars": 60000}

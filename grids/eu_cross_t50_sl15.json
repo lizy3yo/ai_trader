@@ -1,0 +1,46 @@
+{
+ "strategy": "ema_universe",
+ "family": "ema_universe_cross",
+ "markets": [
+  "GOLD",
+  "BTCUSD",
+  "US500Cash"
+ ],
+ "timeframes": [
+  "M15",
+  "H1",
+  "H4",
+  "D1"
+ ],
+ "grid": {
+  "trend_n": [
+   50
+  ],
+  "entry": [
+   "cross"
+  ],
+  "side": [
+   "both"
+  ],
+  "cfg.atr_sl_mult": [
+   1.5
+  ],
+  "cfg.atr_tp_mult": [
+   2.25,
+   3.0,
+   4.5
+  ],
+  "pairs": [
+   "5/20",
+   "8/21",
+   "9/21",
+   "10/30",
+   "12/26",
+   "13/34"
+  ]
+ },
+ "dir": "both",
+ "trend": 1,
+ "exit_from_strategy": false,
+ "max_bars": 60000
+}

@@ -1,0 +1,25 @@
+ts,study,family,strategy,market,tf,params,tr_n,tr_avgR,tr_t,va_n,va_avgR,va_t,va_pf,tv_n,tv_avgR,tv_t,tv_pf,tv_posM,tv_maxdd_pct,tv_swapR,neigh_ok,spread_avgR,rand_mean,rand_p95,p_random,verdict
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,GOLD,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":2.0,""enh"":""none"",""strength_k"":1.0}",168,-0.047,-0.44,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,GOLD,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":3.0,""enh"":""none"",""strength_k"":1.0}",142,-0.187,-1.37,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,GOLD,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":2.0,""enh"":""none"",""strength_k"":1.5}",86,-0.019,-0.12,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,GOLD,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":3.0,""enh"":""none"",""strength_k"":1.5}",82,-0.025,-0.13,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,GOLD,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":2.0,""enh"":""all"",""strength_k"":1.0}",5,-0.443,-0.78,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,GOLD,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":3.0,""enh"":""all"",""strength_k"":1.0}",5,-0.256,-0.34,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,GOLD,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":2.0,""enh"":""all"",""strength_k"":1.5}",1,0.0,0.0,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,GOLD,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":3.0,""enh"":""all"",""strength_k"":1.5}",1,0.0,0.0,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,BTCUSD,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":2.0,""enh"":""none"",""strength_k"":1.0}",68,-0.337,-1.93,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,BTCUSD,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":3.0,""enh"":""none"",""strength_k"":1.0}",61,-0.389,-1.79,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,BTCUSD,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":2.0,""enh"":""none"",""strength_k"":1.5}",38,-0.174,-0.66,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,BTCUSD,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":3.0,""enh"":""none"",""strength_k"":1.5}",35,-0.444,-1.47,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,BTCUSD,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":2.0,""enh"":""all"",""strength_k"":1.0}",1,0.0,0.0,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,BTCUSD,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":3.0,""enh"":""all"",""strength_k"":1.0}",1,0.0,0.0,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,BTCUSD,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":2.0,""enh"":""all"",""strength_k"":1.5}",0,0.0,0.0,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,BTCUSD,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":3.0,""enh"":""all"",""strength_k"":1.5}",0,0.0,0.0,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,US500Cash,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":2.0,""enh"":""none"",""strength_k"":1.0}",76,-0.013,-0.08,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,US500Cash,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":3.0,""enh"":""none"",""strength_k"":1.0}",64,-0.043,-0.2,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,US500Cash,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":2.0,""enh"":""none"",""strength_k"":1.5}",40,-0.295,-1.42,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,US500Cash,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":3.0,""enh"":""none"",""strength_k"":1.5}",40,-0.362,-1.54,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,US500Cash,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":2.0,""enh"":""all"",""strength_k"":1.0}",5,-0.397,-0.66,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,US500Cash,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":3.0,""enh"":""all"",""strength_k"":1.0}",5,-0.197,-0.25,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,US500Cash,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":2.0,""enh"":""all"",""strength_k"":1.5}",3,-0.998,-861.69,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:24,ms_sd_d1.json,ms_sd,ms_sd,US500Cash,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":3.0,""enh"":""all"",""strength_k"":1.5}",3,-0.998,-861.69,,,,,,,,,,,,,,,,,fail: practice

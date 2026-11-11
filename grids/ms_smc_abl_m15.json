@@ -1,0 +1,1 @@
+{"strategy": "ms_smc", "family": "ms_smc", "markets": ["GOLD", "BTCUSD", "US500Cash"], "timeframes": ["M15"], "grid": {"sweep": [0, 1], "pd": [0, 1], "cfg.atr_sl_mult": [1.5], "cfg.atr_tp_mult": [3.0]}, "dir": "both", "trend": 0, "exit_from_strategy": false, "max_bars": 100000}

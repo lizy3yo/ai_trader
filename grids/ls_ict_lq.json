@@ -1,0 +1,5 @@
+{"strategy": "lq_sweep", "family": "ict", "markets": ["BTCUSD", "ETHUSD", "US500Cash", "US100Cash", "SILVER", "EURUSD"],
+ "timeframes": ["M30"],
+ "grid": {"level_mode": ["pday", "roll"], "mode": ["fade", "follow"], "max_beyond": [3], "max_out_bars": [2],
+          "session.window": ["10:00-23:00"], "cfg.atr_sl_mult": [1.5], "cfg.atr_tp_mult": [1.5, 3.0]},
+ "dir": "both", "trend": 0, "max_bars": 100000}

@@ -1,0 +1,41 @@
+# ============================================================
+# RESEARCH base config for GOLD (used by tools/research.py --config).
+# Not for live trading. Fixed 1% risk on a large notional account so
+# lot rounding never distorts results and every trade is measured in
+# clean R-multiples (this is also the risk shape a prop account needs).
+# Costs are this broker's real ones (data/gold_econ.json, 2026-11-08).
+# ============================================================
+symbol: "GOLD"
+magic: 999001
+capital:
+  allocated: 100000.0
+  hard_max: 100000.0
+risk:
+  base_risk_pct: 1.0
+  max_risk_pct: 1.0
+  step_up_pct: 0.0
+  step_up_after_wins: 3
+  drop_to_base_on_loss: true
+  daily_loss_limit: 100000.0   # off in research; prop rules are simulated separately
+  close_positions_on_limit: true
+  max_open_positions: 1
+  max_spread_points: 90
+  min_equity_stop: 100.0
+strategy:
+  name: "trend_donchian"
+  timeframe: "H1"
+session:
+  trade_start: "00:00"
+  trade_end: "23:59"
+  friday_close: "23:59"
+  weekends: false
+backtest:
+  spread_points: 55            # floor = today's live spread; wider bar spreads are used when recorded
+  use_bar_spread: true
+  spread_ref_price: 4070.0   # spread floor measured at this price; scaled to the price at the time
+  commission_per_lot: 0.0
+  swap_long_points: -78.59     # = -$78.59 per lot per night
+  swap_short_points: 16.81     # shorts are PAID +$16.81 per lot per night
+  swap_triple_weekday: 2       # Wednesday rollover charged x3
+  swap_ref_price: 4070.0       # swaps above were quoted at this price (2026-11-08)
+  swap_every_day: false

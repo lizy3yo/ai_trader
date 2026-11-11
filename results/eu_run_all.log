@@ -1,0 +1,139 @@
+=== grids/eu_cross_t50_sl10.json 14:26:46
+[factory] ema_universe: 18 settings x 3 markets x 4 TFs = 216 configurations | workers 11
+  BTCUSD    D1   t +1.64 avgR +0.240 n   75 neigh 1/2   +50%spr +0.240 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":1.5,"entry":"cross","pairs":"
+  BTCUSD    D1   t +1.47 avgR +0.283 n   61 neigh 3/4   +50%spr +0.283 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":2.0,"entry":"cross","pairs":"
+  BTCUSD    D1   t +1.02 avgR +0.191 n   63 neigh 2/4   +50%spr +0.191 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":2.0,"entry":"cross","pairs":"
+  US500Cash H4   t +0.81 avgR +0.061 n  364 neigh 2/4   +50%spr +0.060 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":2.0,"entry":"cross","pairs":"
+=== grids/eu_pb_t50_sl10.json 14:27:44
+[factory] ema_universe: 15 settings x 3 markets x 4 TFs = 180 configurations | workers 11
+  US500Cash H4   t +1.35 avgR +0.117 n  435 neigh 1/2   +50%spr +0.117 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":3.0,"entry":"pullback","pb_n"
+  US500Cash H4   t +0.74 avgR +0.049 n  473 neigh 1/3   +50%spr +0.053 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":2.0,"entry":"pullback","pb_n"
+[factory] FINALISTS: 0
+=== grids/eu_cross_t50_sl15.json 14:28:23
+[factory] ema_universe: 18 settings x 3 markets x 4 TFs = 216 configurations | workers 11
+  US500Cash D1   t +1.76 avgR +0.253 n   70 neigh 1/3   +50%spr +0.252 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":2.25,"entry":"cross","pairs":
+  US500Cash D1   t +1.62 avgR +0.236 n   69 neigh 2/3   +50%spr +0.236 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":2.25,"entry":"cross","pairs":
+  US500Cash D1   t +1.27 avgR +0.238 n   62 neigh 2/4   +50%spr +0.237 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":3.0,"entry":"cross","pairs":"
+  GOLD      H4   t +1.12 avgR +0.108 n  342 neigh 1/3   +50%spr +0.072 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":4.5,"entry":"cross","pairs":"
+=== grids/eu_pb_t50_sl15.json 14:29:16
+[factory] ema_universe: 15 settings x 3 markets x 4 TFs = 180 configurations | workers 11
+  US500Cash H4   t +1.90 avgR +0.144 n  370 neigh 2/3   +50%spr +0.141 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":3.0,"entry":"pullback","pb_n"
+  US500Cash H4   t +1.71 avgR +0.104 n  415 neigh 1/2   +50%spr +0.101 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":2.25,"entry":"pullback","pb_n
+  GOLD      H4   t +1.37 avgR +0.112 n  483 neigh 2/3   +50%spr +0.099 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":4.5,"entry":"pullback","pb_n"
+  GOLD      H4   t +1.36 avgR +0.111 n  489 neigh 1/3   +50%spr +0.096 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":4.5,"entry":"pullback","pb_n"
+=== grids/eu_cross_t50_sl20.json 14:29:56
+[factory] ema_universe: 18 settings x 3 markets x 4 TFs = 216 configurations | workers 11
+  GOLD      H1   t +1.20 avgR +0.084 n  657 neigh 1/3   +50%spr +0.068 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":6.0,"entry":"cross","pairs":"
+  GOLD      H1   t +1.16 avgR +0.059 n  782 neigh 1/4   +50%spr +0.053 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":4.0,"entry":"cross","pairs":"
+  US500Cash D1   t +0.81 avgR +0.219 n   44 neigh 0/3   +50%spr +0.219 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":6.0,"entry":"cross","pairs":"
+[factory] FINALISTS: 0
+=== grids/eu_pb_t50_sl20.json 14:30:47
+[factory] ema_universe: 15 settings x 3 markets x 4 TFs = 180 configurations | workers 11
+  GOLD      H4   t +1.90 avgR +0.185 n  354 neigh 3/3   +50%spr +0.185 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":6.0,"entry":"pullback","pb_n"
+  GOLD      H4   t +1.44 avgR +0.097 n  452 neigh 2/4   +50%spr +0.097 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":4.0,"entry":"pullback","pb_n"
+  GOLD      H4   t +1.32 avgR +0.090 n  449 neigh 3/4   +50%spr +0.090 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":4.0,"entry":"pullback","pb_n"
+  BTCUSD    H4   t +1.27 avgR +0.094 n  287 neigh 0/2   +50%spr +0.090 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":3.0,"entry":"pullback","pb_n"
+=== grids/eu_cross_t50_sl30.json 14:31:21
+[factory] ema_universe: 18 settings x 3 markets x 4 TFs = 216 configurations | workers 11
+  GOLD      D1   t +1.15 avgR +0.341 n   34 neigh 1/3   +50%spr +0.341 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":9.0,"entry":"cross","pairs":"
+  GOLD      D1   t +1.13 avgR +0.335 n   36 neigh 2/3   +50%spr +0.335 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":9.0,"entry":"cross","pairs":"
+  GOLD      H1   t +1.03 avgR +0.093 n  395 neigh 0/3   +50%spr +0.082 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":9.0,"entry":"cross","pairs":"
+  US500Cash H4   t +0.82 avgR +0.126 n  130 neigh 2/3   +50%spr +0.126 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":9.0,"entry":"cross","pairs":"
+=== grids/eu_pb_t50_sl30.json 14:32:04
+[factory] ema_universe: 15 settings x 3 markets x 4 TFs = 180 configurations | workers 11
+  GOLD      H4   t +1.54 avgR +0.107 n  316 neigh 3/3   +50%spr +0.103 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":4.5,"entry":"pullback","pb_n"
+  GOLD      H4   t +1.23 avgR +0.109 n  267 neigh 4/4   +50%spr +0.105 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"entry":"pullback","pb_n"
+  GOLD      H4   t +1.18 avgR +0.081 n  318 neigh 3/3   +50%spr +0.078 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":4.5,"entry":"pullback","pb_n"
+  GOLD      M15  t +1.17 avgR +0.089 n  546 neigh 1/3   +50%spr +0.050 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":9.0,"entry":"pullback","pb_n"
+=== grids/eu_cross_t100_sl10.json 14:32:34
+[factory] ema_universe: 24 settings x 3 markets x 4 TFs = 288 configurations | workers 11
+  US500Cash H4   t +2.22 avgR +0.248 n  278 neigh 2/3   +50%spr +0.248 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":3.0,"entry":"cross","pairs":"
+  BTCUSD    D1   t +1.92 avgR +0.307 n   62 neigh 2/2   +50%spr +0.307 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":1.5,"entry":"cross","pairs":"
+  BTCUSD    D1   t +1.85 avgR +0.446 n   40 neigh 2/4   +50%spr +0.446 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":2.0,"entry":"cross","pairs":"
+  BTCUSD    D1   t +1.66 avgR +0.332 n   40 neigh 2/3   +50%spr +0.332 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":1.5,"entry":"cross","pairs":"
+=== grids/eu_pb_t100_sl10.json 14:33:55
+[factory] ema_universe: 18 settings x 3 markets x 4 TFs = 216 configurations | workers 11
+  BTCUSD    D1   t +2.40 avgR +0.497 n   55 neigh 1/3   +50%spr +0.497 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":2.0,"entry":"pullback","pb_n"
+  US500Cash H4   t +1.36 avgR +0.133 n  341 neigh 1/2   +50%spr +0.133 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":3.0,"entry":"pullback","pb_n"
+  US500Cash H4   t +1.31 avgR +0.119 n  393 neigh 1/3   +50%spr +0.119 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":3.0,"entry":"pullback","pb_n"
+[factory] FINALISTS: 0
+=== grids/eu_cross_t100_sl15.json 14:34:43
+[factory] ema_universe: 24 settings x 3 markets x 4 TFs = 288 configurations | workers 11
+  GOLD      H1   t +1.00 avgR +0.072 n  618 neigh 0/3   +50%spr +0.063 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":4.5,"entry":"cross","pairs":"
+  US500Cash D1   t +0.91 avgR +0.254 n   40 neigh 2/3   +50%spr +0.254 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":4.5,"entry":"cross","pairs":"
+[factory] FINALISTS: 0
+=== grids/eu_pb_t100_sl15.json 14:36:02
+[factory] ema_universe: 18 settings x 3 markets x 4 TFs = 216 configurations | workers 11
+  US500Cash H4   t +1.81 avgR +0.209 n  254 neigh 1/2   +50%spr +0.220 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":4.5,"entry":"pullback","pb_n"
+  US500Cash H4   t +1.52 avgR +0.120 n  340 neigh 2/4   +50%spr +0.120 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":3.0,"entry":"pullback","pb_n"
+  GOLD      H4   t +1.36 avgR +0.110 n  490 neigh 2/3   +50%spr +0.097 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":4.5,"entry":"pullback","pb_n"
+  US500Cash H4   t +1.21 avgR +0.103 n  290 neigh 2/3   +50%spr +0.099 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":3.0,"entry":"pullback","pb_n"
+=== grids/eu_cross_t100_sl20.json 14:36:48
+[factory] ema_universe: 24 settings x 3 markets x 4 TFs = 288 configurations | workers 11
+  GOLD      H1   t +1.66 avgR +0.126 n  566 neigh 2/3   +50%spr +0.124 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":6.0,"entry":"cross","pairs":"
+  GOLD      H1   t +1.44 avgR +0.110 n  560 neigh 3/3   +50%spr +0.107 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":6.0,"entry":"cross","pairs":"
+  BTCUSD    H4   t +1.27 avgR +0.134 n  193 neigh 0/4   +50%spr +0.134 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":4.0,"entry":"cross","pairs":"
+  US500Cash H4   t +1.13 avgR +0.089 n  242 neigh 1/3   +50%spr +0.089 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":3.0,"entry":"cross","pairs":"
+=== grids/eu_pb_t100_sl20.json 14:38:13
+[factory] ema_universe: 18 settings x 3 markets x 4 TFs = 216 configurations | workers 11
+  US500Cash H4   t +1.93 avgR +0.179 n  247 neigh 0/3   +50%spr +0.179 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":4.0,"entry":"pullback","pb_n"
+  BTCUSD    H4   t +1.51 avgR +0.151 n  213 neigh 2/3   +50%spr +0.151 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":4.0,"entry":"pullback","pb_n"
+  BTCUSD    H4   t +0.96 avgR +0.077 n  236 neigh 1/2   +50%spr +0.077 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":3.0,"entry":"pullback","pb_n"
+[factory] FINALISTS: 0
+=== grids/eu_cross_t100_sl30.json 14:39:00
+[factory] ema_universe: 24 settings x 3 markets x 4 TFs = 288 configurations | workers 11
+  GOLD      H4   t +1.74 avgR +0.145 n  221 neigh 3/3   +50%spr +0.138 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":4.5,"entry":"cross","pairs":"
+  GOLD      H1   t +1.59 avgR +0.147 n  380 neigh 2/3   +50%spr +0.142 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":9.0,"entry":"cross","pairs":"
+  GOLD      H1   t +1.46 avgR +0.135 n  380 neigh 3/3   +50%spr +0.129 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":9.0,"entry":"cross","pairs":"
+  GOLD      H4   t +1.35 avgR +0.120 n  193 neigh 3/3   +50%spr +0.127 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":4.5,"entry":"cross","pairs":"
+=== grids/eu_pb_t100_sl30.json 14:40:11
+[factory] ema_universe: 18 settings x 3 markets x 4 TFs = 216 configurations | workers 11
+  BTCUSD    M15  t +1.72 avgR +0.161 n  375 neigh 0/3   +50%spr +0.115 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":9.0,"entry":"pullback","pb_n"
+  GOLD      H1   t +1.53 avgR +0.137 n  407 neigh 1/2   +50%spr +0.127 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":9.0,"entry":"pullback","pb_n"
+  US500Cash H4   t +0.89 avgR +0.121 n  167 neigh 0/3   +50%spr +0.121 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":9.0,"entry":"pullback","pb_n"
+  US500Cash H4   t +0.87 avgR +0.133 n  132 neigh 0/3   +50%spr +0.133 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":9.0,"entry":"pullback","pb_n"
+=== grids/eu_cross_t200_sl10.json 14:40:49
+[factory] ema_universe: 27 settings x 3 markets x 4 TFs = 324 configurations | workers 11
+  US500Cash H4   t +1.71 avgR +0.185 n  133 neigh 2/3   +50%spr +0.167 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":1.5,"entry":"cross","pairs":"
+  BTCUSD    D1   t +1.49 avgR +0.257 n   54 neigh 1/2   +50%spr +0.257 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":1.5,"entry":"cross","pairs":"
+  BTCUSD    D1   t +1.29 avgR +0.274 n   36 neigh 3/3   +50%spr +0.274 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":1.5,"entry":"cross","pairs":"
+  US500Cash D1   t +1.12 avgR +0.240 n   46 neigh 2/4   +50%spr +0.240 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":2.0,"entry":"cross","pairs":"
+=== grids/eu_pb_t200_sl10.json 14:42:20
+[factory] ema_universe: 18 settings x 3 markets x 4 TFs = 216 configurations | workers 11
+  US500Cash H4   t +1.66 avgR +0.171 n  317 neigh 1/2   +50%spr +0.170 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":3.0,"entry":"pullback","pb_n"
+  BTCUSD    D1   t +1.63 avgR +0.354 n   50 neigh 2/3   +50%spr +0.354 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":2.0,"entry":"pullback","pb_n"
+  US500Cash H4   t +1.17 avgR +0.108 n  379 neigh 1/3   +50%spr +0.108 p_rand -  {"cfg.atr_sl_mult":1.0,"cfg.atr_tp_mult":3.0,"entry":"pullback","pb_n"
+[factory] FINALISTS: 0
+=== grids/eu_cross_t200_sl15.json 14:43:10
+[factory] ema_universe: 27 settings x 3 markets x 4 TFs = 324 configurations | workers 11
+  US500Cash H1   t +1.00 avgR +0.069 n  658 neigh 1/3   +50%spr +0.063 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":4.5,"entry":"cross","pairs":"
+  US500Cash H4   t +0.97 avgR +0.155 n   85 neigh 1/3   +50%spr +0.120 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":3.0,"entry":"cross","pairs":"
+[factory] FINALISTS: 0
+=== grids/eu_pb_t200_sl15.json 14:44:45
+[factory] ema_universe: 18 settings x 3 markets x 4 TFs = 216 configurations | workers 11
+  US500Cash H4   t +1.56 avgR +0.184 n  243 neigh 1/2   +50%spr +0.184 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":4.5,"entry":"pullback","pb_n"
+  US500Cash H4   t +1.28 avgR +0.102 n  332 neigh 1/4   +50%spr +0.102 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":3.0,"entry":"pullback","pb_n"
+  US500Cash H4   t +1.20 avgR +0.104 n  279 neigh 2/3   +50%spr +0.093 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":3.0,"entry":"pullback","pb_n"
+  GOLD      H4   t +0.98 avgR +0.045 n  707 neigh 1/3   +50%spr +0.042 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":2.25,"entry":"pullback","pb_n
+=== grids/eu_cross_t200_sl20.json 14:45:33
+[factory] ema_universe: 27 settings x 3 markets x 4 TFs = 324 configurations | workers 11
+  US500Cash H4   t +1.47 avgR +0.235 n   85 neigh 2/3   +50%spr +0.235 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":4.0,"entry":"cross","pairs":"
+  US500Cash H4   t +1.38 avgR +0.188 n   85 neigh 2/2   +50%spr +0.188 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":3.0,"entry":"cross","pairs":"
+  BTCUSD    H4   t +1.16 avgR +0.150 n   93 neigh 1/2   +50%spr +0.150 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":3.0,"entry":"cross","pairs":"
+  GOLD      H1   t +0.95 avgR +0.072 n  562 neigh 0/3   +50%spr +0.070 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":6.0,"entry":"cross","pairs":"
+=== grids/eu_pb_t200_sl20.json 14:47:04
+[factory] ema_universe: 18 settings x 3 markets x 4 TFs = 216 configurations | workers 11
+  US500Cash H4   t +1.61 avgR +0.153 n  237 neigh 1/3   +50%spr +0.153 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":4.0,"entry":"pullback","pb_n"
+  US500Cash H4   t +1.26 avgR +0.168 n  191 neigh 1/2   +50%spr +0.168 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":6.0,"entry":"pullback","pb_n"
+[factory] FINALISTS: 0
+=== grids/eu_cross_t200_sl30.json 14:47:50
+[factory] ema_universe: 27 settings x 3 markets x 4 TFs = 324 configurations | workers 11
+  GOLD      H1   t +1.75 avgR +0.167 n  361 neigh 3/3   +50%spr +0.167 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":9.0,"entry":"cross","pairs":"
+  US500Cash H1   t +1.68 avgR +0.166 n  341 neigh 0/3   +50%spr +0.157 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":9.0,"entry":"cross","pairs":"
+  US500Cash M15  t +1.36 avgR +0.146 n  285 neigh 0/3   +50%spr +0.118 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":9.0,"entry":"cross","pairs":"
+  GOLD      H4   t +1.33 avgR +0.121 n  183 neigh 1/3   +50%spr +0.121 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":4.5,"entry":"cross","pairs":"
+=== grids/eu_pb_t200_sl30.json 14:49:10
+[factory] ema_universe: 18 settings x 3 markets x 4 TFs = 216 configurations | workers 11
+  GOLD      M15  t +1.44 avgR +0.113 n  524 neigh 0/3   +50%spr +0.122 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":9.0,"entry":"pullback","pb_n"
+[factory] FINALISTS: 0
+=== ALL DONE 14:49:47

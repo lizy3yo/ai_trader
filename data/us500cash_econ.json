@@ -1,0 +1,16 @@
+{
+ "symbol": "US500Cash",
+ "tick_size": 0.01,
+ "tick_value": 0.01,
+ "point": 0.01,
+ "tick_value_profit_ccy": 0.01,
+ "currency_profit": "USD",
+ "contract_size": 1.0,
+ "volume_min": 0.1,
+ "volume_max": 870.0,
+ "volume_step": 0.1,
+ "swap_mode": 3,
+ "swap_long_points": -1.32,
+ "swap_short_points": 0.19,
+ "swap_rollover3days_mt5": 5
+}

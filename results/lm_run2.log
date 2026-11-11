@@ -1,0 +1,42 @@
+##### mr_rsi2_notrend_d1
+[factory] lm_meanrev: 9 settings x 7 markets x 1 TFs = 63 configurations | workers 3
+[factory] stage A done in 16s
+[factory] 6 configurations shortlisted for checks 3-5
+[factory] logged 63 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_mr_rsi2_notrend_d1.csv
+  US500Cash D1   t +3.22 avgR +0.082 n  210 neigh 2/2   +50%spr +0.075 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +2.98 avgR +0.088 n  195 neigh 3/3   +50%spr +0.077 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +2.96 avgR +0.116 n  147 neigh 3/3   +50%spr +0.109 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +2.48 avgR +0.086 n  188 neigh 2/2   +50%spr +0.077 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +1.96 avgR +0.067 n  145 neigh 3/3   +50%spr +0.057 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +1.92 avgR +0.062 n  193 neigh 3/3   +50%spr +0.053 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 1
+  US500Cash D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"cfg.ema_trend":200,"exit_ma":3,"exit_rsi":70.0,"max_hold":10,"mode":"rsi2","rsi_th":15.0,"side":"long","trend":0}  t 3.22 avgR 0.082
+##### mr_ibs_trend_d1
+[factory] lm_meanrev: 9 settings x 7 markets x 1 TFs = 63 configurations | workers 3
+[factory] stage A done in 12s
+[factory] 5 configurations shortlisted for checks 3-5
+[factory] logged 63 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_mr_ibs_trend_d1.csv
+  US100Cash D1   t +4.08 avgR +0.144 n  128 neigh 2/2   +50%spr +0.136 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +2.76 avgR +0.076 n  136 neigh 3/3   +50%spr +0.067 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +2.50 avgR +0.062 n  139 neigh 2/2   +50%spr +0.053 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +1.69 avgR +0.052 n  192 neigh 2/3   +50%spr +0.045 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  GOLD      D1   t +1.19 avgR +0.042 n  123 neigh 2/3   +50%spr +0.036 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 1
+  US100Cash D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"cfg.ema_trend":200,"ibs_exit":0.9,"ibs_th":0.1,"max_hold":5,"mode":"ibs","side":"long","trend":1}  t 4.08 avgR 0.144
+##### mr_rsi2_sl_d1
+[factory] lm_meanrev: 12 settings x 7 markets x 1 TFs = 84 configurations | workers 3
+[factory] stage A done in 21s
+[factory] 6 configurations shortlisted for checks 3-5
+[factory] logged 84 configurations -> C:\00-SideProject\AI_Trading\results\registry\lm_mr_rsi2_sl_d1.csv
+  US500Cash D1   t +3.65 avgR +0.164 n   92 neigh 4/4   +50%spr +0.157 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +3.58 avgR +0.131 n  129 neigh 4/4   +50%spr +0.124 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +3.52 avgR +0.145 n   93 neigh 4/4   +50%spr +0.137 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +3.08 avgR +0.123 n  126 neigh 4/4   +50%spr +0.114 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +3.05 avgR +0.170 n  132 neigh 3/3   +50%spr +0.157 p_rand 0.0  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +2.54 avgR +0.136 n  134 neigh 3/3   +50%spr +0.123 p_rand 0.0  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 5
+  US500Cash D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"cfg.ema_trend":200,"exit_ma":5,"exit_rsi":70.0,"max_hold":10,"mode":"rsi2","rsi_th":10.0,"side":"long","trend":1}  t 3.52 avgR 0.145
+  US500Cash D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"cfg.ema_trend":200,"exit_ma":10,"exit_rsi":70.0,"max_hold":10,"mode":"rsi2","rsi_th":10.0,"side":"long","trend":1}  t 3.65 avgR 0.164
+  US500Cash D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"cfg.ema_trend":200,"exit_ma":10,"exit_rsi":70.0,"max_hold":10,"mode":"rsi2","rsi_th":15.0,"side":"long","trend":1}  t 3.58 avgR 0.131
+  US100Cash D1 {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"cfg.ema_trend":200,"exit_ma":10,"exit_rsi":70.0,"max_hold":10,"mode":"rsi2","rsi_th":15.0,"side":"long","trend":1}  t 3.05 avgR 0.17
+  US100Cash D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"cfg.ema_trend":200,"exit_ma":10,"exit_rsi":70.0,"max_hold":10,"mode":"rsi2","rsi_th":15.0,"side":"long","trend":1}  t 3.08 avgR 0.123

@@ -1,0 +1,233 @@
+[
+ {
+  "name": "US100 IBS (trend)",
+  "study": "grids/lm_mr_ibs_trend_d1.json",
+  "market": "US100Cash",
+  "tf": "D1",
+  "params": {
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 20.0,
+   "cfg.cooldown_bars": 0,
+   "cfg.ema_trend": 200,
+   "ibs_exit": 0.9,
+   "ibs_th": 0.1,
+   "max_hold": 5,
+   "mode": "ibs",
+   "side": "long",
+   "trend": 1
+  }
+ },
+ {
+  "name": "US100 IBS (no trend)",
+  "study": "grids/lm_mr_ibs_d1.json",
+  "market": "US100Cash",
+  "tf": "D1",
+  "params": {
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 20.0,
+   "cfg.cooldown_bars": 0,
+   "cfg.ema_trend": 200,
+   "ibs_exit": 0.9,
+   "ibs_th": 0.2,
+   "max_hold": 5,
+   "mode": "ibs",
+   "side": "long",
+   "trend": 0
+  }
+ },
+ {
+  "name": "US100 RSI2 (trend)",
+  "study": "grids/lm_mr_rsi2_d1.json",
+  "market": "US100Cash",
+  "tf": "D1",
+  "params": {
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 20.0,
+   "cfg.cooldown_bars": 0,
+   "cfg.ema_trend": 200,
+   "exit_ma": 10,
+   "exit_rsi": 70.0,
+   "max_hold": 10,
+   "mode": "rsi2",
+   "rsi_th": 15.0,
+   "side": "long",
+   "trend": 1
+  }
+ },
+ {
+  "name": "US500 RSI2 (no trend)",
+  "study": "grids/lm_mr_rsi2_notrend_d1.json",
+  "market": "US500Cash",
+  "tf": "D1",
+  "params": {
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 20.0,
+   "cfg.cooldown_bars": 0,
+   "cfg.ema_trend": 200,
+   "exit_ma": 3,
+   "exit_rsi": 70.0,
+   "max_hold": 10,
+   "mode": "rsi2",
+   "rsi_th": 15.0,
+   "side": "long",
+   "trend": 0
+  }
+ },
+ {
+  "name": "US500 N-day-low pullback",
+  "study": "grids/lt_pb_nlow_both.json",
+  "market": "US500Cash",
+  "tf": "D1",
+  "params": {
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 20.0,
+   "cfg.cooldown_bars": 0,
+   "cfg.ema_trend": 200,
+   "cfg.max_hold_bars": 20,
+   "exit": "rec",
+   "exit_n": 5,
+   "n": 10,
+   "side": "both",
+   "trig": "nlow"
+  }
+ },
+ {
+  "name": "US100 RSI pullback",
+  "study": "grids/lt_pb_rsi_long.json",
+  "market": "US100Cash",
+  "tf": "D1",
+  "params": {
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 20.0,
+   "cfg.cooldown_bars": 0,
+   "cfg.ema_trend": 200,
+   "cfg.max_hold_bars": 20,
+   "exit": "rec",
+   "exit_n": 5,
+   "n": 2,
+   "side": "long",
+   "thr": 20,
+   "trig": "rsi"
+  }
+ },
+ {
+  "name": "BTC D1 Keltner long",
+  "study": "grids/lt_keltner_long.json",
+  "market": "BTCUSD",
+  "tf": "D1",
+  "params": {
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 6.0,
+   "exit": "mid",
+   "k": 2.5,
+   "n": 20,
+   "side": "long"
+  }
+ },
+ {
+  "name": "BTC H4 Donchian trail long",
+  "study": "grids/lt_donch_trail_long.json",
+  "market": "BTCUSD",
+  "tf": "H4",
+  "params": {
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 20.0,
+   "cfg.ema_trend": 200,
+   "exit": "opp",
+   "exit_n": 10,
+   "n": 120,
+   "side": "long",
+   "trend": 1
+  }
+ },
+ {
+  "name": "ETH H4 Donchian trail long",
+  "study": "grids/lt_donch_trail_long.json",
+  "market": "ETHUSD",
+  "tf": "H4",
+  "params": {
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 20.0,
+   "cfg.ema_trend": 200,
+   "exit": "ma",
+   "exit_n": 30,
+   "n": 120,
+   "side": "long",
+   "trend": 1
+  }
+ },
+ {
+  "name": "BTC D1 Donchian trail long",
+  "study": "grids/lt_donch_trail_long.json",
+  "market": "BTCUSD",
+  "tf": "D1",
+  "params": {
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 20.0,
+   "cfg.ema_trend": 200,
+   "exit": "ma",
+   "exit_n": 30,
+   "n": 20,
+   "side": "long",
+   "trend": 1
+  }
+ },
+ {
+  "name": "BTC turn of month",
+  "study": "grids/lm_cal_tom_d1.json",
+  "market": "BTCUSD",
+  "tf": "D1",
+  "params": {
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 20.0,
+   "cfg.cooldown_bars": 0,
+   "m_after": 0,
+   "mode": "tom",
+   "n_before": 3,
+   "side": "long"
+  }
+ },
+ {
+  "name": "US100 M30 Williams breakout",
+  "study": "grids/ls_dlvl_wvb.json",
+  "market": "US100Cash",
+  "tf": "M30",
+  "params": {
+   "cfg.atr_sl_mult": 1.5,
+   "cfg.atr_tp_mult": 8.0,
+   "entry_min": 1380,
+   "k": 0.5,
+   "level": "open_k",
+   "session.flat_at": "23:30"
+  }
+ },
+ {
+  "name": "EURUSD D1 Keltner both",
+  "study": "grids/lt_keltner_both.json",
+  "market": "EURUSD",
+  "tf": "D1",
+  "params": {
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 20.0,
+   "exit": "mid",
+   "k": 2.5,
+   "n": 20,
+   "side": "both"
+  }
+ },
+ {
+  "name": "EURUSD D1 Keltner (2001+ only)",
+  "study": "grids/lt_keltner_both.json",
+  "market": "EURUSD",
+  "tf": "D1",
+  "params": {
+   "cfg.atr_sl_mult": 3.0,
+   "cfg.atr_tp_mult": 20.0,
+   "exit": "mid",
+   "k": 2.5,
+   "n": 20,
+   "side": "both"
+  },
+  "max_bars": 6500
+ }
+]

@@ -1,0 +1,502 @@
+[
+ {
+  "params": {
+   "lookbacks": "120",
+   "longs": 0,
+   "shorts": 1,
+   "use_ema": 1,
+   "cfg.ema_trend": 100,
+   "session.window": "00:00-23:59",
+   "cfg.atr_sl_mult": 2.0,
+   "regime_mode": 0,
+   "cfg.atr_tp_mult": 5.0,
+   "exit_mode": 0,
+   "exit_lb": 60
+  },
+  "train": {
+   "return_pct": -4.5,
+   "end_equity": 95501.61,
+   "trades": 65,
+   "win_rate": 26.2,
+   "pf": 0.9,
+   "max_dd": 12877.0,
+   "months": 47,
+   "pos_months_pct": 30.0,
+   "worst_month": -2889.0,
+   "avg_r": -0.059,
+   "t_stat": -0.31,
+   "swap": 1575.0
+  },
+  "val": {
+   "return_pct": -3.6,
+   "end_equity": 96414.07,
+   "trades": 21,
+   "win_rate": 23.8,
+   "pf": 0.774,
+   "max_dd": 10435.0,
+   "months": 14,
+   "pos_months_pct": 29.0,
+   "worst_month": -1950.0,
+   "avg_r": -0.169,
+   "t_stat": -0.5,
+   "swap": 461.0
+  },
+  "tv": {
+   "n": 86,
+   "avgR": -0.086,
+   "t": -0.52,
+   "swapR": 0.025,
+   "hold_h": 100.0,
+   "years": {
+    "2014": -1.3,
+    "2015": -4.3,
+    "2016": -0.8,
+    "2017": 1.3,
+    "2018": 6.4,
+    "2019": -3.8,
+    "2020": -1.4,
+    "2021": 0.1,
+    "2022": 1.7,
+    "2023": -3.3,
+    "2024": -2.0
+   },
+   "short_n": 86,
+   "short_avgR": -0.086
+  }
+ },
+ {
+  "params": {
+   "lookbacks": "120",
+   "longs": 0,
+   "shorts": 1,
+   "use_ema": 1,
+   "cfg.ema_trend": 100,
+   "session.window": "00:00-23:59",
+   "cfg.atr_sl_mult": 2.0,
+   "regime_mode": 0,
+   "cfg.atr_tp_mult": 40.0,
+   "exit_mode": 1,
+   "exit_lb": 60
+  },
+  "train": {
+   "return_pct": -16.4,
+   "end_equity": 83595.34,
+   "trades": 51,
+   "win_rate": 19.6,
+   "pf": 0.532,
+   "max_dd": 19030.0,
+   "months": 44,
+   "pos_months_pct": 20.0,
+   "worst_month": -2780.0,
+   "avg_r": -0.342,
+   "t_stat": -1.56,
+   "swap": 2499.0
+  },
+  "val": {
+   "return_pct": -8.5,
+   "end_equity": 91459.22,
+   "trades": 18,
+   "win_rate": 11.1,
+   "pf": 0.365,
+   "max_dd": 12173.0,
+   "months": 14,
+   "pos_months_pct": 14.0,
+   "worst_month": -1912.0,
+   "avg_r": -0.494,
+   "t_stat": -1.78,
+   "swap": 564.0
+  },
+  "tv": {
+   "n": 69,
+   "avgR": -0.382,
+   "t": -2.17,
+   "swapR": 0.048,
+   "hold_h": 136.0,
+   "years": {
+    "2014": -4.9,
+    "2015": 0.0,
+    "2016": -0.9,
+    "2017": -4.8,
+    "2018": 6.3,
+    "2019": -3.8,
+    "2020": -3.9,
+    "2021": -5.4,
+    "2022": -1.8,
+    "2023": -5.2,
+    "2024": -2.0
+   },
+   "short_n": 69,
+   "short_avgR": -0.382
+  }
+ },
+ {
+  "params": {
+   "lookbacks": "120",
+   "longs": 0,
+   "shorts": 1,
+   "use_ema": 1,
+   "cfg.ema_trend": 100,
+   "session.window": "00:00-23:59",
+   "cfg.atr_sl_mult": 2.0,
+   "regime_mode": 1,
+   "cfg.atr_tp_mult": 5.0,
+   "exit_mode": 0,
+   "exit_lb": 60
+  },
+  "train": {
+   "return_pct": -5.8,
+   "end_equity": 94229.81,
+   "trades": 45,
+   "win_rate": 24.4,
+   "pf": 0.821,
+   "max_dd": 8896.0,
+   "months": 30,
+   "pos_months_pct": 30.0,
+   "worst_month": -2889.0,
+   "avg_r": -0.122,
+   "t_stat": -0.54,
+   "swap": 948.0
+  },
+  "val": {
+   "return_pct": 8.9,
+   "end_equity": 108904.68,
+   "trades": 9,
+   "win_rate": 55.6,
+   "pf": 3.229,
+   "max_dd": 2352.0,
+   "months": 6,
+   "pos_months_pct": 67.0,
+   "worst_month": -1026.0,
+   "avg_r": 0.967,
+   "t_stat": 1.57,
+   "swap": 206.0
+  },
+  "tv": {
+   "n": 54,
+   "avgR": 0.059,
+   "t": 0.27,
+   "swapR": 0.022,
+   "hold_h": 106.0,
+   "years": {
+    "2014": -0.8,
+    "2015": -4.3,
+    "2016": 1.6,
+    "2017": -1.4,
+    "2018": 3.8,
+    "2020": -1.0,
+    "2021": -3.4,
+    "2022": 3.6,
+    "2023": 5.1
+   },
+   "short_n": 54,
+   "short_avgR": 0.059
+  }
+ },
+ {
+  "params": {
+   "lookbacks": "120",
+   "longs": 0,
+   "shorts": 1,
+   "use_ema": 1,
+   "cfg.ema_trend": 100,
+   "session.window": "00:00-23:59",
+   "cfg.atr_sl_mult": 2.0,
+   "regime_mode": 1,
+   "cfg.atr_tp_mult": 40.0,
+   "exit_mode": 1,
+   "exit_lb": 60
+  },
+  "train": {
+   "return_pct": -8.3,
+   "end_equity": 91684.41,
+   "trades": 34,
+   "win_rate": 14.7,
+   "pf": 0.675,
+   "max_dd": 13060.0,
+   "months": 27,
+   "pos_months_pct": 19.0,
+   "worst_month": -2848.0,
+   "avg_r": -0.242,
+   "t_stat": -0.76,
+   "swap": 1634.0
+  },
+  "val": {
+   "return_pct": 2.0,
+   "end_equity": 102005.81,
+   "trades": 6,
+   "win_rate": 33.3,
+   "pf": 1.641,
+   "max_dd": 5900.0,
+   "months": 6,
+   "pos_months_pct": 33.0,
+   "worst_month": -1009.0,
+   "avg_r": 0.341,
+   "t_stat": 0.46,
+   "swap": 349.0
+  },
+  "tv": {
+   "n": 40,
+   "avgR": -0.155,
+   "t": -0.53,
+   "swapR": 0.052,
+   "hold_h": 144.0,
+   "years": {
+    "2014": -2.7,
+    "2015": 0.0,
+    "2016": 2.6,
+    "2017": -4.8,
+    "2018": 4.1,
+    "2020": -1.0,
+    "2021": -6.4,
+    "2022": 0.2,
+    "2023": 1.9
+   },
+   "short_n": 40,
+   "short_avgR": -0.155
+  }
+ },
+ {
+  "params": {
+   "lookbacks": "120",
+   "longs": 0,
+   "shorts": 1,
+   "use_ema": 1,
+   "cfg.ema_trend": 100,
+   "session.window": "00:00-23:59",
+   "cfg.atr_sl_mult": 2.0,
+   "regime_mode": 2,
+   "cfg.atr_tp_mult": 5.0,
+   "exit_mode": 0,
+   "exit_lb": 60
+  },
+  "train": {
+   "return_pct": -3.5,
+   "end_equity": 96502.04,
+   "trades": 39,
+   "win_rate": 25.6,
+   "pf": 0.873,
+   "max_dd": 11772.0,
+   "months": 27,
+   "pos_months_pct": 26.0,
+   "worst_month": -2889.0,
+   "avg_r": -0.078,
+   "t_stat": -0.32,
+   "swap": 899.0
+  },
+  "val": {
+   "return_pct": 2.2,
+   "end_equity": 102206.75,
+   "trades": 8,
+   "win_rate": 37.5,
+   "pf": 1.407,
+   "max_dd": 3728.0,
+   "months": 5,
+   "pos_months_pct": 40.0,
+   "worst_month": -1461.0,
+   "avg_r": 0.284,
+   "t_stat": 0.43,
+   "swap": 298.0
+  },
+  "tv": {
+   "n": 47,
+   "avgR": -0.017,
+   "t": -0.07,
+   "swapR": 0.026,
+   "hold_h": 100.0,
+   "years": {
+    "2014": -1.3,
+    "2015": -4.3,
+    "2017": -0.3,
+    "2018": 3.2,
+    "2019": -1.9,
+    "2021": 1.5,
+    "2022": 3.7,
+    "2023": -1.4
+   },
+   "short_n": 47,
+   "short_avgR": -0.017
+  }
+ },
+ {
+  "params": {
+   "lookbacks": "120",
+   "longs": 0,
+   "shorts": 1,
+   "use_ema": 1,
+   "cfg.ema_trend": 100,
+   "session.window": "00:00-23:59",
+   "cfg.atr_sl_mult": 2.0,
+   "regime_mode": 2,
+   "cfg.atr_tp_mult": 40.0,
+   "exit_mode": 1,
+   "exit_lb": 60
+  },
+  "train": {
+   "return_pct": -11.3,
+   "end_equity": 88704.05,
+   "trades": 31,
+   "win_rate": 19.4,
+   "pf": 0.469,
+   "max_dd": 13921.0,
+   "months": 27,
+   "pos_months_pct": 19.0,
+   "worst_month": -2780.0,
+   "avg_r": -0.379,
+   "t_stat": -1.56,
+   "swap": 1505.0
+  },
+  "val": {
+   "return_pct": 0.1,
+   "end_equity": 100073.49,
+   "trades": 6,
+   "win_rate": 16.7,
+   "pf": 1.023,
+   "max_dd": 6092.0,
+   "months": 6,
+   "pos_months_pct": 17.0,
+   "worst_month": -1009.0,
+   "avg_r": 0.018,
+   "t_stat": 0.03,
+   "swap": 349.0
+  },
+  "tv": {
+   "n": 37,
+   "avgR": -0.315,
+   "t": -1.38,
+   "swapR": 0.053,
+   "hold_h": 196.0,
+   "years": {
+    "2014": -4.9,
+    "2015": 0.0,
+    "2017": -3.1,
+    "2018": 0.1,
+    "2019": -1.9,
+    "2021": -2.0,
+    "2022": 0.2,
+    "2023": -0.1
+   },
+   "short_n": 37,
+   "short_avgR": -0.315
+  }
+ },
+ {
+  "params": {
+   "lookbacks": "120",
+   "longs": 0,
+   "shorts": 1,
+   "use_ema": 1,
+   "cfg.ema_trend": 100,
+   "session.window": "00:00-23:59",
+   "cfg.atr_sl_mult": 2.0,
+   "regime_mode": 3,
+   "cfg.atr_tp_mult": 5.0,
+   "exit_mode": 0,
+   "exit_lb": 60
+  },
+  "train": {
+   "return_pct": -4.5,
+   "end_equity": 95474.78,
+   "trades": 33,
+   "win_rate": 24.2,
+   "pf": 0.809,
+   "max_dd": 9951.0,
+   "months": 22,
+   "pos_months_pct": 27.0,
+   "worst_month": -2889.0,
+   "avg_r": -0.13,
+   "t_stat": -0.49,
+   "swap": 661.0
+  },
+  "val": {
+   "return_pct": 3.6,
+   "end_equity": 103628.7,
+   "trades": 7,
+   "win_rate": 42.9,
+   "pf": 1.908,
+   "max_dd": 2352.0,
+   "months": 4,
+   "pos_months_pct": 50.0,
+   "worst_month": -1026.0,
+   "avg_r": 0.521,
+   "t_stat": 0.73,
+   "swap": 150.0
+  },
+  "tv": {
+   "n": 40,
+   "avgR": -0.016,
+   "t": -0.07,
+   "swapR": 0.021,
+   "hold_h": 80.0,
+   "years": {
+    "2014": -0.8,
+    "2015": -4.3,
+    "2017": -3.9,
+    "2018": 3.2,
+    "2021": 1.5,
+    "2022": 3.6
+   },
+   "short_n": 40,
+   "short_avgR": -0.016
+  }
+ },
+ {
+  "params": {
+   "lookbacks": "120",
+   "longs": 0,
+   "shorts": 1,
+   "use_ema": 1,
+   "cfg.ema_trend": 100,
+   "session.window": "00:00-23:59",
+   "cfg.atr_sl_mult": 2.0,
+   "regime_mode": 3,
+   "cfg.atr_tp_mult": 40.0,
+   "exit_mode": 1,
+   "exit_lb": 60
+  },
+  "train": {
+   "return_pct": -8.3,
+   "end_equity": 91694.54,
+   "trades": 25,
+   "win_rate": 16.0,
+   "pf": 0.548,
+   "max_dd": 12592.0,
+   "months": 21,
+   "pos_months_pct": 19.0,
+   "worst_month": -2848.0,
+   "avg_r": -0.338,
+   "t_stat": -1.14,
+   "swap": 1221.0
+  },
+  "val": {
+   "return_pct": 0.1,
+   "end_equity": 100137.69,
+   "trades": 5,
+   "win_rate": 20.0,
+   "pf": 1.044,
+   "max_dd": 5518.0,
+   "months": 5,
+   "pos_months_pct": 20.0,
+   "worst_month": -1009.0,
+   "avg_r": 0.035,
+   "t_stat": 0.04,
+   "swap": 231.0
+  },
+  "tv": {
+   "n": 30,
+   "avgR": -0.276,
+   "t": -0.99,
+   "swapR": 0.051,
+   "hold_h": 126.0,
+   "years": {
+    "2014": -2.7,
+    "2015": 0.0,
+    "2017": -3.9,
+    "2018": 0.1,
+    "2021": -2.0,
+    "2022": 0.2
+   },
+   "short_n": 30,
+   "short_avgR": -0.276
+  }
+ }
+]

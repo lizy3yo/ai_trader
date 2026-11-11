@@ -1,0 +1,5 @@
+{"mk": "ETHUSD", "tf": "D1", "n": 42, "avgR": 0.589, "long_n": 29, "long_avgR": 0.729, "short_n": 13, "short_avgR": 0.276, "p_both": 0.0, "rand_both": -0.001, "p_long": 0.1, "rand_long": 0.283} 60 2.0
+{"mk": "ETHUSD", "tf": "D1", "n": 31, "avgR": 0.787, "long_n": 18, "long_avgR": 0.973, "short_n": 13, "short_avgR": 0.53, "p_both": 0.0, "rand_both": 0.034, "p_long": 0.033, "rand_long": 0.32} 60 2.5
+{"mk": "ETHUSD", "tf": "H4", "n": 64, "avgR": 0.679, "long_n": 41, "long_avgR": 0.771, "short_n": 23, "short_avgR": 0.516, "p_both": 0.0, "rand_both": -0.157, "p_long": 0.0, "rand_long": 0.011} 240 2.5
+{"mk": "BTCUSD", "tf": "D1", "n": 49, "avgR": 0.604, "long_n": 26, "long_avgR": 0.879, "short_n": 23, "short_avgR": 0.294, "p_both": 0.0, "rand_both": 0.071, "p_long": 0.067, "rand_long": 0.196} 60 1.0
+{"mk": "BTCUSD", "tf": "H4", "n": 84, "avgR": 0.553, "long_n": 50, "long_avgR": 0.722, "short_n": 34, "short_avgR": 0.304, "p_both": 0.0, "rand_both": -0.11, "p_long": 0.033, "rand_long": 0.136} 240 2.0

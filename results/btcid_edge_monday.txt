@@ -1,0 +1,12 @@
+== long {"entry_hm":"02:00","weekdays":[0],"follow_h":48,"cfg.max_hold_bars":43,"cfg.atr_sl_mult":12,"cfg.atr_tp_mult":60}
+candidate btcid_window M30 [trainval]: trades 143  avgR +0.136  t +2.49  PF 1.78
+random x30: mean avgR -0.009  95th pct +0.057  => p_random 0.000  EDGE
+== short {"entry_hm":"02:00","weekdays":[0],"follow_h":48,"cfg.max_hold_bars":43,"cfg.atr_sl_mult":12,"cfg.atr_tp_mult":60}
+candidate btcid_window M30 [trainval]: trades 143  avgR +0.136  t +2.49  PF 1.78
+random x30: mean avgR -0.042  95th pct -0.007  => p_random 0.000  EDGE
+== long {"entry_hm":"02:00","weekdays":[0],"follow_h":48,"session.flat_at":"23:30","cfg.atr_sl_mult":12,"cfg.atr_tp_mult":60}
+candidate btcid_window M30 [trainval]: trades 143  avgR +0.136  t +2.49  PF 1.78
+random x30: mean avgR -0.024  95th pct +0.011  => p_random 0.000  EDGE
+== short {"entry_hm":"02:00","weekdays":[0],"follow_h":48,"session.flat_at":"23:30","cfg.atr_sl_mult":12,"cfg.atr_tp_mult":60}
+candidate btcid_window M30 [trainval]: trades 143  avgR +0.136  t +2.49  PF 1.78
+random x30: mean avgR -0.026  95th pct +0.018  => p_random 0.000  EDGE

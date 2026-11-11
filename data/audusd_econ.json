@@ -1,0 +1,16 @@
+{
+ "symbol": "AUDUSD",
+ "tick_size": 1e-05,
+ "tick_value": 1.0,
+ "point": 1e-05,
+ "tick_value_profit_ccy": 1.0,
+ "currency_profit": "USD",
+ "contract_size": 100000.0,
+ "volume_min": 0.01,
+ "volume_max": 50.0,
+ "volume_step": 0.01,
+ "swap_mode": 1,
+ "swap_long_points": -1.09,
+ "swap_short_points": -3.78,
+ "swap_rollover3days_mt5": 3
+}

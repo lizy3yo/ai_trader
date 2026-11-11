@@ -1,0 +1,14 @@
+US100 IBS (trend)                  US100Cash D1   span 2011-09-19..2023-09-12 | train n102 t+3.55 | val n38 t+2.42 | tv n140 avgR +0.141 t +4.25 | fair random mean +0.036 p95 +0.077 p 0.000
+US100 IBS (no trend)               US100Cash D1   span 2011-09-19..2023-09-12 | train n223 t+3.45 | val n98 t+2.55 | tv n321 avgR +0.095 t +4.25 | fair random mean +0.031 p95 +0.058 p 0.000
+US100 RSI2 (trend)                 US100Cash D1   span 2011-09-19..2023-09-12 | train n101 t+2.88 | val n37 t+1.74 | tv n138 avgR +0.133 t +3.37 | fair random mean +0.061 p95 +0.088 p 0.000
+US500 RSI2 (no trend)              US500Cash D1   span 2011-08-08..2023-09-04 | train n164 t+2.45 | val n63 t+2.17 | tv n227 avgR +0.078 t +3.13 | fair random mean +0.022 p95 +0.050 p 0.000
+US500 N-day-low pullback           US500Cash D1   span 2011-08-08..2023-09-04 | train n98 t+2.44 | val n37 t+1.87 | tv n135 avgR +0.104 t +3.03 | fair random mean +0.027 p95 +0.057 p 0.000
+US100 RSI pullback                 US100Cash D1   span 2011-09-19..2023-09-12 | train n133 t+2.73 | val n47 t+1.55 | tv n180 avgR +0.101 t +3.14 | fair random mean +0.037 p95 +0.057 p 0.000
+BTC D1 Keltner long                BTCUSD    D1   span 2013-01-02..2024-09-01 | train n30 t+3.89 | val n8 t+1.87 | tv n38 avgR +0.812 t +4.37 | fair random mean +0.303 p95 +0.497 p 0.000
+BTC H4 Donchian trail long         BTCUSD    H4   span 2013-01-02..2025-02-10 | train n72 t+3.43 | val n23 t+1.63 | tv n95 avgR +1.018 t +3.81 | fair random mean +0.444 p95 +0.643 p 0.000
+ETH H4 Donchian trail long         ETHUSD    H4   span 2016-11-08..2025-02-12 | train n77 t+3.09 | val n22 t+1.13 | tv n99 avgR +0.753 t +3.29 | fair random mean +0.358 p95 +0.638 p 0.000
+BTC D1 Donchian trail long         BTCUSD    D1   span 2013-01-02..2024-09-01 | train n24 t+3.23 | val n10 t+1.22 | tv n34 avgR +1.642 t +3.42 | fair random mean +1.069 p95 +1.316 p 0.000
+BTC turn of month                  BTCUSD    D1   span 2013-01-02..2024-09-01 | train n107 t+2.89 | val n26 t+1.16 | tv n134 avgR +0.149 t +3.06 | fair random mean +0.072 p95 +0.147 p 0.033
+US100 M30 Williams breakout        US100Cash M30  span 2018-05-08..2025-02-27 | train n844 t+2.78 | val n266 t+1.54 | tv n1110 avgR +0.170 t +3.18 | fair random mean -0.043 p95 +0.034 p 0.000
+EURUSD D1 Keltner both             EURUSD    D1   span 1971-01-04..2015-11-04 | train n169 t+4.21 | val n30 t+1.64 | tv n199 avgR +0.683 t +4.51 | fair random mean +0.270 p95 +0.489 p 0.000
+EURUSD D1 Keltner (2001+ only)     EURUSD    D1   span 2001-12-18..2021-11-26 | train n41 t+1.53 | val n16 t+0.42 | tv n57 avgR +0.284 t +1.58 | fair random mean +0.007 p95 +0.164 p 0.000

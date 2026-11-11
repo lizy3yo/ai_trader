@@ -1,0 +1,1 @@
+{"strategy": "ms_trend", "family": "ms_trend", "markets": ["GOLD", "BTCUSD", "US500Cash"], "timeframes": ["H1"], "grid": {"length": [2, 5, 10], "tp_mode": ["trail"], "cfg.atr_sl_mult": [1.5], "cfg.atr_tp_mult": [75.0]}, "dir": "both", "trend": 0, "exit_from_strategy": true, "max_bars": 55000}

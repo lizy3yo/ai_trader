@@ -1,0 +1,38 @@
+{
+ "strategy": "fw_wrap",
+ "family": "fw_elliott_w3",
+ "markets": [
+  "GOLD",
+  "BTCUSD",
+  "US500Cash"
+ ],
+ "timeframes": [
+  "M15",
+  "H1",
+  "H4",
+  "D1"
+ ],
+ "grid": {
+  "inner": [
+   "ew_w3"
+  ],
+  "inner_params": [
+   {}
+  ],
+  "use_trend": [
+   1
+  ],
+  "cfg.atr_sl_mult": [
+   1.5
+  ],
+  "cfg.atr_tp_mult": [
+   2.25,
+   3.0,
+   4.5
+  ]
+ },
+ "dir": "both",
+ "trend": 1,
+ "exit_from_strategy": false,
+ "max_bars": 60000
+}

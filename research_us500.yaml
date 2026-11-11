@@ -1,0 +1,42 @@
+# ============================================================
+# RESEARCH base config for US500Cash (tools/research.py / tools/factory.py).
+# Not for live trading. Fixed 1% risk on $100k, real broker costs
+# (data/us500cash_econ.json, exported 2026-11-08). Spread floor = 1.3x the
+# median spread MT5 recorded over the last 30 days (recorded bar spreads
+# understate live ones: gold records 40 vs ~53 live); wider recorded bar
+# spreads are used when they occur.
+# ============================================================
+symbol: "US500Cash"
+magic: 999003
+capital:
+  allocated: 100000.0
+  hard_max: 100000.0
+risk:
+  base_risk_pct: 1.0
+  max_risk_pct: 1.0
+  step_up_pct: 0.0
+  step_up_after_wins: 3
+  drop_to_base_on_loss: true
+  daily_loss_limit: 100000.0
+  close_positions_on_limit: true
+  max_open_positions: 1
+  max_spread_points: 100000
+  min_equity_stop: 100.0
+strategy:
+  name: "trend_donchian"
+  timeframe: "H1"
+session:
+  trade_start: "00:00"
+  trade_end: "23:59"
+  friday_close: "23:59"
+  weekends: false
+backtest:
+  spread_points: 104      # = 1.04 index points
+  use_bar_spread: true
+  spread_ref_price: 7380.72   # spread floor measured at this price; scaled to the price at the time
+  commission_per_lot: 0.0
+  swap_long_points: -132       # -$1.32 / +$0.19 per lot (1 x index) per night, Friday x3
+  swap_short_points: 19
+  swap_triple_weekday: 4
+  swap_ref_price: 7380.72
+  swap_every_day: false

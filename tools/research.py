@@ -28,7 +28,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from bot.backtest import DEFAULT_GOLD_ECON, load_csv_bars, run_backtest  # noqa: E402
+import numpy as np                                                       # noqa: E402
+from bot.backtest import load_csv_bars, load_econ, run_backtest          # noqa: E402
 from bot.config import load_config                                       # noqa: E402
 
 MAX_COMBOS = 200          # per invocation — keep grids small, overfitting grows with them
@@ -74,6 +75,8 @@ def apply_params(cfg, strategy: str, tf: str, params: dict):
             if not hasattr(cfg.session, field):
                 raise SystemExit(f"unknown SessionCfg field in grid: {key}")
             setattr(cfg.session, field, value)
+        elif key.startswith("bt."):
+            raise SystemExit("use backtest.X keys")
         elif key.startswith("backtest."):
             # e.g. "backtest.spread_points": stress-test a config's cost
             # sensitivity — a scalp edge that dies at +20pts is not an edge
@@ -86,7 +89,17 @@ def apply_params(cfg, strategy: str, tf: str, params: dict):
     return cfg
 
 
+def r_stats(result) -> tuple[float, float]:
+    rs = np.array([t["pnl"] / t["risk_amount"] for t in result.trade_log
+                   if t.get("risk_amount")])
+    if len(rs) < 2 or rs.std(ddof=1) == 0:
+        return 0.0, 0.0
+    return (round(float(rs.mean()), 3),
+            round(float(rs.mean() / (rs.std(ddof=1) / np.sqrt(len(rs)))), 2))
+
+
 def metrics(result) -> dict:
+    avg_r, t_stat = r_stats(result)
     monthly = result.monthly
     pnl = monthly["pnl"] if monthly is not None and len(monthly) else []
     pos_months = float((monthly["pnl"] > 0).mean() * 100) if len(pnl) else 0.0
@@ -100,6 +113,10 @@ def metrics(result) -> dict:
         "months": len(pnl),
         "pos_months_pct": round(pos_months, 0),
         "worst_month": round(float(monthly["pnl"].min()), 0) if len(pnl) else 0.0,
+        # per-trade edge in R (pnl / amount risked): costs and swap included.
+        # t = avgR / (sdR / sqrt(n)); |t| < 2 is indistinguishable from luck.
+        "avg_r": avg_r, "t_stat": t_stat,
+        "swap": round(result.swap_total, 0),
     }
 
 
@@ -111,8 +128,14 @@ def score(val: dict) -> float:
             + 40.0 * min(val["pf"], 2.0) - val["max_dd"] / 10.0)
 
 
-def run_one(cfg, bars):
-    return metrics(run_backtest(cfg, bars, DEFAULT_GOLD_ECON, tracker=None, verbose=False))
+def run_one(cfg, bars, context=None):
+    """context: earlier bars prepended for indicator warm-up only."""
+    start = None
+    if context is not None and len(context):
+        import pandas as pd
+        start, bars = bars.index[0], pd.concat([context, bars])
+    return metrics(run_backtest(cfg, bars, load_econ(cfg.symbol), tracker=None,
+                                verbose=False, start_at=start))
 
 
 def main() -> None:
@@ -129,9 +152,11 @@ def main() -> None:
     ap.add_argument("--top", type=int, default=8)
     ap.add_argument("--max-bars", type=int, default=DEFAULT_MAX_BARS)
     ap.add_argument("--out", help="write full ranked results JSON here")
+    ap.add_argument("--config", default="config.yaml",
+                    help="base config: research_gold.yaml / research_btc.yaml for real costs")
     args = ap.parse_args()
 
-    base = load_config()
+    base = load_config(args.config)
 
     if args.final:
         if not (args.params and args.timeframe):
@@ -140,12 +165,16 @@ def main() -> None:
         cfg = apply_params(base, args.strategy, args.timeframe, params)
         train, val, test = load_split(base.symbol, args.timeframe, args.max_bars)
         print("=== FINAL TEST-SPLIT EVALUATION (do this exactly once) ===")
+        CTX = 10000   # warm-up bars from the preceding split (indicators only)
+        ctxs = {"train": None, "val": train.iloc[-CTX:], "TEST": val.iloc[-CTX:]}
         for name, bars in (("train", train), ("val", val), ("TEST", test)):
-            m = run_one(cfg, bars)
+            m = run_one(cfg, bars, ctxs[name])
+            print(f"  {name:>5} span: {bars.index[0]} -> {bars.index[-1]}")
             print(f"  {name:>5}: ret {m['return_pct']:+7.1f}%  PF {m['pf']:5.2f}  "
                   f"win {m['win_rate']:4.1f}%  trades {m['trades']:4d}  "
                   f"posM {m['pos_months_pct']:3.0f}%  worstM {m['worst_month']:+6.0f}  "
-                  f"maxDD {m['max_dd']:4.0f}")
+                  f"maxDD {m['max_dd']:4.0f}  avgR {m['avg_r']:+.3f}  t {m['t_stat']:+.2f}  "
+                  f"swap {m['swap']:+.0f}")
         return
 
     if args.grid_file:
@@ -177,7 +206,7 @@ def main() -> None:
                 continue
             if tr["trades"] < MIN_TRADES_TRAIN or tr["return_pct"] <= 0:
                 continue
-            va = run_one(cfg, val)
+            va = run_one(cfg, val, train.iloc[-10000:])
             rows.append({"strategy": args.strategy, "timeframe": tf,
                          "params": params, "train": tr, "val": va,
                          "score": round(score(va), 1)})
@@ -188,13 +217,14 @@ def main() -> None:
               "That is a result: this idea has no edge here — report it honestly.")
     else:
         print(f"{'tf':<5}{'params':<52}{'TRAIN ret%':>10}{'PF':>6}"
-              f"{'VAL ret%':>9}{'PF':>6}{'win%':>6}{'posM%':>6}{'score':>8}")
+              f"{'VAL ret%':>9}{'PF':>6}{'win%':>6}{'posM%':>6}{'n':>5}{'avgR':>7}{'t':>6}{'score':>8}")
         for r in rows[: args.top]:
             p = json.dumps(r["params"], separators=(",", ":"))[:50]
             print(f"{r['timeframe']:<5}{p:<52}{r['train']['return_pct']:>+10.1f}"
                   f"{r['train']['pf']:>6.2f}{r['val']['return_pct']:>+9.1f}"
                   f"{r['val']['pf']:>6.2f}{r['val']['win_rate']:>6.1f}"
-                  f"{r['val']['pos_months_pct']:>6.0f}{r['score']:>8.1f}")
+                  f"{r['val']['pos_months_pct']:>6.0f}{r['val']['trades']:>5d}"
+                  f"{r['val']['avg_r']:>+7.2f}{r['val']['t_stat']:>+6.1f}{r['score']:>8.1f}")
     if args.out:
         Path(args.out).parent.mkdir(parents=True, exist_ok=True)
         Path(args.out).write_text(json.dumps(rows, indent=1), encoding="utf-8")

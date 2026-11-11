@@ -1,0 +1,18 @@
+{
+ "symbol": "EURCHF",
+ "tick_size": 1e-05,
+ "tick_value": 1.2197,
+ "point": 1e-05,
+ "tick_value_profit_ccy": 1.2192891544229714,
+ "currency_profit": "CHF",
+ "contract_size": 100000.0,
+ "volume_min": 0.01,
+ "volume_max": 50.0,
+ "volume_step": 0.01,
+ "swap_mode": 1,
+ "swap_long_points": 1.73,
+ "swap_short_points": -12.18,
+ "swap_rollover3days_mt5": 3,
+ "live_spread": 0.00031999999999998696,
+ "live_bid": 0.91805
+}

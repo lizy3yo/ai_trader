@@ -1,0 +1,11 @@
+[factory] lx_pairs: 36 settings x 2 markets x 1 TFs = 72 configurations | workers 3
+[factory] stage A done in 9s
+[factory] 6 configurations shortlisted for checks 3-5
+[factory] logged 72 configurations -> C:\00-SideProject\AI_Trading\results\registry\lx_pairs_crypto_d1.csv
+  ETHUSD    D1   t +2.49 avgR +0.619 n   33 neigh 4/5   +50%spr +0.591 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":2.5,"exit_z":0
+  BTCUSD    D1   t +2.41 avgR +0.511 n   51 neigh 4/5   +50%spr +0.464 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":1.5,"exit_z":0
+  BTCUSD    D1   t +2.36 avgR +0.591 n   37 neigh 3/4   +50%spr +0.587 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":1.5,"exit_z":0
+  ETHUSD    D1   t +2.34 avgR +0.787 n   31 neigh 4/5   +50%spr +0.759 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":2.5,"exit_z":0
+  ETHUSD    D1   t +2.19 avgR +0.589 n   42 neigh 5/6   +50%spr +0.567 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":2.0,"exit_z":0
+  BTCUSD    D1   t +2.14 avgR +0.576 n   31 neigh 3/4   +50%spr +0.571 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":2.5,"exit_z":0
+[factory] FINALISTS: 0

@@ -1,0 +1,33 @@
+ew_w3  H1  {}                                   signals    37  OK
+ew_w3  H1  {'band': 'wide', 'k': 3.0}           signals    64  OK
+ew_w5  H1  {}                                   signals    15  OK
+ew_w5  H1  {'band': 'wide', 'k': 3.0}           signals    22  OK
+ew_abc H1  {}                                   signals     3  OK
+ew_abc H1  {'band': 'wide', 'k': 3.0}           signals     5  OK
+ew_w3  H1  {'side': 'long'}                     signals    27  OK
+ew_abc H1  {'side': 'short'}                    signals     2  OK
+ew_w3  M15 {}                                   signals    40  OK
+ew_w3  M15 {'band': 'wide', 'k': 3.0}           signals    58  OK
+ew_w5  M15 {}                                   signals    27  OK
+ew_w5  M15 {'band': 'wide', 'k': 3.0}           signals    28  OK
+ew_abc M15 {}                                   signals     2  OK
+ew_abc M15 {'band': 'wide', 'k': 3.0}           signals     1  OK
+ew_w3  M15 {'side': 'long'}                     signals    19  OK
+ew_abc M15 {'side': 'short'}                    signals     0  OK
+ew_w3  D1  {}                                   signals    26  OK
+ew_w3  D1  {'band': 'wide', 'k': 3.0}           signals    34  OK
+ew_w5  D1  {}                                   signals     5  OK
+ew_w5  D1  {'band': 'wide', 'k': 3.0}           signals    10  OK
+ew_abc D1  {}                                   signals     2  OK
+ew_abc D1  {'band': 'wide', 'k': 3.0}           signals     3  OK
+ew_w3  D1  {'side': 'long'}                     signals    14  OK
+ew_abc D1  {'side': 'short'}                    signals     0  OK
+TRUNCATION TEST: PASS
+
+Median structural stop / target in ATRs (train only, all markets x TFs):
+ew_w3   k 2: n   1405  median SL 3.11 ATR  median struct TP 4.17 ATR  (TP/SL ratio of medians 1.34)
+ew_w3   k 3: n    723  median SL 4.26 ATR  median struct TP 6.15 ATR  (TP/SL ratio of medians 1.45)
+ew_w5   k 2: n    590  median SL 2.05 ATR  median struct TP 2.37 ATR  (TP/SL ratio of medians 1.16)
+ew_w5   k 3: n    281  median SL 3.05 ATR  median struct TP 3.91 ATR  (TP/SL ratio of medians 1.28)
+ew_abc  k 2: n    111  median SL 4.01 ATR  median struct TP - ATR  (TP/SL ratio of medians nan)
+ew_abc  k 3: n     48  median SL 5.27 ATR  median struct TP - ATR  (TP/SL ratio of medians nan)

@@ -1,0 +1,5 @@
+[factory] lx_ml: 16 settings x 3 markets x 2 TFs = 80 configurations | workers 3
+[factory] stage A done in 721s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 80 configurations -> C:\00-SideProject\AI_Trading\results\registry\lx_ml_a.csv
+[factory] FINALISTS: 0

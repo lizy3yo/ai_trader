@@ -1,0 +1,260 @@
+[
+ {
+  "strategy": "btcid_window",
+  "timeframe": "M30",
+  "params": {
+   "entry_hm": "03:00",
+   "weekdays": [
+    0
+   ],
+   "follow_h": 24,
+   "session.flat_at": "23:30",
+   "cfg.atr_sl_mult": 12,
+   "cfg.atr_tp_mult": 60
+  },
+  "train": {
+   "return_pct": 4.9,
+   "end_equity": 104889.59,
+   "trades": 107,
+   "win_rate": 43.9,
+   "pf": 1.211,
+   "max_dd": 4160.0,
+   "months": 25,
+   "pos_months_pct": 48.0,
+   "worst_month": -2170.0,
+   "avg_r": 0.048,
+   "t_stat": 0.77,
+   "swap": 0.0
+  },
+  "val": {
+   "return_pct": 3.9,
+   "end_equity": 103916.24,
+   "trades": 36,
+   "win_rate": 55.6,
+   "pf": 2.107,
+   "max_dd": 2042.0,
+   "months": 10,
+   "pos_months_pct": 70.0,
+   "worst_month": -720.0,
+   "avg_r": 0.11,
+   "t_stat": 1.63,
+   "swap": 0.0
+  },
+  "score": 71.4
+ },
+ {
+  "strategy": "btcid_window",
+  "timeframe": "M30",
+  "params": {
+   "entry_hm": "03:00",
+   "weekdays": [
+    0
+   ],
+   "follow_h": 48,
+   "session.flat_at": "23:30",
+   "cfg.atr_sl_mult": 12,
+   "cfg.atr_tp_mult": 60
+  },
+  "train": {
+   "return_pct": 8.2,
+   "end_equity": 108159.02,
+   "trades": 107,
+   "win_rate": 47.7,
+   "pf": 1.363,
+   "max_dd": 4200.0,
+   "months": 25,
+   "pos_months_pct": 52.0,
+   "worst_month": -1630.0,
+   "avg_r": 0.076,
+   "t_stat": 1.22,
+   "swap": 0.0
+  },
+  "val": {
+   "return_pct": 2.2,
+   "end_equity": 102231.98,
+   "trades": 36,
+   "win_rate": 52.8,
+   "pf": 1.502,
+   "max_dd": 2042.0,
+   "months": 10,
+   "pos_months_pct": 70.0,
+   "worst_month": -1204.0,
+   "avg_r": 0.063,
+   "t_stat": 0.87,
+   "swap": 0.0
+  },
+  "score": 48.7
+ },
+ {
+  "strategy": "btcid_window",
+  "timeframe": "M30",
+  "params": {
+   "entry_hm": "02:00",
+   "weekdays": [
+    0
+   ],
+   "follow_h": 48,
+   "session.flat_at": "23:30",
+   "cfg.atr_sl_mult": 12,
+   "cfg.atr_tp_mult": 60
+  },
+  "train": {
+   "return_pct": 15.2,
+   "end_equity": 115151.64,
+   "trades": 107,
+   "win_rate": 51.4,
+   "pf": 1.703,
+   "max_dd": 5132.0,
+   "months": 25,
+   "pos_months_pct": 60.0,
+   "worst_month": -2738.0,
+   "avg_r": 0.135,
+   "t_stat": 2.04,
+   "swap": 0.0
+  },
+  "val": {
+   "return_pct": 5.1,
+   "end_equity": 105068.86,
+   "trades": 36,
+   "win_rate": 63.9,
+   "pf": 2.077,
+   "max_dd": 2196.0,
+   "months": 10,
+   "pos_months_pct": 50.0,
+   "worst_month": -591.0,
+   "avg_r": 0.14,
+   "t_stat": 1.51,
+   "swap": 0.0
+  },
+  "score": 24.3
+ },
+ {
+  "strategy": "btcid_window",
+  "timeframe": "M30",
+  "params": {
+   "entry_hm": "02:00",
+   "weekdays": [
+    0
+   ],
+   "follow_h": 24,
+   "session.flat_at": "23:30",
+   "cfg.atr_sl_mult": 12,
+   "cfg.atr_tp_mult": 60
+  },
+  "train": {
+   "return_pct": 2.7,
+   "end_equity": 102740.72,
+   "trades": 107,
+   "win_rate": 43.0,
+   "pf": 1.105,
+   "max_dd": 5540.0,
+   "months": 25,
+   "pos_months_pct": 44.0,
+   "worst_month": -2713.0,
+   "avg_r": 0.028,
+   "t_stat": 0.42,
+   "swap": 0.0
+  },
+  "val": {
+   "return_pct": 4.4,
+   "end_equity": 104383.14,
+   "trades": 36,
+   "win_rate": 61.1,
+   "pf": 1.873,
+   "max_dd": 2196.0,
+   "months": 10,
+   "pos_months_pct": 50.0,
+   "worst_month": -591.0,
+   "avg_r": 0.123,
+   "t_stat": 1.32,
+   "swap": 0.0
+  },
+  "score": 16.4
+ },
+ {
+  "strategy": "btcid_window",
+  "timeframe": "M30",
+  "params": {
+   "entry_hm": "01:00",
+   "weekdays": [
+    0
+   ],
+   "follow_h": 24,
+   "session.flat_at": "23:30",
+   "cfg.atr_sl_mult": 12,
+   "cfg.atr_tp_mult": 60
+  },
+  "train": {
+   "return_pct": 2.8,
+   "end_equity": 102774.61,
+   "trades": 107,
+   "win_rate": 43.9,
+   "pf": 1.093,
+   "max_dd": 6316.0,
+   "months": 25,
+   "pos_months_pct": 48.0,
+   "worst_month": -2297.0,
+   "avg_r": 0.028,
+   "t_stat": 0.38,
+   "swap": 0.0
+  },
+  "val": {
+   "return_pct": 4.3,
+   "end_equity": 104335.59,
+   "trades": 36,
+   "win_rate": 55.6,
+   "pf": 1.672,
+   "max_dd": 2637.0,
+   "months": 10,
+   "pos_months_pct": 50.0,
+   "worst_month": -928.0,
+   "avg_r": 0.122,
+   "t_stat": 1.13,
+   "swap": 0.0
+  },
+  "score": -41.2
+ },
+ {
+  "strategy": "btcid_window",
+  "timeframe": "M30",
+  "params": {
+   "entry_hm": "01:00",
+   "weekdays": [
+    0
+   ],
+   "follow_h": 48,
+   "session.flat_at": "23:30",
+   "cfg.atr_sl_mult": 12,
+   "cfg.atr_tp_mult": 60
+  },
+  "train": {
+   "return_pct": 20.7,
+   "end_equity": 120691.79,
+   "trades": 107,
+   "win_rate": 56.1,
+   "pf": 1.867,
+   "max_dd": 5483.0,
+   "months": 25,
+   "pos_months_pct": 76.0,
+   "worst_month": -2413.0,
+   "avg_r": 0.181,
+   "t_stat": 2.5,
+   "swap": 0.0
+  },
+  "val": {
+   "return_pct": 4.1,
+   "end_equity": 104117.53,
+   "trades": 36,
+   "win_rate": 52.8,
+   "pf": 1.612,
+   "max_dd": 2637.0,
+   "months": 10,
+   "pos_months_pct": 40.0,
+   "worst_month": -928.0,
+   "avg_r": 0.115,
+   "t_stat": 1.02,
+   "swap": 0.0
+  },
+  "score": -66.4
+ }
+]

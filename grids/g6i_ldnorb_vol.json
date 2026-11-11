@@ -1,0 +1,5 @@
+{"strategy": "g6i_nyorb", "family": "session", "markets": ["GOLD"], "timeframes": ["M15", "M30"],
+ "grid": {"filt": ["vol"], "vmin": [1.5], "sides": ["long", "both"],
+          "range_start_h": [1], "range_end_h": [9], "entry_start_hm": ["09:00"], "entry_end_hm": ["12:00"],
+          "buf_atr": [0.2], "session.flat_at": ["22:45"], "cfg.atr_sl_mult": [2.0], "cfg.atr_tp_mult": [4.0]},
+ "dir": "both", "trend": 0, "exit_from_strategy": false, "max_bars": 100000}

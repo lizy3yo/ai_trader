@@ -1,0 +1,40 @@
+{
+ "strategy": "fw_wrap",
+ "family": "fw_keltner",
+ "markets": [
+  "GOLD",
+  "BTCUSD",
+  "US500Cash"
+ ],
+ "timeframes": [
+  "M15",
+  "H1",
+  "H4",
+  "D1"
+ ],
+ "grid": {
+  "inner": [
+   "lt_keltner"
+  ],
+  "inner_params": [
+   {
+    "side": "both"
+   }
+  ],
+  "use_trend": [
+   1
+  ],
+  "cfg.atr_sl_mult": [
+   1.0
+  ],
+  "cfg.atr_tp_mult": [
+   1.5,
+   2.0,
+   3.0
+  ]
+ },
+ "dir": "both",
+ "trend": 1,
+ "exit_from_strategy": false,
+ "max_bars": 60000
+}

@@ -1,0 +1,18 @@
+{
+ "symbol": "USDCAD",
+ "tick_size": 1e-05,
+ "tick_value": 0.7086,
+ "point": 1e-05,
+ "tick_value_profit_ccy": 0.7089935836080684,
+ "currency_profit": "CAD",
+ "contract_size": 100000.0,
+ "volume_min": 0.01,
+ "volume_max": 50.0,
+ "volume_step": 0.01,
+ "swap_mode": 1,
+ "swap_long_points": 2.26,
+ "swap_short_points": -10.03,
+ "swap_rollover3days_mt5": 3,
+ "live_spread": 0.00029999999999996696,
+ "live_bid": 1.41015
+}

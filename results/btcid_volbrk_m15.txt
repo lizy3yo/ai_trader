@@ -1,0 +1,5 @@
+btcid_volbrk M15 combos=4 train 2025-02-20..2026-03-02 val ..2026-07-06
+{"k":0.3,"mode":"both","trend":0,"cfg.atr_sl_mult":12,"cfg.atr_tp_mult":120,"session.flat_ TR n 311 pf 1.07 R+0.017 t+0.50 | VA n  98 pf 1.23 R+0.034 t+0.82 posM 60 dd  3614 | TV n412 R+0.023 t+0.82
+{"k":0.3,"mode":"both","trend":1,"cfg.atr_sl_mult":12,"cfg.atr_tp_mult":120,"session.flat_ TR n 145 pf 1.35 R+0.070 t+1.33 | VA n  46 pf 1.33 R+0.051 t+0.79 posM 80 dd  2793 | TV n201 R+0.070 t+1.70
+{"k":0.5,"mode":"both","trend":0,"cfg.atr_sl_mult":12,"cfg.atr_tp_mult":120,"session.flat_ TR n 240 pf 1.12 R+0.023 t+0.67 | VA n  75 pf 0.88 R-0.017 t-0.39 posM 40 dd  3897 | TV n317 R+0.014 t+0.51
+{"k":0.5,"mode":"both","trend":1,"cfg.atr_sl_mult":12,"cfg.atr_tp_mult":120,"session.flat_ TR n 124 pf 1.08 R+0.016 t+0.33 | VA n  40 pf 0.76 R-0.039 t-0.60 posM 20 dd  3438 | TV n171 R+0.011 t+0.27

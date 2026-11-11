@@ -1,0 +1,29 @@
+[config] WARNING: daily_loss_limit $200 is 40% of allocated capital. That allows losing the account in a few bad days. Consider 5-10% ($25-50).
+[mt5] connected: account 316249993 (DEMO) | balance 294.44 USD | equity 294.44 | leverage 1:100
+GBPUSD ... 5000
+USDCHF ... 5000
+USDJPY ... 5000
+USDCAD ... 5000
+AUDUSD ... 5000
+AUDNZD ... 5000
+AUDCAD ... 5000
+AUDCHF ... 5000
+AUDJPY ... 5000
+CHFJPY ... 5000
+EURGBP ... 5000
+EURAUD ... 5000
+EURCHF ... 5000
+EURJPY ... 5000
+EURNZD ... 5000
+EURCAD ... 5000
+GBPCHF ... 5000
+GBPJPY ... 5000
+CADCHF ... 5000
+CADJPY ... 5000
+GBPCAD ... 5000
+GBPAUD ... skip
+GBPNZD ... 4219
+NZDCAD ... 5000
+NZDCHF ... 5000
+NZDJPY ... 5000
+NZDUSD ... 

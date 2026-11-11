@@ -1,0 +1,132 @@
+{'market': 'GOLD', 'span': '2001-06-04..2021-09-21', 'n': 36, 'avgR': -0.151, 't': -0.53, 'pf': 0.78, 'train_n': 25, 'train_avgR': -0.038, 'train_t': -0.1, 'val_n': 11, 'val_avgR': -0.408, 'val_t': -1.23, 'long_avgR': -0.121, 'short_avgR': -0.23, 'swapR': -0.392, 'rand_mean': -0.124, 'rand_p95': 0.124, 'p_random': 0.533}
+{'market': 'SILVER', 'span': '2002-09-16..2021-12-29', 'n': 36, 'avgR': -0.224, 't': -0.66, 'pf': 0.72, 'train_n': 28, 'train_avgR': -0.194, 'train_t': -0.47, 'val_n': 8, 'val_avgR': -0.329, 'val_t': -0.71, 'long_avgR': 0.017, 'short_avgR': -0.525, 'swapR': -0.314, 'rand_mean': -0.244, 'rand_p95': 0.114, 'p_random': 0.467}
+{'market': 'US500Cash', 'span': '2011-08-08..2023-09-04', 'n': 24, 'avgR': -0.31, 't': -1.04, 'pf': 0.59, 'train_n': 20, 'train_avgR': -0.565, 'train_t': -2.2, 'val_n': 4, 'val_avgR': 0.968, 'val_t': 0.84, 'long_avgR': -0.053, 'short_avgR': -0.933, 'swapR': -0.575, 'rand_mean': -0.154, 'rand_p95': 0.258, 'p_random': 0.767}
+{'market': 'US100Cash', 'span': '2011-09-19..2023-09-12', 'n': 22, 'avgR': 0.314, 't': 0.66, 'pf': 1.59, 'train_n': 15, 'train_avgR': 0.4, 'train_t': 0.6, 'val_n': 7, 'val_avgR': 0.13, 'val_t': 0.26, 'long_avgR': 0.715, 'short_avgR': -0.755, 'swapR': -0.608, 'rand_mean': 0.175, 'rand_p95': 0.634, 'p_random': 0.3}
+{'market': 'EURUSD', 'span': '1971-01-04..2015-11-04', 'n': 90, 'avgR': 1.575, 't': 2.38, 'pf': 3.33, 'train_n': 68, 'train_avgR': 1.949, 'train_t': 2.32, 'val_n': 22, 'val_avgR': 0.42, 'val_t': 0.59, 'long_avgR': 1.908, 'short_avgR': 1.141, 'swapR': -0.29, 'rand_mean': 0.544, 'rand_p95': 0.905, 'p_random': 0.0}
+{'market': 'BTCUSD', 'span': '2013-01-02..2024-09-01', 'n': 34, 'avgR': 1.341, 't': 1.0, 'pf': 2.52, 'train_n': 28, 'train_avgR': 1.638, 'train_t': 1.01, 'val_n': 6, 'val_avgR': -0.043, 'val_t': -0.07, 'long_avgR': 2.416, 'short_avgR': -0.629, 'swapR': -0.223, 'rand_mean': 0.587, 'rand_p95': 1.565, 'p_random': 0.133}
+{'market': 'ETHUSD', 'span': '2016-11-08..2025-02-05', 'n': 19, 'avgR': 3.302, 't': 1.38, 'pf': 5.9, 'train_n': 17, 'train_avgR': 3.648, 'train_t': 1.37, 'val_n': 2, 'val_avgR': 0.362, 'val_t': 0.23, 'long_avgR': 4.521, 'short_avgR': -0.112, 'swapR': -0.326, 'rand_mean': 1.482, 'rand_p95': 2.711, 'p_random': 0.0}
+{
+ "rule": {
+  "entry": 100,
+  "exit": 50,
+  "side": "both",
+  "cfg.atr_period": 20,
+  "cfg.atr_sl_mult": 3.0,
+  "cfg.atr_tp_mult": 100.0,
+  "cfg.cooldown_bars": 0
+ },
+ "timeframe": "D1",
+ "pooled": {
+  "n": 261,
+  "avgR": 0.905,
+  "t": 2.61,
+  "train_avgR": 1.138,
+  "train_t": 2.58,
+  "val_avgR": 0.123,
+  "val_t": 0.42
+ },
+ "pooled_ex_eurusd": {
+  "n": 171,
+  "avgR": 0.551,
+  "t": 1.39
+ },
+ "portfolio_all_months": {
+  "months": 645,
+  "from": "1971-06",
+  "to": "2025-02",
+  "mean_R_per_month": 0.2279,
+  "t_monthly": 2.85,
+  "pos_months_pct": 44.7,
+  "pos_of_nonflat_pct": 53.4,
+  "max_dd_R": 13.46,
+  "sharpe_ann": 0.39,
+  "avg_legs_active": 2.34
+ },
+ "portfolio_ge4_legs": {
+  "months": 141,
+  "from": "2012-01",
+  "to": "2023-09",
+  "mean_R_per_month": 0.1091,
+  "t_monthly": 1.4,
+  "pos_months_pct": 55.3,
+  "pos_of_nonflat_pct": 56.1,
+  "max_dd_R": 5.25,
+  "sharpe_ann": 0.41,
+  "avg_legs_active": 5.44
+ },
+ "corr_monthly": {
+  "GOLD": {
+   "GOLD": 1.0,
+   "SILVER": 0.57,
+   "US500Cash": -0.11,
+   "US100Cash": -0.02,
+   "EURUSD": 0.08,
+   "BTCUSD": 0.11,
+   "ETHUSD": -0.1
+  },
+  "SILVER": {
+   "GOLD": 0.57,
+   "SILVER": 1.0,
+   "US500Cash": -0.03,
+   "US100Cash": 0.03,
+   "EURUSD": -0.02,
+   "BTCUSD": 0.12,
+   "ETHUSD": 0.08
+  },
+  "US500Cash": {
+   "GOLD": -0.11,
+   "SILVER": -0.03,
+   "US500Cash": 1.0,
+   "US100Cash": 0.7,
+   "EURUSD": -0.14,
+   "BTCUSD": 0.05,
+   "ETHUSD": 0.19
+  },
+  "US100Cash": {
+   "GOLD": -0.02,
+   "SILVER": 0.03,
+   "US500Cash": 0.7,
+   "US100Cash": 1.0,
+   "EURUSD": -0.05,
+   "BTCUSD": 0.05,
+   "ETHUSD": 0.19
+  },
+  "EURUSD": {
+   "GOLD": 0.08,
+   "SILVER": -0.02,
+   "US500Cash": -0.14,
+   "US100Cash": -0.05,
+   "EURUSD": 1.0,
+   "BTCUSD": -0.12,
+   "ETHUSD": NaN
+  },
+  "BTCUSD": {
+   "GOLD": 0.11,
+   "SILVER": 0.12,
+   "US500Cash": 0.05,
+   "US100Cash": 0.05,
+   "EURUSD": -0.12,
+   "BTCUSD": 1.0,
+   "ETHUSD": 0.36
+  },
+  "ETHUSD": {
+   "GOLD": -0.1,
+   "SILVER": 0.08,
+   "US500Cash": 0.19,
+   "US100Cash": 0.19,
+   "EURUSD": NaN,
+   "BTCUSD": 0.36,
+   "ETHUSD": 1.0
+  }
+ },
+ "random_portfolio": {
+  "pooled_avgR_mean": 0.328,
+  "pooled_avgR_p95": 0.545,
+  "p_random_pooled": 0.0,
+  "monthly_mean_rand": 0.0694,
+  "p_random_monthly": 0.0,
+  "monthly_mean_rand_ge4": 0.0606,
+  "p_random_monthly_ge4": 0.1
+ }
+}
+-> C:\00-SideProject\AI_Trading\results\lx_portfolio.json

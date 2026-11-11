@@ -1,0 +1,47 @@
+{
+ "strategy": "mx_event",
+ "family": "mx_macro",
+ "markets": [
+  "GOLD",
+  "BTCUSD"
+ ],
+ "timeframes": [
+  "D1"
+ ],
+ "grid": {
+  "feat": [
+   "oilcash"
+  ],
+  "feat_tf": [
+   "D1"
+  ],
+  "days": [
+   20,
+   60
+  ],
+  "k": [
+   1.0,
+   1.5
+  ],
+  "trigger": [
+   "up"
+  ],
+  "side": [
+   "long"
+  ],
+  "cfg.max_hold_bars": [
+   5,
+   20
+  ],
+  "cfg.atr_sl_mult": [
+   3.0
+  ],
+  "cfg.atr_tp_mult": [
+   6.0
+  ]
+ },
+ "dir": "long",
+ "trend": 0,
+ "exit_from_strategy": false,
+ "max_bars": 4000
+}

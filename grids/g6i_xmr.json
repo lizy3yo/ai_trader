@@ -1,0 +1,4 @@
+{"strategy": "g6i_xmr", "family": "meanrev", "markets": ["GOLD"], "timeframes": ["M15", "M30"],
+ "grid": {"win_min": [60, 120], "m": [2.0, 2.5], "vf": ["none", "low", "high"], "hold_min": [60, 180], "side": ["both"],
+          "session.window": ["03:00-21:00"], "session.flat_at": ["22:45"], "cfg.atr_sl_mult": [2.0], "cfg.atr_tp_mult": [2.0]},
+ "dir": "both", "trend": 0, "exit_from_strategy": true, "max_bars": 100000}

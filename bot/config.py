@@ -56,6 +56,10 @@ class StrategyCfg:
     atr_sl_mult: float = 1.5
     atr_tp_mult: float = 2.25
     cooldown_bars: int = 3
+    max_hold_bars: int = 0       # 0 = off; else close after this many bars
+    partial_at_r: float = 0.0    # >0: close partial_frac of the position at +this many R
+    partial_frac: float = 0.5    # share closed at the partial target
+    be_after_partial: bool = True  # move the stop to break-even after the partial close
 
 
 @dataclass
@@ -64,6 +68,8 @@ class SessionCfg:
     trade_end: str = "20:00"
     friday_close: str = "19:00"
     poll_seconds: int = 10
+    weekends: bool = False       # True for 24/7 symbols (BTC): trade Sat/Sun too
+    flat_at: str = ""            # "HH:MM" = force-close any position at this time (intraday)
 
 
 @dataclass
@@ -78,6 +84,13 @@ class BacktestCfg:
     bars: int = 20000
     spread_points: float = 30.0
     commission_per_lot: float = 0.0
+    use_bar_spread: bool = True       # spread = max(spread_points, bar's recorded MT5 spread)
+    spread_ref_price: float = 0.0     # >0: spread_points was measured at this price; floor scales by price/ref
+    swap_long_points: float = 0.0     # overnight fee per lot per night, in points (MT5 swap_mode 1)
+    swap_short_points: float = 0.0
+    swap_triple_weekday: int = -1     # Python weekday (Mon=0) whose rollover is charged x3; -1 = none
+    swap_every_day: bool = False      # True = rollover charged 7 nights/week (crypto)
+    swap_ref_price: float = 0.0       # >0: swap points were quoted at this price; scale by price/ref
 
 
 @dataclass
@@ -198,6 +211,8 @@ def _validate(cfg: Config) -> None:
         problems.append("strategy.params must be a mapping of knob: value")
 
     times = {}
+    if cfg.session.flat_at and _parse_hhmm(cfg.session.flat_at) is None:
+        problems.append(f"session.flat_at must be 'HH:MM' or empty, got {cfg.session.flat_at!r}")
     for key in ("trade_start", "trade_end", "friday_close"):
         times[key] = _parse_hhmm(getattr(cfg.session, key))
         if times[key] is None:

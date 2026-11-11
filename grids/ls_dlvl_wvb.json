@@ -1,0 +1,4 @@
+{"strategy": "ls_dlvl", "family": "volatility", "markets": "all", "timeframes": ["M30", "H1"],
+ "grid": {"level": ["open_k"], "k": [0.3, 0.5, 0.8], "entry_min": [1380], "session.flat_at": ["23:30"],
+          "cfg.atr_sl_mult": [1.5, 3.0], "cfg.atr_tp_mult": [8.0]},
+ "dir": "both", "trend": 0, "max_bars": 100000}

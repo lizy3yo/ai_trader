@@ -1,0 +1,146 @@
+=== orb1
+{"sides":"long","regime":"none","dtrend":0,"session.flat_at":"17:00","cfg.a TR n 354 pf 0.66 R-0.214 t-3.55 pM 27 | VA n 118 pf 1.01 R+0.007 t+0.06 pM 52 | TVt -2.95
+{"sides":"long","regime":"none","dtrend":0,"session.flat_at":"23:30","cfg.a TR n 354 pf 0.67 R-0.234 t-3.53 pM 29 | VA n 118 pf 0.94 R-0.039 t-0.31 pM 48 | TVt -3.16
+{"sides":"long","regime":"none","dtrend":1,"session.flat_at":"17:00","cfg.a TR n 181 pf 0.74 R-0.162 t-1.87 pM 33 | VA n  73 pf 0.99 R-0.004 t-0.03 pM 44 | TVt -1.56
+{"sides":"long","regime":"none","dtrend":1,"session.flat_at":"23:30","cfg.a TR n 181 pf 0.77 R-0.155 t-1.61 pM 39 | VA n  73 pf 0.91 R-0.057 t-0.36 pM 44 | TVt -1.54
+{"sides":"long","regime":"rng_rel","dtrend":0,"session.flat_at":"17:00","cf TR n 171 pf 0.64 R-0.231 t-2.68 pM 30 | VA n  51 pf 0.92 R-0.042 t-0.25 pM 47 | TVt -2.45
+{"sides":"long","regime":"rng_rel","dtrend":0,"session.flat_at":"23:30","cf TR n 171 pf 0.67 R-0.234 t-2.47 pM 28 | VA n  51 pf 0.99 R-0.008 t-0.04 pM 37 | TVt -2.14
+{"sides":"long","regime":"rng_rel","dtrend":1,"session.flat_at":"17:00","cf TR n  89 pf 0.54 R-0.307 t-2.70 pM 30 | VA n  34 pf 0.75 R-0.143 t-0.73 pM 36 | TVt -2.66
+{"sides":"long","regime":"rng_rel","dtrend":1,"session.flat_at":"23:30","cf TR n  89 pf 0.60 R-0.282 t-2.22 pM 27 | VA n  34 pf 0.90 R-0.066 t-0.29 pM 29 | TVt -1.99
+{"sides":"long","regime":"atrp","dtrend":0,"session.flat_at":"17:00","cfg.a TR n 152 pf 0.58 R-0.265 t-3.07 pM 30 | VA n  58 pf 1.30 R+0.147 t+0.88 pM 62 | TVt -1.93
+{"sides":"long","regime":"atrp","dtrend":0,"session.flat_at":"23:30","cfg.a TR n 152 pf 0.57 R-0.308 t-3.23 pM 22 | VA n  58 pf 1.20 R+0.118 t+0.63 pM 54 | TVt -2.19
+{"sides":"long","regime":"atrp","dtrend":1,"session.flat_at":"17:00","cfg.a TR n  60 pf 0.91 R-0.050 t-0.33 pM 44 | VA n  32 pf 1.42 R+0.189 t+0.84 pM 55 | TVt 0.26
+{"sides":"long","regime":"atrp","dtrend":1,"session.flat_at":"23:30","cfg.a TR n  60 pf 0.90 R-0.060 t-0.36 pM 40 | VA n  32 pf 1.27 R+0.159 t+0.61 pM 55 | TVt 0.11
+{"sides":"both","regime":"none","dtrend":0,"session.flat_at":"17:00","cfg.a TR n 674 pf 0.70 R-0.196 t-4.31 pM 26 | VA n 208 pf 0.86 R-0.080 t-0.95 pM 43 | TVt -4.21
+{"sides":"both","regime":"none","dtrend":0,"session.flat_at":"23:30","cfg.a TR n 674 pf 0.74 R-0.182 t-3.69 pM 27 | VA n 208 pf 0.83 R-0.116 t-1.26 pM 38 | TVt -3.83
+{"sides":"both","regime":"none","dtrend":1,"session.flat_at":"17:00","cfg.a TR n 326 pf 0.76 R-0.153 t-2.29 pM 36 | VA n 102 pf 0.82 R-0.108 t-0.89 pM 35 | TVt -2.43
+{"sides":"both","regime":"none","dtrend":1,"session.flat_at":"23:30","cfg.a TR n 326 pf 0.79 R-0.147 t-2.04 pM 38 | VA n 102 pf 0.80 R-0.140 t-1.07 pM 35 | TVt -2.3
+{"sides":"both","regime":"rng_rel","dtrend":0,"session.flat_at":"17:00","cf TR n 313 pf 0.70 R-0.195 t-2.94 pM 28 | VA n  96 pf 0.78 R-0.127 t-1.07 pM 50 | TVt -3.09
+{"sides":"both","regime":"rng_rel","dtrend":0,"session.flat_at":"23:30","cf TR n 313 pf 0.73 R-0.184 t-2.58 pM 25 | VA n  96 pf 0.82 R-0.122 t-0.90 pM 45 | TVt -2.68
+{"sides":"both","regime":"rng_rel","dtrend":1,"session.flat_at":"17:00","cf TR n 153 pf 0.64 R-0.236 t-2.54 pM 27 | VA n  48 pf 0.66 R-0.208 t-1.27 pM 35 | TVt -2.85
+{"sides":"both","regime":"rng_rel","dtrend":1,"session.flat_at":"23:30","cf TR n 153 pf 0.66 R-0.237 t-2.37 pM 27 | VA n  48 pf 0.78 R-0.151 t-0.79 pM 29 | TVt -2.44
+{"sides":"both","regime":"atrp","dtrend":0,"session.flat_at":"17:00","cfg.a TR n 305 pf 0.58 R-0.278 t-4.38 pM 14 | VA n 101 pf 1.13 R+0.067 t+0.54 pM 64 | TVt -3.35
+{"sides":"both","regime":"atrp","dtrend":0,"session.flat_at":"23:30","cfg.a TR n 305 pf 0.61 R-0.278 t-4.00 pM 14 | VA n 101 pf 1.02 R+0.015 t+0.11 pM 57 | TVt -3.27
+{"sides":"both","regime":"atrp","dtrend":1,"session.flat_at":"17:00","cfg.a TR n 142 pf 0.79 R-0.131 t-1.30 pM 37 | VA n  48 pf 1.10 R+0.052 t+0.29 pM 46 | TVt -0.96
+{"sides":"both","regime":"atrp","dtrend":1,"session.flat_at":"23:30","cfg.a TR n 142 pf 0.80 R-0.132 t-1.22 pM 34 | VA n  48 pf 1.07 R+0.041 t+0.20 pM 46 | TVt -0.93
+=== orb2
+{"entry_start_hm":"09:00","entry_end_hm":"12:00","sides":"long","regime":"n TR n 223 pf 0.74 R-0.189 t-2.13 pM 32 | VA n  64 pf 0.82 R-0.127 t-0.75 pM 36 | TVt -2.23
+      22:38/-0.37 23:80/-0.44 24:91/+0.03 25:76/-0.03 26:2/-1.00
+{"entry_start_hm":"09:00","entry_end_hm":"12:00","sides":"long","regime":"n TR n   0 pf 0.00 R+0.000 t+0.00 pM  0 | VA n  25 pf 0.71 R-0.206 t-0.78 pM 29 | TVt -0.78
+      25:23/-0.14 26:2/-1.00
+{"entry_start_hm":"09:00","entry_end_hm":"12:00","sides":"long","regime":"a TR n  77 pf 0.81 R-0.132 t-0.86 pM 26 | VA n  15 pf 0.31 R-0.600 t-2.20 pM  0 | TVt -1.53
+      23:19/-0.53 24:54/+0.07 25:17/-0.65 26:2/-1.00
+{"entry_start_hm":"09:00","entry_end_hm":"12:00","sides":"long","regime":"a TR n   0 pf 0.00 R+0.000 t+0.00 pM  0 | VA n  13 pf 0.17 R-0.769 t-3.33 pM  0 | TVt -3.33
+      25:11/-0.73 26:2/-1.00
+{"entry_start_hm":"09:00","entry_end_hm":"12:00","sides":"both","regime":"n TR n 404 pf 0.70 R-0.218 t-3.35 pM 19 | VA n 112 pf 0.98 R-0.010 t-0.08 pM 36 | TVt -2.95
+      22:66/-0.16 23:158/-0.40 24:154/-0.03 25:136/-0.05 26:2/-1.00
+{"entry_start_hm":"09:00","entry_end_hm":"12:00","sides":"both","regime":"n TR n   0 pf 0.00 R+0.000 t+0.00 pM  0 | VA n  51 pf 0.91 R-0.062 t-0.32 pM 44 | TVt -0.32
+      25:49/-0.02 26:2/-1.00
+{"entry_start_hm":"09:00","entry_end_hm":"12:00","sides":"both","regime":"a TR n 145 pf 0.72 R-0.202 t-1.86 pM 16 | VA n  25 pf 0.50 R-0.400 t-1.63 pM  0 | TVt -2.32
+      23:38/-0.45 24:100/-0.05 25:30/-0.50 26:2/-1.00
+{"entry_start_hm":"09:00","entry_end_hm":"12:00","sides":"both","regime":"a TR n   0 pf 0.00 R+0.000 t+0.00 pM  0 | VA n  23 pf 0.42 R-0.478 t-1.97 pM  0 | TVt -1.97
+      25:21/-0.43 26:2/-1.00
+{"entry_start_hm":"10:00","entry_end_hm":"12:00","sides":"long","regime":"n TR n 132 pf 0.50 R-0.396 t-3.80 pM 23 | VA n  37 pf 0.64 R-0.270 t-1.26 pM 30 | TVt -3.93
+      22:25/-0.40 23:51/-0.71 24:46/-0.18 25:45/-0.13 26:2/-1.00
+{"entry_start_hm":"10:00","entry_end_hm":"12:00","sides":"long","regime":"n TR n   0 pf 0.00 R+0.000 t+0.00 pM  0 | VA n  13 pf 0.60 R-0.308 t-0.84 pM 40 | TVt -0.84
+      25:11/-0.18 26:2/-1.00
+{"entry_start_hm":"10:00","entry_end_hm":"12:00","sides":"long","regime":"a TR n  51 pf 0.51 R-0.379 t-2.25 pM 22 | VA n  10 pf 0.22 R-0.700 t-2.33 pM  0 | TVt -2.89
+      23:13/-0.77 24:34/-0.16 25:12/-0.75 26:2/-1.00
+{"entry_start_hm":"10:00","entry_end_hm":"12:00","sides":"long","regime":"a TR n   0 pf 0.00 R+0.000 t+0.00 pM  0 | VA n   9 pf 0.25 R-0.667 t-2.00 pM  0 | TVt -2.0
+      25:7/-0.57 26:2/-1.00
+{"entry_start_hm":"10:00","entry_end_hm":"12:00","sides":"both","regime":"n TR n 239 pf 0.53 R-0.369 t-4.71 pM 23 | VA n  66 pf 0.95 R-0.030 t-0.17 pM 45 | TVt -4.1
+      22:42/-0.11 23:96/-0.66 24:84/-0.18 25:81/-0.06 26:2/-1.00
+{"entry_start_hm":"10:00","entry_end_hm":"12:00","sides":"both","regime":"n TR n   0 pf 0.00 R+0.000 t+0.00 pM  0 | VA n  30 pf 0.90 R-0.066 t-0.26 pM 38 | TVt -0.26
+      25:28/+0.00 26:2/-1.00
+{"entry_start_hm":"10:00","entry_end_hm":"12:00","sides":"both","regime":"a TR n  90 pf 0.52 R-0.372 t-2.93 pM 16 | VA n  15 pf 0.50 R-0.400 t-1.25 pM  0 | TVt -3.2
+      23:24/-0.62 24:59/-0.19 25:20/-0.55 26:2/-1.00
+{"entry_start_hm":"10:00","entry_end_hm":"12:00","sides":"both","regime":"a TR n   0 pf 0.00 R+0.000 t+0.00 pM  0 | VA n  14 pf 0.55 R-0.357 t-1.05 pM  0 | TVt -1.05
+      25:12/-0.25 26:2/-1.00
+=== ny1
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 236 pf 1.11 R+0.053 t+0.66 pM 48 | VA n  74 pf 1.48 R+0.179 t+1.35 pM 73 | TVt 1.21
+      22:31/+0.38 23:88/+0.13 24:105/-0.08 25:86/+0.13
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 236 pf 1.14 R+0.079 t+0.81 pM 55 | VA n  74 pf 1.44 R+0.205 t+1.20 pM 80 | TVt 1.29
+      22:31/+0.61 23:88/+0.07 24:105/-0.07 25:86/+0.18
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 451 pf 0.98 R-0.011 t-0.20 pM 39 | VA n 136 pf 1.30 R+0.121 t+1.23 pM 73 | TVt 0.4
+      22:66/+0.15 23:186/+0.02 24:176/-0.06 25:158/+0.06 26:1/-1.00
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 451 pf 1.03 R+0.017 t+0.25 pM 52 | VA n 136 pf 1.36 R+0.182 t+1.35 pM 64 | TVt 0.9
+      22:66/+0.26 23:186/+0.01 24:176/-0.03 25:158/+0.13 26:1/-1.00
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 241 pf 1.08 R+0.040 t+0.51 pM 48 | VA n  77 pf 1.90 R+0.306 t+2.23 pM 91 | TVt 1.54
+      22:30/+0.41 23:89/+0.06 24:108/-0.07 25:91/+0.26
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 241 pf 1.02 R+0.008 t+0.10 pM 52 | VA n  77 pf 1.81 R+0.333 t+2.02 pM 80 | TVt 1.15
+      22:30/+0.50 23:89/-0.02 24:108/-0.09 25:91/+0.27
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 454 pf 0.94 R-0.028 t-0.53 pM 35 | VA n 138 pf 1.40 R+0.161 t+1.60 pM 82 | TVt 0.33
+      22:64/+0.17 23:180/-0.02 24:182/-0.08 25:164/+0.09 26:2/+0.34
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 454 pf 0.93 R-0.037 t-0.62 pM 39 | VA n 138 pf 1.45 R+0.211 t+1.71 pM 73 | TVt 0.39
+      22:64/+0.27 23:180/-0.04 24:182/-0.11 25:164/+0.12 26:2/+0.95
+=== ny2m30
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 513 pf 0.82 R-0.077 t-1.83 pM 35 | VA n 189 pf 0.98 R-0.007 t-0.09 pM 48 | TVt -1.58
+      18:64/-0.27 19:100/-0.13 20:101/+0.08 21:107/-0.17 22:91/+0.02 23:102/-0.01 24:120/-0.00 25:17/-0.07
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 287 pf 0.80 R-0.086 t-1.54 pM 36 | VA n 115 pf 1.05 R+0.022 t+0.23 pM 47 | TVt -1.13
+      18:26/-0.42 19:60/-0.12 20:62/+0.12 21:65/-0.27 22:46/+0.11 23:53/-0.03 24:75/+0.05 25:15/-0.06
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 513 pf 0.88 R-0.064 t-1.12 pM 40 | VA n 189 pf 0.91 R-0.052 t-0.55 pM 38 | TVt -1.24
+      18:64/-0.36 19:100/-0.16 20:101/+0.06 21:107/-0.12 22:91/+0.11 23:102/-0.07 24:120/+0.01 25:17/-0.05
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 287 pf 0.82 R-0.103 t-1.39 pM 34 | VA n 115 pf 0.96 R-0.021 t-0.16 pM 47 | TVt -1.24
+      18:26/-0.57 19:60/-0.16 20:62/-0.03 21:65/-0.29 22:46/+0.31 23:53/-0.04 24:75/+0.02 25:15/-0.06
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 453 pf 0.85 R-0.061 t-1.39 pM 39 | VA n 164 pf 1.00 R-0.000 t-0.00 pM 48 | TVt -1.17
+      18:51/-0.23 19:83/-0.07 20:95/+0.04 21:91/-0.14 22:84/+0.00 23:91/-0.00 24:105/+0.02 25:17/-0.14
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 254 pf 0.84 R-0.065 t-1.10 pM 38 | VA n 102 pf 0.94 R-0.023 t-0.23 pM 53 | TVt -1.04
+      18:19/-0.34 19:50/-0.06 20:58/+0.09 21:56/-0.25 22:45/+0.05 23:47/-0.11 24:66/+0.06 25:15/-0.13
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 453 pf 0.88 R-0.058 t-1.05 pM 42 | VA n 164 pf 0.87 R-0.068 t-0.75 pM 38 | TVt -1.28
+      18:51/-0.23 19:83/-0.08 20:95/+0.00 21:91/-0.13 22:84/+0.03 23:91/-0.07 24:105/+0.00 25:17/-0.22
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 254 pf 0.79 R-0.108 t-1.50 pM 32 | VA n 102 pf 0.92 R-0.043 t-0.36 pM 42 | TVt -1.44
+      18:19/-0.46 19:50/-0.08 20:58/-0.05 21:56/-0.25 22:45/+0.04 23:47/-0.09 24:66/+0.06 25:15/-0.24
+=== ny2m15
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 241 pf 1.03 R+0.016 t+0.21 pM 42 | VA n  77 pf 1.81 R+0.243 t+2.04 pM 82 | TVt 1.12
+      22:30/+0.39 23:89/+0.03 24:108/-0.10 25:91/+0.20
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 241 pf 1.08 R+0.040 t+0.51 pM 48 | VA n  77 pf 1.90 R+0.306 t+2.23 pM 91 | TVt 1.54
+      22:30/+0.41 23:89/+0.06 24:108/-0.07 25:91/+0.26
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 119 pf 0.85 R-0.073 t-0.73 pM 40 | VA n  34 pf 2.69 R+0.388 t+2.31 pM 70 | TVt 0.33
+      22:14/-0.09 23:43/+0.02 24:59/-0.12 25:37/+0.32
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 119 pf 0.92 R-0.043 t-0.39 pM 43 | VA n  34 pf 2.98 R+0.497 t+2.43 pM 80 | TVt 0.79
+      22:14/-0.04 23:43/+0.04 24:59/-0.08 25:37/+0.42
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 146 pf 1.04 R+0.020 t+0.21 pM 52 | VA n  62 pf 1.55 R+0.181 t+1.38 pM 64 | TVt 0.89
+      22:14/+0.61 23:47/-0.10 24:72/-0.00 25:75/+0.14
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 146 pf 1.08 R+0.039 t+0.39 pM 48 | VA n  62 pf 1.55 R+0.207 t+1.38 pM 73 | TVt 1.08
+      22:14/+0.59 23:47/-0.02 24:72/-0.01 25:75/+0.16
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n  74 pf 1.00 R+0.000 t+0.00 pM 48 | VA n  29 pf 2.79 R+0.395 t+2.21 pM 67 | TVt 1.05
+      22:7/+0.29 23:23/+0.07 24:41/-0.05 25:32/+0.32
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n  74 pf 1.06 R+0.031 t+0.21 pM 52 | VA n  29 pf 2.79 R+0.465 t+2.11 pM 78 | TVt 1.26
+      22:7/+0.33 23:23/+0.15 24:41/-0.05 25:32/+0.37
+=== ny3
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 201 pf 1.15 R+0.072 t+0.83 pM 55 | VA n  64 pf 1.35 R+0.137 t+0.94 pM 82 | TVt 1.17
+      22:24/+0.42 23:77/+0.12 24:89/-0.07 25:75/+0.14
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 194 pf 0.97 R-0.014 t-0.16 pM 45 | VA n  59 pf 1.95 R+0.337 t+2.06 pM 82 | TVt 0.9
+      22:25/+0.39 23:70/-0.04 24:87/-0.12 25:71/+0.29
+=== ny4nb
+{"range_start_h":9,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm" TR n 188 pf 1.05 R+0.023 t+0.26 pM 48 | VA n  57 pf 2.19 R+0.387 t+2.32 pM 82 | TVt 1.37
+      22:18/+0.73 23:69/+0.04 24:87/-0.13 25:71/+0.31
+{"range_start_h":9,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm" TR n 238 pf 1.07 R+0.035 t+0.46 pM 52 | VA n  74 pf 2.11 R+0.348 t+2.51 pM 91 | TVt 1.64
+      22:26/+0.60 23:89/+0.07 24:108/-0.11 25:89/+0.27
+{"range_start_h":9,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm" TR n 251 pf 1.07 R+0.035 t+0.48 pM 52 | VA n  84 pf 1.98 R+0.307 t+2.45 pM 82 | TVt 1.62
+      22:27/+0.54 23:94/+0.05 24:113/-0.07 25:101/+0.22
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 198 pf 1.04 R+0.020 t+0.23 pM 42 | VA n  63 pf 1.79 R+0.292 t+1.84 pM 82 | TVt 1.11
+      22:21/+0.48 23:72/+0.04 24:92/-0.10 25:76/+0.25
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 241 pf 1.08 R+0.040 t+0.51 pM 48 | VA n  77 pf 1.90 R+0.306 t+2.23 pM 91 | TVt 1.54
+      22:30/+0.41 23:89/+0.06 24:108/-0.07 25:91/+0.26
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 253 pf 1.08 R+0.040 t+0.53 pM 45 | VA n  89 pf 1.76 R+0.257 t+2.10 pM 82 | TVt 1.5
+      22:31/+0.36 23:94/+0.07 24:113/-0.05 25:104/+0.21
+{"range_start_h":11,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 205 pf 1.12 R+0.061 t+0.69 pM 52 | VA n  65 pf 1.83 R+0.297 t+1.93 pM 73 | TVt 1.53
+      22:23/+0.45 23:75/+0.00 24:94/+0.01 25:78/+0.26
+{"range_start_h":11,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 249 pf 1.14 R+0.067 t+0.86 pM 55 | VA n  78 pf 1.93 R+0.311 t+2.30 pM 82 | TVt 1.86
+      22:32/+0.34 23:94/+0.02 24:109/+0.03 25:92/+0.27
+{"range_start_h":11,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 258 pf 1.13 R+0.062 t+0.82 pM 48 | VA n  90 pf 1.84 R+0.272 t+2.26 pM 82 | TVt 1.81
+      22:33/+0.30 23:97/+0.02 24:113/+0.05 25:105/+0.23
+=== ny4st
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 241 pf 1.08 R+0.048 t+0.48 pM 52 | VA n  77 pf 1.46 R+0.244 t+1.31 pM 80 | TVt 1.08
+      22:30/+0.62 23:89/-0.00 24:108/-0.07 25:91/+0.21
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 241 pf 0.98 R-0.015 t-0.15 pM 48 | VA n  77 pf 1.44 R+0.234 t+1.26 pM 80 | TVt 0.53
+      22:30/+0.60 23:89/-0.09 24:108/-0.13 25:91/+0.20
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 241 pf 1.08 R+0.040 t+0.51 pM 48 | VA n  77 pf 1.90 R+0.306 t+2.23 pM 91 | TVt 1.54
+      22:30/+0.41 23:89/+0.06 24:108/-0.07 25:91/+0.26
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 241 pf 1.01 R+0.005 t+0.06 pM 42 | VA n  77 pf 1.81 R+0.285 t+2.07 pM 91 | TVt 1.08
+      22:30/+0.39 23:89/+0.02 24:108/-0.11 25:91/+0.23
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 241 pf 1.04 R+0.017 t+0.26 pM 52 | VA n  77 pf 1.66 R+0.193 t+1.77 pM 73 | TVt 1.08
+      22:30/+0.26 23:89/+0.04 24:108/-0.06 25:91/+0.16
+{"range_start_h":10,"range_end_h":15,"entry_start_hm":"15:30","entry_end_hm TR n 241 pf 0.98 R-0.010 t-0.16 pM 48 | VA n  77 pf 1.63 R+0.185 t+1.69 pM 73 | TVt 0.68
+      22:30/+0.23 23:89/-0.01 24:108/-0.07 25:91/+0.15

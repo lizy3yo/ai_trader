@@ -1,0 +1,4 @@
+{"strategy": "ls_tod", "family": "pattern", "markets": "all", "timeframes": ["M15", "M30"],
+ "grid": {"mode": ["fade", "follow"], "t0": ["23:00"], "t1": ["16:30"], "win": ["16:30-18:00", "16:30-23:00"],
+          "min_move_rng": [0.0, 0.2], "session.window": ["16:15-17:00"], "cfg.atr_sl_mult": [4.0], "cfg.atr_tp_mult": [20.0]},
+ "dir": "both", "trend": 0, "exit_from_strategy": true, "max_bars": 100000}

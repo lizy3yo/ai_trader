@@ -1,0 +1,13 @@
+ts,study,family,strategy,market,tf,params,tr_n,tr_avgR,tr_t,va_n,va_avgR,va_t,va_pf,tv_n,tv_avgR,tv_t,tv_pf,tv_posM,tv_maxdd_pct,tv_swapR,neigh_ok,spread_avgR,rand_mean,rand_p95,p_random,verdict
+2026-11-08 22:21,ms_smc_htf_h1.json,ms_smc,ms_smc,GOLD,H1,"{""bias"":""htf"",""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""htf_len"":3}",33,-0.002,-0.01,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:21,ms_smc_htf_h1.json,ms_smc,ms_smc,GOLD,H1,"{""bias"":""htf"",""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":4.5,""htf_len"":3}",32,-0.0,-0.0,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:21,ms_smc_htf_h1.json,ms_smc,ms_smc,GOLD,H1,"{""bias"":""htf"",""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""htf_len"":5}",28,0.072,0.26,12,-0.022,-0.05,0.949,,,,,,,,,,,,,fail: quiz
+2026-11-08 22:21,ms_smc_htf_h1.json,ms_smc,ms_smc,GOLD,H1,"{""bias"":""htf"",""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":4.5,""htf_len"":5}",27,0.189,0.53,12,0.305,0.55,1.424,,,,,,,,,,,,,fail: quiz
+2026-11-08 22:21,ms_smc_htf_h1.json,ms_smc,ms_smc,BTCUSD,H1,"{""bias"":""htf"",""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""htf_len"":3}",34,-0.435,-2.04,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:21,ms_smc_htf_h1.json,ms_smc,ms_smc,BTCUSD,H1,"{""bias"":""htf"",""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":4.5,""htf_len"":3}",34,-0.357,-1.34,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:21,ms_smc_htf_h1.json,ms_smc,ms_smc,BTCUSD,H1,"{""bias"":""htf"",""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""htf_len"":5}",24,-0.445,-1.74,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:21,ms_smc_htf_h1.json,ms_smc,ms_smc,BTCUSD,H1,"{""bias"":""htf"",""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":4.5,""htf_len"":5}",24,-0.407,-1.3,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:21,ms_smc_htf_h1.json,ms_smc,ms_smc,US500Cash,H1,"{""bias"":""htf"",""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""htf_len"":3}",23,0.171,0.55,10,0.175,0.36,1.27,,,,,,,,,,,,,fail: quiz
+2026-11-08 22:21,ms_smc_htf_h1.json,ms_smc,ms_smc,US500Cash,H1,"{""bias"":""htf"",""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":4.5,""htf_len"":3}",23,0.555,1.35,9,-0.152,-0.27,0.789,,,,,,,,,,,,,fail: quiz
+2026-11-08 22:21,ms_smc_htf_h1.json,ms_smc,ms_smc,US500Cash,H1,"{""bias"":""htf"",""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""htf_len"":5}",21,0.138,0.43,11,0.076,0.17,1.105,,,,,,,,,,,,,fail: quiz
+2026-11-08 22:21,ms_smc_htf_h1.json,ms_smc,ms_smc,US500Cash,H1,"{""bias"":""htf"",""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":4.5,""htf_len"":5}",21,0.515,1.19,11,0.408,0.69,1.627,,,,,,,,,,,,,fail: quiz

@@ -1,0 +1,569 @@
+=== grids/lm_cal_dow_h1.json 19:38:50
+[factory] lm_calendar: 5 settings x 7 markets x 1 TFs = 35 configurations | workers 11
+  US100Cash H1   t +1.78 avgR +0.025 n  369 neigh 0/1   +50%spr +0.024 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US500Cash H1   t +1.31 avgR +0.016 n  411 neigh 0/1   +50%spr +0.015 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  GOLD      H1   t +1.16 avgR +0.017 n  412 neigh 0/1   +50%spr +0.016 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+[factory] FINALISTS: 0
+=== grids/lm_cal_fomc_d1.json 19:39:18
+[factory] lm_calendar: 6 settings x 7 markets x 1 TFs = 42 configurations | workers 11
+  US100Cash D1   t +2.48 avgR +0.081 n   92 neigh 3/3   +50%spr +0.080 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  US100Cash D1   t +1.34 avgR +0.057 n   72 neigh 2/2   +50%spr +0.056 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+[factory] FINALISTS: 0
+=== grids/lm_cal_fomc_h1.json 19:39:34
+[factory] lm_calendar: 6 settings x 7 markets x 1 TFs = 42 configurations | workers 11
+  SILVER    H1   t +2.03 avgR +0.091 n   64 neigh 2/2   +50%spr +0.080 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  GOLD      H1   t +1.72 avgR +0.087 n   64 neigh 3/3   +50%spr +0.086 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  GOLD      H1   t +1.54 avgR +0.072 n   64 neigh 2/2   +50%spr +0.071 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  EURUSD    H1   t +1.54 avgR +0.074 n   61 neigh 2/2   +50%spr +0.066 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  GOLD      H1   t +0.91 avgR +0.051 n   64 neigh 2/2   +50%spr +0.050 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  SILVER    H1   t +0.81 avgR +0.044 n   64 neigh 2/3   +50%spr +0.033 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  EURUSD    H1   t +0.71 avgR +0.045 n   61 neigh 2/2   +50%spr +0.037 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  SILVER    H1   t +0.43 avgR +0.024 n   64 neigh 1/2   +50%spr +0.014 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+[factory] FINALISTS: 0
+=== grids/lm_cal_fomc_pre_h1.json 19:40:09
+[factory] lm_calendar: 2 settings x 7 markets x 1 TFs = 14 configurations | workers 11
+  GOLD      H1   t +2.49 avgR +0.073 n   64 neigh 1/1   +50%spr +0.072 p_rand 0.0  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  EURUSD    H1   t +2.39 avgR +0.084 n   61 neigh 1/1   +50%spr +0.076 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  BTCUSD    H1   t +2.04 avgR +0.089 n   50 neigh 0/1   +50%spr +0.089 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  GOLD      H1   t +1.99 avgR +0.079 n   64 neigh 1/1   +50%spr +0.078 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  SILVER    H1   t +1.50 avgR +0.051 n   64 neigh 0/1   +50%spr +0.040 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  ETHUSD    H1   t +1.32 avgR +0.046 n   50 neigh 0/1   +50%spr +0.044 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+[factory] FINALISTS: 0
+=== grids/lm_cal_nfp_d1.json 19:42:26
+[factory] lm_calendar: 4 settings x 7 markets x 1 TFs = 28 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/lm_cal_nfp_h1.json 19:42:30
+[factory] lm_calendar: 4 settings x 7 markets x 1 TFs = 28 configurations | workers 11
+  US500Cash H1   t +2.46 avgR +0.065 n   94 neigh 2/2   +50%spr +0.064 p_rand 0.15  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US100Cash H1   t +1.81 avgR +0.050 n   94 neigh 2/2   +50%spr +0.049 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US100Cash H1   t +1.79 avgR +0.088 n   94 neigh 2/2   +50%spr +0.087 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US100Cash H1   t +1.71 avgR +0.074 n   94 neigh 2/2   +50%spr +0.073 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US500Cash H1   t +1.68 avgR +0.065 n   94 neigh 2/2   +50%spr +0.064 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+[factory] FINALISTS: 0
+=== grids/lm_cal_prehol_d1.json 19:44:56
+[factory] lm_calendar: 6 settings x 7 markets x 1 TFs = 42 configurations | workers 11
+  GOLD      D1   t +2.99 avgR +0.072 n  163 neigh 3/3   +50%spr +0.071 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  GOLD      D1   t +2.62 avgR +0.067 n  164 neigh 2/2   +50%spr +0.066 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  GOLD      D1   t +2.27 avgR +0.036 n  164 neigh 2/2   +50%spr +0.035 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  SILVER    D1   t +2.09 avgR +0.049 n  163 neigh 3/3   +50%spr +0.041 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  US500Cash D1   t +1.66 avgR +0.027 n  108 neigh 1/2   +50%spr +0.026 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  SILVER    D1   t +1.59 avgR +0.027 n  164 neigh 2/2   +50%spr +0.019 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  US100Cash D1   t +1.58 avgR +0.027 n  107 neigh 2/2   +50%spr +0.026 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  ETHUSD    D1   t +1.01 avgR +0.050 n   74 neigh 1/2   +50%spr +0.049 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+[factory] FINALISTS: 0
+=== grids/lm_cal_prehol_h1.json 19:45:21
+[factory] lm_calendar: 6 settings x 7 markets x 1 TFs = 42 configurations | workers 11
+  GOLD      H1   t +2.53 avgR +0.080 n   74 neigh 2/2   +50%spr +0.079 p_rand 0.0  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US100Cash H1   t +2.30 avgR +0.120 n   74 neigh 2/2   +50%spr +0.119 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  GOLD      H1   t +2.27 avgR +0.105 n   74 neigh 3/3   +50%spr +0.104 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US100Cash H1   t +2.26 avgR +0.148 n   67 neigh 2/2   +50%spr +0.148 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US500Cash H1   t +2.22 avgR +0.089 n   74 neigh 3/3   +50%spr +0.088 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US500Cash H1   t +2.20 avgR +0.048 n   75 neigh 1/2   +50%spr +0.047 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US500Cash H1   t +2.14 avgR +0.109 n   74 neigh 1/2   +50%spr +0.108 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  GOLD      H1   t +2.07 avgR +0.109 n   74 neigh 2/2   +50%spr +0.108 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  US100Cash H1   t +1.72 avgR +0.074 n   74 neigh 3/3   +50%spr +0.073 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  SILVER    H1   t +0.71 avgR +0.022 n   74 neigh 1/2   +50%spr +0.011 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+[factory] FINALISTS: 0
+=== grids/lm_cal_tom_d1.json 19:48:01
+[factory] lm_calendar: 12 settings x 7 markets x 1 TFs = 84 configurations | workers 11
+  BTCUSD    D1   t +3.06 avgR +0.149 n  134 neigh 2/2   +50%spr +0.149 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  BTCUSD    D1   t +3.00 avgR +0.210 n  134 neigh 3/3   +50%spr +0.209 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  GOLD      D1   t +1.65 avgR +0.061 n  220 neigh 2/2   +50%spr +0.060 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  US100Cash D1   t +1.63 avgR +0.054 n  139 neigh 2/3   +50%spr +0.053 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  GOLD      D1   t +1.47 avgR +0.041 n  220 neigh 3/3   +50%spr +0.040 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  US100Cash D1   t +1.44 avgR +0.056 n  137 neigh 2/2   +50%spr +0.055 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  US100Cash D1   t +1.19 avgR +0.046 n  139 neigh 3/4   +50%spr +0.045 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  GOLD      D1   t +1.05 avgR +0.034 n  220 neigh 3/3   +50%spr +0.034 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  US500Cash D1   t +0.88 avgR +0.041 n  140 neigh 3/3   +50%spr +0.039 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+  US500Cash D1   t +0.71 avgR +0.030 n  140 neigh 2/4   +50%spr +0.028 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m
+[factory] FINALISTS: 2
+  BTCUSD D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m_after":0,"mode":"tom","n_before":3,"side":"long"}  t 3.06 avgR 0.149
+  BTCUSD D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"m_after":1,"mode":"tom","n_before":3,"side":"long"}  t 3.0 avgR 0.21
+=== grids/lm_cal_tom_h1.json 19:48:23
+[factory] lm_calendar: 12 settings x 7 markets x 1 TFs = 84 configurations | workers 11
+  US500Cash H1   t +1.38 avgR +0.055 n   96 neigh 1/3   +50%spr +0.054 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  GOLD      H1   t +1.36 avgR +0.083 n   96 neigh 3/3   +50%spr +0.082 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  GOLD      H1   t +1.11 avgR +0.072 n   96 neigh 2/4   +50%spr +0.071 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  GOLD      H1   t +0.96 avgR +0.046 n   96 neigh 1/2   +50%spr +0.045 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+[factory] FINALISTS: 0
+=== grids/lm_mr_bb_d1.json 19:49:25
+[factory] lm_meanrev: 6 settings x 7 markets x 1 TFs = 42 configurations | workers 11
+  GOLD      D1   t +1.52 avgR +0.126 n   36 neigh 0/3   +50%spr +0.125 p_rand -  {"bb_k":2.0,"bb_n":20,"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cf
+  SILVER    D1   t +1.27 avgR +0.070 n   47 neigh 2/3   +50%spr +0.062 p_rand -  {"bb_k":2.0,"bb_n":10,"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cf
+  GOLD      D1   t +0.70 avgR +0.029 n  100 neigh 0/2   +50%spr +0.028 p_rand -  {"bb_k":1.5,"bb_n":10,"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cf
+[factory] FINALISTS: 0
+=== grids/lm_mr_bb_h4.json 19:49:31
+[factory] lm_meanrev: 6 settings x 7 markets x 1 TFs = 36 configurations | workers 11
+  US500Cash H4   t +2.06 avgR +0.154 n   78 neigh 1/2   +50%spr +0.143 p_rand -  {"bb_k":2.5,"bb_n":20,"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cf
+  US500Cash H4   t +1.94 avgR +0.081 n  211 neigh 1/2   +50%spr +0.078 p_rand -  {"bb_k":1.5,"bb_n":20,"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cf
+  US500Cash H4   t +1.70 avgR +0.088 n  146 neigh 2/3   +50%spr +0.086 p_rand -  {"bb_k":2.0,"bb_n":20,"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cf
+  US100Cash H4   t +1.53 avgR +0.083 n  148 neigh 2/3   +50%spr +0.078 p_rand -  {"bb_k":2.0,"bb_n":20,"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cf
+  US100Cash H4   t +1.27 avgR +0.098 n   80 neigh 1/2   +50%spr +0.090 p_rand -  {"bb_k":2.5,"bb_n":20,"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cf
+  US100Cash H4   t +1.27 avgR +0.051 n  205 neigh 2/2   +50%spr +0.050 p_rand -  {"bb_k":1.5,"bb_n":20,"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cf
+[factory] FINALISTS: 0
+=== grids/lm_mr_ibs_d1.json 19:49:43
+[factory] lm_meanrev: 9 settings x 7 markets x 1 TFs = 63 configurations | workers 11
+  US100Cash D1   t +4.25 avgR +0.095 n  321 neigh 3/3   +50%spr +0.094 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +4.14 avgR +0.121 n  203 neigh 2/2   +50%spr +0.120 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +3.71 avgR +0.078 n  389 neigh 2/2   +50%spr +0.077 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +2.47 avgR +0.060 n  310 neigh 3/3   +50%spr +0.059 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +1.79 avgR +0.039 n  395 neigh 2/2   +50%spr +0.038 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +1.75 avgR +0.056 n  198 neigh 2/2   +50%spr +0.055 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  GOLD      D1   t +1.15 avgR +0.027 n  242 neigh 2/3   +50%spr +0.026 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  GOLD      D1   t +0.54 avgR +0.016 n  224 neigh 1/2   +50%spr +0.015 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 3
+  US100Cash D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"cfg.ema_trend":200,"ibs_exit":0.9,"ibs_th":0.1,"max_hold":5,"mode":"ibs","side":"long","trend":0}  t 4.14 avgR 0.121
+  US100Cash D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"cfg.ema_trend":200,"ibs_exit":0.9,"ibs_th":0.2,"max_hold":5,"mode":"ibs","side":"long","trend":0}  t 4.25 avgR 0.095
+  US100Cash D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"cfg.ema_trend":200,"ibs_exit":0.9,"ibs_th":0.3,"max_hold":5,"mode":"ibs","side":"long","trend":0}  t 3.71 avgR 0.078
+=== grids/lm_mr_ibs_trend_d1.json 19:50:01
+[factory] lm_meanrev: 9 settings x 7 markets x 1 TFs = 63 configurations | workers 11
+  US100Cash D1   t +4.25 avgR +0.141 n  140 neigh 2/2   +50%spr +0.140 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +3.04 avgR +0.082 n  226 neigh 3/3   +50%spr +0.081 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +2.97 avgR +0.062 n  252 neigh 4/4   +50%spr +0.061 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +1.61 avgR +0.063 n  129 neigh 2/2   +50%spr +0.061 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +1.48 avgR +0.044 n  213 neigh 3/3   +50%spr +0.043 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 2
+  US100Cash D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"cfg.ema_trend":200,"ibs_exit":0.9,"ibs_th":0.1,"max_hold":5,"mode":"ibs","side":"long","trend":1}  t 4.25 avgR 0.141
+  US100Cash D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"cfg.ema_trend":200,"ibs_exit":0.9,"ibs_th":0.2,"max_hold":5,"mode":"ibs","side":"long","trend":1}  t 3.04 avgR 0.082
+=== grids/lm_mr_nlow_d1.json 19:50:15
+[factory] lm_meanrev: 8 settings x 7 markets x 1 TFs = 56 configurations | workers 11
+  US500Cash D1   t +2.04 avgR +0.064 n  143 neigh 2/2   +50%spr +0.063 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +2.04 avgR +0.064 n  143 neigh 2/2   +50%spr +0.063 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +1.77 avgR +0.046 n  181 neigh 3/3   +50%spr +0.045 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 0
+=== grids/lm_mr_nlow_h4.json 19:50:22
+[factory] lm_meanrev: 8 settings x 7 markets x 1 TFs = 48 configurations | workers 11
+  US100Cash H4   t +0.89 avgR +0.013 n  522 neigh 2/2   +50%spr +0.012 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash H4   t +0.84 avgR +0.011 n  700 neigh 2/3   +50%spr +0.009 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash H4   t +0.81 avgR +0.010 n  701 neigh 2/3   +50%spr +0.009 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 0
+=== grids/lm_mr_rsi2_d1.json 19:50:35
+[factory] lm_meanrev: 9 settings x 7 markets x 1 TFs = 63 configurations | workers 11
+  US100Cash D1   t +3.37 avgR +0.133 n  138 neigh 2/2   +50%spr +0.132 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +2.83 avgR +0.085 n  154 neigh 2/2   +50%spr +0.083 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +2.82 avgR +0.132 n   99 neigh 3/3   +50%spr +0.130 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +2.74 avgR +0.112 n  101 neigh 4/4   +50%spr +0.111 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +2.73 avgR +0.104 n  141 neigh 3/3   +50%spr +0.102 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +2.16 avgR +0.073 n  149 neigh 2/2   +50%spr +0.072 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 1
+  US100Cash D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"cfg.ema_trend":200,"exit_ma":10,"exit_rsi":70.0,"max_hold":10,"mode":"rsi2","rsi_th":15.0,"side":"long","trend":1}  t 3.37 avgR 0.133
+=== grids/lm_mr_rsi2_h1.json 19:50:52
+[factory] lm_meanrev: 9 settings x 7 markets x 1 TFs = 63 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/lm_mr_rsi2_h4.json 19:51:33
+[factory] lm_meanrev: 9 settings x 7 markets x 1 TFs = 54 configurations | workers 11
+  US100Cash H4   t +0.76 avgR +0.018 n  511 neigh 0/2   +50%spr +0.015 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 0
+=== grids/lm_mr_rsi2_notrend_d1.json 19:51:51
+[factory] lm_meanrev: 9 settings x 7 markets x 1 TFs = 63 configurations | workers 11
+  US500Cash D1   t +3.13 avgR +0.078 n  227 neigh 2/2   +50%spr +0.076 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +2.98 avgR +0.101 n  204 neigh 2/2   +50%spr +0.100 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +2.87 avgR +0.097 n  161 neigh 4/4   +50%spr +0.095 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +2.80 avgR +0.108 n  156 neigh 3/3   +50%spr +0.107 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +2.37 avgR +0.075 n  209 neigh 3/3   +50%spr +0.074 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +1.96 avgR +0.055 n  222 neigh 2/2   +50%spr +0.054 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 1
+  US500Cash D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"cfg.ema_trend":200,"exit_ma":3,"exit_rsi":70.0,"max_hold":10,"mode":"rsi2","rsi_th":15.0,"side":"long","trend":0}  t 3.13 avgR 0.078
+=== grids/lm_mr_rsi2_sl_d1.json 19:52:09
+[factory] lm_meanrev: 12 settings x 7 markets x 1 TFs = 84 configurations | workers 11
+  US100Cash D1   t +3.37 avgR +0.133 n  138 neigh 4/4   +50%spr +0.132 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +3.35 avgR +0.182 n  144 neigh 3/3   +50%spr +0.172 p_rand 0.0  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +2.82 avgR +0.132 n   99 neigh 4/4   +50%spr +0.130 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +2.74 avgR +0.112 n  101 neigh 4/4   +50%spr +0.111 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +2.59 avgR +0.069 n  135 neigh 3/3   +50%spr +0.069 p_rand 0.0  {"cfg.atr_sl_mult":5.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +2.51 avgR +0.083 n  142 neigh 4/4   +50%spr +0.082 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 2
+  US100Cash D1 {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"cfg.ema_trend":200,"exit_ma":10,"exit_rsi":70.0,"max_hold":10,"mode":"rsi2","rsi_th":15.0,"side":"long","trend":1}  t 3.35 avgR 0.182
+  US100Cash D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"cfg.ema_trend":200,"exit_ma":10,"exit_rsi":70.0,"max_hold":10,"mode":"rsi2","rsi_th":15.0,"side":"long","trend":1}  t 3.37 avgR 0.133
+=== grids/lm_mr_short_ibs_d1.json 19:52:27
+[factory] lm_meanrev: 3 settings x 7 markets x 1 TFs = 21 configurations | workers 11
+  EURUSD    D1   t +1.28 avgR +0.022 n  307 neigh 0/1   +50%spr +0.018 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 0
+=== grids/lm_mr_short_rsi2_d1.json 19:52:31
+[factory] lm_meanrev: 3 settings x 7 markets x 1 TFs = 21 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/lm_mr_short_rsi2_h4.json 19:52:34
+[factory] lm_meanrev: 3 settings x 7 markets x 1 TFs = 18 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/lm_mr_short_z_d1.json 19:52:39
+[factory] lm_meanrev: 3 settings x 7 markets x 1 TFs = 21 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/lm_mr_z_d1.json 19:52:42
+[factory] lm_meanrev: 9 settings x 7 markets x 1 TFs = 63 configurations | workers 11
+  US500Cash D1   t +2.46 avgR +0.192 n   69 neigh 2/3   +50%spr +0.191 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +1.92 avgR +0.110 n  103 neigh 2/2   +50%spr +0.109 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +1.80 avgR +0.189 n   45 neigh 3/4   +50%spr +0.187 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 0
+=== grids/lm_mr_z_h4.json 19:52:55
+[factory] lm_meanrev: 9 settings x 7 markets x 1 TFs = 54 configurations | workers 11
+  US100Cash H4   t +1.76 avgR +0.079 n  218 neigh 2/3   +50%spr +0.078 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash H4   t +1.62 avgR +0.136 n   76 neigh 1/3   +50%spr +0.135 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash H4   t +1.52 avgR +0.088 n  150 neigh 4/4   +50%spr +0.087 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash H4   t +1.51 avgR +0.069 n  214 neigh 3/3   +50%spr +0.067 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash H4   t +1.42 avgR +0.119 n   73 neigh 2/3   +50%spr +0.117 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  GOLD      H4   t +0.73 avgR +0.066 n   55 neigh 1/2   +50%spr +0.064 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 0
+=== grids/ls_bars_burst_h1.json 19:53:10
+[factory] ls_bars: 8 settings x 7 markets x 1 TFs = 56 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/ls_bars_burst_h4.json 19:53:36
+[factory] ls_bars: 8 settings x 7 markets x 1 TFs = 48 configurations | workers 11
+  ETHUSD    H4   t +0.91 avgR +0.063 n  277 neigh 1/3   +50%spr +0.054 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":3.0,"cfg.max_hold_bars":24,"f
+[factory] FINALISTS: 0
+=== grids/ls_bars_inside_d1.json 19:53:46
+[factory] ls_bars: 8 settings x 7 markets x 1 TFs = 56 configurations | workers 11
+  GOLD      D1   t +1.29 avgR +0.131 n   88 neigh 2/3   +50%spr +0.131 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"cfg.max_hold_bars":20,"m
+  GOLD      D1   t +1.27 avgR +0.162 n  107 neigh 2/3   +50%spr +0.161 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":3.0,"cfg.max_hold_bars":20,"m
+  GOLD      D1   t +1.16 avgR +0.184 n  100 neigh 2/3   +50%spr +0.184 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":6.0,"cfg.max_hold_bars":20,"m
+[factory] FINALISTS: 0
+=== grids/ls_bars_inside_d1crypto.json 19:53:50
+[factory] ls_bars: 8 settings x 2 markets x 1 TFs = 16 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/ls_bars_inside_h4.json 19:53:52
+[factory] ls_bars: 8 settings x 7 markets x 1 TFs = 48 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/ls_bars_rev_d1.json 19:53:57
+[factory] ls_bars: 8 settings x 7 markets x 1 TFs = 56 configurations | workers 11
+  EURUSD    D1   t +1.38 avgR +0.232 n   64 neigh 2/3   +50%spr +0.229 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":3.0,"cfg.max_hold_bars":20,"m
+  EURUSD    D1   t +1.11 avgR +0.170 n   74 neigh 2/3   +50%spr +0.168 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":3.0,"cfg.max_hold_bars":20,"m
+  GOLD      D1   t +0.68 avgR +0.069 n   64 neigh 0/3   +50%spr +0.069 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":3.0,"cfg.max_hold_bars":20,"m
+[factory] FINALISTS: 0
+=== grids/ls_bars_rev_d1crypto.json 19:54:01
+[factory] ls_bars: 8 settings x 2 markets x 1 TFs = 16 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/ls_bars_rev_h4.json 19:54:03
+[factory] ls_bars: 8 settings x 7 markets x 1 TFs = 48 configurations | workers 11
+  US500Cash H4   t +1.59 avgR +0.084 n  271 neigh 1/3   +50%spr +0.083 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":3.0,"cfg.max_hold_bars":20,"m
+  US500Cash H4   t +0.96 avgR +0.076 n  300 neigh 2/3   +50%spr +0.057 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":3.0,"cfg.max_hold_bars":20,"m
+  ETHUSD    H4   t +0.86 avgR +0.055 n  164 neigh 0/3   +50%spr +0.058 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":3.0,"cfg.max_hold_bars":20,"m
+[factory] FINALISTS: 0
+=== grids/ls_dlvl_nr.json 19:54:11
+[factory] ls_dlvl: 8 settings x 7 markets x 2 TFs = 112 configurations | workers 11
+  US500Cash H1   t +1.53 avgR +0.117 n  391 neigh 2/3   +50%spr +0.090 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":8.0,"entry_min":1380,"inside"
+  US500Cash M30  t +1.45 avgR +0.120 n  254 neigh 2/3   +50%spr +0.116 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":8.0,"entry_min":1380,"inside"
+  US100Cash M30  t +1.18 avgR +0.158 n  237 neigh 3/3   +50%spr +0.156 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":8.0,"entry_min":1380,"inside"
+  US100Cash H1   t +0.93 avgR +0.075 n  387 neigh 2/3   +50%spr +0.072 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":8.0,"entry_min":1380,"inside"
+  US500Cash H1   t +0.79 avgR +0.090 n  153 neigh 1/3   +50%spr +0.077 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":8.0,"entry_min":1380,"inside"
+[factory] FINALISTS: 0
+=== grids/ls_dlvl_wvb.json 19:55:42
+[factory] ls_dlvl: 6 settings x 7 markets x 2 TFs = 84 configurations | workers 11
+  US100Cash M30  t +3.18 avgR +0.170 n 1110 neigh 3/3   +50%spr +0.159 p_rand 0.0  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":8.0,"entry_min":1380,"k":0.5,
+  US100Cash M30  t +2.69 avgR +0.100 n  666 neigh 2/2   +50%spr +0.091 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":8.0,"entry_min":1380,"k":0.8,
+  US100Cash M30  t +2.33 avgR +0.077 n 1110 neigh 3/3   +50%spr +0.070 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":8.0,"entry_min":1380,"k":0.5,
+  US100Cash H1   t +2.04 avgR +0.071 n 1973 neigh 2/2   +50%spr +0.066 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":8.0,"entry_min":1380,"k":0.3,
+  US100Cash H1   t +1.65 avgR +0.038 n  944 neigh 2/2   +50%spr +0.035 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":8.0,"entry_min":1380,"k":0.8,
+  US100Cash H1   t +1.63 avgR +0.065 n  946 neigh 2/2   +50%spr +0.057 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":8.0,"entry_min":1380,"k":0.8,
+[factory] FINALISTS: 1
+  US100Cash M30 {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":8.0,"entry_min":1380,"k":0.5,"level":"open_k","session.flat_at":"23:30"}  t 3.18 avgR 0.17
+=== grids/ls_ict_fvg.json 19:59:24
+[factory] fvg_retrace: 8 settings x 6 markets x 1 TFs = 48 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/ls_ict_lq.json 19:59:51
+[factory] lq_sweep: 8 settings x 6 markets x 1 TFs = 48 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/ls_ict_ob.json 20:00:24
+[factory] ob_retest: 8 settings x 6 markets x 1 TFs = 48 configurations | workers 11
+  US100Cash M30  t +1.79 avgR +0.228 n   97 neigh 2/3   +50%spr +0.177 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":2.25,"disp_k":2.0,"entry_mode
+  ETHUSD    M30  t +1.07 avgR +0.127 n  110 neigh 0/3   +50%spr +0.069 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":2.25,"disp_k":3.0,"entry_mode
+[factory] FINALISTS: 0
+=== grids/ls_orb_asia.json 20:01:07
+[factory] ls_orb: 8 settings x 7 markets x 1 TFs = 56 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/ls_orb_ldn.json 20:01:20
+[factory] ls_orb: 8 settings x 7 markets x 2 TFs = 112 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/ls_orb_us.json 20:01:43
+[factory] ls_orb: 8 settings x 7 markets x 2 TFs = 112 configurations | workers 11
+  US500Cash M15  t +1.21 avgR +0.069 n  840 neigh 1/3   +50%spr +0.028 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":6.0,"entry_min":210,"open_hm"
+[factory] FINALISTS: 0
+=== grids/ls_squeeze_h1.json 20:02:09
+[factory] ls_squeeze: 8 settings x 7 markets x 1 TFs = 56 configurations | workers 11
+  US100Cash H1   t +1.73 avgR +0.135 n  534 neigh 3/3   +50%spr +0.135 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":6.0,"exit_mid":0,"kc_m":1.5,"
+  US100Cash H1   t +1.25 avgR +0.063 n  672 neigh 2/3   +50%spr +0.060 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":6.0,"exit_mid":1,"kc_m":1.5,"
+  US100Cash H1   t +1.14 avgR +0.129 n  249 neigh 2/3   +50%spr +0.129 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":6.0,"exit_mid":0,"kc_m":1.5,"
+[factory] FINALISTS: 0
+=== grids/ls_squeeze_h4.json 20:02:41
+[factory] ls_squeeze: 8 settings x 7 markets x 1 TFs = 48 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/ls_tod_gao.json 20:02:49
+[factory] ls_tod: 8 settings x 7 markets x 2 TFs = 112 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/ls_tod_gap.json 20:03:10
+[factory] ls_tod: 8 settings x 7 markets x 2 TFs = 112 configurations | workers 11
+  GOLD      M30  t +1.31 avgR +0.028 n 1102 neigh 0/3   +50%spr +0.023 p_rand -  {"cfg.atr_sl_mult":4.0,"cfg.atr_tp_mult":20.0,"min_move_rng":0.2,"mode
+[factory] FINALISTS: 0
+=== grids/ls_tod_hold_long.json 20:03:40
+[factory] ls_tod: 6 settings x 7 markets x 1 TFs = 42 configurations | workers 11
+  GOLD      M30  t +1.44 avgR +0.018 n 1687 neigh 0/1   +50%spr +0.015 p_rand -  {"cfg.atr_sl_mult":6.0,"cfg.atr_tp_mult":30.0,"mode":"long","win":"23:
+[factory] FINALISTS: 0
+=== grids/ls_tod_hold_short.json 20:04:20
+[factory] ls_tod: 6 settings x 7 markets x 1 TFs = 42 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/ls_volreg_h1.json 20:04:49
+[factory] ls_volreg: 6 settings x 7 markets x 1 TFs = 42 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/ls_volreg_h4.json 20:05:06
+[factory] ls_volreg: 6 settings x 7 markets x 1 TFs = 36 configurations | workers 11
+  US500Cash H4   t +1.73 avgR +0.192 n  155 neigh 2/3   +50%spr +0.192 p_rand -  {"bb_n":20,"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":4.0,"cfg.max_hold_b
+[factory] FINALISTS: 0
+=== grids/lt_cx_donch_trail_both_d1.json 20:05:13
+[factory] lt_donch: 6 settings x 2 markets x 1 TFs = 12 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/lt_cx_donch_trail_both_h4.json 20:05:14
+[factory] lt_donch: 6 settings x 2 markets x 1 TFs = 12 configurations | workers 11
+  ETHUSD    H4   t +1.47 avgR +0.374 n   84 neigh 2/2   +50%spr +0.309 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+[factory] FINALISTS: 0
+=== grids/lt_cx_donch_trail_long_d1.json 20:05:19
+[factory] lt_donch: 12 settings x 2 markets x 1 TFs = 24 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/lt_cx_donch_trail_long_h4.json 20:05:21
+[factory] lt_donch: 12 settings x 2 markets x 1 TFs = 24 configurations | workers 11
+  BTCUSD    H4   t +2.13 avgR +0.287 n   93 neigh 4/4   +50%spr +0.286 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+  ETHUSD    H4   t +2.04 avgR +0.461 n   75 neigh 4/4   +50%spr +0.453 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+  ETHUSD    H4   t +1.92 avgR +0.788 n   44 neigh 3/3   +50%spr +0.786 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+  BTCUSD    H4   t +1.91 avgR +0.318 n   70 neigh 3/3   +50%spr +0.318 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+  ETHUSD    H4   t +1.82 avgR +0.198 n  100 neigh 3/4   +50%spr +0.191 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+[factory] FINALISTS: 0
+=== grids/lt_cx_mtf_brk_h1_long.json 20:05:28
+[factory] lt_mtf: 12 settings x 2 markets x 1 TFs = 24 configurations | workers 11
+  BTCUSD    H1   t +1.16 avgR +0.189 n  127 neigh 2/3   +50%spr +0.189 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":6.0,"cfg.ema_trend":1150,"d_m
+  BTCUSD    H1   t +1.16 avgR +0.189 n  127 neigh 2/3   +50%spr +0.189 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":6.0,"cfg.ema_trend":1150,"d_m
+[factory] FINALISTS: 0
+=== grids/lt_cx_pb_nlow_long_d1.json 20:05:46
+[factory] lt_pullback: 6 settings x 2 markets x 1 TFs = 12 configurations | workers 11
+  ETHUSD    D1   t +1.04 avgR +0.082 n   31 neigh 1/2   +50%spr +0.080 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  BTCUSD    D1   t +1.01 avgR +0.057 n   59 neigh 1/3   +50%spr +0.057 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  BTCUSD    D1   t +0.96 avgR +0.043 n   70 neigh 1/3   +50%spr +0.043 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  ETHUSD    D1   t +0.93 avgR +0.040 n   79 neigh 1/2   +50%spr +0.037 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 0
+=== grids/lt_cx_pb_nlow_long_h4.json 20:05:48
+[factory] lt_pullback: 6 settings x 2 markets x 1 TFs = 12 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/lt_cx_tsmom_d1_both.json 20:05:51
+[factory] lt_tsmom: 8 settings x 2 markets x 1 TFs = 16 configurations | workers 11
+  BTCUSD    D1   t +1.59 avgR +0.186 n   65 neigh 2/2   +50%spr +0.186 p_rand -  {"cfg.atr_sl_mult":4.0,"cfg.atr_tp_mult":30.0,"cfg.cooldown_bars":0,"c
+  BTCUSD    D1   t +0.59 avgR +0.060 n   71 neigh 2/3   +50%spr +0.060 p_rand -  {"cfg.atr_sl_mult":4.0,"cfg.atr_tp_mult":30.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 0
+=== grids/lt_cx_tsmom_d1_long.json 20:05:53
+[factory] lt_tsmom: 8 settings x 2 markets x 1 TFs = 16 configurations | workers 11
+  BTCUSD    D1   t +1.44 avgR +0.213 n   54 neigh 2/2   +50%spr +0.213 p_rand -  {"cfg.atr_sl_mult":4.0,"cfg.atr_tp_mult":30.0,"cfg.cooldown_bars":0,"c
+  BTCUSD    D1   t +0.91 avgR +0.121 n   46 neigh 2/2   +50%spr +0.120 p_rand -  {"cfg.atr_sl_mult":4.0,"cfg.atr_tp_mult":30.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 0
+=== grids/lt_donch_fix_long.json 20:05:56
+[factory] lt_donch: 6 settings x 7 markets x 2 TFs = 78 configurations | workers 11
+  EURUSD    D1   t +1.82 avgR +0.271 n  111 neigh 2/3   +50%spr +0.280 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"cfg.ema_trend":200,"exit
+  US100Cash H4   t +1.43 avgR +0.224 n  140 neigh 2/2   +50%spr +0.224 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":6.0,"cfg.ema_trend":200,"exit
+  US100Cash D1   t +1.31 avgR +0.367 n   45 neigh 2/2   +50%spr +0.367 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":6.0,"cfg.ema_trend":200,"exit
+  US500Cash H4   t +1.13 avgR +0.136 n  143 neigh 1/2   +50%spr +0.129 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"cfg.ema_trend":200,"exit
+  US500Cash H4   t +0.96 avgR +0.132 n  110 neigh 1/2   +50%spr +0.123 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"cfg.ema_trend":200,"exit
+  US100Cash H4   t +0.95 avgR +0.134 n  166 neigh 3/3   +50%spr +0.134 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":6.0,"cfg.ema_trend":200,"exit
+  US100Cash D1   t +0.78 avgR +0.228 n   40 neigh 2/2   +50%spr +0.227 p_rand -  {"cfg.atr_sl_mult":2.0,"cfg.atr_tp_mult":6.0,"cfg.ema_trend":200,"exit
+[factory] FINALISTS: 0
+=== grids/lt_donch_h1_long.json 20:06:07
+[factory] lt_donch: 4 settings x 7 markets x 1 TFs = 28 configurations | workers 11
+  GOLD      H1   t +2.76 avgR +0.283 n  169 neigh 2/2   +50%spr +0.284 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":5.0,"cfg.ema_trend":400,"exit
+  GOLD      H1   t +2.27 avgR +0.205 n  216 neigh 2/2   +50%spr +0.205 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":5.0,"cfg.ema_trend":400,"exit
+  GOLD      H1   t +1.97 avgR +0.215 n  149 neigh 1/1   +50%spr +0.216 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":5.0,"cfg.ema_trend":400,"exit
+[factory] FINALISTS: 0
+=== grids/lt_donch_trail_both.json 20:07:53
+[factory] lt_donch: 6 settings x 7 markets x 2 TFs = 78 configurations | workers 11
+  EURUSD    D1   t +4.09 avgR +0.509 n  248 neigh 2/2   +50%spr +0.508 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+  EURUSD    D1   t +3.61 avgR +0.661 n  137 neigh 2/2   +50%spr +0.660 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+  EURUSD    D1   t +3.53 avgR +0.511 n  196 neigh 3/3   +50%spr +0.510 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+  ETHUSD    H4   t +2.88 avgR +0.372 n  220 neigh 3/3   +50%spr +0.349 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+  ETHUSD    D1   t +1.47 avgR +0.405 n   31 neigh 2/3   +50%spr +0.402 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+[factory] FINALISTS: 3
+  EURUSD D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exit":"opp","exit_n":10,"n":20,"side":"both","trend":1}  t 4.09 avgR 0.509
+  EURUSD D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exit":"opp","exit_n":10,"n":55,"side":"both","trend":1}  t 3.53 avgR 0.511
+  EURUSD D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exit":"opp","exit_n":10,"n":120,"side":"both","trend":1}  t 3.61 avgR 0.661
+=== grids/lt_donch_trail_long.json 20:08:37
+[factory] lt_donch: 12 settings x 7 markets x 2 TFs = 156 configurations | workers 11
+  BTCUSD    H4   t +3.81 avgR +1.018 n   95 neigh 3/3   +50%spr +1.018 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+  BTCUSD    H4   t +3.74 avgR +0.813 n  121 neigh 4/4   +50%spr +0.812 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+  BTCUSD    H4   t +3.73 avgR +0.574 n  173 neigh 3/3   +50%spr +0.574 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+  BTCUSD    D1   t +3.42 avgR +1.642 n   34 neigh 3/3   +50%spr +1.641 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+  BTCUSD    D1   t +3.32 avgR +1.137 n   46 neigh 3/3   +50%spr +1.136 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+  ETHUSD    H4   t +3.29 avgR +0.753 n   99 neigh 3/3   +50%spr +0.747 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+  ETHUSD    H4   t +3.22 avgR +1.059 n   78 neigh 3/3   +50%spr +1.057 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+  ETHUSD    H4   t +3.05 avgR +0.577 n  129 neigh 4/4   +50%spr +0.572 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+  US100Cash H4   t +2.52 avgR +0.424 n  114 neigh 1/3   +50%spr +0.423 p_rand 0.15  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+  GOLD      D1   t +1.36 avgR +0.267 n   47 neigh 4/4   +50%spr +0.266 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+[factory] FINALISTS: 8
+  BTCUSD H4 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exit":"ma","exit_n":30,"n":20,"side":"long","trend":1}  t 3.73 avgR 0.574
+  BTCUSD H4 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exit":"opp","exit_n":10,"n":55,"side":"long","trend":1}  t 3.74 avgR 0.813
+  BTCUSD H4 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exit":"opp","exit_n":10,"n":120,"side":"long","trend":1}  t 3.81 avgR 1.018
+  BTCUSD D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exit":"ma","exit_n":10,"n":20,"side":"long","trend":1}  t 3.32 avgR 1.137
+  BTCUSD D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exit":"ma","exit_n":30,"n":20,"side":"long","trend":1}  t 3.42 avgR 1.642
+  ETHUSD H4 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exit":"ma","exit_n":30,"n":55,"side":"long","trend":1}  t 3.05 avgR 0.577
+  ETHUSD H4 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exit":"opp","exit_n":30,"n":120,"side":"long","trend":1}  t 3.22 avgR 1.059
+  ETHUSD H4 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exit":"ma","exit_n":30,"n":120,"side":"long","trend":1}  t 3.29 avgR 0.753
+=== grids/lt_donch_trail_short.json 20:09:39
+[factory] lt_donch: 6 settings x 7 markets x 2 TFs = 78 configurations | workers 11
+  EURUSD    D1   t +3.06 avgR +0.525 n  111 neigh 2/2   +50%spr +0.524 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+  EURUSD    D1   t +3.05 avgR +0.849 n   79 neigh 2/2   +50%spr +0.848 p_rand 0.05  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+  EURUSD    D1   t +2.94 avgR +0.741 n   64 neigh 2/2   +50%spr +0.740 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+  GOLD      H4   t +0.85 avgR +0.118 n   85 neigh 0/2   +50%spr +0.117 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exi
+[factory] FINALISTS: 1
+  EURUSD D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.ema_trend":200,"exit":"opp","exit_n":10,"n":20,"side":"short","trend":1}  t 3.06 avgR 0.525
+=== grids/lt_keltner_both.json 20:10:17
+[factory] lt_keltner: 4 settings x 7 markets x 2 TFs = 52 configurations | workers 11
+  EURUSD    D1   t +4.51 avgR +0.683 n  199 neigh 2/2   +50%spr +0.683 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"exit":"mid","k":2.5,"n"
+  EURUSD    D1   t +4.19 avgR +0.377 n  366 neigh 2/2   +50%spr +0.376 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"exit":"mid","k":1.5,"n"
+  EURUSD    D1   t +4.11 avgR +0.674 n  182 neigh 2/2   +50%spr +0.673 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"exit":"mid","k":2.5,"n"
+  ETHUSD    H4   t +3.28 avgR +0.433 n  235 neigh 2/2   +50%spr +0.423 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"exit":"mid","k":2.5,"n"
+  BTCUSD    D1   t +3.03 avgR +1.014 n   52 neigh 2/2   +50%spr +0.964 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"exit":"mid","k":2.5,"n"
+  ETHUSD    D1   t +2.31 avgR +0.812 n   41 neigh 2/2   +50%spr +0.811 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"exit":"mid","k":2.5,"n"
+[factory] FINALISTS: 5
+  BTCUSD D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"exit":"mid","k":2.5,"n":20,"side":"both"}  t 3.03 avgR 1.014
+  EURUSD D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"exit":"mid","k":1.5,"n":20,"side":"both"}  t 4.19 avgR 0.377
+  EURUSD D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"exit":"mid","k":2.5,"n":20,"side":"both"}  t 4.51 avgR 0.683
+  EURUSD D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"exit":"mid","k":2.5,"n":50,"side":"both"}  t 4.11 avgR 0.674
+  ETHUSD H4 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"exit":"mid","k":2.5,"n":50,"side":"both"}  t 3.28 avgR 0.433
+=== grids/lt_keltner_long.json 20:11:02
+[factory] lt_keltner: 8 settings x 7 markets x 2 TFs = 104 configurations | workers 11
+  BTCUSD    D1   t +4.37 avgR +0.812 n   38 neigh 3/3   +50%spr +0.750 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"exit":"mid","k":2.5,"n":
+  BTCUSD    D1   t +3.30 avgR +0.838 n   32 neigh 3/3   +50%spr +0.783 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"exit":"fixed","k":2.5,"n
+  ETHUSD    D1   t +2.76 avgR +0.641 n   34 neigh 3/3   +50%spr +0.639 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"exit":"mid","k":2.5,"n":
+  ETHUSD    D1   t +2.58 avgR +0.566 n   36 neigh 3/3   +50%spr +0.565 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"exit":"mid","k":2.5,"n":
+  BTCUSD    D1   t +2.55 avgR +0.507 n   42 neigh 3/3   +50%spr +0.506 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"exit":"mid","k":2.5,"n":
+  ETHUSD    H4   t +2.24 avgR +0.225 n  159 neigh 2/3   +50%spr +0.223 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"exit":"mid","k":2.5,"n":
+  US100Cash H4   t +2.16 avgR +0.113 n  292 neigh 3/3   +50%spr +0.112 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"exit":"mid","k":1.5,"n":
+  ETHUSD    D1   t +2.15 avgR +0.568 n   33 neigh 3/3   +50%spr +0.568 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"exit":"fixed","k":2.5,"n
+  GOLD      D1   t +1.79 avgR +0.166 n  100 neigh 3/3   +50%spr +0.165 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"exit":"mid","k":1.5,"n":
+  US100Cash D1   t +1.51 avgR +0.138 n   63 neigh 2/3   +50%spr +0.137 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"exit":"mid","k":1.5,"n":
+[factory] FINALISTS: 2
+  BTCUSD D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"exit":"fixed","k":2.5,"n":20,"side":"long"}  t 3.3 avgR 0.838
+  BTCUSD D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"exit":"mid","k":2.5,"n":20,"side":"long"}  t 4.37 avgR 0.812
+=== grids/lt_macross_both.json 20:11:23
+[factory] lt_macross: 6 settings x 7 markets x 2 TFs = 78 configurations | workers 11
+  EURUSD    D1   t +2.28 avgR +0.705 n   71 neigh 2/3   +50%spr +0.704 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"e
+  GOLD      H4   t +1.29 avgR +0.174 n  177 neigh 1/2   +50%spr +0.173 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"e
+[factory] FINALISTS: 0
+=== grids/lt_macross_long.json 20:11:36
+[factory] lt_macross: 6 settings x 7 markets x 2 TFs = 78 configurations | workers 11
+  US100Cash H4   t +2.60 avgR +0.720 n   75 neigh 3/3   +50%spr +0.719 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"e
+  ETHUSD    H4   t +2.28 avgR +0.820 n   65 neigh 2/2   +50%spr +0.818 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"e
+  ETHUSD    H4   t +2.15 avgR +0.947 n   49 neigh 2/2   +50%spr +0.946 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"e
+  US100Cash H4   t +1.94 avgR +0.792 n   47 neigh 2/2   +50%spr +0.791 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"e
+  US100Cash H4   t +1.91 avgR +0.565 n   67 neigh 2/2   +50%spr +0.564 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"e
+  BTCUSD    H4   t +1.84 avgR +0.438 n  106 neigh 2/2   +50%spr +0.438 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"e
+  BTCUSD    H4   t +1.35 avgR +0.424 n   66 neigh 2/2   +50%spr +0.424 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"e
+  BTCUSD    H4   t +1.33 avgR +0.361 n   88 neigh 3/3   +50%spr +0.361 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"e
+  US500Cash H4   t +1.06 avgR +0.332 n   50 neigh 2/3   +50%spr +0.325 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"e
+[factory] FINALISTS: 0
+=== grids/lt_mtf_brk_h1_both.json 20:12:20
+[factory] lt_mtf: 12 settings x 7 markets x 1 TFs = 84 configurations | workers 11
+  GOLD      H1   t +1.72 avgR +0.152 n  273 neigh 2/3   +50%spr +0.145 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"cfg.ema_trend":1150,"d_m
+  GOLD      H1   t +1.67 avgR +0.147 n  273 neigh 2/3   +50%spr +0.141 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"cfg.ema_trend":1150,"d_m
+[factory] FINALISTS: 0
+=== grids/lt_mtf_brk_h1_long.json 20:13:00
+[factory] lt_mtf: 12 settings x 7 markets x 1 TFs = 84 configurations | workers 11
+  GOLD      H1   t +1.65 avgR +0.184 n  173 neigh 2/3   +50%spr +0.184 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"cfg.ema_trend":1150,"d_m
+  GOLD      H1   t +1.58 avgR +0.177 n  173 neigh 2/3   +50%spr +0.177 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"cfg.ema_trend":1150,"d_m
+  GOLD      H1   t +1.20 avgR +0.095 n  330 neigh 2/3   +50%spr +0.101 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"cfg.ema_trend":1150,"d_m
+[factory] FINALISTS: 0
+=== grids/lt_mtf_brk_m30_long.json 20:13:43
+[factory] lt_mtf: 4 settings x 7 markets x 1 TFs = 28 configurations | workers 11
+  GOLD      M30  t +1.66 avgR +0.174 n  198 neigh 2/2   +50%spr +0.180 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"cfg.ema_trend":2300,"d_m
+  GOLD      M30  t +1.66 avgR +0.174 n  198 neigh 2/2   +50%spr +0.180 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"cfg.ema_trend":2300,"d_m
+  GOLD      M30  t +1.21 avgR +0.103 n  293 neigh 2/2   +50%spr +0.111 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":6.0,"cfg.ema_trend":2300,"d_m
+[factory] FINALISTS: 0
+=== grids/lt_mtf_pb_h1_long.json 20:14:06
+[factory] lt_mtf: 12 settings x 7 markets x 1 TFs = 84 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/lt_pb_nlow_both.json 20:14:36
+[factory] lt_pullback: 6 settings x 7 markets x 2 TFs = 78 configurations | workers 11
+  US500Cash D1   t +3.03 avgR +0.104 n  135 neigh 2/2   +50%spr +0.103 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +2.43 avgR +0.092 n  134 neigh 1/2   +50%spr +0.091 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +2.34 avgR +0.067 n  211 neigh 3/3   +50%spr +0.066 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +2.20 avgR +0.055 n  223 neigh 3/3   +50%spr +0.054 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +1.96 avgR +0.048 n  297 neigh 2/2   +50%spr +0.047 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +1.48 avgR +0.032 n  310 neigh 2/2   +50%spr +0.031 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 1
+  US500Cash D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"cfg.ema_trend":200,"cfg.max_hold_bars":20,"exit":"rec","exit_n":5,"n":10,"side":"both","trig":"nlow"}  t 3.03 avgR 0.104
+=== grids/lt_pb_nlow_long.json 20:14:53
+[factory] lt_pullback: 6 settings x 7 markets x 2 TFs = 78 configurations | workers 11
+  US500Cash D1   t +2.97 avgR +0.119 n  112 neigh 2/2   +50%spr +0.117 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +2.52 avgR +0.142 n  103 neigh 2/2   +50%spr +0.140 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +2.47 avgR +0.080 n  178 neigh 3/3   +50%spr +0.079 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +2.36 avgR +0.068 n  185 neigh 3/3   +50%spr +0.066 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +1.96 avgR +0.054 n  252 neigh 2/2   +50%spr +0.053 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash H4   t +1.62 avgR +0.030 n  746 neigh 2/3   +50%spr +0.028 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US100Cash H4   t +1.31 avgR +0.026 n  725 neigh 3/3   +50%spr +0.024 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash H4   t +0.75 avgR +0.010 n 1084 neigh 1/2   +50%spr +0.008 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 0
+=== grids/lt_pb_rsi_long.json 20:15:10
+[factory] lt_pullback: 6 settings x 7 markets x 2 TFs = 78 configurations | workers 11
+  US100Cash D1   t +3.14 avgR +0.101 n  180 neigh 2/2   +50%spr +0.099 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +2.99 avgR +0.132 n   96 neigh 2/2   +50%spr +0.130 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +2.74 avgR +0.112 n  101 neigh 3/3   +50%spr +0.111 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+  US500Cash D1   t +2.34 avgR +0.069 n  178 neigh 2/2   +50%spr +0.068 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 1
+  US100Cash D1 {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"cfg.ema_trend":200,"cfg.max_hold_bars":20,"exit":"rec","exit_n":5,"n":2,"side":"long","thr":20,"trig":"rsi"}  t 3.14 avgR 0.101
+=== grids/lt_tsmom_d1_both.json 20:15:26
+[factory] lt_tsmom: 8 settings x 7 markets x 1 TFs = 56 configurations | workers 11
+  BTCUSD    D1   t +2.62 avgR +0.324 n  146 neigh 3/3   +50%spr +0.324 p_rand 0.0  {"cfg.atr_sl_mult":4.0,"cfg.atr_tp_mult":30.0,"cfg.cooldown_bars":0,"c
+  EURUSD    D1   t +2.54 avgR +0.150 n  555 neigh 2/2   +50%spr +0.149 p_rand 0.0  {"cfg.atr_sl_mult":4.0,"cfg.atr_tp_mult":30.0,"cfg.cooldown_bars":0,"c
+  EURUSD    D1   t +2.18 avgR +0.031 n 1658 neigh 1/2   +50%spr +0.030 p_rand -  {"cfg.atr_sl_mult":4.0,"cfg.atr_tp_mult":30.0,"cfg.cooldown_bars":0,"c
+  BTCUSD    D1   t +1.58 avgR +0.166 n  145 neigh 1/2   +50%spr +0.165 p_rand -  {"cfg.atr_sl_mult":4.0,"cfg.atr_tp_mult":30.0,"cfg.cooldown_bars":0,"c
+  EURUSD    D1   t +0.78 avgR +0.011 n 1647 neigh 1/3   +50%spr +0.011 p_rand -  {"cfg.atr_sl_mult":4.0,"cfg.atr_tp_mult":30.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 0
+=== grids/lt_tsmom_d1_long.json 20:15:49
+[factory] lt_tsmom: 8 settings x 7 markets x 1 TFs = 56 configurations | workers 11
+  BTCUSD    D1   t +2.99 avgR +0.482 n   97 neigh 3/3   +50%spr +0.482 p_rand 0.15  {"cfg.atr_sl_mult":4.0,"cfg.atr_tp_mult":30.0,"cfg.cooldown_bars":0,"c
+  BTCUSD    D1   t +2.72 avgR +0.086 n  279 neigh 2/3   +50%spr +0.085 p_rand 0.25  {"cfg.atr_sl_mult":4.0,"cfg.atr_tp_mult":30.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +2.17 avgR +0.043 n  362 neigh 3/3   +50%spr +0.042 p_rand -  {"cfg.atr_sl_mult":4.0,"cfg.atr_tp_mult":30.0,"cfg.cooldown_bars":0,"c
+  BTCUSD    D1   t +2.04 avgR +0.263 n  104 neigh 2/2   +50%spr +0.262 p_rand -  {"cfg.atr_sl_mult":4.0,"cfg.atr_tp_mult":30.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +1.35 avgR +0.096 n  122 neigh 3/3   +50%spr +0.095 p_rand -  {"cfg.atr_sl_mult":4.0,"cfg.atr_tp_mult":30.0,"cfg.cooldown_bars":0,"c
+  US100Cash D1   t +1.24 avgR +0.081 n  125 neigh 3/3   +50%spr +0.080 p_rand -  {"cfg.atr_sl_mult":4.0,"cfg.atr_tp_mult":30.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 0
+=== grids/lt_tsmom_h4_long.json 20:16:00
+[factory] lt_tsmom: 8 settings x 7 markets x 1 TFs = 48 configurations | workers 11
+  US100Cash H4   t +2.07 avgR +0.094 n  390 neigh 1/2   +50%spr +0.093 p_rand -  {"cfg.atr_sl_mult":4.0,"cfg.atr_tp_mult":30.0,"cfg.cooldown_bars":0,"c
+  US100Cash H4   t +1.77 avgR +0.082 n  420 neigh 2/2   +50%spr +0.081 p_rand -  {"cfg.atr_sl_mult":4.0,"cfg.atr_tp_mult":30.0,"cfg.cooldown_bars":0,"c
+  US100Cash H4   t +1.44 avgR +0.068 n  400 neigh 3/3   +50%spr +0.067 p_rand -  {"cfg.atr_sl_mult":4.0,"cfg.atr_tp_mult":30.0,"cfg.cooldown_bars":0,"c
+[factory] FINALISTS: 0
+=== grids/lx_ml_a.json 20:16:07
+[factory] lx_ml: 16 settings x 3 markets x 2 TFs = 80 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/lx_pairs_crypto_d1.json 20:16:21
+[factory] lx_pairs: 36 settings x 2 markets x 1 TFs = 72 configurations | workers 11
+  BTCUSD    D1   t +2.54 avgR +0.544 n   50 neigh 4/5   +50%spr +0.544 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":1.5,"exit_z":0
+  ETHUSD    D1   t +2.54 avgR +0.629 n   33 neigh 4/5   +50%spr +0.628 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":2.5,"exit_z":0
+  BTCUSD    D1   t +2.36 avgR +0.592 n   37 neigh 3/4   +50%spr +0.592 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":1.5,"exit_z":0
+  BTCUSD    D1   t +2.15 avgR +0.580 n   31 neigh 3/4   +50%spr +0.579 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":2.5,"exit_z":0
+  ETHUSD    D1   t +2.13 avgR +0.324 n   58 neigh 3/5   +50%spr +0.322 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":2.0,"exit_z":0
+  ETHUSD    D1   t +2.13 avgR +0.370 n   55 neigh 3/5   +50%spr +0.369 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":2.0,"exit_z":0
+[factory] FINALISTS: 0
+=== grids/lx_pairs_mom_crypto.json 20:16:36
+[factory] lx_pairs: 6 settings x 2 markets x 3 TFs = 36 configurations | workers 11
+  BTCUSD    D1   t +2.26 avgR +0.607 n   49 neigh 2/2   +50%spr +0.607 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":1.0,"exit_z":0
+  BTCUSD    H4   t +2.11 avgR +0.557 n   84 neigh 2/2   +50%spr +0.557 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":2.0,"exit_z":0
+[factory] FINALISTS: 0
+=== grids/lx_pairs_mom_indices.json 20:16:53
+[factory] lx_pairs: 6 settings x 2 markets x 3 TFs = 36 configurations | workers 11
+  US100Cash H1   t +1.26 avgR +0.126 n  432 neigh 1/2   +50%spr +0.124 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":1.0,"exit_z":0
+[factory] FINALISTS: 0
+=== grids/lx_pairs_mom_metals.json 20:17:17
+[factory] lx_pairs: 6 settings x 2 markets x 3 TFs = 36 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/lx_pairs_rev_crypto.json 20:17:31
+[factory] lx_pairs: 9 settings x 2 markets x 3 TFs = 54 configurations | workers 11
+  ETHUSD    H4   t +2.41 avgR +0.680 n   64 neigh 0/2   +50%spr +0.679 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":2.5,"exit_z":0
+  ETHUSD    D1   t +2.37 avgR +0.795 n   31 neigh 2/2   +50%spr +0.794 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":2.5,"exit_z":0
+  ETHUSD    D1   t +2.21 avgR +0.595 n   42 neigh 3/3   +50%spr +0.594 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":2.0,"exit_z":0
+[factory] FINALISTS: 0
+=== grids/lx_pairs_rev_indices.json 20:18:31
+[factory] lx_pairs: 9 settings x 2 markets x 3 TFs = 54 configurations | workers 11
+  US500Cash H1   t +1.18 avgR +0.121 n  389 neigh 1/2   +50%spr +0.120 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":1.5,"exit_z":0
+[factory] FINALISTS: 0
+=== grids/lx_pairs_rev_metals.json 20:19:01
+[factory] lx_pairs: 9 settings x 2 markets x 3 TFs = 54 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/lx_xl_crypto.json 20:19:22
+[factory] lx_xlead: 32 settings x 2 markets x 2 TFs = 128 configurations | workers 11
+[factory] FINALISTS: 0
+=== grids/lx_xl_risk.json 20:20:12
+[factory] lx_xlead: 16 settings x 5 markets x 2 TFs = 144 configurations | workers 11
+[factory] FINALISTS: 0
+=== ALL DONE 20:20:34

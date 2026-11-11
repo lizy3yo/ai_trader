@@ -1,0 +1,22 @@
+BREADTH TEST on 34 US stocks (pre-registered rules, real costs)
+
+== rsi2: 9358 trades, win 62%, avg +0.022R (financing +0.000R)
+   random entries, same exits: +0.029, +0.018, +0.016, +0.023  -> rule beats 2/4 seeds
+   2013-18: +0.024R n=3518 (random +0.025) | 2019-22: +0.013R n=2537 (random +0.020) | 2023-26: +0.019R n=2495 (random +0.012)
+   portfolio max  5 open: +0.40R/month, t 2.4, months up 64%, worst month -10.9R, max drawdown 15.6R   (random: +0.55R/month)
+   portfolio max 10 open: +0.58R/month, t 2.3, months up 67%, worst month -20.3R, max drawdown 34.8R   (random: +0.85R/month)
+   portfolio max 20 open: +0.93R/month, t 2.8, months up 71%, worst month -25.5R, max drawdown 38.7R   (random: +1.18R/month)
+
+== rsi2_tr: 4471 trades, win 64%, avg +0.028R (financing +0.000R)
+   random entries, same exits: +0.036, +0.024, +0.017, +0.028  -> rule beats 3/4 seeds
+   2013-18: +0.036R n=1766 (random +0.030) | 2019-22: +0.022R n=1231 (random +0.027) | 2023-26: +0.013R n=1223 (random +0.014)
+   portfolio max  5 open: +0.28R/month, t 1.9, months up 62%, worst month -7.5R, max drawdown 23.9R   (random: +0.40R/month)
+   portfolio max 10 open: +0.52R/month, t 2.5, months up 68%, worst month -13.3R, max drawdown 24.5R   (random: +0.57R/month)
+   portfolio max 20 open: +0.57R/month, t 2.5, months up 69%, worst month -21.3R, max drawdown 22.9R   (random: +0.74R/month)
+
+== pullback: 955 trades, win 65%, avg +0.044R (financing +0.000R)
+   random entries, same exits: +0.074, +0.063, -0.028, -0.006  -> rule beats 2/4 seeds
+   2013-18: +0.067R n=362 (random +0.034) | 2019-22: +0.052R n=266 (random -0.002) | 2023-26: -0.005R n=274 (random +0.027)
+   portfolio max  5 open: +0.19R/month, t 2.2, months up 53%, worst month -7.1R, max drawdown 10.4R   (random: +0.15R/month)
+   portfolio max 10 open: +0.20R/month, t 2.0, months up 54%, worst month -12.7R, max drawdown 12.7R   (random: +0.28R/month)
+   portfolio max 20 open: +0.19R/month, t 1.7, months up 54%, worst month -16.2R, max drawdown 16.2R   (random: +0.33R/month)

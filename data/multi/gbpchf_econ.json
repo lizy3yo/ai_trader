@@ -1,0 +1,18 @@
+{
+ "symbol": "GBPCHF",
+ "tick_size": 1e-05,
+ "tick_value": 1.2184,
+ "point": 1e-05,
+ "tick_value_profit_ccy": 1.2180267965895253,
+ "currency_profit": "CHF",
+ "contract_size": 100000.0,
+ "volume_min": 0.01,
+ "volume_max": 50.0,
+ "volume_step": 0.01,
+ "swap_mode": 1,
+ "swap_long_points": 5.77,
+ "swap_short_points": -18.01,
+ "swap_rollover3days_mt5": 3,
+ "live_spread": 0.0004300000000001525,
+ "live_bid": 1.10113
+}

@@ -1,0 +1,49 @@
+{
+ "strategy": "lm_meanrev",
+ "family": "mean_reversion",
+ "markets": "all",
+ "timeframes": [
+  "D1"
+ ],
+ "grid": {
+  "mode": [
+   "zscore"
+  ],
+  "z_n": [
+   20
+  ],
+  "z_th": [
+   1.5,
+   2.0,
+   2.5
+  ],
+  "z_exit": [
+   0.0
+  ],
+  "max_hold": [
+   10
+  ],
+  "side": [
+   "short"
+  ],
+  "trend": [
+   1
+  ],
+  "cfg.atr_sl_mult": [
+   3.0
+  ],
+  "cfg.ema_trend": [
+   200
+  ],
+  "cfg.atr_tp_mult": [
+   20.0
+  ],
+  "cfg.cooldown_bars": [
+   0
+  ]
+ },
+ "dir": "short",
+ "trend": 1,
+ "exit_from_strategy": true,
+ "max_bars": 6000
+}

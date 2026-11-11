@@ -1,0 +1,51 @@
+{
+ "strategy": "us_ema_pullback",
+ "family": "user_ema_pullback_stops",
+ "markets": [
+  "GOLD",
+  "BTCUSD",
+  "US500Cash",
+  "US100Cash",
+  "EURUSD"
+ ],
+ "timeframes": [
+  "M15",
+  "H1",
+  "H4"
+ ],
+ "grid": {
+  "entry": [
+   "ema8",
+   "break5"
+  ],
+  "stop_mode": [
+   "atr",
+   "max"
+  ],
+  "stop_atr": [
+   2.5
+  ],
+  "gap_atr": [
+   0.0
+  ],
+  "side": [
+   "both"
+  ],
+  "rr": [
+   1.0
+  ],
+  "cfg.partial_at_r": [
+   0.0
+  ],
+  "cfg.atr_sl_mult": [
+   2.5
+  ],
+  "cfg.atr_tp_mult": [
+   2.5
+  ]
+ },
+ "dir": "both",
+ "trend": 0,
+ "exit_from_strategy": false,
+ "max_bars": 60000
+}

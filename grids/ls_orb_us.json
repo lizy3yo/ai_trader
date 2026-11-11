@@ -1,0 +1,4 @@
+{"strategy": "ls_orb", "family": "session", "markets": "all", "timeframes": ["M15", "M30"],
+ "grid": {"open_hm": ["16:30"], "or_min": [30, 60], "entry_min": [210], "session.window": ["17:00-20:00"],
+          "session.flat_at": ["22:45"], "cfg.atr_sl_mult": [1.5, 3.0], "cfg.atr_tp_mult": [2.0, 6.0]},
+ "dir": "both", "trend": 0, "max_bars": 100000}

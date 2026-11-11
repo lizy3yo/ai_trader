@@ -1,0 +1,16 @@
+{
+ "symbol": "HK50Cash",
+ "tick_size": 1.0,
+ "tick_value": 0.1275,
+ "point": 1.0,
+ "contract_size": 1.0,
+ "volume_min": 0.1,
+ "volume_max": 360.0,
+ "volume_step": 0.1,
+ "swap_mode": 3,
+ "swap_long_points": -3.81,
+ "swap_short_points": -0.3,
+ "swap_rollover3days_mt5": 5,
+ "tick_value_profit_ccy": 1.0,
+ "currency_profit": "HKD"
+}

@@ -1,0 +1,16 @@
+{
+ "symbol": "USDX-DEC26",
+ "tick_size": 0.001,
+ "tick_value": 0.01,
+ "point": 0.001,
+ "tick_value_profit_ccy": 0.01,
+ "currency_profit": "USD",
+ "contract_size": 10.0,
+ "volume_min": 1.0,
+ "volume_max": 950.0,
+ "volume_step": 1.0,
+ "swap_mode": 0,
+ "swap_long_points": 0.0,
+ "swap_short_points": 0.0,
+ "swap_rollover3days_mt5": 3
+}

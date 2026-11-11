@@ -1,0 +1,5 @@
+{"strategy": "ob_retest", "family": "ict", "markets": ["BTCUSD", "ETHUSD", "US500Cash", "US100Cash", "SILVER", "EURUSD"],
+ "timeframes": ["M30"],
+ "grid": {"disp_k": [2.0, 3.0], "entry_mode": ["touch", "confirm"], "mode": ["ob", "breaker"], "zone_expiry": [36],
+          "session.window": ["10:00-23:00"], "cfg.atr_sl_mult": [1.5], "cfg.atr_tp_mult": [2.25]},
+ "dir": "both", "trend": 0, "max_bars": 100000}

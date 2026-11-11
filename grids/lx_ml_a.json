@@ -1,0 +1,4 @@
+{"strategy": "lx_ml", "family": "ml", "markets": ["US500Cash", "EURUSD", "ETHUSD"], "timeframes": ["H1", "H4"],
+ "grid": {"model": ["hgb", "lr"], "thr": [0.03, 0.06], "cfg.max_hold_bars": [6, 24],
+          "cfg.atr_sl_mult": [2.0, 3.0], "cfg.atr_tp_mult": [6.0]},
+ "dir": "both", "trend": 0, "exit_from_strategy": false}

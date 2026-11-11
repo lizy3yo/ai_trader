@@ -22,7 +22,7 @@ import traceback
 from datetime import datetime, timedelta, timezone
 
 from bot import mt5_client as mc
-from bot.backtest import DEFAULT_GOLD_ECON, load_csv_bars, print_report, run_backtest
+from bot.backtest import load_csv_bars, load_econ, print_report, run_backtest
 from bot.config import TIMEFRAME_MINUTES as TF_MINUTES
 from bot.config import Config, load_config
 from bot.risk import RiskManager
@@ -55,13 +55,13 @@ def _parse_hhmm(s: str) -> tuple[int, int]:
 def in_session(cfg: Config, now: datetime) -> tuple[bool, str]:
     """Is the broker-server clock inside the allowed trading window?"""
     wd = now.weekday()  # Mon=0 ... Sun=6
-    if wd >= 5:
+    if wd >= 5 and not cfg.session.weekends:
         return False, "weekend"
     sh, sm = _parse_hhmm(cfg.session.trade_start)
     eh, em = _parse_hhmm(cfg.session.trade_end)
     start = now.replace(hour=sh, minute=sm, second=0, microsecond=0)
     end = now.replace(hour=eh, minute=em, second=0, microsecond=0)
-    if wd == 4:  # Friday: stop earlier
+    if wd == 4 and not cfg.session.weekends:  # Friday: stop earlier
         fh, fm = _parse_hhmm(cfg.session.friday_close)
         end = min(end, now.replace(hour=fh, minute=fm, second=0, microsecond=0))
     if start <= now <= end:
@@ -182,6 +182,9 @@ def cmd_live(cfg: Config) -> None:
         risk = RiskManager(cfg.risk, cfg.capital)
         restore_risk_state(risk, tracker)
 
+        if cfg.strategy.partial_at_r > 0:
+            raise SystemExit("[live] strategy.partial_at_r (scale-out + break-even) is backtest-only "
+                             "for now — set it to 0 or add live support before trading this config.")
         tf_min = TF_MINUTES[cfg.strategy.timeframe]
         strat = get_strategy(cfg.strategy.name)
         need = strat.warmup(cfg.strategy) + 50
@@ -222,6 +225,50 @@ def cmd_live(cfg: Config) -> None:
         mc.shutdown()
 
 
+def time_exit_due(cfg: Config, opened: datetime, now: datetime, tf_min: int) -> str | None:
+    """Mirror of the backtest's flat_at / max_hold_bars exits."""
+    if cfg.session.flat_at:
+        fh, fm = _parse_hhmm(cfg.session.flat_at)
+        flat_dt = opened.replace(hour=fh, minute=fm, second=0, microsecond=0)
+        if flat_dt <= opened:
+            flat_dt += timedelta(days=1)
+        if now >= flat_dt:
+            return "flat_at"
+    if cfg.strategy.max_hold_bars > 0:
+        fill_bar = _bar_floor(opened, tf_min)
+        if now >= fill_bar + timedelta(minutes=tf_min * cfg.strategy.max_hold_bars):
+            return "time"
+    return None
+
+
+def manage_exits(cfg, tracker, risk, tf_min, need, state, strat, now) -> None:
+    """Time exits every tick; the strategy's exit_signal once per new closed bar."""
+    positions = mc.bot_positions(cfg.symbol, cfg.magic)
+    if not positions:
+        return
+    hook = getattr(strat, "exit_signal", None)
+    bars = None
+    for p in positions:
+        opened = _server_naive(p.time)
+        why = time_exit_due(cfg, opened, now, tf_min)
+        if why is None and hook is not None:
+            if bars is None:
+                bars = mc.closed_bars(cfg.symbol, cfg.strategy.timeframe, need)
+            newest = bars.index[-1]
+            if state.get("exit_bar") != newest:
+                state["exit_bar"] = newest
+                fill_bar = _bar_floor(opened, tf_min)
+                held = int((newest - fill_bar) / timedelta(minutes=tf_min)) + 1
+                direction = LONG if p.type == mc.mt5.POSITION_TYPE_BUY else -1
+                if held >= 1 and hook(strat.add_indicators(bars, cfg.strategy),
+                                      cfg.strategy, direction, held):
+                    why = "signal"
+        if why:
+            res = mc.close_position(p)
+            print(f"[exit] {why}: closed ticket {p.ticket} retcode {res.retcode} {res.comment}")
+    sync_closed_positions(cfg, tracker, risk, state, tf_min)
+
+
 def _live_tick(cfg, econ, tracker, risk, tf_min, need, state, strat) -> None:
     now = mc.server_now(cfg.symbol)
     day = str(now.date())
@@ -246,6 +293,9 @@ def _live_tick(cfg, econ, tracker, risk, tf_min, need, state, strat) -> None:
                 print(f"[risk] closed ticket {p.ticket}: retcode {res.retcode} {res.comment}")
             sync_closed_positions(cfg, tracker, risk, state, tf_min)
         return  # no trading for the rest of the day
+
+    # 2b) time-based and strategy-driven exits (run outside the session too)
+    manage_exits(cfg, tracker, risk, tf_min, need, state, strat, now)
 
     # 3) session window
     ok, why = in_session(cfg, now)
@@ -334,7 +384,7 @@ def cmd_backtest(cfg: Config) -> None:
     if cfg.backtest.data_csv:
         print(f"[backtest] loading bars from {cfg.backtest.data_csv}")
         bars = load_csv_bars(cfg.backtest.data_csv)
-        econ = DEFAULT_GOLD_ECON
+        econ = load_econ(cfg.symbol)
     else:
         print(f"[backtest] pulling {cfg.backtest.bars} bars of "
               f"{cfg.symbol} {cfg.strategy.timeframe} from MT5")

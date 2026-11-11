@@ -1,0 +1,4 @@
+{"strategy": "lx_pairs", "family": "pairs", "markets": ["US500Cash", "US100Cash"], "timeframes": ["H1", "H4", "D1"],
+ "grid": {"pair": ["indices"], "mode": ["follow"], "lookback": [60, 120, 240], "entry_z": [1.0, 2.0], "exit_z": [0.0],
+          "cfg.atr_sl_mult": [3.0], "cfg.atr_tp_mult": [20.0]},
+ "dir": "both", "trend": 0, "exit_from_strategy": true}

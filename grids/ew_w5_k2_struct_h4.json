@@ -1,0 +1,1 @@
+{"strategy": "ew_w5", "family": "elliott", "markets": ["GOLD", "BTCUSD", "US500Cash"], "timeframes": ["H4"], "grid": {"k": [2.0], "band": ["def", "wide"], "target": ["struct"], "cfg.atr_sl_mult": [2.0], "cfg.atr_tp_mult": [2.4]}, "dir": "both", "trend": 0, "exit_from_strategy": false, "max_bars": 13500}

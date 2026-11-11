@@ -1,0 +1,71 @@
+FIRST CANDLE RULE - exact video rules, XM data, spread x1.3, stop-first
+
+== RETEST5 (5m candle, close+retest, stop mid, 2R)  [M5 bars]
+   US100Cash   217 trades/440 days  win  29%  avg -0.181R  t -2.1  total  -39.3R  spread 0.06R  | coin flip -0.030R (rule beats 0/20)
+   US500Cash   228 trades/440 days  win  35%  avg -0.008R  t -0.1  total   -1.8R  spread 0.11R  | coin flip +0.037R (rule beats 9/20)
+   GOLD        228 trades/438 days  win  36%  avg +0.056R  t +0.6  total  +12.8R  spread 0.08R  | coin flip +0.040R (rule beats 13/20)
+   BTCUSD      222 trades/350 days  win  19%  avg -0.499R  t -6.3  total -110.8R  spread 0.41R  | coin flip -0.213R (rule beats 0/20)
+   EURUSD      230 trades/418 days  win  28%  avg -0.181R  t -2.1  total  -41.5R  spread 0.20R  | coin flip -0.113R (rule beats 4/20)
+   GBPUSD      239 trades/419 days  win  20%  avg -0.438R  t -5.8  total -104.7R  spread 0.43R  | coin flip -0.109R (rule beats 0/20)
+   USDJPY      237 trades/419 days  win  21%  avg -0.419R  t -5.2  total  -99.4R  spread 0.47R  | coin flip -0.168R (rule beats 0/20)
+   USDCHF      224 trades/419 days  win  13%  avg -0.693R  t -10.4  total -155.3R  spread 0.65R  | coin flip -0.295R (rule beats 0/20)
+   USDCAD      227 trades/420 days  win  13%  avg -0.687R  t -10.8  total -156.0R  spread 0.60R  | coin flip -0.325R (rule beats 0/20)
+   AUDUSD      231 trades/420 days  win  15%  avg -0.668R  t -10.1  total -154.2R  spread 0.64R  | coin flip -0.271R (rule beats 0/20)
+   NZDUSD      236 trades/420 days  win  11%  avg -0.978R  t -10.1  total -230.8R  spread 0.97R  | coin flip -0.378R (rule beats 0/20)
+   ALL        2519 trades  win  22%  avg -0.429R  t -17.0  total -1081.0R  markets positive 1/11
+
+== FVG15 (15m candle, M5 gap, limit, 2R)  [M5 bars]
+   US100Cash   228 trades/440 days  win  30%  avg -0.178R  t -2.1  total  -40.6R  spread 0.06R  | coin flip -0.066R (rule beats 0/20)
+   US500Cash   252 trades/440 days  win  31%  avg -0.130R  t -1.6  total  -32.7R  spread 0.10R  | coin flip -0.087R (rule beats 3/20)
+   GOLD        221 trades/438 days  win  33%  avg -0.151R  t -1.8  total  -33.3R  spread 0.07R  | coin flip -0.206R (rule beats 15/20)
+   BTCUSD      225 trades/350 days  win  24%  avg -0.394R  t -4.1  total  -88.7R  spread 0.48R  | coin flip -0.285R (rule beats 3/20)
+   EURUSD      241 trades/418 days  win  29%  avg -0.199R  t -2.5  total  -47.9R  spread 0.15R  | coin flip -0.190R (rule beats 8/20)
+   GBPUSD      244 trades/419 days  win  22%  avg -0.400R  t -5.4  total  -97.5R  spread 0.35R  | coin flip -0.263R (rule beats 0/20)
+   USDJPY      236 trades/419 days  win  20%  avg -0.421R  t -5.7  total  -99.3R  spread 0.38R  | coin flip -0.245R (rule beats 0/20)
+   USDCHF      241 trades/419 days  win  16%  avg -0.559R  t -8.6  total -134.8R  spread 0.59R  | coin flip -0.378R (rule beats 0/20)
+   USDCAD      220 trades/420 days  win  20%  avg -0.487R  t -6.9  total -107.2R  spread 0.54R  | coin flip -0.388R (rule beats 0/20)
+   AUDUSD      215 trades/420 days  win  13%  avg -0.635R  t -10.0  total -136.5R  spread 0.63R  | coin flip -0.357R (rule beats 0/20)
+   NZDUSD      227 trades/420 days  win   8%  avg -0.814R  t -16.5  total -184.8R  spread 0.88R  | coin flip -0.499R (rule beats 0/20)
+   ALL        2550 trades  win  23%  avg -0.393R  t -17.0  total -1003.3R  markets positive 0/11
+
+== FVG5M1 (5m candle, M1 gap, at close, 2R)  [M1 bars]
+   US100Cash    72 trades/89 days  win  29%  avg -0.127R  t -0.8  total   -9.2R  spread 0.07R  | coin flip -0.064R (rule beats 6/20)
+   US500Cash    73 trades/89 days  win  33%  avg -0.053R  t -0.3  total   -3.9R  spread 0.15R  | coin flip -0.011R (rule beats 7/20)
+   GOLD         73 trades/89 days  win  33%  avg -0.031R  t -0.2  total   -2.3R  spread 0.10R  | coin flip -0.133R (rule beats 16/20)
+   BTCUSD       69 trades/71 days  win  23%  avg -0.391R  t -2.5  total  -27.0R  spread 0.40R  | coin flip -0.211R (rule beats 2/20)
+   EURUSD       69 trades/85 days  win  12%  avg -0.681R  t -5.7  total  -47.0R  spread 0.57R  | coin flip -0.251R (rule beats 0/20)
+   GBPUSD       70 trades/85 days  win  13%  avg -0.609R  t -5.0  total  -42.6R  spread 0.50R  | coin flip -0.430R (rule beats 1/20)
+   USDJPY       70 trades/85 days  win  21%  avg -0.402R  t -2.8  total  -28.1R  spread 0.45R  | coin flip -0.071R (rule beats 0/20)
+   USDCHF       70 trades/85 days  win  17%  avg -0.589R  t -4.4  total  -41.2R  spread 0.65R  | coin flip -0.355R (rule beats 1/20)
+   USDCAD       70 trades/85 days  win  17%  avg -0.565R  t -4.1  total  -39.6R  spread 0.68R  | coin flip -0.391R (rule beats 3/20)
+   AUDUSD       70 trades/85 days  win   7%  avg -0.912R  t -9.4  total  -63.9R  spread 0.78R  | coin flip -0.413R (rule beats 0/20)
+   NZDUSD       70 trades/85 days  win   6%  avg -1.189R  t -10.3  total  -83.3R  spread 1.13R  | coin flip -0.412R (rule beats 0/20)
+   ALL         776 trades  win  19%  avg -0.500R  t -11.5  total -388.0R  markets positive 0/11
+
+== ORB30 managed (half at 1R, BE, runner)  [M5 bars]
+   US100Cash   135 trades/440 days  win  50%  avg -0.409R  t -2.6  total  -55.2R  spread 0.20R  | coin flip -0.074R (rule beats 0/20)
+   US500Cash   133 trades/440 days  win  53%  avg -0.364R  t -2.0  total  -48.4R  spread 0.32R  | coin flip +0.043R (rule beats 3/20)
+   GOLD        125 trades/438 days  win  55%  avg -0.027R  t -0.1  total   -3.4R  spread 0.23R  | coin flip -0.030R (rule beats 10/20)
+   BTCUSD      107 trades/350 days  win  34%  avg -1.216R  t -6.9  total -130.1R  spread 0.93R  | coin flip -0.554R (rule beats 0/20)
+   EURUSD      112 trades/418 days  win  53%  avg -0.419R  t -2.0  total  -46.9R  spread 0.49R  | coin flip -0.326R (rule beats 8/20)
+   GBPUSD      131 trades/419 days  win  37%  avg -0.975R  t -6.6  total -127.7R  spread 0.82R  | coin flip -0.370R (rule beats 0/20)
+   USDJPY      132 trades/419 days  win  36%  avg -1.038R  t -6.5  total -137.0R  spread 0.92R  | coin flip -0.417R (rule beats 0/20)
+   USDCHF      138 trades/419 days  win  29%  avg -1.184R  t -7.7  total -163.4R  spread 1.13R  | coin flip -0.640R (rule beats 0/20)
+   USDCAD      132 trades/420 days  win  30%  avg -1.274R  t -8.5  total -168.2R  spread 1.21R  | coin flip -0.667R (rule beats 0/20)
+   AUDUSD      138 trades/420 days  win  27%  avg -1.183R  t -7.1  total -163.3R  spread 1.30R  | coin flip -0.553R (rule beats 0/20)
+   NZDUSD      149 trades/420 days  win  21%  avg -1.765R  t -10.8  total -262.9R  spread 1.76R  | coin flip -0.844R (rule beats 0/20)
+   ALL        1432 trades  win  38%  avg -0.912R  t -16.9  total -1306.5R  markets positive 0/11
+
+== ORB30 fixed 2R  [M5 bars]
+   US100Cash   135 trades/440 days  win  41%  avg -0.278R  t -1.6  total  -37.6R  spread 0.20R  | coin flip -0.102R (rule beats 2/20)
+   US500Cash   133 trades/440 days  win  41%  avg -0.370R  t -2.1  total  -49.2R  spread 0.32R  | coin flip -0.310R (rule beats 8/20)
+   GOLD        125 trades/438 days  win  44%  avg -0.214R  t -1.2  total  -26.8R  spread 0.23R  | coin flip -0.198R (rule beats 9/20)
+   BTCUSD      107 trades/350 days  win  28%  avg -1.039R  t -5.0  total -111.2R  spread 0.93R  | coin flip -0.543R (rule beats 0/20)
+   EURUSD      112 trades/418 days  win  41%  avg -0.365R  t -1.9  total  -40.9R  spread 0.49R  | coin flip -0.307R (rule beats 6/20)
+   GBPUSD      131 trades/419 days  win  30%  avg -0.838R  t -5.0  total -109.7R  spread 0.82R  | coin flip -0.354R (rule beats 0/20)
+   USDJPY      132 trades/419 days  win  30%  avg -0.977R  t -5.5  total -128.9R  spread 0.92R  | coin flip -0.430R (rule beats 0/20)
+   USDCHF      138 trades/419 days  win  25%  avg -1.115R  t -6.9  total -153.9R  spread 1.13R  | coin flip -0.560R (rule beats 0/20)
+   USDCAD      132 trades/420 days  win  23%  avg -1.181R  t -6.9  total -155.9R  spread 1.21R  | coin flip -0.650R (rule beats 0/20)
+   AUDUSD      138 trades/420 days  win  20%  avg -1.259R  t -8.1  total -173.8R  spread 1.30R  | coin flip -0.618R (rule beats 0/20)
+   NZDUSD      149 trades/420 days  win  17%  avg -1.728R  t -10.0  total -257.5R  spread 1.76R  | coin flip -0.933R (rule beats 0/20)
+   ALL        1432 trades  win  31%  avg -0.870R  t -16.0  total -1245.3R  markets positive 0/11

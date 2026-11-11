@@ -1,0 +1,16 @@
+{
+ "symbol": "JP225Cash",
+ "tick_size": 1.0,
+ "tick_value": 0.0063,
+ "point": 1.0,
+ "contract_size": 1.0,
+ "volume_min": 0.1,
+ "volume_max": 11940.0,
+ "volume_step": 0.1,
+ "swap_mode": 3,
+ "swap_long_points": -5.21,
+ "swap_short_points": -2.05,
+ "swap_rollover3days_mt5": 5,
+ "tick_value_profit_ccy": 1.0,
+ "currency_profit": "JPY"
+}

@@ -1,0 +1,1 @@
+{"strategy": "ls_bars", "family": "pattern", "markets": "all", "timeframes": ["H4"], "grid": {"mode": ["burst"], "k": [3, 4], "m_atr": [1.5, 2.5], "fade": [0, 1], "cfg.atr_sl_mult": [2.0], "cfg.atr_tp_mult": [3.0], "cfg.max_hold_bars": [24]}, "dir": "both", "trend": 0, "max_bars": 15000}

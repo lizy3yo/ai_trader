@@ -1,0 +1,5 @@
+{"strategy": "g6i_gap", "family": "session", "markets": ["GOLD"], "timeframes": ["M15", "M30"],
+ "grid": {"mode": ["fade", "follow"], "gmin": [0.1, 0.25], "wait_min": [30, 60], "dows": ["mon"], "x_hm": ["10:00", "16:30"],
+          "session.window": ["01:15-02:15"], "session.flat_at": ["22:45"], "cfg.atr_sl_mult": [3.0], "cfg.atr_tp_mult": [6.0],
+          "cfg.cooldown_bars": [0]},
+ "dir": "both", "trend": 0, "exit_from_strategy": true, "max_bars": 100000}

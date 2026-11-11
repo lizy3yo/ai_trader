@@ -1,0 +1,4 @@
+{"strategy": "trend_donchian", "family": "smoke", "markets": ["GOLD", "US500Cash", "SILVER"],
+ "timeframes": ["H4", "D1"],
+ "grid": {"lookback": [20, 55, 90], "long_only": [1], "cfg.ema_trend": [200], "cfg.atr_sl_mult": [3.0], "cfg.atr_tp_mult": [5.0]},
+ "dir": "long", "trend": 1, "max_bars": 60000}

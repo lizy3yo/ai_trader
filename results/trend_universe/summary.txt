@@ -1,0 +1,25 @@
+DIVERSIFIED TREND test on 40 markets: AUDCAD, AUDCHF, AUDJPY, AUDNZD, AUDUSD, AUS200Cash, BTCUSD, CA60Cash, CADCHF, CADJPY, CHFJPY, EU50Cash, EURAUD, EURCAD, EURCHF, EURGBP, EURJPY, EURNZD, EURUSD, FRA40Cash, GBPCAD, GBPCHF, GBPJPY, GBPNZD, GBPUSD, GER40Cash, GOLD, HK50Cash, JP225Cash, NZDCAD, NZDCHF, OILCash, UK100Cash, US100Cash, US2000Cash, US30Cash, US500Cash, USDCAD, USDCHF, USDJPY
+
+== T55: 2011 trades, win 38%, avg -0.086R (swap -0.086R), t -3.0
+   random entries: -0.139, -0.130, -0.121, -0.091  -> rule beats 4/4
+   2008-15: -0.064R n=467 (rnd -0.113) | 2016-20: -0.073R n=702 (rnd -0.153) | 2021-26: -0.109R n=842 (rnd -0.100)
+   markets positive: 13/40; best US100Cash +0.38, BTCUSD +0.34, US500Cash +0.33, AUDJPY +0.20, GER40Cash +0.18; worst EURCHF -0.50, AUDCAD -0.39, CADCHF -0.39, GBPCAD -0.39, NZDCAD -0.38
+   max  5 open: -0.19R/month, t -1.3, months up 33%, worst month -6.4R, max DD 53.5R, losing years 12/19   (random -0.43R/month)
+   max 10 open: -0.45R/month, t -2.1, months up 36%, worst month -6.9R, max DD 106.4R, losing years 14/19   (random -0.82R/month)
+   max 20 open: -0.68R/month, t -1.9, months up 34%, worst month -16.4R, max DD 158.6R, losing years 13/19   (random -1.00R/month)
+
+== T20: 2417 trades, win 36%, avg -0.125R (swap -0.083R), t -4.8
+   random entries: -0.143, -0.101, -0.108, -0.096  -> rule beats 1/4
+   2008-15: -0.103R n=576 (rnd -0.107) | 2016-20: -0.143R n=844 (rnd -0.138) | 2021-26: -0.124R n=997 (rnd -0.094)
+   markets positive: 12/40; best US100Cash +0.33, US30Cash +0.28, AUDJPY +0.26, BTCUSD +0.21, US500Cash +0.21; worst AUDCAD -0.51, NZDCAD -0.51, AUDNZD -0.40, GBPCHF -0.39, CADCHF -0.37
+   max  5 open: -0.19R/month, t -1.3, months up 33%, worst month -5.7R, max DD 57.1R, losing years 13/19   (random -0.45R/month)
+   max 10 open: -0.52R/month, t -2.3, months up 34%, worst month -10.0R, max DD 121.5R, losing years 14/19   (random -0.90R/month)
+   max 20 open: -1.02R/month, t -2.9, months up 32%, worst month -15.2R, max DD 234.6R, losing years 14/19   (random -1.31R/month)
+
+== T55w: 948 trades, win 18%, avg -0.235R (swap -0.258R), t -3.3
+   random entries: -0.269, -0.312, -0.212, -0.233  -> rule beats 2/4
+   2008-15: -0.194R n=243 (rnd -0.312) | 2016-20: -0.322R n=344 (rnd -0.441) | 2021-26: -0.180R n=361 (rnd -0.033)
+   markets positive: 11/40; best AUS200Cash +0.71, OILCash +0.67, GBPNZD +0.58, BTCUSD +0.52, GBPJPY +0.35; worst NZDCAD -1.21, GBPCHF -1.10, GBPCAD -0.97, EURGBP -0.85, CADCHF -0.84
+   max  5 open: -0.16R/month, t -1.4, months up 10%, worst month -6.1R, max DD 47.4R, losing years 11/19   (random -0.09R/month)
+   max 10 open: -0.44R/month, t -2.4, months up 13%, worst month -6.9R, max DD 106.4R, losing years 13/19   (random -0.38R/month)
+   max 20 open: -0.64R/month, t -1.9, months up 21%, worst month -8.5R, max DD 156.3R, losing years 12/19   (random -0.83R/month)

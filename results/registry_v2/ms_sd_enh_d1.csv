@@ -1,0 +1,7 @@
+ts,study,family,strategy,market,tf,params,tr_n,tr_avgR,tr_t,va_n,va_avgR,va_t,va_pf,tv_n,tv_avgR,tv_t,tv_pf,tv_posM,tv_maxdd_pct,tv_swapR,neigh_ok,spread_avgR,rand_mean,rand_p95,p_random,verdict
+2026-11-08 22:31,ms_sd_enh_d1.json,ms_sd,ms_sd,GOLD,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":3.0,""enh"":""trend""}",94,0.05,0.28,41,-0.684,-3.68,0.29,,,,,,,,,,,,,fail: quiz
+2026-11-08 22:31,ms_sd_enh_d1.json,ms_sd,ms_sd,GOLD,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":3.0,""enh"":""curve""}",84,-0.265,-1.57,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:31,ms_sd_enh_d1.json,ms_sd,ms_sd,BTCUSD,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":3.0,""enh"":""trend""}",35,0.086,0.26,21,-0.229,-0.66,0.695,,,,,,,,,,,,,fail: quiz
+2026-11-08 22:31,ms_sd_enh_d1.json,ms_sd,ms_sd,BTCUSD,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":3.0,""enh"":""curve""}",33,-0.95,-5.09,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:31,ms_sd_enh_d1.json,ms_sd,ms_sd,US500Cash,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":3.0,""enh"":""trend""}",49,0.043,0.17,20,0.523,1.18,1.798,69,0.182,0.84,1.245,37.0,10.0,-0.151,0/1,0.182,,,,"fail: luck bar, coin flip, nearby settings"
+2026-11-08 22:31,ms_sd_enh_d1.json,ms_sd,ms_sd,US500Cash,D1,"{""cfg.atr_sl_mult"":1.0,""cfg.atr_tp_mult"":3.0,""enh"":""curve""}",41,0.14,0.5,21,-0.055,-0.14,0.912,,,,,,,,,,,,,fail: quiz

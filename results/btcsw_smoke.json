@@ -1,0 +1,217 @@
+[
+ {
+  "strategy": "btcsw_brk",
+  "timeframe": "H4",
+  "params": {
+   "entry": "brk",
+   "n_days": 20,
+   "exit": 1,
+   "daily": 1,
+   "cfg.atr_period": 42,
+   "cfg.atr_sl_mult": 5,
+   "cfg.atr_tp_mult": 10,
+   "cfg.cooldown_bars": 0
+  },
+  "train": {
+   "return_pct": 24.8,
+   "end_equity": 124771.81,
+   "trades": 56,
+   "win_rate": 48.2,
+   "pf": 2.036,
+   "max_dd": 6475.0,
+   "months": 42,
+   "pos_months_pct": 50.0,
+   "worst_month": -2166.0,
+   "avg_r": 0.405,
+   "t_stat": 2.35,
+   "swap": -2643.0
+  },
+  "val": {
+   "return_pct": 3.7,
+   "end_equity": 103720.11,
+   "trades": 19,
+   "win_rate": 36.8,
+   "pf": 1.544,
+   "max_dd": 2351.0,
+   "months": 12,
+   "pos_months_pct": 50.0,
+   "worst_month": -1057.0,
+   "avg_r": 0.199,
+   "t_stat": 0.74,
+   "swap": -588.0
+  },
+  "score": -36.5
+ },
+ {
+  "strategy": "btcsw_brk",
+  "timeframe": "H4",
+  "params": {
+   "entry": "brk",
+   "n_days": 20,
+   "exit": 1,
+   "daily": 1,
+   "cfg.atr_period": 42,
+   "cfg.atr_sl_mult": 5,
+   "cfg.atr_tp_mult": 60,
+   "cfg.cooldown_bars": 0
+  },
+  "train": {
+   "return_pct": 60.0,
+   "end_equity": 159969.34,
+   "trades": 41,
+   "win_rate": 43.9,
+   "pf": 3.701,
+   "max_dd": 9506.0,
+   "months": 36,
+   "pos_months_pct": 47.0,
+   "worst_month": -2420.0,
+   "avg_r": 1.21,
+   "t_stat": 2.21,
+   "swap": -4471.0
+  },
+  "val": {
+   "return_pct": 9.6,
+   "end_equity": 109619.15,
+   "trades": 15,
+   "win_rate": 46.7,
+   "pf": 3.429,
+   "max_dd": 3450.0,
+   "months": 12,
+   "pos_months_pct": 58.0,
+   "worst_month": -1057.0,
+   "avg_r": 0.633,
+   "t_stat": 1.56,
+   "swap": -1049.0
+  },
+  "score": -102.3
+ },
+ {
+  "strategy": "btcsw_brk",
+  "timeframe": "H4",
+  "params": {
+   "entry": "brk",
+   "n_days": 20,
+   "exit": 0,
+   "daily": 1,
+   "cfg.atr_period": 42,
+   "cfg.atr_sl_mult": 5,
+   "cfg.atr_tp_mult": 10,
+   "cfg.cooldown_bars": 0
+  },
+  "train": {
+   "return_pct": 22.7,
+   "end_equity": 122680.3,
+   "trades": 49,
+   "win_rate": 51.0,
+   "pf": 1.76,
+   "max_dd": 9920.0,
+   "months": 39,
+   "pos_months_pct": 51.0,
+   "worst_month": -2150.0,
+   "avg_r": 0.431,
+   "t_stat": 2.0,
+   "swap": -3772.0
+  },
+  "val": {
+   "return_pct": 6.7,
+   "end_equity": 106728.08,
+   "trades": 13,
+   "win_rate": 53.8,
+   "pf": 1.992,
+   "max_dd": 6690.0,
+   "months": 11,
+   "pos_months_pct": 55.0,
+   "worst_month": -2207.0,
+   "avg_r": 0.513,
+   "t_stat": 1.2,
+   "swap": -1375.0
+  },
+  "score": -425.5
+ },
+ {
+  "strategy": "btcsw_brk",
+  "timeframe": "H4",
+  "params": {
+   "entry": "brk",
+   "n_days": 20,
+   "exit": 2,
+   "daily": 1,
+   "cfg.atr_period": 42,
+   "cfg.atr_sl_mult": 5,
+   "cfg.atr_tp_mult": 10,
+   "cfg.cooldown_bars": 0
+  },
+  "train": {
+   "return_pct": 23.2,
+   "end_equity": 123210.68,
+   "trades": 52,
+   "win_rate": 50.0,
+   "pf": 1.74,
+   "max_dd": 9920.0,
+   "months": 40,
+   "pos_months_pct": 52.0,
+   "worst_month": -2150.0,
+   "avg_r": 0.416,
+   "t_stat": 2.0,
+   "swap": -3289.0
+  },
+  "val": {
+   "return_pct": 6.7,
+   "end_equity": 106728.08,
+   "trades": 13,
+   "win_rate": 53.8,
+   "pf": 1.992,
+   "max_dd": 6690.0,
+   "months": 11,
+   "pos_months_pct": 55.0,
+   "worst_month": -2207.0,
+   "avg_r": 0.513,
+   "t_stat": 1.2,
+   "swap": -1375.0
+  },
+  "score": -425.5
+ },
+ {
+  "strategy": "btcsw_brk",
+  "timeframe": "H4",
+  "params": {
+   "entry": "brk",
+   "n_days": 20,
+   "exit": 2,
+   "daily": 1,
+   "cfg.atr_period": 42,
+   "cfg.atr_sl_mult": 5,
+   "cfg.atr_tp_mult": 60,
+   "cfg.cooldown_bars": 0
+  },
+  "train": {
+   "return_pct": 57.9,
+   "end_equity": 157850.23,
+   "trades": 31,
+   "win_rate": 29.0,
+   "pf": 2.973,
+   "max_dd": 17283.0,
+   "months": 28,
+   "pos_months_pct": 32.0,
+   "worst_month": -3363.0,
+   "avg_r": 1.601,
+   "t_stat": 1.79,
+   "swap": -7188.0
+  },
+  "val": {
+   "return_pct": 15.0,
+   "end_equity": 114976.41,
+   "trades": 8,
+   "win_rate": 37.5,
+   "pf": 3.445,
+   "max_dd": 11289.0,
+   "months": 6,
+   "pos_months_pct": 50.0,
+   "worst_month": -2417.0,
+   "avg_r": 1.852,
+   "t_stat": 1.13,
+   "swap": -3571.0
+  },
+  "score": -1000000000.0
+ }
+]

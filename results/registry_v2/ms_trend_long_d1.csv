@@ -1,0 +1,10 @@
+ts,study,family,strategy,market,tf,params,tr_n,tr_avgR,tr_t,va_n,va_avgR,va_t,va_pf,tv_n,tv_avgR,tv_t,tv_pf,tv_posM,tv_maxdd_pct,tv_swapR,neigh_ok,spread_avgR,rand_mean,rand_p95,p_random,verdict
+2026-11-08 22:29,ms_trend_long_d1.json,ms_trend,ms_trend,GOLD,D1,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""length"":2,""side"":""long""}",101,-0.055,-0.39,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:29,ms_trend_long_d1.json,ms_trend,ms_trend,GOLD,D1,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""length"":5,""side"":""long""}",49,0.105,0.5,16,0.09,0.24,1.123,,,,,,,,,,,,,fail: quiz
+2026-11-08 22:29,ms_trend_long_d1.json,ms_trend,ms_trend,GOLD,D1,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""length"":10,""side"":""long""}",27,0.313,1.15,12,-0.209,-0.51,0.699,,,,,,,,,,,,,fail: quiz
+2026-11-08 22:29,ms_trend_long_d1.json,ms_trend,ms_trend,BTCUSD,D1,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""length"":2,""side"":""long""}",54,0.486,2.38,21,-0.247,-0.85,0.659,,,,,,,,,,,,,fail: quiz
+2026-11-08 22:29,ms_trend_long_d1.json,ms_trend,ms_trend,BTCUSD,D1,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""length"":5,""side"":""long""}",37,0.447,1.81,11,-0.618,-1.74,0.34,,,,,,,,,,,,,fail: quiz
+2026-11-08 22:29,ms_trend_long_d1.json,ms_trend,ms_trend,BTCUSD,D1,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""length"":10,""side"":""long""}",21,0.584,1.73,12,-0.282,-0.73,0.618,,,,,,,,,,,,,fail: quiz
+2026-11-08 22:29,ms_trend_long_d1.json,ms_trend,ms_trend,US500Cash,D1,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""length"":2,""side"":""long""}",46,-0.023,-0.1,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:29,ms_trend_long_d1.json,ms_trend,ms_trend,US500Cash,D1,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""length"":5,""side"":""long""}",32,-0.315,-1.35,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 22:29,ms_trend_long_d1.json,ms_trend,ms_trend,US500Cash,D1,"{""cfg.atr_sl_mult"":1.5,""cfg.atr_tp_mult"":3.0,""length"":10,""side"":""long""}",14,0.217,0.57,8,0.408,0.8,1.894,,,,,,,,,,,,,fail: quiz

@@ -1,0 +1,5 @@
+{"strategy": "fvg_retrace", "family": "ict", "markets": ["BTCUSD", "ETHUSD", "US500Cash", "US100Cash", "SILVER", "EURUSD"],
+ "timeframes": ["M15"],
+ "grid": {"mode": ["cont", "fade"], "min_gap_atr": [0.3, 0.6], "confirm": [0, 1], "max_age": [24],
+          "session.window": ["10:00-23:00"], "cfg.atr_sl_mult": [1.5], "cfg.atr_tp_mult": [2.25]},
+ "dir": "both", "trend": 0, "max_bars": 100000}

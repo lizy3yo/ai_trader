@@ -1,0 +1,125 @@
+=== ms_smc_core_m15
+[factory] ms_smc: 6 settings x 3 markets x 1 TFs = 18 configurations | workers 6
+[factory] stage A done in 36s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 18 configurations -> C:\00-SideProject\AI_Trading\results\registry_v2\ms_smc_core_m15.csv
+[factory] FINALISTS: 0
+=== ms_smc_core_h1
+[factory] ms_smc: 6 settings x 3 markets x 1 TFs = 18 configurations | workers 6
+[factory] stage A done in 20s
+[factory] 3 configurations shortlisted for checks 3-5
+[factory] logged 18 configurations -> C:\00-SideProject\AI_Trading\results\registry_v2\ms_smc_core_h1.csv
+  US500Cash H1   t +1.22 avgR +0.328 n   50 neigh 1/2   +50%spr +0.247 p_rand -  {"bias":"swing","cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":4.5,"swing_len
+  US500Cash H1   t +1.09 avgR +0.275 n   35 neigh 2/2   +50%spr +0.275 p_rand -  {"bias":"swing","cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":3.0,"swing_len
+  US500Cash H1   t +1.01 avgR +0.210 n   51 neigh 2/2   +50%spr +0.092 p_rand -  {"bias":"swing","cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":3.0,"swing_len
+[factory] FINALISTS: 0
+=== ms_smc_htf_m15
+[factory] ms_smc: 4 settings x 3 markets x 1 TFs = 12 configurations | workers 6
+[factory] stage A done in 20s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 12 configurations -> C:\00-SideProject\AI_Trading\results\registry_v2\ms_smc_htf_m15.csv
+[factory] FINALISTS: 0
+=== ms_smc_htf_h1
+[factory] ms_smc: 4 settings x 3 markets x 1 TFs = 12 configurations | workers 6
+[factory] stage A done in 11s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 12 configurations -> C:\00-SideProject\AI_Trading\results\registry_v2\ms_smc_htf_h1.csv
+[factory] FINALISTS: 0
+=== ms_smc_abl_m15
+[factory] ms_smc: 4 settings x 3 markets x 1 TFs = 12 configurations | workers 6
+[factory] stage A done in 16s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 12 configurations -> C:\00-SideProject\AI_Trading\results\registry_v2\ms_smc_abl_m15.csv
+[factory] FINALISTS: 0
+=== ms_smc_abl_h1
+[factory] ms_smc: 4 settings x 3 markets x 1 TFs = 12 configurations | workers 6
+[factory] stage A done in 12s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 12 configurations -> C:\00-SideProject\AI_Trading\results\registry_v2\ms_smc_abl_h1.csv
+[factory] FINALISTS: 0
+=== ms_smc_tgt_m15
+[factory] ms_smc: 2 settings x 3 markets x 1 TFs = 6 configurations | workers 6
+[factory] stage A done in 20s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 6 configurations -> C:\00-SideProject\AI_Trading\results\registry_v2\ms_smc_tgt_m15.csv
+[factory] FINALISTS: 0
+=== ms_smc_tgt_h1
+[factory] ms_smc: 2 settings x 3 markets x 1 TFs = 6 configurations | workers 6
+[factory] stage A done in 10s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 6 configurations -> C:\00-SideProject\AI_Trading\results\registry_v2\ms_smc_tgt_h1.csv
+[factory] FINALISTS: 0
+=== ms_trend_rr_m15
+[factory] ms_trend: 6 settings x 3 markets x 1 TFs = 18 configurations | workers 6
+[factory] stage A done in 24s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 18 configurations -> C:\00-SideProject\AI_Trading\results\registry_v2\ms_trend_rr_m15.csv
+[factory] FINALISTS: 0
+=== ms_trend_rr_h1
+[factory] ms_trend: 6 settings x 3 markets x 1 TFs = 18 configurations | workers 6
+[factory] stage A done in 13s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 18 configurations -> C:\00-SideProject\AI_Trading\results\registry_v2\ms_trend_rr_h1.csv
+[factory] FINALISTS: 0
+=== ms_trend_rr_h4
+[factory] ms_trend: 6 settings x 3 markets x 1 TFs = 18 configurations | workers 6
+[factory] stage A done in 4s
+[factory] 2 configurations shortlisted for checks 3-5
+[factory] logged 18 configurations -> C:\00-SideProject\AI_Trading\results\registry_v2\ms_trend_rr_h4.csv
+  US500Cash H4   t +1.20 avgR +0.158 n  121 neigh 1/2   +50%spr +0.158 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":3.0,"length":10}
+  GOLD      H4   t +0.70 avgR +0.061 n  406 neigh 0/2   +50%spr +0.057 p_rand -  {"cfg.atr_sl_mult":1.5,"cfg.atr_tp_mult":4.5,"length":2}
+[factory] FINALISTS: 0
+=== ms_trend_rr_d1
+[factory] ms_trend: 6 settings x 3 markets x 1 TFs = 18 configurations | workers 6
+[factory] stage A done in 2s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 18 configurations -> C:\00-SideProject\AI_Trading\results\registry_v2\ms_trend_rr_d1.csv
+[factory] FINALISTS: 0
+=== ms_trend_trail_m15
+[factory] ms_trend: 3 settings x 3 markets x 1 TFs = 9 configurations | workers 6
+[factory] stage A done in 15s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 9 configurations -> C:\00-SideProject\AI_Trading\results\registry_v2\ms_trend_trail_m15.csv
+[factory] FINALISTS: 0
+=== ms_trend_trail_h1
+[factory] ms_trend: 3 settings x 3 markets x 1 TFs = 9 configurations | workers 6
+[factory] stage A done in 10s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 9 configurations -> C:\00-SideProject\AI_Trading\results\registry_v2\ms_trend_trail_h1.csv
+[factory] FINALISTS: 0
+=== ms_trend_trail_h4
+[factory] ms_trend: 3 settings x 3 markets x 1 TFs = 9 configurations | workers 6
+[factory] stage A done in 4s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 9 configurations -> C:\00-SideProject\AI_Trading\results\registry_v2\ms_trend_trail_h4.csv
+[factory] FINALISTS: 0
+=== ms_trend_trail_d1
+[factory] ms_trend: 3 settings x 3 markets x 1 TFs = 9 configurations | workers 6
+[factory] stage A done in 2s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 9 configurations -> C:\00-SideProject\AI_Trading\results\registry_v2\ms_trend_trail_d1.csv
+[factory] FINALISTS: 0
+=== ms_sd_m15
+[factory] ms_sd: 8 settings x 3 markets x 1 TFs = 24 configurations | workers 6
+[factory] stage A done in 31s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 24 configurations -> C:\00-SideProject\AI_Trading\results\registry_v2\ms_sd_m15.csv
+[factory] FINALISTS: 0
+=== ms_sd_h1
+[factory] ms_sd: 8 settings x 3 markets x 1 TFs = 24 configurations | workers 6
+[factory] stage A done in 18s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 24 configurations -> C:\00-SideProject\AI_Trading\results\registry_v2\ms_sd_h1.csv
+[factory] FINALISTS: 0
+=== ms_sd_h4
+[factory] ms_sd: 8 settings x 3 markets x 1 TFs = 24 configurations | workers 6
+[factory] stage A done in 4s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 24 configurations -> C:\00-SideProject\AI_Trading\results\registry_v2\ms_sd_h4.csv
+[factory] FINALISTS: 0
+=== ms_sd_d1
+[factory] ms_sd: 8 settings x 3 markets x 1 TFs = 24 configurations | workers 6
+[factory] stage A done in 2s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 24 configurations -> C:\00-SideProject\AI_Trading\results\registry_v2\ms_sd_d1.csv
+[factory] FINALISTS: 0

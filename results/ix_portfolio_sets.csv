@@ -1,0 +1,6 @@
+set,markets,months,trades,trades_per_month,avgR_trade,t_pooled,avgR_month,steady_avgR_month,pos_months_pct,pos_months_pct_traded,worst_month_R,maxdd_R_trades,maxdd_R_monthly,avg_pair_corr,days_ge2,days_ge3,days_ge5,max_same_day,pct_trades_on_ge3_days,avgR_trade_ge3_days,worst_cluster_day_R,max_concurrent,account_for_500,account_for_500_steady
+US500 only,1,143,224,1.57,0.078,3.12,0.123,0.123,63.6,71.7,-2.01,4.29,4.29,,0,0,0,1,0.0,,-1.04,1,407293,407293
+US500+US100,2,143,442,3.09,0.067,3.52,0.206,0.206,64.3,68.7,-4.02,7.86,7.84,0.733,126,0,0,2,0.0,,-2.07,2,243120,242432
+ALL 12,12,143,2376,16.62,0.008,0.93,0.126,0.115,62.2,62.2,-12.9,38.61,35.7,0.319,504,332,144,11,65.5,0.009,-8.33,12,397692,436624
+10 new only,10,143,1934,13.52,-0.006,-0.66,-0.08,-0.092,55.9,55.9,-10.04,36.76,35.82,0.314,440,255,94,10,56.4,-0.006,-6.31,10,never (avgR<=0),never (avgR<=0)
+POS (in-sample): US500+US100+US30+GER40+JP225,5,143,1143,7.99,0.038,3.24,0.3,0.3,65.7,66.7,-6.5,13.09,11.44,0.358,268,151,25,5,48.7,0.04,-4.68,5,166783,166459

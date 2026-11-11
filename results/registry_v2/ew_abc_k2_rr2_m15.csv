@@ -1,0 +1,7 @@
+ts,study,family,strategy,market,tf,params,tr_n,tr_avgR,tr_t,va_n,va_avgR,va_t,va_pf,tv_n,tv_avgR,tv_t,tv_pf,tv_posM,tv_maxdd_pct,tv_swapR,neigh_ok,spread_avgR,rand_mean,rand_p95,p_random,verdict
+2026-11-08 23:05,ew_abc_k2_rr2_m15.json,elliott,ew_abc,GOLD,M15,"{""band"":""def"",""cfg.atr_sl_mult"":4.0,""cfg.atr_tp_mult"":8.0,""k"":2.0,""target"":""rr""}",20,0.486,1.4,3,0.001,0.0,0.993,,,,,,,,,,,,,fail: quiz
+2026-11-08 23:05,ew_abc_k2_rr2_m15.json,elliott,ew_abc,GOLD,M15,"{""band"":""wide"",""cfg.atr_sl_mult"":4.0,""cfg.atr_tp_mult"":8.0,""k"":2.0,""target"":""rr""}",54,0.152,0.76,9,0.298,0.57,1.503,,,,,,,,,,,,,fail: quiz
+2026-11-08 23:05,ew_abc_k2_rr2_m15.json,elliott,ew_abc,BTCUSD,M15,"{""band"":""def"",""cfg.atr_sl_mult"":4.0,""cfg.atr_tp_mult"":8.0,""k"":2.0,""target"":""rr""}",25,-0.673,-3.39,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 23:05,ew_abc_k2_rr2_m15.json,elliott,ew_abc,BTCUSD,M15,"{""band"":""wide"",""cfg.atr_sl_mult"":4.0,""cfg.atr_tp_mult"":8.0,""k"":2.0,""target"":""rr""}",50,-0.366,-2.06,,,,,,,,,,,,,,,,,fail: practice
+2026-11-08 23:05,ew_abc_k2_rr2_m15.json,elliott,ew_abc,US500Cash,M15,"{""band"":""def"",""cfg.atr_sl_mult"":4.0,""cfg.atr_tp_mult"":8.0,""k"":2.0,""target"":""rr""}",19,0.105,0.31,5,-1.015,-66.14,0.0,,,,,,,,,,,,,fail: quiz
+2026-11-08 23:05,ew_abc_k2_rr2_m15.json,elliott,ew_abc,US500Cash,M15,"{""band"":""wide"",""cfg.atr_sl_mult"":4.0,""cfg.atr_tp_mult"":8.0,""k"":2.0,""target"":""rr""}",50,0.007,0.04,13,-0.793,-3.64,0.145,,,,,,,,,,,,,fail: quiz

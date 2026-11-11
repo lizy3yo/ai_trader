@@ -1,0 +1,61 @@
+=== lx_pairs_rev_metals
+[factory] lx_pairs: 9 settings x 2 markets x 3 TFs = 54 configurations | workers 3
+[factory] stage A done in 51s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 54 configurations -> C:\00-SideProject\AI_Trading\results\registry\lx_pairs_rev_metals.csv
+[factory] FINALISTS: 0
+=== lx_pairs_rev_indices
+[factory] lx_pairs: 9 settings x 2 markets x 3 TFs = 54 configurations | workers 3
+[factory] stage A done in 53s
+[factory] 1 configurations shortlisted for checks 3-5
+[factory] logged 54 configurations -> C:\00-SideProject\AI_Trading\results\registry\lx_pairs_rev_indices.csv
+  US500Cash H1   t +1.09 avgR +0.112 n  390 neigh 0/2   +50%spr +0.087 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":1.5,"exit_z":0
+[factory] FINALISTS: 0
+=== lx_pairs_rev_crypto
+[factory] lx_pairs: 9 settings x 2 markets x 3 TFs = 54 configurations | workers 3
+[factory] stage A done in 80s
+[factory] 3 configurations shortlisted for checks 3-5
+[factory] logged 54 configurations -> C:\00-SideProject\AI_Trading\results\registry\lx_pairs_rev_crypto.csv
+  ETHUSD    H4   t +2.41 avgR +0.679 n   64 neigh 0/2   +50%spr +0.645 p_rand 0.0  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":2.5,"exit_z":0
+  ETHUSD    D1   t +2.34 avgR +0.787 n   31 neigh 2/2   +50%spr +0.759 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":2.5,"exit_z":0
+  ETHUSD    D1   t +2.19 avgR +0.589 n   42 neigh 3/3   +50%spr +0.567 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":2.0,"exit_z":0
+[factory] FINALISTS: 0
+=== lx_pairs_mom_metals
+[factory] lx_pairs: 6 settings x 2 markets x 3 TFs = 36 configurations | workers 3
+[factory] stage A done in 48s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 36 configurations -> C:\00-SideProject\AI_Trading\results\registry\lx_pairs_mom_metals.csv
+[factory] FINALISTS: 0
+=== lx_pairs_mom_indices
+[factory] lx_pairs: 6 settings x 2 markets x 3 TFs = 36 configurations | workers 3
+[factory] stage A done in 47s
+[factory] 1 configurations shortlisted for checks 3-5
+[factory] logged 36 configurations -> C:\00-SideProject\AI_Trading\results\registry\lx_pairs_mom_indices.csv
+  US100Cash H1   t +1.01 avgR +0.099 n  436 neigh 1/2   +50%spr +0.093 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":1.0,"exit_z":0
+[factory] FINALISTS: 0
+=== lx_pairs_mom_crypto
+[factory] lx_pairs: 6 settings x 2 markets x 3 TFs = 36 configurations | workers 3
+[factory] stage A done in 45s
+[factory] 2 configurations shortlisted for checks 3-5
+[factory] logged 36 configurations -> C:\00-SideProject\AI_Trading\results\registry\lx_pairs_mom_crypto.csv
+  BTCUSD    D1   t +2.24 avgR +0.604 n   49 neigh 2/2   +50%spr +0.598 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":1.0,"exit_z":0
+  BTCUSD    H4   t +2.10 avgR +0.553 n   84 neigh 2/2   +50%spr +0.548 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":20.0,"entry_z":2.0,"exit_z":0
+[factory] FINALISTS: 0
+=== lx_xl_usd
+[factory] lx_xlead: 32 settings x 2 markets x 2 TFs = 128 configurations | workers 3
+[factory] stage A done in 166s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 128 configurations -> C:\00-SideProject\AI_Trading\results\registry\lx_xl_usd.csv
+[factory] FINALISTS: 0
+=== lx_xl_crypto
+[factory] lx_xlead: 32 settings x 2 markets x 2 TFs = 128 configurations | workers 3
+[factory] stage A done in 184s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 128 configurations -> C:\00-SideProject\AI_Trading\results\registry\lx_xl_crypto.csv
+[factory] FINALISTS: 0
+=== lx_xl_risk
+[factory] lx_xlead: 16 settings x 5 markets x 2 TFs = 144 configurations | workers 3
+[factory] stage A done in 75s
+[factory] 0 configurations shortlisted for checks 3-5
+[factory] logged 144 configurations -> C:\00-SideProject\AI_Trading\results\registry\lx_xl_risk.csv
+[factory] FINALISTS: 0

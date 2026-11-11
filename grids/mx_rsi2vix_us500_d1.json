@@ -1,0 +1,57 @@
+{
+ "strategy": "mx_rsi2vix",
+ "family": "mx_macro",
+ "markets": [
+  "US500Cash"
+ ],
+ "timeframes": [
+  "D1"
+ ],
+ "grid": {
+  "mode": [
+   "rsi2"
+  ],
+  "rsi_th": [
+   15.0
+  ],
+  "exit_ma": [
+   3
+  ],
+  "exit_rsi": [
+   70.0
+  ],
+  "max_hold": [
+   10
+  ],
+  "side": [
+   "long"
+  ],
+  "trend": [
+   0
+  ],
+  "vgate": [
+   "lo50",
+   "none",
+   "hi50",
+   "hi80",
+   "up",
+   "dn"
+  ],
+  "cfg.atr_sl_mult": [
+   3.0
+  ],
+  "cfg.atr_tp_mult": [
+   20.0
+  ],
+  "cfg.cooldown_bars": [
+   0
+  ],
+  "cfg.ema_trend": [
+   200
+  ]
+ },
+ "dir": "long",
+ "trend": 0,
+ "exit_from_strategy": true,
+ "max_bars": 1450
+}

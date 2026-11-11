@@ -1,0 +1,4 @@
+{"strategy": "g6i_volbrk", "family": "volume", "markets": ["GOLD"], "timeframes": ["H1", "M5"],
+ "grid": {"mode": ["brk"], "n": [24, 48], "vmin": [0, 1.5, 2.5], "hold_min": [0], "side": ["both", "long"],
+          "session.window": ["09:00-21:00"], "session.flat_at": ["22:45"], "cfg.atr_sl_mult": [2.0], "cfg.atr_tp_mult": [4.0]},
+ "dir": "both", "trend": 0, "exit_from_strategy": true, "max_bars": 100000}

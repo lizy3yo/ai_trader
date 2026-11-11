@@ -1,0 +1,217 @@
+# The First Candle Scalping Strategy Nobody Talks About
+# duration 11.9 min
+
+[00:00] I've been trading for eight years now, and I'll be honest, most scalping strategies
+[00:04] are ass.
+[00:05] They're either over complicated, indicator heavy, or they work once and then completely
+[00:10] fall apart.
+[00:11] Now what finally changed everything for me was stopping the constant strategy hopping
+[00:15] and committing to one repeatable opening setup.
+[00:18] And in this video, I'm going to break down the exact 30 minute opening strategy I personally
+[00:23] use to trade only the first 90 minutes of the market open.
+[00:27] No indicators, no guessing, no five different confirmations, just one candle, one direction
+[00:33] and one entry model.
+[00:35] So in this video, I'm first going to start by explaining the strategy step by step.
+[00:40] And then I'll walk through real market examples so you can see how this actually plays out.
+[00:44] And if you guys do find value in this video, make sure to smash that like button as well
+[00:48] as hitting that subscribe button.
+[00:49] It would mean the absolute world to me.
+[00:51] And also make sure you guys join the free discord where I'll be live trading from
+[00:55] now on.
+[00:56] The link will be down in the description.
+[00:57] Now for the strategy, I do get asked quite often why the 30 minute candle.
+[01:02] One of the biggest mistakes that traders make is trying to be too fast in the market.
+[01:07] Lower timeframes feel exciting, but they also produce more false breakouts, shake
+[01:12] traders out emotionally and encourage overtrading.
+[01:15] And the 30 minute candle solves that.
+[01:17] Why?
+[01:18] Because it filters out noise and it shows real institutional intent at the open.
+[01:22] By the time the first 30 minutes are completed, liquidity has been established.
+[01:26] Early positioning is done and the market has shown its hand.
+[01:30] And the strategy works on futures, stocks, options, Forex, crypto, you name it.
+[01:34] It should work as long as the market has liquidity at the open.
+[01:37] All right.
+[01:38] So the core concept of this strategy, this strategy is built around one simple idea.
+[01:43] The market tells you the direction early.
+[01:46] You just have to wait long enough to listen.
+[01:48] Instead of chasing price, we let the first 30 minute candle define our day.
+[01:52] From there, we only trade clean breakouts with confirmation.
+[01:55] No guessing, no forcing trades.
+[01:58] So what you are going to do for this strategy is go to the 30 minute timeframe.
+[02:02] Now on this 30 minute timeframe, we want to wait for the first 30 minute candle to
+[02:07] close after market open.
+[02:09] The market opens at 930 AM EST.
+[02:13] So you are going to wait until 10 AM EST for this strategy.
+[02:18] Now you are going to find that first 30 minute opening candle.
+[02:21] Let's say this is our 30 minute opening candle right here.
+[02:24] You want to identify the highest point of that 30 minute candle and the lowest point of that
+[02:29] 30 minute candle.
+[02:31] Now from here, you want to mark that high and then you want to mark that low.
+[02:35] That's it.
+[02:36] This range becomes our decision zone.
+[02:38] Anything inside of this range equals no trades.
+[02:41] Only outside the range matters.
+[02:43] Now the second thing that we are waiting for is we are waiting for price to either break
+[02:47] above this 30 minute range or we are waiting for price to break below this 30 minute range.
+[02:53] If price is able to break above the high of this 30 minute range, that is showing us that
+[02:58] buyers are in control.
+[03:00] If price is able to break below the low of this 30 minute range, that shows us that sellers
+[03:05] are in control.
+[03:06] And this is where most traders mess up.
+[03:08] They try to predict the breakout.
+[03:10] We don't.
+[03:11] We let the market prove direction first.
+[03:13] Is it going to break to the upside or is it going to break to the downside?
+[03:17] If price stays between this range, we do not trade.
+[03:20] No breakout equals no edge.
+[03:22] Now as far as the entry, this is the most important part.
+[03:26] Ideally, I don't like to enter at the breakout.
+[03:29] You can if the volume confirmation and the break is there.
+[03:32] Just keep in mind it is higher risk, but I really like this strategy when we pull back
+[03:37] and we retest either this 30 minute opening range high or we pull back and retest this
+[03:43] opening range low.
+[03:45] That is typically going to give us the best possible risk to reward when taking this trade
+[03:49] because as we break above previous resistance, it should become support.
+[03:54] As we break below previous support, it should become resistance.
+[03:59] And again, this pullback is where the risk is lowest and the reward is the highest.
+[04:04] If price falls back into the range, meaning it breaks back down into it or back above
+[04:09] into it, the trade is invalid and you simply get out.
+[04:12] But again, your risk is very, very small when you're taking this.
+[04:15] Now as far as risk management, every trade follows the same rules.
+[04:19] Your stop loss is a candle close back inside the 30 minute range.
+[04:23] So again, if price broke above this 30 minute range high, it pulls back and retested as
+[04:28] support.
+[04:29] Well, if you ended up getting long looking for price to go higher and it falls back
+[04:32] down into the range, again, you simply stop out or if price breaks below the low
+[04:36] of this 30 minute opening range, bounces back up, it looks to be rejecting.
+[04:41] You get short to look to take price lower and prices comes back up into the range.
+[04:45] Well, if you get a five minute candle close up here, you simply stop out of the trade.
+[04:49] Simple rules, no negotiation.
+[04:51] So let's just go ahead and let's start looking at some examples because this setup offers
+[04:55] itself quite often in the market.
+[04:58] And guess what?
+[04:59] It offered it today.
+[05:00] So if we zoom out to the 30 minute timeframe and we put on replay mode and we start right
+[05:04] here, this is our first 30 minute opening candle.
+[05:07] Again, the market opened at nine 30 and this candle closed at 10 o'clock.
+[05:11] So what we are going to do is we are going to plot our high of this candle and we are
+[05:15] going to plot the low of this 30 minute candle.
+[05:18] Now from here, we are going to break price down to a five minute timeframe.
+[05:21] And again, we're looking for price to break above this opening range or for price to
+[05:25] break below this opening range.
+[05:27] Remember, if we trade within this range, we do not take a drink.
+[05:31] So until we break above or below, that is the only time that we end up taking a drink.
+[05:35] Now as we can see right here, price tries to break above.
+[05:38] However, we cannot get a five minute candle close.
+[05:42] Ideally, we want to see closes above or below the range.
+[05:45] Again, this is why trading breakouts are higher risk and I prefer the clean break and retest
+[05:50] of the level, which you're going to see here in a little bit price breaks above this level.
+[05:55] You could have either taken the retest right here.
+[05:57] So we got a solid five minute candle close price pullback and retested it right here,
+[06:01] but it did come back a little later right here and test that level again.
+[06:07] So again, you could have either gotten an entry based off of this five minute candle
+[06:10] close or this five minute candle close as well.
+[06:14] Let's just say that we ended up going long based off of this close right here.
+[06:18] If we zoom in, our stop loss again is if price comes back into this range.
+[06:23] So you're probably risking like anywhere from nine to 10 points on this trade.
+[06:28] So ideally we want at least a one to one risk reward before we start trimming.
+[06:32] So we're looking for at least nine to 10 points, ideally a little higher, but let's just see
+[06:35] what price ended up doing because to be honest, I completely forgot what it ended up doing.
+[06:40] So let's just keep it going.
+[06:41] I mean, you're probably already at a two hour trade.
+[06:44] Let's bring this back down.
+[06:45] Yeah.
+[06:46] So you actually almost hit a three hour trade based off of this move right here.
+[06:50] So you're going to potentially capture 24 and a half points again, based off the break
+[06:55] and retest of this 30 minute opening range.
+[06:58] And I don't know if price ended up going higher or not.
+[07:00] Let's see.
+[07:01] Yeah.
+[07:02] So it's slowly grinded most of the time and then eventually got this final pop right here.
+[07:06] So that would have been about almost a six hour trade, which was about a 53 point move
+[07:12] from your entry right here.
+[07:14] So that's one really good example of this 30 minute opening range and exactly what to
+[07:18] look for when taking the trade.
+[07:20] So go ahead and look at the other day right here.
+[07:22] So again, if we go to the 30 minute candle, here's our high, here's our low.
+[07:26] So again, we are going to mark the high of the candle and then mark the low of this candle.
+[07:31] Then from there, we're going to scale it down to a five minute timeframe.
+[07:33] Now in the five minute timeframe, again, we are looking for price either break above
+[07:37] or below this range and ideally pull back for a retest.
+[07:40] So we can see price ends up breaking below this range.
+[07:43] It does come back and retest it right here.
+[07:45] So that is a potential short entry.
+[07:47] Your stop would have been if price broke back up above this range.
+[07:51] So let's just say that you ended up going short at the close of this five minute candle.
+[07:55] You're risking seven-ish points on this trade.
+[07:58] Let's see what price ends up doing.
+[07:59] So based off of this move down, I mean, that was already like a three R trade.
+[08:04] You made about 22 points when you're risking about seven.
+[08:06] But as you're going to notice, price does come back up and retest this level again
+[08:10] right here.
+[08:11] So even if you didn't get it here, you could have potentially looked for an entry here.
+[08:15] Again, same thing.
+[08:16] If price breaks back up above this 30 minute or below with strength, you'll simply stop
+[08:20] out of the trade and then ideally you're looking for a continuation lower.
+[08:24] So based off of this move right here, you captured about a 4.8 R trade.
+[08:29] You risked about five, six, seven points and you potentially caught 27 points.
+[08:35] So that's a really good example as well.
+[08:37] Let's find another one.
+[08:38] Here's another one the day before.
+[08:39] So again, let's go into replay mode, 955 is right here.
+[08:44] Go to the 30 minute timeframe.
+[08:46] Again, this is the 930 opening candles.
+[08:49] So the first 30 minutes of market open, we're going to plot the low right here, and then
+[08:54] we're going to plot the high right here.
+[08:57] Now again, break it down to a five minute timeframe and we are looking for price to either break
+[09:01] above or below this range and ideally come back and retest it to either look for a long
+[09:06] position or to look for a short position.
+[09:10] So what we're going to notice is price breaks above this with strength, and then eventually
+[09:14] it comes back and it retested somewhere right here.
+[09:20] This is the five minute candle that confirmed that this was the break in retest again, break
+[09:25] above resistance.
+[09:26] It should become support.
+[09:27] So you would be going long at the close of this five minute candle.
+[09:31] Your stop is if price fails to hold above this orb.
+[09:35] So on this trade, you're probably risking about like 12, 13 ish points.
+[09:39] And again, let's just see what price ends up doing.
+[09:41] So from here, price continues higher, continues a little bit higher from there.
+[09:46] Again, I already forgot what price ended up doing.
+[09:48] So let's see.
+[09:49] Okay.
+[09:50] So the market ended up closing, but if you were to capture this move into the high
+[09:53] day, it was about a 1.7 or trade, not the biggest trade, but again, you were risking
+[09:58] 12 points to potentially make 21.2 still a really good trade.
+[10:03] Not the best risk reward, but again, just the basic break in retest of this 30 minute
+[10:08] orb.
+[10:09] This was a really good setup.
+[10:10] Let's go ahead and look at one more example right here.
+[10:13] So if we go back to the 30 minute timeframe, this is the 30 minute opening candle.
+[10:18] So again, what are we going to do?
+[10:20] We are going to mark the high, we are going to mark the low.
+[10:23] We're going to scale it down to a five minute timeframe, and we're going to look for the
+[10:27] break and retest of this level, which as you were going to see right somewhere around
+[10:33] here, right here, price starts to come back up and it starts to reject off this level.
+[10:38] So again, you would be looking to go short.
+[10:41] Your stop is if price reclaims back up above this 30 minute opening range low with strength.
+[10:47] So let's just say that we shorted at the close of, let's just even say this candle right
+[10:51] here, right?
+[10:52] If price gets back up above this level with strength, it will stop out of the trade.
+[10:57] So you're risking about eight and a half points on this train, maybe nine points.
+[11:01] Let's see what price ends up doing.
+[11:03] So based off of this move right here, that was already almost a three R trade.
+[11:08] So again, what are you doing?
+[11:10] You're trimming out of your position and you're moving your stop losses.
+[11:12] If you put your stop loss at breakeven, I mean you stopped out of breakeven, but again,
+[11:16] this was almost a 25 point move to the downside when you were risking only about eight and
+[11:21] a half points.
+[11:22] So again, a really good example of the break and retest of this 30 minute opening range,
+[11:27] but that is going to wrap up this video.
+[11:29] So if you guys did find value, make sure to smash that like button as well as hitting
+[11:33] that subscribe button.
+[11:34] It would mean the absolute world to me and also make sure you guys join the free discord
+[11:38] again, live trading in their pre-market analysis, free live streams, free webinars, and a whole
+[11:44] bunch more.
+[11:45] So that link will be down in the description.
+[11:47] Other than that, everybody have an amazing rest of your day and I'll see you guys in
+[11:50] the next video.

@@ -1,0 +1,16 @@
+btcid_volbrk M30 combos=12 train 2023-06-07..2025-06-26 val ..2026-03-03
+{"k":0.3,"mode":"both","trend":0,"cfg.atr_sl_mult":6,"cfg.atr_tp_mult":60,"session.flat_at TR n 534 pf 1.00 R+0.004 t+0.11 | VA n 186 pf 1.01 R+0.006 t+0.11 posM 50 dd 17894 | TV n721 R+0.004 t+0.15
+{"k":0.3,"mode":"both","trend":1,"cfg.atr_sl_mult":6,"cfg.atr_tp_mult":60,"session.flat_at TR n 266 pf 1.21 R+0.062 t+1.20 | VA n  86 pf 1.23 R+0.067 t+0.76 posM 50 dd 11662 | TV n362 R+0.070 t+1.59
+{"k":0.3,"mode":"long","trend":0,"cfg.atr_sl_mult":6,"cfg.atr_tp_mult":60,"session.flat_at TR n 283 pf 1.10 R+0.034 t+0.69 | VA n  96 pf 0.85 R-0.041 t-0.58 posM 50 dd 12302 | TV n379 R+0.016 t+0.39
+{"k":0.3,"mode":"long","trend":1,"cfg.atr_sl_mult":6,"cfg.atr_tp_mult":60,"session.flat_at TR n 153 pf 1.32 R+0.093 t+1.39 | VA n  28 pf 1.19 R+0.043 t+0.35 posM 50 dd  5209 | TV n191 R+0.097 t+1.67
+{"k":0.5,"mode":"both","trend":0,"cfg.atr_sl_mult":6,"cfg.atr_tp_mult":60,"session.flat_at TR n 390 pf 0.99 R+0.000 t+0.01 | VA n 151 pf 1.13 R+0.035 t+0.63 posM 70 dd 12354 | TV n542 R+0.009 t+0.31
+{"k":0.5,"mode":"both","trend":1,"cfg.atr_sl_mult":6,"cfg.atr_tp_mult":60,"session.flat_at TR n 206 pf 1.03 R+0.011 t+0.21 | VA n  73 pf 1.41 R+0.095 t+1.08 posM 75 dd  5146 | TV n290 R+0.040 t+0.90
+{"k":0.5,"mode":"long","trend":0,"cfg.atr_sl_mult":6,"cfg.atr_tp_mult":60,"session.flat_at TR n 207 pf 1.20 R+0.057 t+1.11 | VA n  82 pf 0.74 R-0.068 t-1.07 posM 50 dd 12368 | TV n289 R+0.021 t+0.52
+{"k":0.5,"mode":"long","trend":1,"cfg.atr_sl_mult":6,"cfg.atr_tp_mult":60,"session.flat_at TR n 120 pf 1.29 R+0.070 t+1.11 | VA n  27 pf 0.87 R-0.028 t-0.29 posM 17 dd  3701 | TV n158 R+0.063 t+1.19
+{"k":0.7,"mode":"both","trend":0,"cfg.atr_sl_mult":6,"cfg.atr_tp_mult":60,"session.flat_at TR n 273 pf 0.94 R-0.015 t-0.35 | VA n 106 pf 0.89 R-0.029 t-0.42 posM 30 dd 10848 | TV n380 R-0.020 t-0.54
+{"k":0.7,"mode":"both","trend":1,"cfg.atr_sl_mult":6,"cfg.atr_tp_mult":60,"session.flat_at TR n 141 pf 0.95 R-0.011 t-0.18 | VA n  54 pf 1.28 R+0.070 t+0.70 posM 50 dd  4477 | TV n203 R+0.007 t+0.14
+{"k":0.7,"mode":"long","trend":0,"cfg.atr_sl_mult":6,"cfg.atr_tp_mult":60,"session.flat_at TR n 147 pf 1.20 R+0.050 t+0.91 | VA n  56 pf 0.53 R-0.161 t-1.92 posM 40 dd 10980 | TV n203 R-0.009 t-0.19
+{"k":0.7,"mode":"long","trend":1,"cfg.atr_sl_mult":6,"cfg.atr_tp_mult":60,"session.flat_at TR n  85 pf 1.19 R+0.044 t+0.63 | VA n  21 pf 0.59 R-0.101 t-0.94 posM 33 dd  3481 | TV n114 R+0.008 t+0.14
+btcid_volbrk M30 combos=2 train 2020-10-01..2024-07-28 val ..2025-09-17
+{"k":0.3,"mode":"both","trend":1,"cfg.atr_sl_mult":6,"cfg.atr_tp_mult":60,"session.flat_at TR n 449 pf 1.04 R+0.013 t+0.35 | VA n 152 pf 1.18 R+0.053 t+0.83 posM 57 dd  7888 | TV n610 R+0.027 t+0.83
+{"k":0.5,"mode":"both","trend":1,"cfg.atr_sl_mult":6,"cfg.atr_tp_mult":60,"session.flat_at TR n 317 pf 1.00 R+0.003 t+0.07 | VA n 120 pf 0.94 R-0.014 t-0.22 posM 43 dd  7922 | TV n444 R-0.002 t-0.06

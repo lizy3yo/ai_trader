@@ -1,0 +1,16 @@
+=== g6s_ev_et_h1
+[factory] g6s_event: 2 settings x 2 markets x 1 TFs = 4 configurations | workers 4
+[factory] stage A done in 8s
+[factory] 3 configurations shortlisted for checks 3-5
+[factory] logged 4 configurations -> C:\00-SideProject\AI_Trading\results\registry_v2\g6s_ev_et_h1.csv
+  GOLD      H1   t +2.77 avgR +0.057 n  138 neigh 1/1   +50%spr +0.057 p_rand 0.0  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  GOLD      H1   t +1.23 avgR +0.032 n   64 neigh 1/1   +50%spr +0.031 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+  SILVER    H1   t +0.80 avgR +0.018 n  138 neigh 1/1   +50%spr +0.007 p_rand -  {"cfg.atr_sl_mult":12.0,"cfg.atr_tp_mult":20.0,"cfg.cooldown_bars":0,"
+[factory] FINALISTS: 0
+=== g6s_dc_h4port
+[factory] g6s_donch: 3 settings x 2 markets x 1 TFs = 6 configurations | workers 4
+[factory] stage A done in 3s
+[factory] 1 configurations shortlisted for checks 3-5
+[factory] logged 6 configurations -> C:\00-SideProject\AI_Trading\results\registry_v2\g6s_dc_h4port.csv
+  GOLD      H4   t +0.92 avgR +0.100 n  147 neigh 1/1   +50%spr +0.100 p_rand -  {"cfg.atr_sl_mult":3.0,"cfg.atr_tp_mult":5.0,"cfg.ema_trend":100,"n":6
+[factory] FINALISTS: 0

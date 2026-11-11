@@ -1,0 +1,40 @@
+{
+ "strategy": "lm_calendar",
+ "family": "calendar",
+ "markets": "all",
+ "timeframes": [
+  "H1"
+ ],
+ "grid": {
+  "mode": [
+   "tom"
+  ],
+  "n_before": [
+   1,
+   2,
+   3
+  ],
+  "m_after": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "side": [
+   "long"
+  ],
+  "cfg.atr_sl_mult": [
+   12.0
+  ],
+  "cfg.atr_tp_mult": [
+   20.0
+  ],
+  "cfg.cooldown_bars": [
+   0
+  ]
+ },
+ "dir": "long",
+ "trend": 0,
+ "exit_from_strategy": true,
+ "max_bars": 60000
+}

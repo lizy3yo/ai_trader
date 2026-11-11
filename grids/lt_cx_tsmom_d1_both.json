@@ -1,0 +1,39 @@
+{
+ "strategy": "lt_tsmom",
+ "family": "lt_trend_tsmom_crypto2021",
+ "markets": [
+  "BTCUSD",
+  "ETHUSD"
+ ],
+ "timeframes": [
+  "D1"
+ ],
+ "grid": {
+  "n": [
+   21,
+   63,
+   126,
+   252
+  ],
+  "side": [
+   "both"
+  ],
+  "cfg.max_hold_bars": [
+   5,
+   21
+  ],
+  "cfg.atr_sl_mult": [
+   4.0
+  ],
+  "cfg.atr_tp_mult": [
+   30.0
+  ],
+  "cfg.cooldown_bars": [
+   0
+  ]
+ },
+ "dir": "both",
+ "trend": 0,
+ "exit_from_strategy": false,
+ "max_bars": 2020
+}
